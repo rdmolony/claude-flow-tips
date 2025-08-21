@@ -1,0 +1,1535 @@
+It's the 18th
+of July, 2025. We're more than halfway
+through the year. This is, you know,
+it's, this week has been sort of defined based
+on sort of a combination of lots of bug fixes
+for the Claude-flow system which keeps
+just going and going. And lots of interesting
+meetings and opportunities including
+one where, what was I talking to? The
+guy who says he did the tech on the
+Matrix movies back in the late 90s and early
+2000s. And he was telling me all the
+background stories on what he was doing
+as part of sort of the team that built
+the Matrix movies. And actually, one of
+the most interesting parts of the story he
+was telling me was the fact that he said
+that, according to him anyway, the first movie
+to where they show someone typing on a keyboard
+and using the space bar was the matrix
+apparently before that movie all the times
+you would see someone typing on a keyboard
+they didn't hit the space bar and if anyone's
+ever typed knows that it's really hard to
+type anything without hitting a space bar if
+you want to have a you know more than one word
+so it's it was uh it was an interesting sort
+of observation i i'm hoping it's true but
+uh interesting story nonetheless um thanks
+everyone who who always supports me on these
+coaching calls i love doing these and i know
+a bunch of you who are on today are probably
+active uh supporters of mine so thanks
+for that um we've got a we've got a really
+good uh i guess show livecast whatever we
+call it these days um hackerspace lined up
+today uh rob who do we get lined up oh we've got
+a great assortment So today, one of our OG
+members, Jen Arden, he's got a demo on how
+to set up Rackspace, use it as a target for
+DevPods for dramatic savings and excellent
+compute accessibility. So I think we're
+all looking forward to that one. And
+then John Hessing is going to share
+his talk with us that he gave to his
+legal community. And John is one of our elder statesman
+engineers. So it'll be
+really fascinating to get his perspective. We have Mark
+Roddock. He's got, as we saw a little bit
+yesterday during your coding session,
+Reuven, he's got a front-end
+swarm visualization. Quick demo of a front -end swarm visualization. So I got a sneak
+peek. It looks great. And then Mondweep
+has been pulling together resources
+from the various, your repos, Reuven, and
+the materials for Hackerspace, getting
+it prepped for the learning platform.
+So he's got some stuff to show us
+there. So lots today. All right. So it's,
+well, before we do, we should jump
+in. I guess there was a AI, our Gentex
+meetup in Orange County last night.
+Anybody go to that? They can give us
+a little update on how that went,
+what was discussed. Is Canal on today? If not, I saw it. No,
+I was on it, though. This is Mike Watson.
+There you go. Oh, hey, Mike. How's it going? Hey,
+how's it going? Great. Yeah, it was good.
+It was almost all educators and different
+people, mostly across the full spectrum
+of there's a student there, there was
+administrators there. And we were shown
+just, you know, the slides for
+Agentex and then just a little bit about
+some of the pet projects that he
+had done himself. introduced a little
+bit about like what it is and how it works
+but all of them except for me were coming
+from an education point of view either they
+were in public education or private or charter
+or doing some type of tutoring or doing some
+sort of platform on it and all of them
+were interested in how do you really they talked
+a lot about how does this fit into traditional
+education or not and how does this
+flip everything on its head uh or not um what
+do we what do they have to do to bring it
+into the thinking of of education uh so it
+was it was interesting yeah well and and uh
+thanks for making the trip down you know yeah
+probably wasn't too far for you i don't
+think oh yeah it was it was far but that's
+traffic oh it was oh yeah yeah la is terrible
+for that it's awful and i left too late so oh
+but it was still good i got i got a chance
+to listen to uh just a bunch of podcasts and
+stuff so it was good good alone time yeah
+well yeah i i hate la traffic to be honest
+it's a nightmare and i'm in toronto which has
+is notable for having you know equally bad
+traffic because we got like one highway but um
+yeah la wins you know i remember one time
+actually i was driving from uh from the inland
+empire wherever you guys call it there down
+to san diego and i'm driving along in my
+rental car and all of a sudden there's this fire
+on both sides of the highway and this and the
+traffic had completely stopped and i'm
+feeling the heat from the fire on the side
+of the car i'm like i'm not gonna i'm not gonna
+burn this car so i bolted along the side
+of the highway where you're not supposed to
+drive there's like fire flying flying off the
+side of the car and when i when i took the
+rental car back to the airport it was a white
+suv but it was totally covered in black and
+the side view mirrors were partially melted
+and they're like what and and it seemed like
+a normal occurrence to this rental car
+company they didn't i had to pay the damage
+deposit unfortunately but it wasn't it wasn't
+surprising apparently but anyway that's and
+i am here uh i was i was uh i was on the i
+was on the zoom or on the on the linkedin uh
+link but here i'm on the zoom here uh but um
+yeah the uh mike thank you so much for coming
+uh yeah we it was a room of mostly educators
+uh and uh that's my that's kind of my
+world uh and I think uh really sort of exploring
+how agentics work can be potentially you know
+I've been I've spent my entire career in
+education 20 years maybe it's 30 at this
+point I don't know uh trying to turn upside
+down turn education upside down and I've been
+i was in the private sector for a while and
+then when generative ai when chat gpt became
+public i was like oh my god finally i think
+we have a chance to the like i think education
+is gonna be forced to change now so i
+that's what brought me back into public education
+uh and um and sort of seeing the energy
+around that you know there's a lot of there's
+a lot of haters too of course um there always
+is when there's a big big change happening
+uh and especially in a place like education
+that does not want to change that really
+really does not want to change um i think we've
+we've uh we've got a chance to to really
+upend it so it was really great i hope that we
+can uh i hope i can help maybe also to sort
+of lead some got you know k-12 kind of kids
+what does that look like uh with agentix
+and so uh it was a great it was a great session
+and mike thanks for coming awesome well
+i really appreciate putting it together you
+know that that was a great uh the feedback
+has been really good i got a few messages
+this morning um at some point i'm gonna have to
+get myself back down to the states and attend
+some of these in person but until then i really
+appreciate everyone kind of putting
+putting in the time and getting these things
+we should get some t -shirts for you guys when
+you do these like that that would be the
+least we could do so at least at least we're all
+wearing these t-shirts i'm not wearing
+mine today i'm i was literally just about to
+uh ping ping rob asking him for a t-shirt for
+the denver one so right on cue yeah let's do
+it let's do it yeah there i do have a lead on
+a custom hoodie company that uh was was
+offered to help us with hoodies i'm not sure
+how if anyone wants to wear a hoodie in the
+middle of july but uh we'll figure that out
+um so today i i'm not gonna spend a lot of
+time on the demos, but what I want to show you
+guys a little bit was my flow for how I
+handle all the sort of tickets and things and a
+few more tips and tricks on the system that
+might be interesting for you guys. So I'm
+just going to spend a few minutes showing
+sort of how I handle my GitHub updates and things
+like that, if that's helpful. Because one of
+the most useful parts of this platform,
+besides the fact it can do a lot of things
+all at once, is how it integrates with mcps and
+other tools so you'll see here that i
+recently did this like recently like i think in
+last night i pushed the alpha 61 uh version of
+cloud flow and you'll see that i it's an
+amalgamation of bugs and and little issues
+here and there that relate now i'm i'm organizing
+all of this through the the cloud flow
+system but i don't always actually directly
+use the the dot cloud flow or the uh the mpx
+cloud flow at alpha i actually once i've got
+the system instantiated you'll notice that
+there's a bunch of slash commands that that
+allow you to use the system without actually
+having to use the cli directly so what i
+want to show you guys a bit of that so right
+now what i'm working on when in between all
+my various calls and whatnot is the the next
+release so i don't try to do everything at
+once because if i'm if i'm trying to fix
+everything under the sun there's currently 69
+issues open which is good because it was like
+90 earlier um so what i'm trying to do is just
+group group problems in combination of
+things that were they've been open for a little
+while versus things that i just want to add
+so in this case this morning i i sort of
+prioritized you know the swarm status which was
+a recurring problem where the mcb tool
+didn't actually give me the correct status
+then some architectural improvements i'm working
+my way through linting and other errors and
+you'll see here that i've got you know i at
+one point i had something like 7 000 typescript
+errors and now i'm down to about 400 these
+aren't things that actually affect the
+operations they're mostly sort of they just
+don't look good um and and other various things
+and you'll notice here that i said i'm i can
+i make them related to the actual bugs people
+are posting because i want to i want this
+to be a community so this particular release
+is mostly just fixing things people are
+saying is aren't working for them like it
+doesn't work right on windows or i'm getting
+issues on mac that kind of stuff now the mac
+one is hard because i don't currently have
+my mac mini plugged in so i probably should go
+and do that but um but i'm running it i
+generally know what the error is so it's not
+necessarily something i need to worry about
+since here as the system progresses about an
+hour ago it updated the various parts so i'm
+going to show you a little bit of kind of
+behind the scenes of how i'm doing this here's
+another major update. As the swarm progresses,
+it's basically using the GitHub
+issues as the central location of where
+it coordinates and updates. So not
+only am I seeing the changes, everyone
+else is as well. All right. So in this
+case, what's it doing now? All right. So in
+this case, what I'm doing is I'm just
+doing some final checks because I'm going to
+push the alpha here in a moment. And you'll
+notice here, I'm just double checking that the
+swarm data is persistent because sometimes
+there's regressions. It actually works fine.
+The other thing you'll notice that when I'm
+running in my dev environment, I'm actually
+not using the MPX. So for those that
+aren't familiar with the concepts of an
+MPX versus an MPM, or in this case, a
+global install versus a remote install,
+using this essentially allows me to sort
+of run it locally without running it
+remotely. So when I'm going here and testing
+it, you'll see here that but I'm actually
+using the dot clod file that's get
+placed in the root. Now, right now what I'm trying to do is basically make sure that
+there was a minor error earlier and
+which you might be able to see, where
+did I put that? There. Yeah, I was getting
+some minor errors with the SQL, which I fixed
+and I was getting an error where it wasn't
+finding the architect. Yeah, here it was right
+here. So you'll see here that the architect
+was missing for some reason, so I fixed that.
+Now the architect's working. now the only
+thing i see i see two two check boxes which
+is weird but you've got different so the
+system is actually built not necessarily for
+human interaction this is the part that a lot
+of people get confused by so when i'm going
+in here and i'm typing doc flawed or flow you
+see a million different options oops i gotta
+type it right and and then within each
+of these options you've got sub options so for
+example if i'm looking at the hive mind
+status or i want to do some training, you go
+in here and you run the training component and
+you see there's a bunch of different other,
+like the neural train, there's the pattern
+learning. Now, I haven't pushed the neural
+network components as a default option,
+although the swarm has a tendency to self-discover
+it and use it. But what I might do in an
+upcoming release is make that as a default option
+because yesterday I ran a benchmark, which
+I want to show you guys quickly before I
+go back to my GitHub stuff i'm jumping around
+a little bit here but if you're curious i
+everything i try and test i'm actually posting
+here to the system itself so where do we
+yeah here it is so someone asked maybe it was
+jed someone asked you know what's the
+difference between running sort of the default
+swarm versus running one with sort of the
+the micro neural net optimizations so you know
+i did a quick sort of uh a b test that basically
+looked at the sort of performance of one
+versus the other and I'm seeing substantially,
+it runs substantially faster. So what it's
+doing is it's making a prediction of what
+it needs to do with the next step. So it kind
+of optimizes, it self -optimizes the next step
+and that ultimately improves the performance.
+Now, I actually was doing this as well
+yesterday using alternative models other than
+Claude. And I think I was using DevStroll,
+the open source model. And adding a sort of
+secondary neural net alongside a sort of
+less proficient coding system has a dramatic
+effect as well. So the success rate is a kind
+of indication of that. And on DevStroll,
+I actually saw that closer about 70% increase
+in success. So when you're looking at
+success, that means making a request that results
+in something that doesn't create an error
+or is not right for whatever reason, like
+it's got an extra quote or a bracket or
+something like that. So, and this is funny, the
+memory efficiency is better, but it was
+such a small number that it didn't even show
+up as a number. It's like in kilobytes, but
+that doesn't matter. So I'm running these
+sort of optimization processes. So you can
+see here the default configuration versus
+the sort of swarm configuration. And
+that relates to another feature that the system
+is using that you probably don't necessarily
+see all the time, which is actually
+this feature of the coordination system.
+So you notice here that there's a coordination
+system. And a lot of this is happening when
+you don't look, right? So if you run
+coordination, you'll see that there's different
+structures for how it can initialize and
+different topologies for how it's going to
+organize the agents. And again, and hopefully
+we see a little sort of demo here from the
+UI components, but a lot of this is
+happening under the covers and you don't get to
+see exactly what's happening because I don't
+have a nice graphical user interface to
+display it. But I think a few folks are actually
+working on that as well. But moral stories,
+if I run it, they'll just run that quickly.
+You'll see here that it's initializing and
+that essentially is initializing this
+information to the database itself. So it's
+basically saying here are the agents available
+and here's how you guys can essentially communicate
+with each other. Now, the other thing
+I want to show you guys quickly is often
+when I'm running this, I don't actually use
+that command at all to instantiate. I'm actually
+going in here and using the dangerously
+skip permissions option and i'm just going
+to copy this because i'm too lazy to type it
+i go back in here and i'm just going to do and
+if i want to continue i'll use dash c i
+don't want to continue because i'm just
+showing you guys how it works but almost all
+the real functionality you want in the system
+is actually in the slash commands these
+slash commands you can you can also customize so
+when you see the cus these folders these
+are the system this is how the system works
+you know from like a human point of view so
+rather than trying to type this big long
+command in into a command line which really
+doesn't work particularly well this little user
+interface is actually easier for copying
+and pasting you can go in here and type things
+like github and in this case you've got
+you know issue tracker code review so i can
+spin up a code review swarm to to explore
+someone's pr you know or i i can use this to do
+my own pr or i i can prep my release to prep
+for the npm publishing so i'm using the system
+but i'm not using it i'm using it directly
+within cloud code so in this case
+i'm going to select this one and i'm
+going to say uh review the you know i
+gotta go figure out what which one i
+want to look at let's let's do this one
+this is an issue one oh this is yeah
+this is the issue and see
+and see if there are any ways to
+further improve the neural network
+components. It's pretty well
+optimized at this point, but you know, worth
+a shot. So now what happens when I do
+that is it's invoke, it's using the commands
+from that particular issue tracker, which
+you can go here and take a look at.
+So we hear, we see issue tracker, and
+you can customize all these just by pointing
+cloud code out and say, you know,
+customize it for my particular repo or
+whatever I'm building. so you can see here
+it's telling it how to use the mcps it's telling
+you know giving it the guidance it's
+saying that this one's optimized for roof fan
+you know but you can see the different options
+and i might have to customize these a
+little bit more to be honest and make them
+maybe more generic um but here we are so now
+it's looking it's it's it knows how to work
+with it now it's it's spinning up a task not
+a doesn't always need a swarm in this particular
+case the question I gave it doesn't
+really require a swarm. Now, I could have
+asked it to spin up a three agent swarm, but
+I don't think I need to do that because it's
+a really simple sort of request I'm giving
+it. But anyway, long story short, a lot of
+what you're going to want to do involves just
+either modifying the commands folder or
+invoking these different options. Like if you
+see self healing or session memory or smart
+agents, you basically can just say, you know,
+use the smart agent capability and spawn
+agents whenever you need. And it tells it
+sort of how it needs to do that. You can see
+this one's using the roof swarm approach.
+And I'm leveraging a little bit of several
+of my NPCs to do that. Hopefully that's
+useful for you guys. Again, there's a ton
+of features here. There's probably
+more features than you can possibly
+sort of understand. But But point it
+at it, try it, modify it, do whatever
+you want. There's lots of ways to
+use the system. It's kind of unique. I'm thinking now that
+I see it, I'm probably going to have to go.
+And now that I've actually better
+integrated Roof Swarm, which you can
+actually go here and try as well by doing,
+check this out. Roof? So Roof Swarm, yeah. I see you
+doing completion within, tab
+completion to expand, and we'll have you
+within Claude code. Can you also have
+shell expansion? So if you're on the
+Linux command line, you could hit tab and
+it would ask it to inquire us what the
+sub options are. I'm not sure I
+understand your question. Well, you say you
+could pass them on the command line,
+but it's better because it will
+introspect to find the options when you're
+in Cyclawed itself. So what I'm asking
+is whether you can do add shell expansion
+so that if you're on the Linux command
+line, you can hit tab and Linux
+would inquire to the shell, sorry, inquire
+to your system to find out what
+the suboptions are. uh sorry martin i'm
+not sure i understand what you're you're
+asking me but i i i do i i do have all all the
+commands for the system to under to sort of
+understand how to use the system or either
+in clod.md right so this this tells it how
+how it needs to discover things or expansion
+no i'm not sure what you're referring to
+okay let's let's let's let's let's move on
+guys um yeah but we've we've got some we got
+some good uh presentations lined up and i don't
+want to take it too much time today so
+let's uh we can come back to that martin a
+bit and i'll i'll try to i'll try to
+understand that better um uh rob who do we have
+first up on deck here oh i i think i guess
+guess rob is uh he's muted me sorry i'm
+talking away to myself why don't we start
+yeah why don't we start with mark uh he's
+got a quick uh swarm visualization and then
+we can uh welcome john up hey mark how you doing
+hey rob hey roof um so so look i'm not
+an easily intimidated guy but this is a
+pretty **** intimidating group to demo anything
+to especially when you are a ceo thinks you
+can code so um last night i spent some
+time kind of you know stimulated by the
+conversation we had yesterday thinking a little bit
+about how we might visualize more complex
+swarms operating together and in effect
+even in overlapping modes let me share my screen
+quickly i promise this won't take very
+long um give me one sec here sorry my uh
+my mac has decided of course to ask for
+permissions there's no dangerously skip permissions
+unfortunately demo gods yeah well we i
+think we named the the greek god of demos
+democraties or something all right well let's
+yeah so it'll it'll show me now all right
+so you guys see this now yeah it's loading
+here we go all right um so the idea here is
+to be able to sort of step back and visualize
+all of the swarms that are in flight and
+some of them will have started you know before
+others have finished uh and so you can
+sort of see that the the main orchestrator
+line is this gray line down the middle and
+um this is a kind of a swarm ******* off
+here you can see there's a few different
+participants um and you can always take a look at
+the beginning of the swarm and understand
+the prompt that was that kicked it off
+if it's linked to a particular GitHub issue
+and its current status. So you can kind of zoom around and see
+what's running. You've got the ability
+to kind of interrogate more about this. So
+I can click on it and say, well, how much
+is the token estimate? What was the
+prompt that was used? How many
+agents are running? And what was
+interesting about this, when I built
+this last night, I asked it to create
+the ability to add a swarm. And so it
+created this little, you know, what kind
+of swarm do I want to give it a name? A
+swarm button. Swarm button, right?
+Medium priority, high priority, quick
+description of the goals. You know, whether
+I wanted to kind of pick a really good
+prompt template that would help me write
+this more quickly. And then I could pick
+from the swarm team. And it actually named
+the team much like Serafina ended up naming
+herself. It named the team. So I could say
+I want to, you know, a front end designer,
+a full stack developer, a DevOps engineer.
+and then i said well what if i could like
+pick methodologies you know and it would
+sort of pick its own governing methodology
+why the **** it decided waterfall was a good
+agentic methodology i don't know but whatever
+um and then you know some kind of some kind
+of other settings so i know this looks a
+bit like the london underground um and
+that may give people some fear and uncertainty
+but i just when you're thinking
+about really complex swarm um methodologies
+Being able to visualize how they're all
+starting and stopping and kind of in
+parallel was something that had been causing
+me some kind of mental grief. So for
+lack of a, you know, whatever, that's
+my contribution to the visualization
+ideation exercise. And how are you
+integrating? It is completely unintegrated
+at this point. It's purely
+hypothetical because, again, Reuven, I did
+it last night just kind of, you know, after
+dinner. so you know well that's perfect
+then i don't have your jedi knight capability
+no no this this looks amazing by the way
+and i love the colors dark dark mode 100
+and uh so there is a not well documented
+feature in the system if you guys run the uh
+cloud flow uh command start and space dash
+ui that one of the most it's not fully
+built but one of the most useful parts of
+that is actually the WebSockets component. So
+the WebSockets is a bi -directional communication
+system directly back to the main
+runtime of the platform. So everything you're
+seeing here can be integrated using
+the WebSockets for a real-time update.
+So as the system spawns and creates
+and orchestrates, your graphics
+would essentially be updated in real time. So I don't think it's
+probably too much work to actually
+add that capability. and make this actually
+work. Now to do that, what we likely
+are probably gonna do is take your source
+code, create a branch, and then essentially
+point the swarm at it and say, integrate
+the web sockets. And I don't think
+it'd probably be too much work. And
+maybe we could even add this as an option
+to my current UI. So when you run
+that UI command, it sort of kind of
+works, I need to do more work on it, but
+we could add that as like a tab or a new
+feature or something. And what UI system
+is this built in? So this is just a
+little TypeScript app. I don't know what
+the actual library is choosing to
+use this because I didn't really dive
+too deeply into it. Declarative. But I sort of said
+to it, look, I really want something that
+looks like train tracks or the London
+Underground. And it sort of decided
+it would pick that. I mean, but Roof, to be honest,
+I haven't really even had a chance to go and
+check what decisions it's made. But I'll
+happily share this with the group in whatever
+the easiest form is um and if you guys want
+to run with it uh or help me run with it i
+would love to do that well there's there's
+a couple folks on the call that have been
+working on on similar concepts your your
+illustration is is quite useful as as a kind of
+temporal you know just description of it it
+kind of reminds me a little of like a
+combination of star trek and star wars and we see we
+see with that demo why it is that people are
+now postulating the end of the ide entirely
+i i i think this is a good point rob because
+you know i've when i started this journey
+uh i you guys don't know the story but i got
+on a plane from vienna to toronto eight months
+ago and said screw it i haven't coded for
+25 years but this all this agentic ****
+i'm sure I could code something. And by the
+time I landed in Toronto, it actually coded
+something, but I was still very kind of IDE
+centric in my mentality. And it's taken me
+months, but I now spend very little
+time in the IDE. I spend quite a
+lot of time just chatting with Claude
+Code and looking at the kind of
+Claude Flow swarms. And then that, I
+guess, maturation and kind of relaxing away
+from having to see all the code all
+the time has been a mental shift for me.
+But being able to visualize the swarms
+graphically like this just felt like the
+one missing piece that I needed to kind
+of understand what was going on because
+I was getting a little spooked by it
+all happening behind the scenes, so for
+what it's worth. I love it. Looks awesome. All right. Thanks, guys. Well done. Very neat. Okay, so we have
+up, thank you, Mark, John Hessing. John, are you there?
+There we are. Hey, John. It's actually
+John Messing. Messing, I'm sorry,
+John. That's okay. You're welcome. Thank you very much. I need to be able to get
+to do screen sharing, and most of the
+Zooms I've been on, there's something that
+comes up on my screen. So if you could
+help me along here, I'd sure
+appreciate it. Right down in
+the middle at the bottom of the Zoom,
+there should be a green button
+that says share. Yes. Do you see that? Yep. And then… Do you
+see my screen? No, then you
+got to, I think you got to choose
+the window. There you go. Okay. So this is a
+demonstration that I did for a group
+of lawyers along with a number of
+other lawyers. And I was going to take
+from this presentation, but then I found
+it's now behind a paywall. But the reason
+I want to show you this page is one of
+my co-presenters, a gentleman by the name
+of Masai Brown-Andrews, we've made a connection
+through LinkedIn since, and I believe
+he's on this call. I've asked him to consider
+this group, so I wanted to let everybody know
+that this is happening. This is the, I built
+this system as part of a project to deal
+with court documents and hallucinations,
+which is a big issue in the legal community.
+The judges are very upset when they come
+across hallucinated citations, but there's
+two parts to this project. And I call the second
+part the ******** sniffer, because far
+more serious than hallucinations is the
+deliberate misrepresentation in court documents
+in ordinary court and ordinary trial practice
+of the proposition for which the cases that
+are cited are supposed to stand. and there
+was a lawyer in my community who used to
+say if you can't dazzle them with brilliance
+baffle them with ******** and the problem is is
+that we're beginning to see the second
+part of that become a cultural norm in a
+lot of our dealings in the world so I think if
+I can do both of those I'll do some service
+to the legal community and maybe to the whole
+rule of law notion, because I think it
+undermines the rule of law. So this is a
+pretty simple interface. I started this in
+Rootspark. And before Reuven said, don't
+put it locally on your machine, put it in code
+spaces so you don't get the panic screen and
+get your system ******* up. at the advice of
+my bot friends which were chat gpt and
+anthropic i put it locally and sure enough
+i got the panic screen and the things weren't
+working right which when you're trying
+to do a demonstration that you don't know if
+you really are going to be able to complete
+it in time puts a certain nerve-wracking
+uh condition on it but i got far enough um
+just uh dealing with Claude as a chat bot
+to have this work enough. And I want
+to be able to take it and take it to its
+final conclusion. So let me show you
+what I've got so far. This is a document. I'm sorry. This is
+a document that I prepared about, I'd
+say 25 years ago, 15 to 25 years ago for
+court filing. It's a preliminary draft. It's
+fine for this purpose. And I know it has
+no hallucinations in it. So let's take a
+look and verify that. And sure enough, it
+shows zero suspected hallucinations. Now,
+one of the difficulties, there are three
+or four similar kinds of systems
+that have come out since I
+developed this. But one of the
+unique things that I have
+over here is an ability to change
+the sensitivity of this algorithm,
+because if you get zero hallucinations, you
+don't know what you don't know, which
+is, did it miss? Is it so insensitive that
+it actually missed the hallucination?
+So this was something I built into it to
+do as a double check. And if we go ahead
+and take a look at it, it has four
+suspected hallucinations. Now, this is where
+it needs a little bit of polishing,
+but it's possible to determine that
+these are false hallucinations. This
+is one variant of it. It comes up differently
+for different cases. But the very, if you
+see, it comes up with four hallucinations,
+but it gives the same cases. This is actually
+hooked into a, I should have mentioned
+this earlier, into a repository of court
+decisions that is maintained by the Free Law
+Project, the horrific institution. And the
+thing that's most important for my purposes
+is that it is a dynamic system. As cases are
+generated daily, they are brought into the
+system. So the idea of having to work with
+a static database that while the law is
+growing every day is eliminated by tapping
+into this system. And this is a free API, and
+it's a REST API. But what it does is it
+takes and does a fuzzy kind of determination
+on matches. So my system is taking and extracting
+the citations of the cases, which would
+be more like this, the 543rd, 729, and sends that off
+to the REST API, PortListener goes
+into its system and brings back what it
+matches out of it. And it has because
+this is some of these are let me see if I
+can get down here. It might be United
+States in their system. So it has to match,
+mix and match various things. And what it's
+done here is it it has tried to match
+some things and it's not it's not elegantly
+done. This needs to really all be suspected
+false positives. And the way I was
+working with just the chatbots, they
+were not able to do this modifying
+the Python code. I can see that's really
+going to be critical for a period of time,
+that hallucinations don't intentionally
+or unintentionally. make their way into
+a court of law. Exactly. And the judges
+are very, very suspicious of this.
+Now, if I take this, we can bring it
+into the interface. You see, this
+becomes a workspace now. If I go back
+to these spaces and view the case.
+Well done. Let's take a look at this
+case right here. You see, a workspace
+is being created. This is the case
+itself. And by checking the names and the
+citations, I'm able manually to verify
+that those are false positives. So the purpose
+of the sensitivity has now been verified
+that, in fact, 70 is probably the
+right setting for this system. And so
+let's go and take a look. We've got to
+wrap it up soon here, John. Sorry. We have
+two more to get to. Okay. Let me just
+take this over here. That's the case as
+well. I'm sorry. This is a little bit of
+a stretch for me. Come on. There we go. And you see it comes up
+with a hallucination. And if you view the
+case, it's a different case. court listener
+is trying to match the false citation,
+which is 221-111, with the closest match.
+And this also could be done a little bit more
+elegantly. Now, the other part of this that
+I would like to deal with is... Oh, dear.
+Last 30 seconds, Sean. Okay. Give me a second
+here. Yeah, yeah. That's okay. Yeah,
+it's a little. I know. I know. Okay, here we go. Let me
+just switch the window. No, I'm not able
+to get this up. Let me just see if it's underneath here. It is. So now if I Take this down. I
+built this in Gemini, where you enter a legal
+proposition on a case citation, it gives
+you a rank relevance. I'm not going to go
+through that right now, but what I wanted to
+do in this system, yeah, here we go,
+was to be able, for example, in this
+case, to have an overlay where what
+I just showed you in Gemini, You could
+query the case in this workspace, which would
+really help lawyers and judges understand
+what has been presented to them, whether it's
+a junior associate or whether it's
+opposing counsel or whether it's a litigant.
+So you can quickly get a handle on the
+issues in the case, probably save at least
+50 percent of the time in terms of
+being able to respond. So that's basically
+where I am now. I want to do this
+in Swarm and not in Claude code for a
+particular reason. I think that the Claude
+Swarm represents a paradigm that is much
+more advanced than the Claude flow. So I
+am willing to change from having training
+wheels on my little bicycle, which I think
+flawed flow represents to a lot of people,
+and go straight for swarm because in a
+very personal way in my community, we are,
+which is Tucson, Arizona, we are totally dependent
+on groundwater. And under the cover
+of NDAs, a company came in and made a
+deal with our political leaders to put in three,
+not one, but three data centers to use
+our groundwater for the next three years.
+And it's going to juice up our electricity
+prices enormously. And fortunately, there's
+another step in the process where a lot
+of local people are going to get involved.
+So this roof fan kind of architecture, which
+doesn't rely on large language models,
+doesn't rely on data centers, has a very small
+footprint in terms of its resource requirements
+and its impact on the environment, I think
+represents a paradigm that is much more
+important for this group than simply, you
+know, helping people understand how to get
+the first steps going. So that's my presentation to you. Any questions? John, great work
+here, by the way. This is very impressive. I
+love what you're doing. And you hit the nail
+on the head with the sort of architecture
+of the roof fan and roof swarm approach
+that I've taken. You know, one of the
+challenges that you're going to have in these
+anti or mitigation of hallucinations
+is what's true and what's not and having
+a system capable of learning over time as
+users or the system can sort of interact
+with the information. And that if you ask
+an LLM to say what's a hallucination and the
+LLM itself is giving you the hallucination,
+then that's going to give you a false positive,
+right? Right. It's literally you're
+asking the system to hallucinate to tell
+you whether or not it's hallucinating. So
+the secondary source
+of information you have here through
+the I think you said there was like a
+repository of sorts of data and cases would
+essentially act as a kind of unsupervised
+learning that allows the system to sort of
+ground itself on real information. So that's
+exactly why we collectively built the Rufan system
+using that kind of what we call a WASM
+that essentially takes the neural network,
+places it in a browser, and allows you to train
+for hyper-specific types of information
+like what you're doing. It's literally the
+optimal use case for it. Nice work. It's cool. Really, really,
+really like what you're
+doing. Hats off. Yeah. Well, thank
+you very much, and I wanted to let you know
+that in front of all the people who watched
+this presentation, which were about
+277, this was the acknowledgement that
+was at the bottom of the page. So let's do it,
+fellas and ladies. It beats the time
+that lawyer got disbarred for
+using my early bot. Full circle. Full circle. Yeah. I embarrassed that guy.
+He should have just did a Google search
+and checked that the information was correct.
+but that was that was lazy research on his
+part not my bod but anyway excellent thank
+you so much john wonderful thank you so next
+up we've got jed jed arden is going to uh
+show us how to set up a rig that uh will uh
+supercharge we may need to disconnect john's
+shared screen i can't there we go there we
+go thank you so did i get that right jed uh
+spending 15 months for a combined 24 cpu
+cores well this is rackspace spot and
+here is my panel
+so i'm currently anticipating spending
+about $4 for a combined 24 CPUs and
+135 gigabytes of RAM, which power probably two
+dozen workspaces that are currently running
+within this cluster. So way cheaper than way cheaper than
+Codespaces provided you're willing to
+learn Kubernetes. Now, I have prepared
+nothing. I'm going to wing this as much
+as I can because I forgot to make
+in offering to the demo gods, so
+hopefully this will also be educational
+for those of you in terms of getting
+yourselves unstuck. So assuming
+you've created your Rackspace
+spot account, we'll stand
+up a new cloud space in Hong
+Kong just because. Spot servers,
+memory heavy, no one's bidding, so
+I can probably get away with 16 cores
+and 120 gigabytes of RAM or five cents
+an hour. And keep in mind, this is the bid
+price. This is not necessarily the price
+that we're going to pay. We'll find
+that out in a moment. Most importantly, we
+don't need things like a load balancer. We
+don't need ingress into the cluster or
+a way really for any other public URL to be
+exposed because we're not using public URLs
+or public services. default clusters let's
+call this agentists hong kong when you say you're not
+using public services how do you get to the
+get to the servers ssh okay sure
+pure ssh good that's what you're doing so this is my
+estimated cost for an absolute
+beast of a server hopefully i don't get outbidden that
+there's capacity So while that's
+being prepared, let's go into my
+existing cluster. Is there an API for
+this? Do we have to use this? There is a
+Terraform endpoint. I don't like using
+it because I cannot control it well. So
+if you're willing to foot the bill,
+by all means, let Serafina use the
+Terraform endpoint. But I very purposely
+am using the GUI so that most people can
+maintain control. unavailable capacity
+okay so they probably don't have that beastly
+server available let's try something a little
+more accessible chat i mean i use spot a
+lot i never use the rackspace if somebody
+outbits you your server goes away right server
+goes away but the data is still preserved
+because the data is stored in block storage
+that is separate from the server uh and that's
+usually like i know like i use it a lot
+with amazon google uh that's a fixed cost
+like that goes on top of the the storage right
+yes storage i think is five cents per gigabyte
+per month so you can configure in the devpod
+sh window how much storage you want to
+apply to your devpod and then as long as you're
+aware of the cost it should be fine okay
+cool so that's going to take little bit to
+deploy. In the meantime, this is the
+DevPod interface that I use. So
+once the CloudSpace is deployed in Rackspace, you create a
+new provider, select Kubernetes, these, name it appropriately.
+So I think I call it the
+Gentists Hong Kong. And then from the,
+from Rackspace, you'll need to get the, what's
+called the Kubernetes config file. Store
+that locally on your computer, and then
+make sure you point this path to that
+kube.config file, the correct path of the
+kube.config file. And then just, I leave
+all of these default. You can change them
+later. It's definitely not a type one or
+irreversible decision. And then from
+there, if I want to create a
+new workspace, I'll add, what was
+it called, agentists quick start as an
+example, and then choose the workspace
+basic branch. This is just an
+opinionated environment that I use to spawn a
+development workspace that It includes all
+of the languages I generally work in,
+the extensions that I need, and other
+important configurations. That's pre-built. In this case, it's
+not pre-built. So it will build the container
+as it's being... Well, it will build
+the container live in the cluster. You
+can pre-build images. I tried doing a pre
+-built image, but I ran into so many different
+permissions issues that I still need
+to unwind them. So this is how I make the
+experience consistent for everyone else
+who's trying to get on the first rung
+of the ladder that Reuven, Braun, and Ocean
+have been building. So while that's building, we'll launch an
+existing one. and this is a running
+workspace on top of a rack space cluster
+that within which i already have cloud
+code uh so you're just using the remote
+explorer the right um correct plug-in to
+attach to it in vs code uh correct and you can
+also ssh connection that's right and
+it's authenticating using the kubeconfig
+file that you configured earlier more
+importantly you're not limited to vs code you
+can also open in vs code browser and it
+also has hooks to cursor zed and jetbrains
+among others so i'm hoping this expands
+the breadth of users who are able to get on
+uh remote development for incredibly cheap
+yeah maybe it's s it's not limited to
+rock space right you anybody who does spot
+and you can apply this to any place that does
+kubernetes dev pods supports any kubernetes
+provider so i do have this running on a
+local cluster that runs in my home lab what's
+the most amount of compute you can kind of
+pull down from that or kind of leverage i mean
+it's essentially like you could have like
+a supercharged code space and could i run a
+a thousand you go with google and amazon
+it's the beast so like people spend billions
+basically beast mode absolute biggest clusters
+i are nodes i believe are either 16 or 32
+cores and then your devpod would be restricted
+to that one servers worth of cores worth
+of compute so so on this unfortunately
+creating the cloud space takes a while so i don't
+think i can demonstrate that part live but
+if we were to add another hypothetical
+server see gpu let's see what we can add here
+and then i guess roo does a high 48 cores
+128 gigabytes of ram the current bid is 70 cents
+an hour and i believe these are h100s so
+Reuven i have no idea how much fly io compares
+to you but uh it's available cost 70
+cents an hour you're welcome to try it for
+six hours at a stretch how does rock space
+pricing work because i know with amazon you're
+paying the price who's the previous bidder
+right so if you bet hundred so this is second
+best bidding as far as if you look at well
+if we look at my cost like i'm spending 28
+cents in storage so yeah that's seven
+gigabytes little maybe a little less um let's see
+where can i see available compute capacity
+like this is my utilization of the cluster
+i've got three different types of servers and
+i'm spending let's see 72 cents a month
+so that's one tenth of a cent per hour are any
+of these gpus none of these are gpu instances
+david i haven't yet gotten around to actually
+building something that could use gpus
+yeah yeah i'm i'm doing some sentiment
+analysis on large corpus of uh financial documents
+oh i remember you sharing that so yeah
+and so i'm thinking about i computed locally
+yeah i'd like 71 cents an hour you can outbid
+the current winner i don't know how you
+had a question there no no could you spin
+up um the code spaces via api on this thing
+so once you have your your server uh yes so
+as long as the q the cube um cube cuddle
+file or the cube config file is set up you can
+launch a dev pod from cli you just need
+you just need to have the dev pod um cli
+application installed to your computer i just
+happen to like using the gui because you know
+pretty pictures yeah um one thing about
+gpus they're actually very hard to get in
+this on the spot like if you want to get
+large gpus with large quantities it's just
+not enough capacity and people constantly it's
+constant fight for them like yeah that's also
+true but i don't know how many servers are
+in this pool for at auction i just know
+that at the moment i can get a server for 70
+.01 cents yeah i'm not because i constantly
+run in in a problem like And another thing,
+if you go with very large clusters, I burned
+myself a few times, but you need to do like
+thousands, basically notes, is that you
+can outbid yourself. Like, so that's what I did once with Amazon. Be careful about
+that one. And then I needed to double
+the capacity, so I increased
+the price, and it shut down the half
+of the cluster. Oh, that *****. Tom, do you
+have a question? Yeah, sorry. I sort
+of jumped in there. I'm not as familiar
+with how the bidding process works, and so
+I just was curious. I heard you say that if
+you – and people are discussing right now
+about getting outbid, but you're bidding on
+the hour. So if someone outbids you for that
+hour, it presumably lets you hang on to
+the remainder of your hour, right? It doesn't
+cut you off in the middle of your hour,
+does it? So that's a question for the
+Rackspace spot engineers. Supposedly, they're
+able to track billing down to the second.
+So, in theory, if you are outbid in that
+moment, they will switch to the higher bid and
+start building on a prorated basis for
+the rest of that hour. But if I've been outbid, I haven't felt
+the impact of it. Yeah, okay. So, just
+to follow up on that. I mean, obviously,
+as long as there's enough space and you're
+doing it at a low, low time, there's
+probably lower chance it will happen. But
+if you lose your bid and you're in the
+middle of executing, does that literally
+terminate whatever you were, you know,
+if you're running a large swarm and
+it's the middle of doing what it's doing,
+it just truncates what you're doing
+and shuts you down? That's my first question.
+And then my second question is, if you're
+running GitHub with remote storage, like
+if, I mean, you get 15 gigs free on Google
+Drive. So if you're using an MCP connected
+to your storage there, could you, in theory,
+just sort of hotspot and just pick up back
+up where you left off? If you were outbid
+in the middle of it, you could just keep
+your storage remote and just fire up your
+next instance, use the same connectivity
+with the MCP to your Google Drive, and
+then pick up where you left off, even if you
+got sort of punted in the middle. So, yes,
+there is persistent storage, which survives
+a cluster or a node being outbid into which
+your data survives. So when the pod restarts
+itself, assuming it gets a node assigned
+to the cluster, the data, this persistent
+volume will get reattached to that pod,
+and you can continue more or less where
+you left off. However, you would need to be
+sure that Claude code is consistently writing
+to its memory and, more importantly, can
+recover from partially written memory. Yeah,
+that's the problem, right, with having
+the infrastructure taken out, ripped out
+from underneath. It's a problem in principle,
+David, but I have yet to encounter that
+problem in practice. Yeah, it's true. You're right. It's a
+theoretical problem that very infrequently,
+in corner case, it infrequently happens.
+By the way, guys, that's why we included
+the resume capability, and we've got the
+Byzantine fault tolerance components
+that we included in the system. So if you
+are running a kind of distributed swarm of
+agents across multiple machines, and you lose
+a couple of machines, it doesn't affect the
+overall operations, and you can resume
+where it left off. So this is a perfect
+use case for that particular feature
+where you wouldn't really need it on
+a single machine. Yeah. Actually, I don't know
+how Rackspace does it. Amazon can send
+you a signal like that should be an outbeat
+and they shut you down and they give you like
+a few minutes sort of things that you basically
+can't do. So Rackspace does have a Slack
+webhook that they will pull. So as long as
+you can interpret the Slack webhook that's
+being sent to you, you can react to it faster.
+Okay. So there is a window, because I
+know Amazon gives like five minutes. The problem
+with that, though, is you've got to write
+that into your code. It's kind of weird
+how it's calling itself. So that
+gets weird. That gets funky. I
+haven't needed it. But when the
+need arrives, we'll build the solution. Yeah, and that's also
+why we included the WebSockets component,
+because I think Slack actually uses
+WebSockets as well for that scenario. So
+hypothetically, what we could do is tie
+it directly to that component and have it
+communicate when it's ready or when it
+fails kind of thing. Yeah. And also used to be
+a trick. I don't know if any providers
+still allow that. So when Amazon used to
+build per hour, not per second, you can
+actually engineer your bid that you're very
+likely to be outbid. Because when you outbid,
+you don't pay for that hour. So if
+you've been running for 40 minutes and you
+got shut down, then you got yourself 40
+minutes of recompute. I mean, at an estimated
+$15 a month, I'm not going to try to
+optimize below that. That's a lot of mental
+effort for saving you like 37 cents.
+Guys, we're just coming up at the
+top of the hour. I just want to put a
+place marker as we roll over for Mondweep
+because he's got some stuff he wants
+to show as well. So I recognize I
+couldn't show most of this in real time,
+but hopefully you're able to at least
+connect the dots and start spinning up
+your own spot swarms. That was pretty
+cool, Jay. I just got out of it, so which
+one of you did it? Would you say that
+Rackspace Spot is one of the cheapest services
+for the, I guess, amount of resources
+that you can get? Yeah, it's basically,
+I'm basically paying less
+than it costs in electricity to
+run the servers. Right. That's
+great. So it's not sustainable, not even
+in the best case. But the unit
+economics, at least for now, are worthwhile,
+so I will exploit it as long
+as I can. Sort of like what we've
+done with CloudMax. You think that
+they're going to shut it down, though? No, they're not going
+to shut it down. The most recent innovation,
+if you could call it that, was to
+change the UI so that the floor is now much
+higher. I assume their actual unit break
+-even costs. I happen to have a grandfathered
+cluster, so my actual bid is 0.3
+cents. But for that same node, you can no
+longer bid 0.3 cents. I think the floor is 1
+.5. Still cheap, but not as cheap as I'm
+currently exploiting. Pretty much cost recovery
+for them, though, right? I mean, the
+servers are sitting there idle, so it's
+costing them to run it. I don't know the
+specifics, Tom, but I imagine someone has
+already run this through a spreadsheet and
+decided it was a good idea. I'm sure they
+thought about it, yeah. But all cloud providers have this spot market. Yes. So you can go with
+Amazon. So usually you just shop around.
+So if you run like a thousand nodes, then
+it actually matters. I would love to see
+any one of us running more than a hundred
+nodes. I run thousands, particularly for
+bioinformatics workloads. I mean, they're not
+for the swarm, but, I mean, I've been
+doing that for... A thousand nodes
+for what? What are you computing
+for a thousand nodes, on a
+thousand nodes? Mostly like
+bioinformatics, genomics, like workloads. Oh, okay. Yes, that
+makes sense. Got it. Yeah, because there
+are actually things like NextFlow that
+will, you write your pipelines and
+they will go procure machines. It
+all happens like automatically, so I
+guess... Right, right. I mean, if you're
+doing, you know, computational fluid
+dynamics, modeling, then sure, yeah,
+you need a thousand. All right, guys, I'm
+excited to see what Manjweep has to show here.
+That was fascinating. And Greg suggested
+we take a look at Coder.com, which is a
+sort of alternative. Oh, yeah. I've got one Coder. It's very similar
+to DevPad, but it's web, and it has
+some features that's good. Yeah, so Coder
+is also very good. All right. Hello, everyone. Hi. I'll be quick. Well, I started off here.
+Remember, Sandy, a few of us were talking
+about, like, how do we explain this
+technology to others? And you were saying
+there was, I mean, I think, Rude, this was
+when your laptop had some problems with
+the new camera, right? So you were on and
+off. So we were chatting, like, how
+do we explain this? How do we make it
+easy to explain this to other people who
+are not probably close enough to this
+group as we are? so and also like i um
+a group from uh i think you met uh ravi and
+others yesterday like they they wanted us to
+know about rule code and spark so they
+invited me and then mens and i went to speak to
+them on tuesday i think so it's like can we
+create something and i was thinking about it
+and for me like what uh what we thought about
+so let me just move the screen from here
+so i can see things is like can we create
+kind of a interactive platform starts with the
+basics of spar and kind of can we create some
+kind of a learning and certification process
+right in terms of like a maturity process
+um which is kind of leverages mcp and all
+of the other stuff this is still work in progress
+and there are two versions which are nice
+let's go on i think now so i said like Ruf,
+you've gone through a journey, right? You
+started the journey with Spark and your GitHub
+code basis. I said, should we not actually
+look at your GitHub code basis like Spark,
+Spark 2, Create Spark, basically the NPM and
+Claude-flow stuff? Why don't I throw
+that into a swarm and read that and kind of
+create me? And there was a prompt I used.
+I think there was a PRD here, which I will
+show you. So all I said in the PRD was
+that it's somewhere here. I must read it
+up there. It's there. So I said, okay, that's
+what you do, analyze your methodology
+and kind of create, and also because I
+made the presentation, which I never really
+made this presentation, I said, can you create
+some presentation material for building
+Spark apps with Spark, a hands-on
+introduction, and these are the repositories
+for you to analyze, and it did create all
+of this. so i threw this into a swarm i'm
+not sure if i use hive mind or just swarm
+i can't remember now but after doing so
+it came up with a few things uh before i show
+you the actual thing uh the bits that it
+actually came up were these things so a
+technical architecture your prd did you
+handcraft that prd or did you have some
+an ai created i basically vibe so i i
+type something and then i said okay prd
+based on this like a paragraph of typing
+whatever I was thinking, and just
+create it. I mean, I was literally playing
+as well, literally. So he created, for
+example, this one. I'll open these first and
+I'll show you the output and then we'll
+go to the platform. This and the MCP
+server setup because I think, Reuven,
+you said create an MCP for everything
+you create, right? So I said, why don't
+we create an MCP? So it created
+like what happened in 2023, what
+happened in 24, kind of gave us a
+view. So this is content creation
+effectively, right? Then bits of about, I
+mean, it's quite small here, but if I zoom
+it, it kind of has details around it. So
+without going too much into the details, but
+you can see it created a host of content.
+And again, this is a public one. So please
+have a look yourself. This is open to
+the community. Then it kind of
+said, like, what introduced what
+design patterns? Like, so what did
+CreateSpark introduced? And again, you could
+say whether this is right or wrong,
+but it seems like scaffolding engine
+was CreateSpark. Spark one had the AI
+assistant integration. So it's fairly
+reading your code base and so on
+and so forth. Then here was the
+system integration. So it talked about
+various other integration work
+that we had done. It had basic integration
+architectures, and lots of other stuff. This one was about
+a live guide. I think it
+might be, okay, there was a background. Anyways, so
+that's the output. Now, what does this
+look like? So somehow we decided to create
+two versions of a UI, which looks like,
+I'm just looking for the UI now. It's one
+of these windows. Yeah. Two versions of an UI. Yeah. So there is this,
+so this one effectively is like, you've got
+a playground so like the way this works
+uh and ben and i were having a chat about
+this earlier on is what it has done is um there
+is some content here about let's say how to
+write specifications how to write pseudocode
+and think about it like um a journey where
+people learn like how to write proper
+specifications so back to your question i think
+uh dave about did you write this prd yourself
+so it's like not assuming any knowledge
+right from basics so there is this one then
+learning like you know you could you could
+start a module and yeah all right so um so just
+to i'll be quick now won't take too long
+here i will just move across today so let's
+say learning right um say you have a learning
+so this is you go through so this is one
+version the other version was you take a module
+you go through a quiz and it could be anything
+right so here for example if i answer
+incorrectly it knows that i'm actually going
+to start answering is incorrectly if i say
+correct and i do so this is kind of what
+comes after pseudo code okay this is very basics
+right but you complete that and that module
+should open up there's some gui errors why
+this doesn't get updated at the moment
+whereas it does on this this version it does
+uh but in interest of time there is this
+certification bit where you could we could go through
+like a foundational level and we could
+decide what foundational level training is for
+a practitioner badge like from the foundation
+right for being a spark developer what
+is necessary and this is currently just a set
+of quizzes here like this right you could
+go through that could be much more
+complicated could begin programming language
+programming exercises as well and i think ben said
+an idea i forget now feel free to kind of chip
+in you were suggesting something earlier
+today um yeah so this is broadly what it is
+it was the integration of um open air cloud
+api to get answers before you actually do
+it uh this is this is tremendous guys because
+really it's the missing piece so um you know
+we had a sponsor step up and and cover
+the ticket for the community disco site um
+tribal uh cafe and uh and that is uh and the disco
+site is specifically uh a course creation
+platform and we just you know there hasn't
+been the collective bench strength to start
+to bring together all the materials so uh
+it's wonderful to see and it's been there's
+a lot of talk about conversation about
+accreditation so right on the right on the
+money this is pretty awesome man good job
+man thank you now here's the here's
+where the funds did because i need your
+help now to make this production ready right
+so obviously there are bugs in it that's
+the source for i guess looking at the
+community to kind of really make it work
+and meaningful for people so it's out
+there contributions now please have to you know
+as a subject expert to verify the content
+and the flow and we are planning to you
+know add some animations to make it less abstract
+you know how the agents are working
+together sequential parallel agents and so
+on it looks looks awesome i think that this is
+extremely useful and would will play a part
+like everybody wants to get an agentic
+engineering accreditation i think that that's
+been a recurring conversation that a lot
+of us have been having It's like, you know,
+when you look at the things that we're
+building and the tools that we're making,
+they're not intent. They can be used for Vibe
+coding, obviously. But the intention is to
+create these systems, methods, architectures
+and approaches that are essentially user
+guided and defined by us as, you know, so
+-called agentic experts. And I think what
+you're describing is a really good step
+towards that sort of opportunity. and
+really appreciate you putting in the time
+to make that happen. That code space will
+not come up because I think, I don't
+know, because I think it's mainly by
+personal code space. Probably will not
+have, maybe you can fork the code
+and maybe just host it in your
+own code spaces. I think Scott, you
+were asking a question. Yeah. I forked as well when
+I helped Mondweep. So it's working
+quite smoothly. Oh, lovely. And Mandweep and Ben
+says, I was wondering if I could talk to
+you guys after about if there's a
+possibility of putting this or into the Disco
+member site. Disco, yeah. Because we have the
+capability and we can do badges and like
+your content is the missing piece, we
+just don't have the content for it. So
+this is absolutely incredible. I think
+it would be really, really useful for a
+lot of members as both a standalone
+application and whatever we can put into the
+member sites. but incredible job guys
+thank you awesome thanks yeah look looking
+really really good all right um we've
+got a few minutes left but what if you
+guys have any questions anything you want
+to present a bit of an open mic
+opportunity uh this this this is your this is
+your chance greg i have a quick question
+as to um i was poking around on the
+agentics website the other day and i see
+there's a really interesting sort of
+agents area mocked up I was curious if
+anyone who's been involved in anything
+to do with that might want to speak
+to that a little. We've got a new
+version of the site coming. So
+that was, you know, site's a little
+aspirational. You know, the early
+concepts was essentially a kind of agentic
+inbox, you know, where you'd have, we have
+the ability to sort of interact with agents
+in a kind of Slack -like way. um actually
+brad and the crew have been working on
+a new version of the site which i think
+we're going to launch pretty soon and which
+will link from the the main site here when
+we when they tell me to make the update um
+awesome okay if you want i can provide a
+quick very quick two minute or 30 second
+update um yeah we're we've got a great team
+we're we're updating the um the member side
+portal so we're adding all kinds of different
+features all the different committees
+all the different chapters on there, making
+sure there's a link for being able to
+become an ambassador. And one of the key
+missing pieces is that we want to add is all
+this learning type platforms like Mondeep
+and Benz is doing. So we have all kinds of
+different courses. And then we're also talking
+about the accreditation processes as well. So
+what Mondeep and Benz provided is exactly
+what we want to have available for all kinds
+of different members. Yeah. We'll be
+updating the main site here probably pretty
+soon, right, Brad? Yeah, I think
+Matt's on the call. The last missing
+piece was really just the onboarding
+and making sure that we have the
+onboarding done. And then from
+there on, we'll launch fast and
+make sure that everyone just starts
+adding content. So I'm going to speak
+on behalf of the team and say within the
+next week, possibly a couple of days later,
+just to double check.

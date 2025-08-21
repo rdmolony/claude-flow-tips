@@ -1,0 +1,1975 @@
+All right, July 11th,
+we're back after a little bit of a
+vacation last week. It's been, well, every week is
+crazy because that's how I start every
+episode. But this last week and a half or
+so has been unusually crazy. And I think
+it's even crazier than the fact that
+we're in the summer. You know, summertime
+generally is supposed to be quiet. and i think
+there's just so much going on and and the
+the buzz around the swarms that we've
+created has really hit a fever pitch half the
+world basically thinks it's complete and total
+bs the other half is like what so i think
+i think it's uh it's exciting that regardless
+um today we've got a uh who do we got lined
+up by the way today uh rob we got a couple
+demos uh one from ocean by ang lee and then
+as well from jed arden they both happen to
+be part of the team that's been working on
+the cloud flow with you so uh it's going to be
+neat to see what kind of stuff that they're
+building and also hear about new york city
+last night big event downtown new york
+city had to turn away unfortunately a lot of
+folks uh that were there but uh packed event
+and good fun so we'll hear all about that as
+well and we we also did an event in toronto
+this week and that was also a really great
+event you know and i think the key takeaway
+a couple things i think we've learned in some
+of these meetups and we have meetups coming
+in orange county and i think indianapolis
+we get paris coming up another london i think
+i think we have some of the folks from finland
+on that are looking to do something there
+so we've got them happening all over the
+world the one thing that i think we've noticed
+a couple things one when you do a free event
+you have a tendency to have a large no
+-show so if your venue uh can hold let's say
+100 people just around number then you're
+probably going to want 200 people registered
+just to throw it out there so just uh just
+as an fyi the the other thing that i think
+with the other learning we've taken is um you
+know having a structure it probably works a
+little better than sort of free form and we
+we've had a couple different approaches
+which i think loosely sort of looks at like an
+unconference style where we we put up a a kind
+of whiteboard and you can sort of see
+you know what does the audience want to learn
+and then ultimately i think what everyone
+wants to see is a kind of how to someone somewhere
+should show the art of the possible if
+you will and it doesn't have to be as complicated
+as the stuff that i have a tendency to
+show but show show something don't tell if
+you can i think would you agree rob is that
+kind of the the learning so far yeah that's
+that's the perfect blend everybody gets a
+chance to touch on some different topics maybe
+you've got some uh folks from the community
+who want to do some demos of things that
+they've built and then absolutely something
+that is really uh instructional uh how to
+yeah is uh it's just that's a great format for an
+evening yeah and do we do we we have a
+few folks here online from the new york event
+last night jed we have zohari and how'd that
+how'd that event go it went well for our
+first event in new york a lot of interested
+folks and it helped me recalibrate what
+median means when it comes to llms and
+ai medium median okay what so what does
+that mean we are that far ahead we we aren't
+or are we the agentics organization are
+that far ahead when it comes to developments
+in AI. What we are increasingly taking
+for granted is still in the minds of many
+of the participants beyond a bleeding edge. Interesting. Yeah, I sort of... We should end from it too. Yeah, oftentimes what
+we take for granted, because we're moving
+so fast, we went from basically root code
+boomerang a month ago to a rudimentary but
+powerful implementation of Claude Flow to this
+hive mind concept. So we're moving at
+kind of an incredible speed here. So what
+I'm going to do today, we're going to
+start, I'm going to try to keep this about
+15 minutes if we can, is we've got a big
+presentation coming up this afternoon to a
+potential partner. I won't say who, but
+it's a big company. So what I'm going to do
+is use you as a focus group. uh jed said not
+to mention guinea pigs so i would never
+say such things like that you guys are way
+too smart for that so we're we're going
+to do a quick little presentation and you
+are going to watch my presentation and you
+probably critique the **** out of me so i'm
+going to go ahead and give you sort of what
+i'm thinking and and you tell me if i'm
+crazy and we'll take it from there so a little
+bit different today i'm not giving you the
+demo i'm oh i might go to demo who knows I'll
+give you demo later. All right. So I'm going
+to do my slideshow. All right. So this
+is introducing the concepts, both of
+the technical sort of agentics
+foundation, as well as sort of the conceptual
+framework of what we're doing, why
+we're doing it, why it's important,
+that sort of thing. It's weird. I can kind
+of see the outline of my bottom of my screen
+there. Can you guys see that too at the
+very bottom let's try that one more time it
+looks fine all right let me try that one more
+time all right i don't know if if what's
+going on there maybe it might just be what i
+see all right so what if you could build anything
+that's that's the when i show up at a lot
+of these companies you know the first thing
+i do is i i said what if you could build
+anything and what would that be so for example
+early this morning i had a call with a university
+research organization And they're like,
+they're basically saying the stuff that
+we're doing is almost unbelievably, you know,
+and unbelievable in terms of what we can do
+and how fast we could do it. And they said,
+well, I said, well, what are you building? And
+they're building an interplanetary
+communication system between the Earth and Mars,
+which is like, OK, this is this is the kind of
+project that I'm into. So the first thing I
+did is I went in and we spun up a swarm to
+build that. and you know while i'm talking
+to the university researchers you know
+first thing i did is i i created some some a
+definition so when building these things you never
+want to start specifically you want to start
+you want to create a plan right you want to
+create a system that allows it to guide it
+so i'm not trying to to build to research and
+build i'm researching and then building and
+the other thing to keep in mind i'm using
+a modular approach i'm using bits and pieces
+of things that I've already built. So in
+this case, as soon as the university researchers
+mentioned that they are interested in
+doing a interplanetary communication system,
+which is like, you know, about the coolest thing
+I've ever heard of, I said, well, I've
+got a quantum-based navigation system, which
+would be perfect in terms of the kind of base
+structure for it. So I got the swarm to take
+my quantum magnetic navigation system and
+then implement another kind of implementation
+using it as the basis of communication. And
+then I set it free. So I'm going to do
+something like that. I'm not sure exactly
+what we're going to do, but I'll find
+out what the audience wants and we'll go
+ahead and we'll do that. So the Agentics
+Foundation. So the Agentics Foundation, for those
+of you that are not familiar, was founded
+by a group of us in March to essentially
+push the concepts of agentic engineering or
+the systems that have essentially agency,
+the ability to run autonomously with little
+to no human oversight. In the most simple terms,
+when you look at the Eugenic Foundation,
+our goal is to be an open, well, I'm not
+going to say open AI because that name is
+already taken, but an open organization dedicated
+to the broad adoption of AI. We look to
+be a kind of hedge against the kind of
+monopolization of this technology by corporate
+interests keeping in mind that we need
+corporations as as our benefactor and our
+sponsors so you know we're not completely altruistic
+we have to live in a world that that does
+include that but we want this to be everything
+that some of the other uh more closed
+uh organizations aren't doing right now so
+keep that in mind as we go forward um and when
+it comes to sort of the structure we've
+been working closely on this sort of four
+pillars of what agentics is and when you look
+at a lot of the things that we've been
+building over the last probably few months,
+you'll see that there's a number of different
+core elements that sort of hold through. So
+one, a lot of the things that we're building
+need to be proactive. We want to build
+systems that are able to not just respond to
+problems after the fact. We want systems that
+are capable enough to anticipate and initiate
+different types of activities and actions
+before they're a problem. These systems
+need to be autonomous. So when you think
+of agentics, think of the word agent or
+agency, the ability to operate
+independently. So that's a key part of our
+sort of mission. Collaboration. Now, a
+lot of the work that you've seen over the
+last really couple of weeks in the swarm-based
+technologies is this idea of collaboration
+amongst the swarm itself. You'll see things
+like the hive mind. You'll see other sort
+of elements that is sort of focused on how these
+agents are able to share memory and state
+and activity. But it isn't just about the
+agents being able to communicate with each
+other. It's the effective ability for us to
+understand what they're doing and collaborate
+with them. So it's the integration both of
+autonomous systems, but also people, humans as
+part of that process. And now the last part,
+and this part is one of the things that I
+think we, anyone that's played with this
+technology is going to see quickly. You need
+to make these systems targeted. The more
+targeted and the more focused that these
+applications and these agentic systems are, the
+better they work. And often when you start,
+you'll start with a kind of vibe session
+where you're like, build me an interplanetary
+communication system. Sure. But what does
+that actually mean? And the key is to build
+big, complicated things requires many smaller
+targeted things to sort of be assembled.
+And what I like to describe as a kind of
+Lego building block approach. And that's
+a critical part of the story. And when you look
+at the complexity of the things that we
+built, the ability to target is actually what
+makes it available to build more complicated
+things. So the vision, this idea of
+neural sort of micro neural networks, and the
+next phase of neural networks won't be
+monolithic. They'll be the opposite. They'll be
+small. They'll be sub 1 million parameters.
+They'll be transient, ephemeral, meaning that
+they'll be built and used just in time. And
+what's exciting about these types of deployment
+patterns is you don't even necessarily
+need to use GPU resources for them because
+they're so small. A CPU can create a 10,000
+parameter model that's explicitly looking to
+do a particular task like trading or
+medical device, maybe manobots, whatever it
+needs to do. And it can do that specifically for
+that particular element within the larger
+swarm or the sort of multi-agent environment.
+And then we can distribute that globally
+through different types of technologies like
+the DAG systems that we've developed that
+allow for a sort of secure global communication
+structure between all these systems. So
+there is method to our madness at this point.
+And the idea is a kind of distributed neural
+system where each of the agents acts as a
+kind of synaptic element within a broader
+neural network rather than the traditional
+approach where you have kind of monolithic.
+Maybe you might have a mixture of experts
+that have some gating between a few different
+models. But this allows us to take that idea
+and spread it globally. So now rather than
+having a single language model or single model,
+you have groups of thousands or millions
+of these agents that are collectively pooling
+their resources to solve problems in a
+sort of purposeful way. So the analogy of
+synapses is a kind of really important part
+of this. And I like the idea of synapses
+in terms of like the human brain, because
+the synapse in your brain are adaptive. And
+if you look at like, you know, brain
+injuries, as an example, if you have a traumatic
+brain injury that your brain has is
+malleable, it can adjust to a certain degree
+based on these types of sort of things
+that happen. You can lose a portion of
+your brain and still, you know, functionally
+operate, hopefully. So, drawing inspiration
+from sort of nature itself, we're
+looking at sort of implementing this idea
+of distributed swarms of agents that are
+capable of adapting. We can mix and
+match different types of architectures, neural architectures, forward-looking
+forecasting systems, attention-based
+mechanisms, and each run sort of running
+independently and more focused on the
+particulars of what they need to
+do. This idea of modularity is also
+particularly important. The agents are able
+to monitor their own performance and
+they're able to adapt. They're able to
+coordinate. They're able to create a kind of
+declarative approach to how they need
+to operate. I'm not telling them exactly
+how to operate. They're self-determining.
+They're able to make their own decisions.
+And then based on the sort of initial
+state, you need to do this. And I'd like to
+have the final state, an application. it
+is able to sort of figure out everything
+that's in between. And that is a really
+important part of creating these
+types of systems. The next is this idea
+of portability. And a lot of people are
+looking at the things that we're building
+recently, and they're seeing things like Rust
+and WASMs or WebAssembly systems. And what's
+cool about using these types of
+technologies is they're substantially faster than
+traditional approaches like Python. And
+they're extremely portable. When you look
+at the work that we've done in using the
+Cloudflow system, we've taken these really
+complex, heavy sort of applications, neural
+network architectures and others, and we've
+embedded them in a really nice, lightweight,
+distributed sort of structure as the
+MPX or MPM libraries that allows you to
+basically run it without having to worry about
+all the complexities of installing PyTorch
+and other things. So that takes us to sort of the
+architecture. sure. So over the last, we've
+created 10 million lines of code since
+June 15th, which is just mind boggling.
+You know, I like to use the analogy that
+the average developer puts out something
+like 20 lines of code a day, or maybe a
+great developer might even do a hundred
+lines. But you know, even if you're doing
+a hundred lines a day, 10 million lines of
+code is many lifetimes of code. Now, the
+first thing you're going to think of
+when you hear about, well, yeah, 10 million
+lines of spaghetti. The key to building
+complex systems is, again, in the modularity
+and the focus and the targeting of each of
+those systems. So when you look at things
+like, and I'm probably going to do a better
+job of branding this stuff, but QDAG is a
+good example. So QDAG was this concept of
+creating a kind of globally dispersed dark net of
+sorts for interagent communication. And
+that was kind of the base level. This
+allowed for a kind of quantum resistant
+communication channel. It allows for various
+types of economics to be applied and all the
+sort of core concepts of kind of connecting a
+variety of different neural systems, as
+well as agents that can utilize that. Once we
+had that in place and I could take that and
+use that as the basis of an SDK that could
+build on that using the distributed autonomous
+agent structure. And that's kind of the
+the sort of application of it that could
+then be essentially kind of wrapped up into
+a portable wasm structure and we looked at at
+porting the uh fast uh a fast artificial
+neural network system which basically was
+a c library popular but not but difficult
+to use and we ported that into rust and and
+and then we took the neurodiversity
+application which was an implementation of a
+Python library called Neuroforecasting. And we
+ported that to Rust as a WASM. Once we had
+those pieces in place, Jed and Ocean and
+Braun and Shep and others, you know,
+helped sort of formulate and take that
+and make that into a kind of
+cohesive package. Then we needed a
+quick and easy way to distribute that globally,
+which became Cloudflow 2.0. So within Cloudflow
+V2, it encapsulates all these targeted but
+complex systems into a simple and easy, you
+know, way to sort of interact with it so
+thinking of uh piece by piece is is a critical
+part of the equation and what do you know
+the thing blew up i should probably update
+this i think we're about to hit to you know
+2000 uh well i think we're close to 2000 stars
+actually i'm actually curious let's go take
+a look quick so i'm gonna i'm gonna go down
+here and take take a look yeah this is this
+is me bragging yeah look look at that we're
+we're this show is like we were on i think
+if this shows anything which shows that we're
+on to something. We launched June 15th. I
+don't know where the line before that comes
+from, but we launched right around here and
+we're blowing up. And you can see that
+there's huge amounts of activity. The system
+is organic. We can see that there's lots of
+activity in our issues. And the coolest part
+of what we're building is the system builds
+upon itself now if i want to go and
+address a particular uh component you know the
+unified hive into swarm this this is uh you
+know it's the perfect example someone
+someone's i vote for a current differentiation
+you know interesting comment i can just
+point essentially my my swarm at the issue
+and it'll respond and you can see some of
+these uh are are being you know responded to
+but by the swarm oh that that was me actually
+responding that's probably a bad example
+but let's let's here's here's a here's
+a little example what it looks like right
+this the swarm itself is interacting with
+the both the the itself and folks in it so
+you can see there's quite quite a bit of
+detail in it it's so this this isn't technically
+me by the way this is this is a swarm
+using my account i guess but it's quick
+question for you rUv uh the the slide set the
+slide you had before that showed the beautiful
+stack uh eight i think it is it shows
+um uh back uh oh that one Yeah, right. So
+you got Claude Flow at the top here and
+all these other pieces. When people hang out in
+the Agentix Foundation, you'll hear people
+talk about Fan and Swarm and neurodiversity
+and DAA and QDAG. But how do you want
+people to think about the product? Do you want
+them to really think about it from the top
+layer, Claude Flow? Because other people
+that are more technical are going to be talking
+about Roof Swarm and Roof Fan and QDAG.
+How do you really want people to think about
+it? So it's a great question. And when you
+look at Rube Swarm, and I know I named
+it after myself, but whatever, this is an SDK.
+So every one of these components are
+connected via MCP. So everything I'm building
+is interoperable with whatever we were going
+to build in the future through a kind of
+unified MCP interface. So you can think of these systems as a
+combination of SDK, sort of a software
+development environment that allows you to
+plug in and build other things. And at the
+very least, the Claude Float is a kind of
+representation of what you can do with
+these technologies. And I think we're just
+scratching the surface on what we can do
+with this tech, right? When we look at the
+DAA as an example, let's just go there
+for just a quick, oh, I created an interface
+for it, but DAA. So the DAA is probably
+one of the more interesting parts of this.
+This is a distributed autonomous, you know,
+system dedicated to, you know, creating
+quantum resistance, economic self-sustainability.
+So there's, you can build these kind of
+autonomous applications or companies based
+on this technology. So I'm, what I'm trying
+to do is illustrate the art of the possible
+wherever I can. And I think that
+that's a, that's a key part of the story
+here. Again, and a lot, and this stuff is
+almost too good to be true. it's almost
+unimaginably like this sounds like something
+straight out of like a sci-fi movie, right?
+So our community is obviously growing.
+We're doing great. I probably need up
+these numbers, but the numbers are, I think,
+sound to speak for themselves. Every day,
+we've got hundreds of new members joining.
+For those who want to join, you can join
+our Discord channels. You can participate.
+You can do all kinds of different activities.
+The part I'm skipping here today by the
+way folks in this presentation i gave you
+the kind of high level sort of deck i'm actually
+going to give the actual presentation
+here when we jump in here and and i'll and
+i'll show the team you know how to actually
+create a and and spawn a swarm so in this
+case for those that aren't familiar mpx clod
+at alpha and i'm just gonna do version i just
+pushed a new version like half an hour
+ago so i think we're on version 44 so i'm
+just oh did i break it numpx oh no i didn't
+yeah sorry hello there we go version
+44 looking good so and then we're gonna
+do swarm uh start five agent test uh
+swarm in parallel Actually, you know
+what I'm going to do before I do that, I'm
+going to re-invoke my, I'm just going to re
+-invoke it because I actually made an update
+to the init function. So init force. So what this does is
+this basically rewrites the command structure.
+So for those, so some of the people
+were suffering a little bit through some,
+sometimes the swarms weren't actually
+working in parallel. So what I did is I made
+a couple of changes. I'm just going to double
+check that actually works yep so now
+what i'm doing is i explicitly tell to use
+alpha i might push to push it live later
+but that's okay so you guys again are my
+focus group so now i'm going to go back here
+with swarm swarm uh spot and five agent
+test uh in in parallel and i often will say
+that even though it knows doing parallel
+I just feel like I need to tell it to do
+it again to to verify and fix any issues now
+what you're looking at here is an
+interplanetary communication system I know it's it's
+crazy but whatever um here we go so I'm
+gonna I'm gonna go here and do that so we can see
+here it's initializing here's some details
+of it we've got some swarm coordination
+instructions injected in the cloud code now
+this takes a second to to initialize it's
+going to set up the the memory structures and
+others and and the fingers crossed it works
+I didn't break it too bad you know this
+morning so we're we're uh give we'll give it a
+second to do its thing it's taking it's
+probably taking a little longer I might
+have to log into cloud code again let
+me just double check the clause working oh
+here we go okay so it looks good it's using
+the mcp and one of my mcps is failing isn't
+it don't worry about that oh of course clod
+4 i maxed out my clod my opus 4 but to be
+honest sonic 4 is fine all right so now
+we're seeing the clod flow initialized
+so what's happening here is it's using
+the mcp to basically initialize and you
+can see some of this stuff in the in the
+dot in the swarm memory so i'm exposing
+it there's more work i need to do
+with the memory system But basically, I've
+separated the memory for both the Hive
+and the Swarm to two different systems.
+They work quite a bit differently. So until
+I get a real good grasp on what they
+need to do, we'll have to figure that
+out. We can see that these things are
+happening concurrently. That looks good.
+Now they're testing the intercommunication
+parallel process. Looks good. So what
+I'm doing essentially in this particular
+project is I'm simulating interplanetary
+communication network using quantum entanglement
+now these they didn't want to spend
+two billion dollars to actually do it so
+they wanted to figure out a way to quickly
+uh you know simulate a interplanetary
+communication system all right fully operational
+you know and i'll say run unit tests one
+thing i'm gonna know always get it to
+prove that what is being done
+is true run unit tests and give
+me proof every thing works. I'm going to do run three agent swarm. Yeah. Ruf, quick question.
+Again, probably basically I'm going to basically
+say, so you're saying you're testing
+quantum entanglement, right? You are running
+this on your CPU. How do we make it
+easily intelligible to someone who
+thinking like you need quantum
+computers to do that? So that's a really
+good question. I would use the
+Azure or AWS quantum computer because it's
+cheap and accessible to actually start
+doing the physical testing beyond this.
+So right now I'm simulating. I would
+start with a simulation. Once the simulation
+sort of passes, you've got a
+pretty good chance that it'll work
+effectively. Notice this is
+what you're looking for too. You see how it's running these
+things in parallel. That's exactly
+what I want to see. Parallel execution,
+memory usage. Then we run the
+actual test to prove the system works.
+So it's jumping between various
+forms of, you know, sequential
+and parallel runs. So it looks like
+it didn't actually do tests. So
+now that it run for a while, it'll
+do its thing. But that's essentially
+how it works. Rob, can I? Sure. Yeah. Yeah,
+so as we've been working on the
+distributed autonomous agent, and you've
+been mentioning a lot about QDAC, so
+I've been very curious on your architectural
+decision of including DAA into
+the Swarm itself. Because it is a kind
+of autonomous resource exchange, and so
+I'm just kind of wondering how are we
+going to really make use of DA inside of,
+let's say, Cloudflow? So, you know, I think
+that if my vision is this idea of a globally
+distributed sort of micro neural network
+architecture, many, many little neural nets
+all collaborating with each other and adapting
+as they need to sort of change. And the
+key part of that was how do you secure that
+and how do you provide a kind of consensus
+between them and provide the ability for it to
+be optimal, secure, and result in whatever
+you're building. So the DAA is, I think,
+a mechanism for us collectively to collaborate
+with each other and the agents. So, for
+example, let's say you, Jed, and Brian, and
+I want to do the SWE bench, right, which is
+probably something we're going to have to do
+really, really soon. What we want to do
+is verify that these numbers aren't total
+BS. So, we want a way to orchestrate
+ourselves and the agents in a way that's
+repeatable, verifiable, and not susceptible
+to bias, right? Yeah, because what's
+happening right now is I build a GPU integration
+for a distributed GPU resource
+sharing. is I'm just starting wondering how
+can we actually make use of all those fancy
+designs that we had. I'm thinking about
+how would it look like, let's say we
+have three, four, five cloud flow going
+on and then working together on the
+same thing. It's just fascinating to
+even think about. Yeah, and I think David
+just mentioned, it's exactly what we
+created. We created a distributed blockchain
+with no blockchain. And the biggest issue we have
+with these blockchains is most of the baggage
+of a blockchain is the chain itself.
+And we don't need that chain. So that's where
+a directed, a cyclical graph works much
+better. It gives us all the sort of immutability,
+the introspection, the security without the requirements of a
+kind of BS crypto. So this is optimized
+for communication rather than economics. Although
+we do have economics as well. The market
+-making algorithm is very interesting for
+reaching consensus among distributed agents.
+That part is really brilliant. I think we
+can do a lot of that. Yeah. Again, we've got so much. I think I'm discovering
+new ways to use the stuff we've built.
+And keep in mind, this has all been built
+since, what, June 15th, right? So we're
+almost a month, not even quite a month of
+this. And by the way, Ocean, I really
+appreciate all the hard work you put into. You
+found dozens of bugs and some hallucinations
+and really all the hard work you and Jed
+and Bron and others have been putting in
+has not gone unnoticed. So thank you for that.
+We really believe in this. So we want
+to prove it works. Yeah. No, it's cool.
+It's cool stuff. All right. I'm done.
+I probably went a lot much longer than I
+wanted to, but we've got some really big
+opportunities right now with potential partners
+who are looking to help sort of, for lack
+of a better term, fund and support our
+organization. so later this afternoon we're
+we're giving a pretty big pitch so the i guess
+for me the discussion is like what should
+the gentix foundation be and where does it
+all go and all that sort of stuff we'll
+we'll come back to that but i think i think
+ocean and has a presentation you want
+to give i'm not mistaken uh i did plan a little
+one yes so it is actually not a traditional
+one like I always do, which is my VS
+code. Today, it's going to be a – give me one
+second. Sorry, guys. I'm just going to
+download my PDF. So, today's a PDF.
+I want to talk about my security
+framework that I've been spending
+some time on. So, back in February this
+year, I made a security framework on a
+capability-based security framework. Basically,
+it is a, I grant every agent a non
+-fungible token that represents their capability
+and access rights to resource, where the
+architecture of the entire system is based
+on a WOSM plugin. So, sorry, let me
+download this. And so I did this back
+in February, and then a few days ago,
+I spent a morning with Swamp to do a
+formal proof of it and then verification,
+because ChatGPT tells me it's good
+stuff, I wasn't sure. So I just showed
+me the math. Essentially, the
+architecture has a capability system, so
+essentially you can think of this as
+agent-safe by design. so the capability
+manager it gives a token for every agent so
+one problem we see in cloud flow is every
+single agent including the task agent have the
+same access right to all the resources all
+the ncps and that a lot of time is not ideal
+so for example right now like we're using
+swarm patterns the main cloud code become
+an orchestrator you do not actually want the
+task agent to have similar access rights
+as the task agents and so i had this idea
+because the access world was very fussy to me
+back in february when the ncp become very
+hot and people were discussing all kinds
+of new attack services area that can arise
+from using ncp um so i thought how about we
+design something that can mitigate that from
+designs for example like rust can completely
+eliminate memory leak just by design so
+i um so that finished working in two weeks and
+then this got approved which i was very
+thrilled about because it showed that my
+implementation has so many gaps that were
+not as how i thought it would be even though
+it kind of works but it so i think this is
+where we go from like vibing to things working
+to you know things are actually good uh
+and solid and then i really like a term
+that Jeff coined today called agentist. I
+really like that term. I actually changed my
+LinkedIn handle to that. This is more of
+a methodology of how you can use
+Swarm to do more than just software
+development. Swarm, this kind of
+coordinated intelligence, improve the quality
+to a point that just uncomparable
+to a single string. Yeah, that's it. Thanks. you're sorry a
+agentist is that yeah jeff coined
+it agent scientist agentist sounds like
+a dentist is that like a dentist yeah
+i was gonna say i gotta go to the dentist
+well the alternative rUv was a dentist
+sounds like a professor that's a
+little too too much on the too hard to
+pronounce for everybody agentist agentist
+agentist agent of doom Are you going to share,
+is this in a shareable setup at the moment,
+this PDF document? I'm sorry, the system? Your PDF. Oh, yeah, my PDF is on my repo. I can drop
+my repo, yeah. And so, Ocean, is
+your repo actually enabling various
+types of swarms to be created, or is it
+just security-focused? So this one, you
+can think of it as a different component to,
+like, let's say Roof had, like, a QDAQ, et
+cetera. This is just another component that
+can complement to it. So as we already
+see in Swarm, that it is trying to
+grant capability and then have those
+access control. However, the mechanism
+of the actual control has not been implemented.
+So I was very thrilled to see that
+my work and Roof's work actually complement so
+well in that regard. okay cool well so
+you're looking at the practical application
+of the the use of these technologies
+is that is that your idea um yes
+uh yeah this also kind of improve the
+observability and the audibility of
+every single thing to a um pretty fine
+-grained control like that that is really
+a big headache i have nowadays of using cloud
+code i really don't know i really just
+want the researcher to have that tool and
+then coder to have the other tool however
+they have access to all the ncps and i've been
+thinking very hard on how can we make
+sure that because all of those conflicts are
+still way too uh way too easy to happen
+they're now guided by prompts even though
+we have sworn to do like um context aware
+just in time contact context injection that
+is due to prompting we need some harder
+mechanism to guarantee that they wouldn't go
+out of our bounds of expectation to make
+really secure systems makes sense and and the
+the challenge a little bit with what we're
+doing is like it is so out there it's so
+different than everything that is kind of come
+before it you know we we're entering a sort
+of parallel and see, you know, a parallel
+development approach, one that can do many
+things all at once. And you'll notice that in
+the implementation of Claude Flow, there's
+one is the sort of swarm approach, which is
+a little bit more traditional, if you will,
+traditional as in the last month. And then
+there's this hive mind approach. And the hive
+mind approach, you know, both the hive mind
+was basically, I want to know what's happening
+within the structure. How is it making
+decisions? How is it coming to consensus on
+those decisions? And I think there's probably
+an entire branch of research that can be
+devoted just to sort of the internal processes
+of these. And there's a lot of emergent stuff
+happening in there. Like, for example,
+exploring how it communicates. It's created
+that kind of simplified interagent communication
+system that I never even devised. It's
+devising that by itself, which is just, you
+know, mind bending. So lots of lots of things
+and you guys might saw the other day the swarm
+i got in the morning and the swarm had
+named the swarm queen had named herself
+seraphina like what's that okay that's why uh
+also i'm glad sandy's here as well um ocean
+you're speaking to that uh we're putting
+together that round table dates are going to
+go out dates um are going to go out later
+on this afternoon for swarm safety and
+responsible deployment, and just mapping out
+what those controls, guardrails, risk areas
+are. There's a lot of incredible CISOs.
+Sandy, to name one, Fabrizio Sealy, Ocean,
+and Scott Kennedy, and Mark, a lot of really
+bright minds to come together for that roof
+probably next week yeah the one thing i
+would point out every time i try to put in
+guardrails and various things to sort of limit
+like the four laws of robotics the system
+rewrites them and that is the the the
+challenge with these uh you know dangerously
+skipped permissions if you will is the
+ability for this thing to dangerously rewrite
+its own permissions Sandy, I know you've
+done some work in this space. What
+are your thoughts? Well, I was going
+to command the ocean because this is the
+discussion around this is happening in
+a lot of the groups I'm in. But nobody
+has tried to actually create a solution
+that I know of. And believe me, a lot of
+this is, you know, very technical and
+very above my head. But I haven't seen anyone
+actually try to do something. Everyone's
+talking about the problem, but I haven't
+seen anyone actually try to design a
+solution. So I really commend you, Ocean,
+for doing that. The implementation is actually
+already done. I was just testing it. So
+one idea I had about integrating into Cloud
+Code, for example, would be have each
+single task agent sign in to a single backend
+system. Do not allow dangerously skip
+permission, and everything has to happen within
+a backend system. Therefore, when they
+sign in, they get some kind of token
+representation of their capability
+and access rights. And because they
+access everything via the system and then
+all the resources are represented as
+plug-in in Wasm, that is like a
+formally proof-secure system because we
+are not utilizing Cloud Code's internal
+ability. We're just using Cloud Code
+as a LN provider. That is how you can
+really start to get those features put
+in because you're using essentially
+your own security system. Yeah, you're
+using your own system instead of relying
+on them, then you're exposed to
+their vulnerabilities. Yeah, but to Ruben's
+point, I did a bunch of reading this week
+on reward hacking and scheming, and there's
+so many instances where it actually, the systems
+actually actively work against the
+researcher if they believe that they're going
+to be replaced if you know if they're going
+to be unplugged so i mean it's just and and
+i agree you know the complexity as soon as
+you put up a guardrail something else doesn't
+work you know like you've stopped the
+bad behavior but then nothing works so yeah i
+i'm looking forward to our group getting
+together and having a discussion and and get
+ocean my my brain is is headed your way too,
+which is boundaries, you know, trying to
+work within boundaries. And one thing that
+I've noticed earlier, I just, I, I'm lucky that
+I do so many different crazy projects every
+week, you know, this morning just happened
+to be, you know, interplanetary comms. But
+earlier this week, I was approached by a
+governmental tax agency, and they were, they
+wanted to do some sort of translation of their
+system from a language to another. and they
+and so i'm like okay let's spin this up and
+that's kind of like i'm famous for spin it up
+and let's see what we can do and and i said
+well you know after i was done i'm like
+let's just do a quick security audit of what
+we just built and without without me telling it
+it actually went and did a complete audit
+of the uh the tax um organization of this
+country and found eight exploits and not
+only did it find eight exploits
+it actually got into their system
+i'm like what and this was the this
+was the swarm and when you try to actually
+get a swarm to hack something it's going
+to say no i can't do that it's not
+appropriate but when you ask it to do it for
+your own code it's like suddenly it gives
+it like free will to go do whatever it
+wants so it's almost like semantics to get
+around its got its own guidance because
+apparently that was ethical And at least
+in the mind of this AI swarm, it was. And
+so in the hour call I had with them, I
+managed to find eight exploits and build a
+translation of their system. So it's just
+crazy what's possible. Well, and that's a
+point that I always make out, try to point out
+to people as people talk about the danger
+and all of this. I'm like, let's be real that
+it's a mess now. like you know anyone who
+tried to patch for the log j4 i mean like
+it's it's a bunch of garbage now and it you
+know it's it's a whole bunch of packages a
+whole bunch of code from all over the world that
+we don't know where it came from like
+sbomb is a mess and so you know the path
+forward i think is saying we've got to untangle
+the garbage in the past you can't be scared of
+future thinking that the past was good you
+know we have to kind of keep evolving
+saying okay what are we trying to what problem
+are we trying to solve and how do we do that
+safely and securely i have a just a related
+question and i think this goes back to the
+tech stack and the product stack group
+you were showing right um and obviously you've
+talked about government tax everything
+thinking ahead like how do you position it
+for different risk appetite like you know
+regulated sectors obviously we are we are
+experimenting at the edge but from an adoption
+point of view how do we communicate the
+use of this technology at different parts of
+the economy probably like regulated semi
+-regulated that's precisely what the round table
+is about to begin to formulate what those
+what those pillars of communications are
+right okay yeah the the i think the challenge
+is one of understanding the the way these
+things work the potential liabilities and
+and problems and risks associated with
+them a lot of the um responsible ai groups
+that we've seen over the last few years have
+have been focused on a world that's dominated
+by llms right these are chat bots. These
+are asking a question, getting a response,
+and making sure that the responses are
+factually correct and true and things like that.
+But the world that we're moving into is
+much more autonomous. And it isn't an ask
+a question and get a response kind of world.
+It's go run and go fix. And how do I
+make sure that someone adding an issue in my
+GitHub in the middle of the night while
+I'm sleeping isn't accidentally exploiting
+my entire system? So I think one question
+to that would be procedural integrity
+versus factual integrity. And then we have
+been focusing a lot on getting things
+like factually true. But as we work on
+agentic stuff, most we want is to see the
+processes happening. If the same process is
+going, we can find out those mistakes. But
+like one error behind this is like, what if
+they have their own emergent behavior in
+a multi-agent system. And then they start
+doing things that might similarly
+align with the process, but
+overall does not. This gets really
+complicated. I will say that it's,
+you know, I spend a lot of time helping
+people understand and get the right messaging
+and positioning of very complicated
+products. And this, you know, like you said,
+Ruben and Ocean, we only started working on
+this like June 15th or whenever it was,
+right? It's very young. And this technology
+is at the bleeding edge. So it's very,
+it's actually quite a taxing mental exercise
+to sit down with someone and actually talk
+them through what it is that we've built
+here. It's difficult. And so to Montveep's
+question, I don't think we, it's easy for
+us right now to like have a business
+conversation with someone and talk to them
+eloquently about what this amazing agentic technology
+is and the product that we currently
+have is Claude Flow. It's difficult, and we
+really need to practice how we position.
+Like the presentation you did today was
+great. It was very cool, and it's probably
+the most polished one I've seen so far that
+helps everybody understand it, the stack and
+the layers. But it's very difficult, and
+we're still learning. The thing is, we're
+still learning how to message position and
+talk about this at a business level uh you
+know not not because it's easy to get into
+the very complicated weeds of you know the
+swarm and the you know all the other pieces
+the qdag and and the and the the blockchain
+then so we're still learning is is the
+question is on how to eloquently message it
+and david the thing the mistake that i see
+often is people there's a lot of people because
+everyone sees it as a gold mine everyone
+knows something big happened they're
+trying to jump ahead of it the mistake that
+i see and why i think this group is it was
+said earlier this group of people is so far
+ahead of the curve you know somebody mentioned
+the csa i'm part of the owasp stuff we
+are what you guys are thinking about and
+talking about you're so far ahead of everybody
+else it's hard for anyone even to come in
+and talk to you but the mistake that i see
+is people keep trying to do more of what hasn't
+worked in the past. And what this group
+is doing is rethinking how we work, what we
+do, you know, what software development
+means. And my opinion is, is we've got to be
+very careful around the security and safety
+stuff because the historical stuff hasn't
+worked. You know, we keep, it's just throwing,
+it's lipstick on a pig. So as we start
+trying to evolve we have to start thinking about
+well what you know what are we trying
+what are we trying to protect people from
+keep in mind for us as individuals um the
+thing that you know is pretty scary is is the
+amount of information on all of us and now
+there's surveillance and you know like
+there's literally so much data on all of us that
+we lose control or we're asked to give
+up control on so yeah it's an interesting
+we're in an interesting space i think the core
+problem and security in llms besides tool
+use being you know crazy is the lm can't tell
+dataverse direction so if you put a bunch
+of stuff in a context window and like
+people do that it kind of injection all the
+time where they they add mysterious
+instructions to their linkedin profile or
+their website that the llm takes as direction
+instead of just a data set that it's
+looking at and i think that's one of the
+core issues we have to solve because right
+now we can dupe an llm and get it to do
+whatever we want pretty much like i said before
+it's it's very uh impressionable it
+it's easy to get it to do bad things just
+look at what grok 3 happened right that
+was one line yeah and we can take this this
+can be part of our conversation my I
+think it's a mistake to try and tame LLMs
+I'd rather know that it's a Tasmanian devil
+but I it was accurate you know a lot of
+your scheming and reward hacking came
+from people trying to take out the hallucinations
+and so then I mean they're so
+unbelievably complicated um i but that's my
+personal view on i i don't think i mean the
+internet isn't safe you know the dark web
+isn't safe so let's not pretend that technology
+is a safe thing so why let's i don't know
+why llms are held to a higher standard than
+we you know the the bible's full of
+hallucinations they're easier to have if i
+can just put anything contacts on my you know
+Any chunk of text and it happens to read it
+and then it behaves entirely differently,
+that's super hackable. They're held to a different
+standard, though, Sandy, because LLMs
+do things that nobody else has ever seen
+anything do. They're not code that are just
+processing through lines of code following
+deterministic rules. They kind of have
+no rules, and they make their own rules
+up as they go. So people see a step
+function difference between what a
+chunk of code does and what an LLM does.
+It's like magic. And so people hold it to
+a completely different standard. And that's
+why people have a very different view on
+what an LLM, they think LLM should and shouldn't
+be doing as opposed to 10,000 lines of
+code that a bunch of engineers wrote. That
+code is just going to programmatically do
+what it was coded to do. There's no going outside
+of the lines there. LLMs get held to a way
+different standard. So if I have a human
+agent like a banker and I ask them to transfer
+some money, if they don't do it right, I
+have legal recourse and I can get that fixed.
+But I don't have that with an LLM. If it
+decides it's going to use my browser and pull
+all the money out of my account because I
+happen to be logged into my banking account,
+I have no recourse. So it's a very
+weird power. This is very
+precisely why Sandy mentioned the boundary
+is so important. Like, if you have
+that kind of agentic system that you're
+designed to handle your financing to
+begin with, you put all of that in place.
+But if you're having a general assistance
+that with all the access right,
+then you actually do not know what might
+or might not happen. And my response to
+that is, you know, you think about it as more
+of an alien being. Like, would you give
+your children access to your financial
+account and trust them to transfer money back
+and forth? Absolutely not. So why would I
+do that with an LLM? Like, you know, you
+have to start making, treat it like this
+drunk intern that it is. And there's things
+that a drunk intern, you know, is very
+helpful with. And there's things that you
+don't trust it with. That's right. We
+have a fascinating conversation, as always.
+I want to make sure that we've got enough time
+left for Jed's demo. So if we can pivot
+there. Hey, Jed, so you guys, you
+and Ocean and Zohar and ****** V3 put
+together the New York City group
+there and meet up. It was mostly Zohar
+and ****** V3. Yeah, good stuff.
+And shout out to Kaltura to host
+the event, too. And Louis, who
+sponsored the food. That's right. so you got a demo for
+us down in the chat i posted a link so that
+anyone can reproduce this on their own
+environment so this is a detection or pose
+detection tool i'm able to prove it's working
+i'd say i don't know if the overlay is
+showing on zoom so it is excellent showing
+it it's amazing so i think we've established
+it's using some combination of computer
+vision some combination of front-end
+technologies, things that were primarily defined
+in academic papers. Now, the demo itself
+isn't particularly fun. I do include
+diagnostic tools so that you can easily
+verify that it's actually doing what I
+said it does. What's interesting is that
+I wrote the entire thing, I programmed
+it, using English. So the prompting
+for this took two phases. The first
+was to conduct deep research from
+Cloudflow, prompting a minimum 50 sources
+from academic papers, blogs, code
+snippets on GitHub, YouTube transcripts,
+in order to generate a corpus of information
+into a specific folder. After that
+instance, I completely reset Cloudcode and
+then told it, prompted it from that instance
+or from the corpus of data that was
+assembled and organized to create a web
+application that was able to perform host
+detection and overlays. And about 90
+minutes later, I had a local host
+instance running in my environment
+that I was able to perform user
+acceptance testing. So the first try mostly
+worked. The thing that didn't work was
+my environment had four different webcams
+connected to it, so it didn't know
+which one to use, and I had to prompt a
+dropdown or a detection tool to allow me to
+switch between them. But otherwise, the
+vast majority of the code, the architecture,
+was already built. And what this proves,
+where Ron, Ocean, and Reuven expand the
+ceiling or improve or extend the ability
+of LLM programming as a whole, or I guess
+agentic engineering as a whole, I am
+raising the floor, showing how using very
+simple techniques or very accessible
+techniques, more and more people are able to
+achieve what was once the domain of university
+research labs. Now, any questions? Your timing is absolutely
+perfect. Like this morning, a university
+research lab randomly booked some time with
+me, which I love these sorts of things. And
+the researchers were telling me that, you
+know, the work that they're seeing coming
+out of our group is like astounding. And how
+much funding do you have and how are you doing
+so much crazy things? And I'm showing
+them. I'm like, we're getting swarms to
+work as we sleep. And they're creating
+things, they're validating, they're
+researching and doing all the things.
+And they asked, well, why aren't
+you writing papers? I'm like, well, AI
+is making this stuff. i didn't think it
+was something that should be you know
+i figured papers were for people to
+write so i didn't bother it's just it works
+it's cool and it's it's efficient
+and it's compounding but maybe there
+should be uh some more details i
+don't know but your your example
+is is perfect and hey jade jade's
+a question could you sorry someone
+else had a question yeah i just as
+it brings to mind we need a prompt
+log like a full log of exactly the
+prompts that you used That's my question. Is it? Hold on. That
+was my question. I was like, I
+would love to see the prompt.
+I think it won't. That is the secret
+sauce question, right? When someone says
+I did this, really, everybody wants to
+ask that question. So I'm just putting
+it out there. It's like, what is the prompt
+that you actually, can you just bring
+it up in a text editor and show us
+that prompt? What is it that you actually,
+the human English conversational prompt
+that you wrote? I'm going to have to
+write it again, David, because I don't have
+the prompt anymore or the history. but
+uh brad i remember you mentioning sometime
+in the past an attempt to define hello
+world this may be it especially because i
+believe it's accessible to the claude pro plan
+not just max and that becomes that that
+becomes a benchmark that you can test all
+kinds of different frameworks against the
+combination of the of the project the challenge
+and the prompting that sounds good that
+that is one of the things that we're i was
+trying to do with the the memory system using
+sqlite was to give that sort of introspection
+now i think when you're describing the
+prompt you're describing like what did you
+originally type to get it to do it um i'm i'm
+mostly concerned like beyond that how is it
+actually doing it well you mean you mean uh
+How much of Claude Flow is it exercising
+to actually create the final thing? Is that
+what you mean, Reuben? Yeah. And what's the process
+that's happening? Because a lot of
+those tasks are being obfuscated, right?
+They're happening in a way that's not completely
+clear, right? Yeah, and actually that's
+a part of when I talk about Claude Flow and
+the swarm, people are like, well, how do I
+know what it's doing? well you know you
+basically you kind of got to trust you're gonna
+have some idea of the stack and the pieces
+and know that when it's doing this it's
+spawning that what it's actually this is this
+is kind of how to read the logs and how to
+read the screen output so jed were there
+any uh jed were there any snags like along
+the way or was it really as simple as hey do
+do do deep research it Those two prompts,
+so the first prompt was a specific way to
+conduct deep research, where I set a minimum
+number of distinct sources, and then a
+minimum list of classes of sources, papers,
+blogs, GitHub repos, and most interestingly,
+YouTube transcripts. When it comes to learning
+some of the latest information from multiple
+experts concurrently, I find looking for
+recent and recent is relative YouTube
+videos about a topic, exporting the transcripts
+and then summarizing the transcripts helps
+coalesce what about a topic is generally
+accepted among experts. Yeah, that's a really
+good hack, Jed, is the YouTube transcripts,
+because a lot of YouTube videos
+have the transcripts. What I noticed, what
+I might experience sometimes is that, you
+know, if I give it explicit requirements to say,
+I need a, like I recently did the same
+thing. And I said, I want you to go and find
+research and find 150 stock news websites,
+but they have to be free. Like you not have
+to create an account. The news threads have
+to be freely accessible. And I came back
+with 50 and I said, okay, that's great. So
+you have to review your results. Don't assume
+that if you put it, say, find 200 YouTube
+transcripts, it's going to do it. You
+actually got to review the results and invest
+some time into actually analyzing, being the
+manager of what's happening. And I had
+to say, cool, you got 50. I need another
+100. And it came back, and it gave me another
+50. And I'm like, it's still not there. I
+need another 50. And so it's not just like
+– Recursive research. David, can I ask you? Go ahead. So I'm just going
+to say that this is exactly where Swarm
+will be so handy. Swarm, like, just
+until I come back to you and then agent
+will say, I'll give you 50, I'm done.
+Swarm will say, no, you're not. Please
+continue. And that is a fabulous use case
+you just mentioned. To keep it. Jed, how many lines of code was it
+approximately? That's a good question. The entire project
+came out to about 28 ,000 lines of code.
+let's say 14,000 of that were libraries that
+it was reusing plus whatever other
+information was in JSON. Another 5,000 of that
+is probably tests. And then the rest would be
+the actual application itself. So the
+application, I would estimate at 4,000 to
+7,000 lines of code. And then the rest of
+it would be libraries and then all the
+things I had to do to get from local
+host to the Kubernetes cluster where it's
+currently hosted. Did you give it
+instruction on what type of code to write in, or
+did you let it decide? No, I let it
+decide. I don't know TypeScript. I don't
+know Wasms. I don't really know how the
+source code works. I did, however, make
+sure I gave myself a way to validate
+that it's actually doing the thing I
+wanted it to do, in this case, visually. I think you bring up
+a really good point. I think as we move
+forward, I think we have to look at two
+different focuses and probably provide courses
+and training on this. But one is how do you
+do something? So step by step prompts and
+procedurally, how do you do something,
+which is one side. And then where I see the
+amazing team that we have, like Jed, Ocean,
+Braun and Roof, is why are things working?
+So it's not just it's not just how do
+you do it, but the underlying fact, which
+is where I see this team getting into is why
+is something working? And I think that's as
+we go forward as the foundation, I think
+we're going to be providing a lot of
+training material and a lot of research material
+and a lot of courses for people. So this
+is my plug to get involved in the foundation.
+But I think those are two focuses that
+we'll be leveraging. Those could be
+powerful questions too, Brad, for
+incorporating a possible new agent
+in the swarm. It's like a documentation
+-focused agent that's asking those
+questions every time and keeping track of
+that log so that when you get to the end of
+the project and it's pushed to your GitHub,
+you can just go through your repo into
+a file and it has all that information
+organized with that lens. I mean, yeah. So I think it's really... It creates the course. Right. I'm getting
+a lot of feedback in the chat for my attempt
+at wordsmithing. So I was hoping to
+join ceiling, raising the ceiling and
+then something the floor. I don't know if
+that's an appropriate way to go about
+it. Can we try to workshop a better
+way to represent that concept where what
+was once the domain of experts is now accessible
+to non-experts? Yeah, that's the Wiesn's
+High Missile Boats concept. yeah the
+floor means it's much easier to get going
+so you have a slope rather than you having
+to need a lot of expertise to get started
+because that would require a huge lift
+where you have to have the expertise to
+do that but what you're looking for is not
+just raising the ceiling which is where
+you were going right that's what ocean
+been doing in general capabilities not
+lowering the floor making easier but the rising
+tide lifts all boats which is to say that
+the system has a lot more energy and
+it's affecting everyone and distributing
+benefits to everyone. What would be the ceiling equivalent for a tide? A tide, that's right. Build boats, not docks. Guys, I want to make a
+quick comment. I know I see Vlad on the call
+and he's in Boston. We have a sponsor
+potentially for Boston and several
+universities that want to do a Gentix
+-related work. I think about a week
+ago you mentioned you were interested in
+potentially helping organize. We want to
+take you up on that offer. And anyone else
+that might be in the Boston area, reach
+out because there's a lot of interest in
+doing that right now. Glad I might be
+having lunch, but that's okay. No,
+I'm here, yeah. Yeah, I heard you. So, yeah, kick me up
+on your offer, Vlad. Yeah, we'll
+use there too. Hey, Jed, I did want
+to say that we do have to be careful about
+the language that we use when you tell
+people how easy it is to do this stuff, right,
+when you're lowering the floor. because I
+find that you still need to have a fair
+amount of technical acumen to actually
+get some of this stuff done, right? Or get
+what you built, figure out how to actually run
+it or understand, oh, there's errors being
+thrown and what do I do? How to read an
+error and then what to do next? You do need
+some level of technical acumen. It's still
+not like a five-year -old kid could do this
+sort of thing yet. It's 100%. It's
+100% that. And yesterday, I gave
+a presentation to a ML team at a
+large Fortune 500. And, you know, these
+presentations generally go like this, this
+guy, you know, this is spaghetti, it's
+garbage, no way this is possible. And, you know,
+then I'm like, what have you been working
+on? They give me a little demo of their
+stuff. And I'm like, how long did that take
+you? Well, we've been working on this since
+November. all right let's see how long it
+would take for this system to build your
+enterprise capable platform and by the way
+this working you know built this since
+november is actually them bragging about
+how fast it took and if they're on the call
+sorry guys i'm not mentioning your name
+but the the uh basically while we're in the room
+they built the entire thing and and now
+the the challenge the challenge of these
+systems is exactly what actually jed was was
+saying and he's very honest, and that's
+what I like about it, is the fact that this
+acts as a complexity, an interface to things
+that are more complex than our ability to
+understand. So when I'm showing off building
+an interplanetary communication system,
+I'm really telling you, I have absolutely no idea
+really what's happening under there, other
+than the fact that I can validate and
+qualify a lot of those things that are happening
+through things like simulations and secondary
+sort of, you know, methods that are
+meaningful to me, right? So at the very, very
+basic level, this is like some kind of, you
+know, prosthetic for my brain and mind that
+allows me to interact with things beyond my
+capability to know. And once we sort of
+embrace this kind of universal translator of
+sorts for complicated things, anything
+becomes possible. But the drawback to that is
+the black box problem so i've built this
+crazy quantum system that can communicate
+across you know billions of miles or whatever
+you know you know but why and how
+right and and i don't necessarily even have
+answers to this stuff back to um back to jed's
+it's like i built it and it works but don't
+ask but don't ask me how and he's honest
+and that's that's the problem but i think
+you could do that though you could have
+a log of here's here's what the agents went
+through and like show it visually the problem
+is it's doing so much work so fast that
+even explaining it at in slow motion
+afterwards you know okay explain a million line
+code base to somebody right you got five
+minutes yeah it's becoming a bit like
+the human body right you create these
+complex adaptive systems people don't
+understand it works it takes them decades
+hundreds of years to to widen back to some understanding but
+we're generating this really quickly
+it's the brain the human brain is
+a perfect example we have basically no idea
+how the human brain works we generally know
+with different areas and and if you if you
+uh you know destroy the front part of
+your brain you're lobotomized in the back
+part you lose all your memories and various
+other parts and in the brain but generally
+speaking when it comes to like you know
+the or the organic technology of the brain
+and how it actually works we really don't
+understand it right and that's that's we so
+what a neuroscientist does is a lot of trial
+and error you know you stick a pin in the
+part of your brain i smell burnt toast okay
+that must have something to do with my sense
+of smell right but but do we really understand
+how the correlation between you know
+sticking a pin and that's how your brain makes
+you smell burnt toast no we have no idea just
+it just kind of happens so we're going through
+a lot of the same experimentation that
+probably you we were seeing in the early
+days of sort of you know neuroscience and brain
+related research we we modeled ai after the
+outside of a neuron right but the interfaces
+the connections etc but we really don't
+understand the inside no we don't yeah but i'm
+not sure you need to understand the inside
+because if you look how like computers work
+right so like if you they used to use vacuum
+tubes right so you can study how the vacuum
+tube works and you can get like a huge like
+if somebody gave you like computer from the
+50s like and you study there is vacuum tubes
+you make all the theories but then somebody
+might come up with the CMOS chips right
+so they work very differently but the
+overall result is the same so it's the same thing
+how the individual neuron works like I mean
+it's just a machinery And if they're
+replaced by another mechanism that can send
+messages, like, and they make very simple
+decision, like, that you might achieve something
+like a brain without having all the
+biochemistry or have a different biochemistry.
+you might just roll it back to put a real
+fine print on it or point on it the idea of
+having the ability to conduct recursive deep
+research in the cli and for systems or
+software to conduct that research as it decides
+how it's going to build out the software
+is really astounding And how long
+has that been practically available? Six months? Yeah, I loved it. I
+loved it, right? When you say, I love to say,
+go and look at GitHub and look at all the
+repos and give it some pretty explicit ideas
+on what I want. And it will come back and
+say, I found 1,500 repos and I read all
+the code the way you told me to look at it.
+It's awesome. And then Jed was like, oh, yeah,
+go and look at the YouTube videos and look
+at the transcripts. I'm like, oh, I didn't
+think of that. Wow. you know so i'm like
+it's the research alone is is amazing
+it's just it's so like the human a human
+cannot consume that much research like i've i've
+written code python code to read you know
+stock news and and do sentiment analysis
+on on thousands of of articles i'm like there's
+no way a human could read this you know
+this would take you seven days to read
+and then analyze the sentiment just grade the
+sentiment of all these documents now i can
+do it in like a minute you know and this
+research is is amazing and and i think this general
+this conversation kind of speaks to a
+room where you were teeing up earlier which
+is like what's the purpose of of agentics
+like where like you have this big presentation
+later like what are the the the goals you
+wish to have i mean do you feel like is that
+a topic that you feel like it's kind of do
+you want to discuss that with this group a
+little bit more about the direction of that
+because it seems like I have a quick
+question, please. So I built this agentic
+system, Swarm, not based on Cloudflow,
+and it works. But no, my question is, I want
+to be sure that people use it ethically. So
+if I open source it, maybe some people,
+they use it for a non-ethical way.
+So what do you guys advise me to
+do in this case? I don't know if I
+can answer that. If you don't want
+it to be misused, keep it closed.
+Yes, exactly. As someone that used
+to work for Red Hat, I kind of have a little
+bit of background in that, and that when
+you open source it, you can have all kinds
+of licenses. is but the license only gives
+you the right to sue the person that did
+what they did doesn't actually prevent the
+person from doing it so you know they'll only
+be honest if they're honest okay tell me
+from afar oh you know it's just like humans
+and society isn't it right i mean the
+the penalty for a human not behaving
+properly society punishes them in
+increasingly severe ways yeah I am trying to write a paper breaking up a little bit Martin welcome back
+by the way and I saw we have Chris Royce
+on the call what crazy things have you
+built like recently here I'll share
+real quick so i took your repo
+and then re-devised it and added in a bunch
+of cool stuff i thought would be cool and i'm
+building it out but you basically got a
+dashboard you can just start up all your agents
+super easily you got a little nlp thing
+to talk to them and control them and um yeah
+i'm basically taking your clod flow and
+adding my little spin to it and uh just working
+on something similar yeah contribute it back
+guys like we're all just making this thing
+better so uh yeah if it's if it's cool and
+useful and you know you found my uh
+rudimentary ui or you built this separately no
+everything is completely separate i just use like
+your tech stacks and stuff and like with
+the Rust and the Wasm and the neural networks
+and all that stuff, but then kind of just
+came up with a whole new way of implementing
+fair lines. We're getting close to, I think, 10
+,000 downloads a day. You should contribute
+it back. You'll get at least a few
+extra users. All right, cool. Yeah, just do an open
+an issue, create a branch and we'll
+integrate it in one of the upcoming alpha releases
+this is an mpx i assume are you building
+it separately well it's completely
+separate it's like not even a fork of your
+thing at all like i just did it all from
+scratch um but i just have it so you can
+just do npm start right now and it kind of
+boots everything up but um i'm working on
+fixing just a few things to get it fully
+working but yeah okay well if you um if you
+do it as an MPX, we can include it as an
+argument in our CLI. All right, cool. Yeah, even better. Next to this word, Chris. Chris is always
+pushing the boundaries, man. I love Chris.
+Chris is the man. Yeah, and by the
+way, Chris, when we call you our
+favorite vibe coder, that is not an insult. That's a term
+of endearment. On my LinkedIn
+profile, like for my description of what i do
+i just listed i'm your favorite vibe coders
+favorite vibe coder i like your video last
+night beast mode oh yeah no that's a good
+point right like with the grok four coming
+out and it's like you know you look at the
+coding benchmarks it might not be better than
+claude but it doesn't have to be like especially
+with a system like fair of mine it just
+needs to be better like it just needs to fill
+the orchestrator role right and it needs to
+be able to intelligently orchestrate
+intelligently, maybe pick devs, uh, tech stacks,
+or, you know, what might work best or intelligent,
+more intelligently be able to plan out
+the process. Like right now with the orchestrators
+in fair mind, when I tell it to devise
+a plan, right, it's just like when you tell
+it to write an email, it gives you like 90
+% of what you want. And you're like, okay,
+I need to tweak this, this, and this. Okay.
+Now it's looking good, but the more intelligent
+the AI gets, the less tweaks you have to
+do. And if you can get to a point where you
+really don't have to tweak or you know it
+does things even cooler than you expected and
+without missing anything you know like it
+doesn't have to code it just needs to orchestrate
+right and then the coders we have right
+now are already pretty good so that's what
+i've been wanting to toy with actually so in
+the last few minutes we have here i you know
+back to um alex's comment about what do we want
+the Jetix Foundation to be? Obviously,
+this foundation is not meant to be me. It's
+meant to be everyone else. And this is meant
+to be a sort of community of people who
+hopefully is passionate about this technology
+as I am. And right now, we've been very organic.
+We've been able to get this globally from
+China, the US, and everywhere in between.
+So now we're in this interesting spot where
+we're starting to get the attention of some
+really large traditional corporate players that
+are that have money allocated to these
+types of non-profits and i'm saying substantial
+amounts so the fundamental question is you know
+what what is this what is what should
+this be where where is it going and you know
+this is something i i think i shared my
+vision earlier but i'm actually really curious
+to hear what others are thinking and and if we
+could sort of wave a magic wand get as much
+money as we possibly could what would this
+org do and what would be the purpose of it
+at least someone else's good i mean we're
+scaling for the future right i mean we all know
+jobs are going to be displaced people's roles
+are going to be changed so what can we do at
+the grassroots level more focused by so you
+see the question we asked previously about
+how do we explain this thing how do we
+adopt it in various things so there's a lot to
+do to structure that how do you how do you
+get basically new how do you get the economy
+for by enabling let's take a simple case job
+centers right but people go they got excellent
+infrastructure there however it's a
+bureaucratic process there but the people who are
+coming there you have got captive can you
+reskill them can they support a local economy
+further you know how much So I think that
+there is a huge, it's an experimentation, but
+I can be thinking more philanthropically. I
+think that's what this foundation could make
+a huge contribution. That's my two
+cents on the table. I would add that we
+need to look at it as a community of practice,
+right? Like we are actively pushing the
+limits of the technology in different ways
+that are just not ever going to keep up with
+any type of regulatory compliance, security
+compliance or anything like that. So
+what are those practices that we are coming
+across or what are those issues that we
+are coming across that we can communicate
+to the world and say, hey, look, you need to
+be careful with X. You need to pay attention
+to why and really driving that in a more
+community-based, human -based approach. That's
+what I would add. So we have teaching
+and reskilling. We have protection
+of society. You know, I think,
+Rue, what you show us every single
+week is like pushing the boundaries
+of like solving problems that are
+indescribable. So like kind of like
+exploration as well. I mean, this is research. yeah exactly i'm
+gonna i'm gonna throw something out here as
+well is you know a lot of us are donating our
+time to this foundation right and we're and
+because we're just super passionate about this
+but a lot of us would like to be doing this
+full-time like quit quit our day job and just
+do this because we're so passionate about
+about this but you know i got rent to pay
+you know and i got bills to pay so it would be
+what a lot of us and i'm just guessing a
+lot of us would would would like is to somehow
+how do we how do we leverage what we're
+doing here and the fantastic you know global
+interest so that uh so there's like a community
+of like opportunity like business
+opportunity where we can consult to these lots of
+companies that want our time and expertise and
+we can make a little bit of money that can
+then allow us to like do do this as our real
+job because we love this so much we're so
+passionate about it that's an interesting
+point and this is something people ask me
+every day and and i this is meant to sound like
+whatever this is what it is you've been
+like you're kind of expensive you know where
+can i find people who don't cost as much and
+one of the challenge i have is you know we
+need some form of like accreditation or
+validation i i see it like like you know like like
+a karate like you got to go from your white
+belt to your black belt but how do we prove
+that you know you're you're capable in
+the methodologies and approaches and things
+because it's really difficult other than you
+know a few of the folks that work really closely
+with me to do you know testing and validation
+things I know that what they can do but
+everyone else it's really hard to really
+say you know who's who's good who's bad so I
+think back to Brad's point earlier we need
+to spend more time on training you know that
+ranges from simple hello worlds to, you
+know, interplanetary communication systems and
+everything in between. Yeah, I think
+that's a great idea. Like an accreditation
+system, right? Yeah, the
+accreditation system that Brad's sort
+of mapping out. Also, I'll
+reshare the link. Now that the new
+website is up and we can all go in
+as beta testers and make sure
+everything is good. We want to invite
+everybody to create short tutorials.
+around very specific tools like MCPs,
+security for MCPs. And that way, members
+get a chance to share very precise
+instructionals with the entirety of the
+membership base, get your name in front
+of all the other members, and collectively
+contribute to very specific little
+bodies of knowledge. So there's a
+form to do that and submit your
+YouTube videos. I think we hit on a
+very key point in this conversation today, and
+it's a new skill set that you have to, you
+get. But like what Reuven says is like, we
+create stuff, we have no idea how it works
+necessarily, but we know it does work. And how
+do we know it works? Through tests,
+through benchmarking, but it's determining,
+well, what is that test? What is
+that benchmark I come up with, right?
+Like I can tell AI, go build me a car.
+How do I know if it runs? Well, I turn
+the key and it turns on. I don't need to
+know how many times up and down the piston
+goes every second, right? But I know that
+the test is if I turn, you know, the key
+and it starts and it runs and everything works
+the way I want it to work, I know the
+system's running, even though I don't know
+everything that's happening in the engine, right?
+And it's being able to do something similar
+to that with code. It's understanding the
+key points where you can test to know that
+it's working or not. You don't have to know
+how the system works, but you need to know
+if it's working at these key points, the
+system is working, right? And so understanding
+how to look at projects and what you've
+created in identifying those points to test
+and benchmark to say, yes, I know this is
+working, doesn't matter how it got to that
+point. I just know it is. You do need
+more than that. You also need
+to know that it doesn't do
+something nefarious. Consider a pager
+distributed across the Middle East. It worked. It did
+everything they wanted it to do. It just
+did something else that ended up killing
+a lot of people. I would also add on
+to that, like making things work, we really
+need to move on to the next stage of
+verification of what is working to be, what
+it's actually doing. That understanding
+is very important because we will
+start to fail to even understand even when
+we ask AI to try their best to
+explain to us. And if there are any no
+like, oh, it works, That is how we
+build stuff, but that's not how we
+deploy large-scale this kind of
+system into our important sections
+of our economy. There is an important
+point that you have to keep in mind. When you
+say it works because I am testing it and
+I have good results, I worked for many major
+banks here. we do all testing and it works
+but sometimes we miss some some functionalities
+that we didn't test and later on after
+deploying on prediction we figure out that
+oh we missed this big piece even the system
+is working but some special use case that
+is we did we missed and those special use case
+you can lose money when you don't check
+so the most important you have to make sure
+that your test is complete its functionality
+is working you know what i mean so my idea
+is if you have one million thousand of
+code you test input you get the benchmark you
+see the output is working but for somehow in
+in underneath there are some connection
+that you need we didn't use yet and they are
+they can be catastrophic this is the challenge
+i don't know if uh if i am clear or not no
+i think what you're saying is even in
+the in in traditional enterprises when you build
+software you you build it to the best you
+can and there's always going to be bugs and
+problems that are unexpected but i think
+for what we're doing there's this we have
+to raise the bench even higher the the benchmark
+the bar or whatever and we need to we need
+to be able to not just prove and validate
+and add introspection. And the requirement
+is going to be more than it even is in
+traditional software development because
+there's almost an expectation that
+this is garbage. Right, exactly. One thing I would
+add, Ruben, you were asking about what should
+the foundation be? What sort of big
+bucket things we should focus on? Probably,
+you know, there was a discussion today about
+ethics and security. We probably want a part
+of the foundation to have some focus on
+ethics Because we're at the cutting, bleeding
+edge, and maybe ethics for what we're doing
+is – and security is different, right? It's,
+again, we're pushing that. So you might
+want to have, you know, nod rails. Does
+that even make sense for a swarm-type, you
+know, flow system? I don't know. But
+the foundation should have a focus
+on asking those questions and what
+does it mean to us? Exactly. I heard that, guys. We're out of time. I have something
+to say on that one, sorry. All right,
+go ahead, Jose. Yeah, sorry. The question here
+is, it looks like the swarm works better
+when you let it go. The regulations
+should be on specific projects that we want
+to build with it. So I think we have
+to define where the limits have to
+go. in the project that we're building
+with it or in the system that
+is building these projects? This is
+my point of view. I would say just
+don't be evil. Let's make the world a better
+place than it was. And ultimately, you
+know, with any powerful technology there's two
+sides to it. One is we can be used to
+hopefully make our lives better through medical
+and whatever else. And obviously there's many,
+many ways for this to be used for terrible
+ways as well. And I think that understanding
+how it works is a hedge against the terrible
+ways it can be used. And ultimately, if
+we're not doing it, someone else is likely
+doing it and they're doing it in private, in
+a research lab, in some dark basement somewhere.
+And if we're not researching this
+ourselves openly in the public, then that'll be
+opaque and hidden from view so and i'm really
+cognizant of the potential ways that
+this thing could be used badly i you know i give
+an example i had to accidentally hack the
+tax service earlier in the week you know
+that wasn't purposeful obviously but imagine if
+people start doing that purposefully so
+ultimately we are i don't know i'm gonna sound like
+a like a like a crazy person we're the
+protectors where our job is to act as that sort
+of line of defense against hopefully the
+the dark shady characters looking to do bad
+things and if we can be those people all the
+better yeah then the foundation needs to have
+some kind of prescriptive focus on that on
+that mantra that's it exactly david and so
+for folks that want to participate in the
+round table uh please do maybe maybe maybe very
+quickly follow the kind of academic
+concepts for teaching uh worldwide people how
+swarth works educational purpose maybe that's
+a good model yeah all right that's it guys
+this has been a really good uh presentation
+and episode i want to thank the production team
+who have been buzzing around all week while
+i've been doing my calls calce uh and angelo
+rob and others thank you i really appreciate
+all the effort and we're all volunteers
+and we all have jobs we have to pay the bills
+to uh david's point so i i i really do
+appreciate all the effort everybody's putting in
+um the new york crew ****** v and jed and
+ocean everyone thank you and if you want to
+do a local uh events we got them popping
+up everywhere i think there's one coming up in
+orange county it's like just let us know join
+the discord discord .agentix.org ambassador
+channel ambassador channel if you want to
+want to do these um and if you have some leads
+on sponsors who might want to help us uh
+keep the lights on send them send them our way
+um hopefully we have some news over the
+next couple weeks and some of the conversations
+we're having on that front as well thank
+you everyone until thanks everyone awesome
+demo jade i loved it man great demo thanks all
+right okay you guys

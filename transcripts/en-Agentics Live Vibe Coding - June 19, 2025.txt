@@ -1,0 +1,1934 @@
+This used to work.
+All right. Hey, thanks everyone. Thanks
+for, thanks for joining this. It's
+been an interesting week. And the, the
+amount of interest in this thing has been
+absolutely crazy. For, for those who
+aren't familiar, the, you know, the
+other day I launched this, this idea
+of Claude flow, which, you know,
+I just throw it there as a, you
+know, a random idea. And the thing seems
+to have blown up. I, I can't keep interest
+that, that seems to be coming in.
+So I'm gonna do my best to sort of
+help people through problems and debugging
+if we can. Maybe we'll fix some errors as
+well. I did a push last night at one o
+'clock in the morning after I finished
+all my other work. So make sure you're
+using the version, the most recent version. And I'm gonna
+actually, one sec, I'm gonna mute you guys.
+I can hear someone's, there we go. All right.
+so make sure you're using the the
+version 72 and you're wondering why there's
+72 one of the i'm using the the swarm itself
+to build the swarm so sometimes it decides
+to go and auto publish that so before i
+even realized it did like 20 freaking versions
+and that so that's how we're up 72 so so
+quickly but so that is a learning lesson
+make sure that you give it clear and
+concise guidance. But the key here is that
+I've added a few new features. One, I added
+the settings option. The settings option,
+let me show you that quick. So to instantiate
+it, you're going to run something like
+mpx quad dash flow at latest. And then you
+can do init and then spark. Now in this
+case, I'm going to do this in a subfolder
+just to show you the files because I've
+already done this before. So I'm going to go
+here. I'm going to MK a init test, and then
+I'm going to go into that folder, init test,
+and then I'm going to run this in this
+folder. And what that'll do is it'll give me just
+an idea of the files that are getting
+created, right? So in this case, we can see
+here that it's created the cloud flow. It's
+created, this is the wrapper. So to Martin's
+point earlier, if you want to use an alias,
+you're going to point it at this wrapper.
+This wrapper essentially allows me to execute
+from a working folder it's and this
+essentially gets around the problem with the
+node modules that you sometimes might might
+experience but in order to use it what you
+have to do is you're gonna have to use
+something like this so dot quad flow and that
+will essentially allow you to see it that it's
+working see all the different options
+available to you and so on the and the other
+thing that sometimes people run into here
+is when they're when they're trying to you
+know use it they might not have clod instantiated
+correctly so what you want to do before
+you even start she logged in and and you've
+installed clod flow or sorry clod code
+so i think it's mpn i actually don't remember
+what the mpn is but you can you can do a
+search for that and find that pretty easily but
+make sure make sure it's installed you
+can just tell it's installed by doing this
+sell the commands the the most important
+command And here, and you can use it directly
+as well. So if I don't use the Cloudflow, you
+can go and do this. And we're gonna
+go here and do dangerously skip
+permissions. I'm handling
+the permission separately, but what
+you can also see are some of the
+different folders and different
+options available to, you know, different modes,
+swarm commands like this, some
+maintenance. So I've added lots of different options,
+researcher, and these are
+essentially these modes here. So you can
+see the commands. So these are some of
+the modes that, and you can add your own
+if you want as well. These are meant to
+just be sort of a guide for what you
+might wanna do yourself. I'm having an issue. I
+need to re-instantiate this. I'll do a
+push later this afternoon where it
+fixes the fact it's not creating all the Spark
+files, but it does work when you actually
+instantiate directly, which I'm gonna do
+here in a moment. So I just confirmed
+everything works. so I'm gonna I'm gonna go
+back up one level run it from that location I
+don't I probably don't need this in a test
+so I'll get rid of that and I'm gonna
+delete that all right so now that now we got that
+out of the way you've used so step one
+install cloud code step to install the cloud
+flow system step three once it once those
+two things are both initialized you can start
+running various options so against dot slash
+cloud flow and we can and I'm gonna use
+swarm which is the kind of the coolest feature
+and let me do help on that now this this
+will show us all the various help commands
+now you if you don't add anything even you just
+you need to run it with this command you
+you basically are getting the auto mode the auto
+mode automatically determines the best
+approach i generally use that if i'm if i'm
+doing other i can use different modes they're
+centralized hierarchical and these are different
+structures for how the the swarms
+communicate with each other in a sort of
+logical sort of sort of way so in this case
+let's say i want to do something of interest
+so let's go here and i'm gonna i'm just gonna
+go and grab let's do the let's do this one
+cloud or architecture just for a heck of
+it and i'm gonna stop before it actually works
+but we'll go here and we'll distribute it
+strategy research this is this This is using
+some variables. So you can see here that
+status is researched, mode is distributed,
+and that's gonna change up the actual guidance
+that's passed to it. So you can see I'm
+telling you how to use the memory and I'm
+doing various other things. And by the
+way, if anyone ran into that memory issue, I
+fixed it last night. I'm one guy and I'm
+trying to juggle probably more than
+I should. And that was a bug that I
+induced a couple days ago and never had
+a chance to fix. I'm just as good at
+creating bugs as I am code. mode, but now
+we see here that we're going to execute a swarm,
+and I'm only executing the swarm just to
+see what's happening. Unfortunately,
+Claude, I maxed out my Opus 4, so thinking
+mode is disabled. If you're lucky enough
+to start and you're going to have a
+thinking mode, the thinking mode really
+kicks up a notch. I've actually optimized
+the thinking mode as well in the... Do
+I not have my Claude folder? Yeah, it
+looks like I don't. Whoops. All right, I'm
+gonna fix that while this works. But we
+can see here that it's initialized a... So
+what's happening here is we now have a swarm
+of five working in unison to each other.
+So in this case, this swarm is basically
+just doing research. So, and this one's
+actually, you can see it's due ahead
+in the memory. So the memory
+essentially allows it to give it a sort of
+short-term memory of what it's doing and
+what it's done in the past. And I'm using
+a super simple sort of approach to memory.
+I'm using just a sort of JSON style.
+I've got another implementation using
+SQLite, but I need to do some more testing,
+so I won't get into that right now. But
+basically, it stores it as a kind of
+sequential JSON file. So you see here,
+you can see it thinking through
+its processes. This particular
+mode, research mode, is essentially a
+deep, deep research. But the benefit to
+this mode is I can then use that to actually
+implement whatever I'm researching so
+you can see here some of the data that's
+creating here's the json files for the
+memory nothing nothing at it yet so let's see
+what else we got here so quick quick
+question for you Ruben is that is your uh your
+research is it using an mcp tool or is
+it just native cloud it's using the native
+cloud uh web search capability as there was
+no sense reinventing the wheel so I just
+use the one that's built in now I noticed
+there was a slight problem so I'm to stop
+this for a moment. And then I'm going
+to jump to another terminal for a
+sec. And I noticed that I actually,
+looks like I might have accidentally
+deleted the cloud folder. So I'm going
+to go cloudflow, init, spark, and
+I'll be forced since I'm overwriting
+some files. Oops, I got to do init, spell that correctly. What is force
+doing? Right? Force is
+overriding. So I'm overriding some
+of the files. So in this case,
+I wanted to create this. This is giving
+me the commands. I actually didn't
+have those. If it removes the memory, like if I had
+memory stored. Yeah, it does, it
+overrides. So use, so what I could have
+done if I was worried about overriding the
+memory, I haven't done anything yet
+to really care about that. But what I
+could have done is did this in a subfolder
+and just copied the bits and pieces
+that I wanted from a subfolder, you know,
+which I showed earlier. So we're going to
+go back. I'm going to close this up
+again. This time I'm going to let's try
+a different mode just to see what happens.
+We have different options here. So
+I'm going to do a mode where I do 10
+agents this time. So, again, the key
+here is you probably need to use the
+wrapper. first a dot slash cloud flow
+swarm analyze user data. That's a pretty
+bad one. So I'm going to say research
+the development of a zero person
+startup and place in dot plans. Now,
+this is particularly well suited for
+really deep research because you can do
+it concurrently. don't implement
+this document. All right. So what
+I'm doing right now is I'm testing 10 agents.
+I've done this at the 50 agents. I'm not
+going to do 50 agents right now because I
+know it'll max it out. And I got work to do
+this afternoon beyond this call. So I
+don't want to be rate limited um by by clod
+but 50 agents is just crazy it it can do all
+kinds of things now the the most of
+these swarms beyond research i find is like
+optimization so i i've been i've been working
+on a project where i'm creating a kind
+of you know a quantum inspired dark net
+and a lot of that was sort of optimization
+and benchmarking and basically i create a
+swarm and basically pointed and said give
+me you know the most optimized version i can
+possibly have for for this system and and
+then it worked for several hours and
+eventually it gave me the sort of final optimized
+uh options for it all right so oh the
+thinking is working again okay so i this one
+the thing is working because i added the
+cloud folder so that specifically is relating
+to this file the settings the settings
+file tells you what's allowed so i'm allowing
+all the various things tells you max timeout
+rate so if you run into the timeout issue
+i i've added that so that resolves that problem
+i've set the working directory option so
+you sort of might work better time you
+know and various other things here's some
+automation rules for for my system backoffs things
+like that now let's take a look at what's
+happening down here all right so now
+what what i'm testing right now is i want to
+do it i uh let's let me begin my researching
+zero person startups let's see check
+interesting it it created the plan but now
+it's working and it's sometimes like
+like a like a boat motor a little bit
+so it's doing it's doing the uh it's
+doing this in parallel So this is why you
+have to watch it. I'll see spawn a 10 agent swarm using batch tool. So I noticed it probably
+would have eventually got to the 10
+agents, but I want to spawn it earlier
+because right now it's kind of doing the
+initial research. And we can, now that I've
+got the thinking mode, the thinking mode
+is good for certain things, but also sometimes
+makes it kind of go in more and more
+declarative direction that I don't always
+like. But that's okay. I caught it early.
+So now we see it spawning each
+of these agents. So when you don't run
+the system with Claude Flow, it would have
+done what it was going to originally try to
+do. It would have just done each of these one
+at a time sequentially. But what I actually
+want it to do is run it in parallel. Now
+the parallel you're going to see here is
+especially when you're running 10 is this
+weird screen flickering thing that's a cloud
+flow thing and i don't think they've necessarily
+built the system for concurrency so but
+it doesn't mean it's not working it just means
+that you need a bigger screen and i'm on
+a smaller screen to sort of show you guys
+how this looks let's see maybe i can make it
+a little bigger and zoom out a little bit
+yeah zooming out usually usually solves it let's
+see yeah it's still flickering a little
+bit but that's because I've got so many
+different agents running. Yeah, we're one,
+two, three, four. Yeah, looks
+like we're good. So we can see the
+different, I know you probably can't see
+that because I zoomed out too much, but
+basically you can see each of the agents creates
+its own subtasks. Now I can get really
+detailed in that. So if I wanna take this
+a step further, I can use the workflow
+orchestration components and get really detailed
+on what each of those agents need to
+do but in this case i gave it a pretty
+broad description i you know i said basically
+create me a business plan for um doing a
+zero person startup you know so it's
+basically researching what a zero person
+startup would even do and it's going to put
+place those in the plans folder you see
+that it's starting to build some files for
+it let's see so this is an automation there's
+the automated design for admission minimal
+well you probably can't see that i
+think i zoomed out too So basically, this is the first one that's done. Let's see what
+it's doing here. Control-Shift-V to
+render markdown, by the way, if you're
+interested. I just like reading it
+when it's rendered. So this document
+outlines a comprehensive workflow for minimal
+human intervention. Okay. Looks pretty good. financial that's cool
+everyone seems to want a zero person startup
+so want to create a system for it that's
+kind of what i was thinking and again the
+this flickering things little annoying but
+doesn't necessarily mean anything it is
+it is working question for you will this uh
+recording be available after the call here
+yeah it will at some point be on video dot
+uh video.agentix.org if you guys are this
+week i'm going to move to restream or maybe
+find someone to help me set it up
+before the call um two weeks in a row i haven't
+been able to stream to linkedin for some
+random error that i don't feel like
+debugging right now so uh sorry about that but
+we do we are recording this here's another
+file so this is creating the comprehensive
+zero person startup implementation guide
+so this is what i'll and i get a kick
+out of this by the way one to two months for
+this sort of thing i i one month one
+before this is stuff that'll take literally
+like an hour or two it's i don't know
+where it works i guess if
+humans were doing it it might take
+eight months 12 months 18 months and then this will
+basically allow it to follow the
+implementation alright so it's still still doing its thing I picked up 10 quick question for
+you Ruben you know the github issue you were
+talking about where it just created 20
+check-ins and pushes. Are you using the
+native Claude GitHub integration where if you
+use that, you're forced to use their workflow
+with, you know, you've got to create issues,
+going to create PRs, going to add Claude
+mention, review the PR. Or are you using
+GitHub MCP where you can use your
+own GitHub workflow? I'm just telling it
+to commit and skipping all that stuff. And
+I'm just saying go and commit it to my, create
+a branch and commit it kind of thing, you
+know. and or i'm using what they call it the
+work workspace or work tree option i've used
+that a few times work where each of the
+different agents has his own work tree and then
+then i've got the final agent bring all the
+brings all the work trees together there's
+depending what you're doing there's lots of
+different ways to sort of you know to orchestrate
+these swarms i'm still learning to be
+honest like i launched this a few days ago and
+i so i'm still trying to figure out exactly
+what the optimal swarm is for different
+types of jobs and processes generally speaking
+what i've discovered this week is this is
+really good for complex code bases so if you
+if someone you know showed me a code base
+yesterday they had this 10 year old php
+applications about 30 30 000 lines of code and
+it was like a storage system and i pointed
+at it and i created a rust version of it and
+it basically recreated the entire uh it took
+that took about an hour um it's good at that
+and it's good at this kind of early stage
+research where i want to figure out what
+exactly i want to do and then and then implement
+it in in in a more structured way later
+now the fact that 10 10 agents was probably
+an overkill for what i'm trying to do
+here i'm really just trying to show off
+that i could do 10 agents you can
+see here it's storing it's it's it's storing
+its uh you know, plans and information
+to storage. So some of this being
+stored to memory. I'm gonna let
+this continue. Now I can go over here and now I can
+concurrently do another swarm. And I'll do spawn.
+And this time I'm just going to do
+something a little more simple, you
+know, assist the other agents in
+the implementation. Implementation of the dot plans, focus on
+the development. I'm vibing this.
+I'm not even sure what the heck it's
+going to build. You know, nothing
+really matters. I'm just showing what's
+possible. So in this case, I've got
+another swarm. Oops. I did spawn, not swarm.
+spawn something I am working on spawn
+but that's a different feature that I will
+announce later swarm spawns basically split
+spawn does or will do when I'm done is a it
+uses a more age agent style approach where
+the agent is a little more intelligent and
+and will orchestrate self-orchestrate
+it's kind of more reminiscent of like brew
+and the orchestration mode than that that
+but right now I'm all about swarm so we're
+gonna stick with that for now you can see the
+files keep on getting created here but to
+speed up the process i'm just going to
+go in here and i'm getting this this particular
+one which is using the auto strategy
+centralized and five agents to go and start
+implementing the plans yeah you see i maxed
+out my my cloud 4. as far as All right. And in
+this case, I don't necessarily want the
+agent. I want the agents to sort of do a quick
+review, which so and that so the spawning of
+the of the specialized agents should happen
+after it looked at what it needs to do.
+And I really like this new thinking option.
+I added yesterday. It really seems to
+give it a nice sort of, you know, improvement
+in terms of capability. It was pretty capable
+before. But you can see now you can
+see what it's thinking, which I like. so now
+i need to spawn five agents yeah lead or
+court yeah that's good so now now we've got
+concurrently we've got this this one
+running here doing the research and now we have
+this this one running doing the implementation
+so i'm currently running a 15 agent
+swarm for no freaking cost so just just
+to give you guys an idea cost for a moment
+which is just absolutely crazy over the last
+year i i've produced give or take 15
+million lines of code, which is astronomical.
+That's many lifetimes of code in the last
+year. In the last two weeks, I've
+created 5 million lines of code, which is also
+absolutely bonkers. And in the last day,
+yesterday, I created 2 million lines
+of code, which is, so give or take 10
+% of my overall code generation over the
+last year happened yesterday. And what's
+even more amazing, I spent give or
+take $100,000 on API-related
+work for the stuff I do over the
+last 12 months. In the last four weeks
+since I've switched to the Claude Max, I
+spent a grand total, including Claude Max,
+of something like $250. So if I was to run
+this exact same Swarm setup using
+my Spark 1 agent that I built last
+year, it would run me around $7,500
+an hour. And now I'm doing that at
+basically no cost. And it's all included
+in the $200 that I'm paying. So we're at
+this weird inflection point where it's both
+exponentially more capable, but also not
+just exponentially more capable, but exponentially
+cheaper at the same time, which
+is a weird kind of inflection. You don't
+usually see the movement of both capability and
+price drop and go in either direction.
+So I would say when looking back at 2025
+as a formative year for Agentix, I would say
+last week or last couple of weeks might be the
+most transformative of this year so far,
+at least if you're working in automated
+code-based development systems, just the kind
+of transformation. Just as a matter
+of interest, what kind of platform
+have you been creating 2 million
+lines of code in? Oh, okay. Is that a
+Salesforce replica? No. Well, you're
+a good question. All right. Well, client
+projects, but I am actually working on
+something in particular. Where did I put that? Is it this one? Yeah, here it is. All right. I'm going to let that keep baking a little bit. Yeah, so I'm trying
+to build the most complicated thing I
+could possibly imagine. Like, I'm not even kidding.
+it sounds like i'm full of **** when i say it
+but it's true um so what what i'm attempting
+to build here is a novel new distributed
+ledger system that doesn't require any bs
+crypto or anything like that to actually work
+but it's completely free and open so this is
+a quantum resistant distributed communication
+platform built with a direct acillic graph
+dag architecture and it's It's hyper-optimized
+for speed, where blockchains are antiquated
+20-year-old tech. If you're going
+to build a darknet today, you're not
+going to use blockchain unless you want a
+slow-*** database. So what I was
+attempting to build, and what I wanted
+to build here was a darknet service,
+just because. So we're using the
+dark address. It uses post-quantum-based
+encryption algorithms, high-performance
+DAG, QR Avalanche, Consensus, Anonymous,
+Onion Routing. I wanted to actually
+work with my Cloudflare account. So, you know,
+secure communications, network infrastructure,
+darknet sub -domain system. This
+all freaking works, by the way, unless I broke
+it just before the call. Let's just keep
+our fingers crossed. Yeah, here we
+go. So basically, so let's do cloud start. This is gonna
+run the node. This is, I
+literally built like a next generation
+distributed ledger with millions of lines
+of code. Well, in this case, not millions,
+but I churned through millions of lines of
+code to get to this in the last few days.
+And this is gonna be a blog post I might
+do later today or tomorrow, but I've got a
+P2P consensus algorithm, DAG consensus, dark
+resolver. So if I want to go here and
+add a domain, let's go here. I'll show you
+what that looks like. I'll do, and I got to
+remember what the command was. And I, and I
+optimized it using self benchmarking
+system. So this, the benchmarking system is
+actually built in Python. And this allowed me
+to get, you know, millisecond response
+times. So now if I want to add
+a domain I'm going to do that address
+I don't remember what that was so
+I'll do help on that and we'll add
+that so we'll add register I think
+it's register and then I usually
+I just point the AI you get to this
+and there's a whole API with this too
+by the way yeah you know it just
+uh what I've seen here is what's being
+unlocked is play just being able to play
+at that create level of creativity is is
+what hasn't been there yes i've been i built
+a novel massive this this is like roughly
+uh you know a thousand times more complex
+than the first version of ethereum just if
+you want to base if you want a sort of base
+level of complexity and it's obviously
+way more efficient and doesn't require
+some ******** crypto to to use right so
+this is everything a blockchain should be it
+isn't a blockchain it's a dag but you know
+conceptually it's similar um but yeah
+it's like hey i'm gonna build i want to i
+literally said to the swarm i want to build
+something that's never been done and crazy
+complicated like basically that's the guidance
+i'm giving it and it gave me some ideas
+and like why don't you think about doing
+a p2p style uh quantum proof dark net well
+sure let's do that. And I did that, you
+know, and this has been running basically
+for the last, uh, 48 hours or so. But if
+you go here, you can, you can check it
+out. I'm going to do a blog post on it when
+I get it, when I'm fully done doing it.
+I'm sure everyone will be like, what
+the **** man, but, um, here it is. You
+guys can try it. And this
+has been, by the way, this is all
+built in rust, which is probably
+the most complicated system you could
+probably build these things in. So we
+can go here. We can see the core. We'll
+go to the core. Can I ask you a question
+about this warm? Sure. Let's go
+back to that. Wouldn't you be
+duplicating some tasks that are similar for each particular process? Or how does that work?
+You know what I mean? i ran i ran i ran i
+reached my limit when is 5 p.m utc in in in
+a half an hour **** i went i overdid i overdid
+this warm guy sorry about that sorry say say
+your say your question again so you're
+creating obviously the parallel the actual
+processes and they have to create the tasks correct
+with regard to what they're doing wouldn't
+some of those tasks be repetitive and
+you're basically birding tokens as they're
+doing it no i've got coordinator that
+that manages that
+so the coordinator the coordination
+system it basically allows for the system
+to avoid overlap so when you look at each of
+these tasks and we can hit control r to get oh
+no i can't do that with with this but basically
+each of these you see one's doing market
+research the other doing is doing the
+technology stack the others in model agent legal
+compliance and so on and this one it was
+doing this this one was doing the implementation
+so this is a lead coordinator agent then
+it's got the customer acquisition specialist
+and so the each each of which is using different
+approaches so what's interesting here
+when you look at the actual steps is the
+time now if i was using cursor or Roo or Klein
+or one of those tools, I could probably do most
+of the same things, but those are going to
+happen sequentially. So the first thing would
+take seven minutes. The next would take
+13, seven, two, seven, seven, seven. This would
+have been what? I'm not doing the math
+quickly, but let's say probably more like 40
+minutes, 45 minutes. But instead I did it all
+in roughly 13 minutes, right? So I'm taking
+a 45 minute, at least a 45 minute
+project and doing it in 10, 13 in this
+case. Have you thought about the ability
+of the parallel processes talking to
+each other somehow, communicating through
+the JSON memory? Yes. Yeah, so that's
+exactly what's happening. So there's
+an internal memory that allows it to
+also coordinate. So you'll see here,
+and I apologize, guys. I was on
+call since 8 o 'clock this morning,
+so I apparently maxed out for the
+next half an hour. But we can discuss
+it regardless, or I can help you guys see
+some of your bugs. But in this case, you've got this option
+for memory. And I'm going to build
+this out. Again, I launched this last week
+after building it for like a day. So, you
+know, it's... And last one is, this is my first
+time actually physically looking at you.
+You're one of the few people that actually
+looks younger than their picture. I don't know
+if that's a purpose. For those who care,
+I'm 46. six yeah so i but which which in like
+the age of ai means i'm like a grandfather
+i i've been i've come to learn but well
+you're impressive that's exactly what we all
+try to do at least i try to do the same
+thing when i get to a certain point and i need
+to get further the only verbiage i can come
+up with is ludicrous mode or something to
+get to the next level and think of something
+so you're absolutely this is this is great
+stuff man i'm really looking forward to uh
+you know following you on this and one more
+thing i know you probably don't even
+notice it but like i work with high schools and
+stuff and i point the kids to you so you may
+not you may think we're a bunch of old geeks
+looking at you but there's a whole
+generation of people that really are looking at
+what you're accomplishing so definitely keep it
+going man i appreciate that and again i'm
+just i'm loving this sort of age of creation
+the age of abundance the ability to build
+random ideas on monday launch it on
+tuesday and and basically either it works and
+there's 50 000 downloads on wednesday or i move
+on to the next thing that's it that's my
+entire plan and this so this sort of thing
+is i like as an old school dev i'm like living
+the sort of cyberpunk future i read about
+when i was a teenager right so if you don't
+mind me asking that question around the
+turn of the century you were on 20 right and
+you saw the whole dot -com evolution happen
+how does this relate to what you experienced
+25 years ago. And I don't want to get
+too much into this. I'm kind of
+blocking everybody's time, but I'm just
+kind of curious. Well, what's interesting, for those who know me, when I was 12,
+this was 1990. You can do the math. I am what I am. I was
+one of the first beta testers for AOL pre
+-launch of Windows 3.1. And that was my introduction
+to sort of online technology. At the
+time, I was running my own BBS, plugging up my
+parents' phone lines. So I've always had
+an interest in this technology. And when,
+you know, when I was a teenager, you know,
+1994, the internet became a thing. And of course,
+I created the high school internet club
+because, you know, I'm what a nerd grows up
+to look like. and and that introduction to
+sort of you know other like-minded individuals
+i created my gopher message uh system and
+all that sort of stuff similar to you know the
+discord channel today but using gopher for
+those old enough to remember what that was
+and then i discovered ic irc and was literally
+the irc and it was distributed it was
+decentralized and i met sean fanning on on irc
+who was creating these bots. So a group of
+us, this was like 1997. We were creating these
+bots, F-bots, looks almost exactly like
+what this is. Like this is what essentially
+an F-bot was, right? You had these
+different commands, you could run them. And we
+were using it to share this brand new
+technology, which was blowing our minds at
+the time, called an MP3. And we're like, what
+if we could create a system to share these
+MP3s in a more automated way, like not just
+using this kind of text-based interface so
+sean who i met on the irc says let's let's
+design this thing and so we devised this
+thing called napster and the what what happened
+was it blew up kind of like the claw
+the cloud flow like literally overnight based
+on this kind of core group of ic irc users
+and next thing you know everyone everywhere
+was using it and it became a whole thing
+and then metallica which was my my my idol
+i loved metallica in the 90s i saw them
+in Irvine, you know, Meadows in Los Angeles
+and the whole place burned down. It was like my,
+my, my band, they, they like suit us,
+which was like the most devastating thing you
+could ever imagine. Anyway, long
+story short, that, that, that burned
+out pretty quickly, but that introduced
+me to a whole variety of other
+technologies. So everything that
+you're seeing now is kind of like for me, an
+evolution of like the last 30 years, right?
+I dreamed of creating these autonomous AI systems
+that could communicate and collaborate and
+spawn, share information. You know, when we
+launched AWS in 2006, the driving factor
+for the first versions of AWS was to create
+these kind of autonomous platforms that would
+self-heal and self -scale. But it turned out
+what we were missing, you know, in that
+early work was the fact that we didn't have the
+sort of intelligence to do the self-automation.
+So as long as we stayed within the sort
+of guidelines of the procedures, DevOps
+style, it would work. But as soon as something
+went beyond the sort of scope of those procedures
+it all it would all fall down that now
+all goes away anyway yeah this is great
+thanks man yeah good to virtually meet you so
+yeah thanks thanks for showing up um good
+question on your on your memory system uh rUv are
+you using in your current system you are you
+are using the claude native hash memory
+slash memory system or using your your pre-built
+or an mcp memory system i'm using mine and
+it's and currently it's json um and i'm just
+compressing and i'm thinking about using
+my symbolic uh logic system this you know
+symbolic language system potentially for that going
+forward but basically i'm doing i'm using
+two approaches i haven't rolled out but
+hidden in in the code you'll see that i'm using
+SQL lite as well, which I might use in an
+update maybe next week, or if anyone wants to
+help contribute to the project, you might want
+to take a look. But basically, I thought
+the simplest approach is the best approach.
+So rather than going and using a vector,
+which I could do, and for those who are interested,
+I do have a vector implementation here,
+which I called fact, which I could easily
+integrate to do exactly that. But this seemed
+to me to be overkill. so rather than rather
+than using uh you know this approach i figured
+i'd go and use a a much simpler json based
+approach i mean that's what you're seeing right
+here so the benefit of that is you can
+integrate with anything so this is this is
+what it looks like so i mean the simplest the
+simplest system is to use claude's native
+inbuilt hash memory system but um but that's
+fine it doesn't work well i i know i agree
+i agree i've tested it extensively and i do
+not like it it's it's not it doesn't work well
+yeah so i i tried that at first because i'm
+like oh i'll just use what they have and
+then i quickly realized that it uses this idea
+of the clod file here as the basis and the
+problem is it only pays attention to this file
+at the very beginning right that's what
+that's what it does yeah yeah so what i did is
+i took this clod file and i gave it some
+guidance on how to use my monitoring systems
+and my and the various other things like i i
+created a uh a ui as well which again i'm
+looking for contributors you guys are interested
+let me show you what that looks like i think
+it's not working by the way i'm it's it's
+still in development and uh yeah it's this
+is in development this is not it's it's
+definitely not stable i do have a stupid
+question are the tasks able to use our mcps
+to do stuff that we set up or no uh yes
+yeah yeah yeah i use all i i use the like
+you can see here i've got i don't know if
+i have mcps on this particular install but
+um yeah the sub agents in here at the mcp
+configure of the of the parent yeah yeah
+i would love to know what mcps you use
+actually i like i'm using one of my favorites
+is is the Supabase MCP for really complex
+edge functions. I'm using it for the various
+types of triggers and stored procedures,
+it's spectacular. So I'll point it at a
+project and basically say, create me the
+world's most intricate database structure
+and it'll just do it. What about for like
+scraping or anything like that or even
+bringing data in besides the native cloud stuff?
+How would that work? um yeah yeah you can use playwright
+things like that so i'm gonna work i and
+fire crawl are usually good for external
+browsers uh whoever was asking earlier yeah
+fire crawl is my go-to no i guess i'm just
+thinking about the process right now you mentioned
+that the native uh claude used the
+native cloud tools to be able to do the research
+right we can't replace them if we wanted to
+at that level right now right yeah yeah you
+can yeah so i i don't have that in this
+particular version but um yeah you can add
+and and they rolled out streamable http the
+other day so now you can use all the streamable
+ones as well like composio and and mcp run
+and a few other services um i'm to those who
+mentioned yes this is a work in progress
+um the issue that i i'm i haven't got to yet
+is i'm using i think web sockets for this
+particular implementation of the ui but i do
+have the ui i just need to connect the web
+socket again i just gotta have time and you hear
+the biggest complaint about anthropic with
+regard to their deep search is not really
+working the way it used to when it first came
+out because they're overloaded with they're
+using a similar process as you are but what
+i hear is the results from deep search are
+just **** right now and people are complaining
+i don't know if you heard that or not or
+uh which service like deep like for deep search
+from claude themselves uh the ones you know
+it's in beta you can go to desk top or
+whatever oh yeah yeah yeah and it's a it's a
+multi-threaded process and um in the beginning
+was amazing now it's **** from what i
+understand and people are beginning to complain
+about it due to the fact that because so
+many people are yeah i'm doing stuff like this
+yeah yeah so i look look what i did i i
+was showing off and and i i got this yeah and
+and the only reason i got this is because i
+uh i was i was actually showing off all
+morning on like several other calls i should have
+probably limited myself this today just to
+make time for this call so my apologies but
+um you guys get the get the idea that this
+is pretty spectacular. Quick question. I've been trying to
+get clone the repo and rebuild it
+locally, and it's been failing in the previous
+recent disrelease. Just wondering if
+I'm doing anything wrong. I created
+an issue for it, but if anyone else
+has not had that problem or has
+had that problem. Yeah, the way I
+fixed it, I did it from Claude, and
+Claude fixed it. Yeah, you know
+what's probably the problem is I'm
+pushing my local dev environment and
+there's probably like configurations that
+I haven't included potentially. But the
+suggestion to use Cloud Code to fix
+it is a good one. That's probably
+what I'll do. You're probably seeing TypeScript errors,
+I would guess. Yeah, that's right. And Dino and...
+Yeah, I didn't have Dino installed the
+PK-zip, PK-unzip. And it kept blasting,
+crashing. So when I did it through
+Claw to just install, told me what to
+do, how to install it, and the whole
+thing just worked. Yeah, I've been
+moving away from Dino. So the biggest issue
+I had last week was everyone was suffering
+through Dino issues. So what I did is I
+ended up rebuilding the entire thing. Well,
+I, the bot, whatever, ended up rebuilding
+the entire thing using Node.js TypeScript.
+and now the the there was some regression in
+terms of capabilities that's why for example
+the ui stopped working because i you know i
+moved i had to move it all from dino so
+all the stuff that was working in dino's now
+has to be rebuilt a little bit so i focused
+on the core capabilities and the swarm
+capabilities i'll build i'll i'll get to the
+complete fix for all that stuff but But
+the quick, and you see that I've got a build
+script specifically for how I deploy to my
+NPM, that build script should work. And it
+sort of disregards the, where, oh, this is not the one I want to show. I got too many projects
+on the go here. Yeah, so there's a
+build script in here. Where the heck
+did I put that? I got to clean this up. It's a little messy. Have you thought
+about doing anything around agent-to
+-agent payments and how that would
+work eventually? Yeah, I did.
+Stuff like that? Of course I did. Of course. I
+haven't done it recently. Of course.
+Yeah, of course. I called Quantum... No, that's not much for Quantum Applications. Where did I put that? Yeah, here it is. Is there any reason why you're moving
+away from Dina? It's hard to
+use with MPX. Yeah. Okay. Yeah. So I was attempting to do a quantum cryptocurrency. I did this a while
+back, six months ago. I should take
+this and I should integrate it with
+my quantum proof system I was
+building this week. Well, that's what
+I was thinking, kind of. Are you talking about the DAG
+stuff or different? what are you talking
+about yeah yeah that's exactly what i'm
+thinking that's exactly what i was thinking
+when you when you start talking about
+blockchain being old i started thinking yeah
+if you're able to record all this stuff
+appropriately that's huge and i also there's
+a little freebie in here i do a symbolic
+trading platform as well for anyone
+that's looking to do you know crypto style
+trading you forgot to put the word quantum
+in it for marketing Well, this doesn't –
+this other one actually – I know, I know. I'm
+just goofing around. Oh, yeah, yeah, yeah. Yeah, I'm going
+to totally do – I deployed this.
+I deployed this using Azure
+Quantum Services. Wow, that's impressive. And this was six
+months ago, by the way. So this was actually
+built with my Spark B1, and I probably spent
+several hundred dollars building this, And it's
+way more rudimentary, but I'm like, I'm,
+I'm a good sort of example of what, what
+the space looks like over time, because I've
+been sort of doing this since 2022, at least
+the agentic engineering components. So looking
+at my GitHub is kind of like looking
+at the evolution of the capabilities of these
+systems. Now, you can see here back six months
+ago, I was already using my Spark architecture
+and pseudocode. And this was kind
+of the major sort of aha moment for a
+lot of this stuff. And it started, you
+know, having sort of iterative test
+components in here. And I was able
+to sort of start iterating on it
+and having it automate for long
+periods of time. But this is probably
+embarrassing to even look at, given it's six
+months old. i should i should point um
+once i get the quota back up i should point
+it at this and say integrate it so what
+what i might do i might actually do that
+that's that'll give that'll give this other
+project a currency i'm just not really
+big on cryptocurrencies maybe that's my
+problem i feel like there's a regulator
+ready to jump on on me and sue me for something
+are you Are you able to share your
+default ClawdMD file? Yeah, it's built
+by default. When you do the
+init command, when you go, yeah,
+you get that. So, and I'm struggling
+to whether or not to give you like the minimal
+or the optimal. So I might add an optimal
+option because right now this is minimal.
+What I'm basically doing is I'm taking the
+scaffolding and then one of the first things
+I'm doing is customizing the scaffolding to
+the project in which i'm working on so if
+i'm working on like a quantum whatever i'm
+gonna say update all the commands and make
+those commands optimize for this particular
+project so when you look at these that's why
+they're minimal they're minimal because i i'm
+going and making them more yeah i do the
+same thing when i when i go to for optimal this
+thing explodes on me i'm like holy ****
+what am i looking at so many different things
+going on so but it's interesting so yeah the
+optimal is tricky the because the once the
+the problem with the optimal approach is it's
+optimal for the thing i tested against but
+not anything else so it's like okay i just
+optimized it to do a quantum system great
+but now i want to build a dashboard for
+something else it's like well it's going to try
+to do quantum stuff so it's just not you know
+i'm just i think it's gonna i think this is
+meant to be kind of a start kind of
+scaffolding more than any i'm not really sure
+what i want it to be but that's what i'm thinking
+for me as you know i'll take both so i
+don't care whatever you want to give don't take
+it so it's good stuff really good stuff i
+i'm curious how you think about kind of
+integrating with other team members like i'd start
+using um applaud to create user stories
+and personas put them into confluence and
+jira through mcp to be able to collaborate
+with other people in the agent tech workflow have
+you done any of that kind of collaboration
+or do you have any recommendations for
+that yeah there i have there's a slack mcp and
+i of all the ones i've tried the slack mcp
+is by far the best and what i can do with the
+slack mcp i'll have to dig that out i just
+i just get too much stuff it's hard to
+remember the stuff i was fooling around with
+three days ago. But the Slack MCP allows for a
+sort of bi-directional communication with the
+system. So not only can I get the Swarm
+to sort of update the Slack, I can then respond
+to the messages sent in Slack that get sent
+back to the Swarm. And I have a secondary
+means of communicating with the Swarm itself,
+which is crazy and amazing at the same
+time, where when I go here and i try to
+communicate with the swarm you'll notice that i i
+basically have to wait until it's done for
+any of my commands to get accepted so it's
+going to do all this stuff and then i'm sitting
+back and waiting for it to to finish by
+adding the by adding the slack mcp i've got
+the ability to embed communications directly
+in each one of the swarms itself and then
+subtly sort of manipulate or see what's happening
+in the context of that swarm so each
+of these creates It's basically a, what do
+they call it in Slack? A direct, like a direct
+chat or I don't know, some sort of direct.
+Yeah, private channel. Yeah, private
+channel or something like that. And so
+then I can output what's happening
+within the context of that to the
+private channel and then I can kind of
+interact with it. There's another
+way. Are you using that as a human in
+the loop guardrails? Yes. Is that part of it? That's exactly
+what it is. It's the key to the
+human in the loop is because I'm in this
+case, I've got 10 different agents running.
+I need to be able to communicate with
+either all of them all at once, everybody move
+on or specifically, oh, automation agent,
+you're going down the wrong path. So
+secondly, I need to be able to understand
+what the heck the automation agent is
+actually doing to understand where it's going
+down the wrong path. Because the way that
+they set up this interface, it sort of
+obscures some of the information a little
+bit, which I'm exposing in my memory system,
+but it's still not easy to quite see
+in real time. So how do you communicate
+with them during Slack? I'm confused a little
+bit there. You're seeing the process,
+right? But you're able to talk back basically
+and say something? Exactly. So I'm able to
+inject the response directly back into
+the system. Now, I can do that because
+I've created a ton of **** here.
+So this is in the build you gave us,
+what you just said? Yeah, I'm just
+having trouble describing everything.
+There's just so much stuff going
+on. But there is an MCP mode for this
+system as well. So this means that
+I can run this as an MCP in itself that
+provides the ability to have external systems
+communicate with it. Yeah, that runs Claude
+as an MCP server. Yeah, well, I could
+add the port. While you're doing that, hey,
+Andy, you asked about team collaboration,
+right? So you could also use the Notion. A
+bunch of people are using the Notion MCP,
+and it has like 19 tools. So it's pretty rich.
+So you could do Slack or I use Notion
+integration and Claude. I'd love to have a
+workflow where I can just like talk to
+Claude, say, go create personas for these 20
+different target audiences, then have those go
+to some marketing person get approved
+by marketing and then once those are approved
+come back to Claude and then UI starts
+to get generated and the UI goes back
+for approval you can definitely do that with
+Notion it would create a Notion page that's
+shared with a bunch of team members and
+it would create a whole bunch however
+you want it and then anyone who contributed
+outside of Claude in that process, Claude
+would see that update okay The way I've been
+experimenting with that now is I'm using the AG2
+framework, which allows support for the OpenAI
+real-time LLM model, so I can talk to what
+I call Ducky, the Digitally Unified
+Conversational Knowledge Engine, to orchestrate
+my Cloudflow instances. So I'm still
+working on doing it. I'm sure there's
+a better way to do it. It was just
+faster for me. Yeah, so that's actually
+a really smart way to do it. The A2, what
+do they call it? A2 something or other?
+AG2, which is Autogen. Yeah, Autogen. It's Python-based,
+but it's a really good option. What I really
+like is the Mastra approach to their MCPs.
+So for Mastra, which is basically another sort
+of agent framework, you can actually call
+any MCP as part of the flow itself, right? So
+this is how you call a secondary MCP directly.
+So I can orchestrate my swarms using Mastra
+or inversely. So this is probably the
+mechanism. When I do eventually publish
+the Slack option, I'm probably going to use
+something that looks similar to this. And so
+basically it's calling my MCP directly from
+Claude Flow, which I apparently broke last
+night. Sorry about that. And I'll fix that later. And then I can
+orchestrate both the Slack and my Swarm
+at the same time. So there'll
+be a secondary orchestrator here. It's a pretty cool, so
+this is all TypeScript too. It's a really
+nice system. It connects to registries,
+all kinds of stuff. I'm sure a lot of
+the other systems do similar things, but
+I really like the way they're doing it.
+It's very elegant. They've also got a
+memory system. So I might look at
+integrating some of it. Since I've
+already built it in TypeScript, it'd
+be super simple to integrate Mastra
+into the entire flow. And that gives
+me all their flow systems. And I don't
+want to be in the business of creating
+these things. I just want to create
+stuff that's cool. I'll let someone
+else. This handles the memory flow. I was
+very much inspired by Mastra when I did
+this in the first place, but I might
+as well just use it. Yeah, they got some
+pretty cool stuff here. So you can do the
+control flows, paralyzation. So that's my next
+big, getting the UI working and fixing my
+MCP server will run next two things. But then
+once I have that, I'm going to probably
+integrate this stuff. Ruv, I have a question
+for you. What do you do in the
+instance that you're running a couple of
+console windows running Cloudflow and then
+you have a crash? Like, is there any
+kind of elegant way to resume that? Because
+that is something I keep finding.
+And I am sort of testing the limits
+a little bit of it. Let me show you
+how to resume. I might actually add
+a resume option to my tool as well.
+I haven't done that yet. That
+would be awesome. But the quickest way
+to resume anything, like let's say you go
+to bed and you wake up and it's stopped
+in the middle of the night or whatever.
+you're going to do ctrl c and then you're going
+to oh let's just grab the other command so
+let me help i know clod help and the dain
+living dangerous this is the heart dangerously
+skip permissions it's so long and
+stupid i don't know why i mean such a but
+anyway i think it's on purpose right yeah so
+now i'm going to do dangerously skip
+permissions so the dash c allows you to
+continue and and you can take it a step
+further you've got the option here for
+Or, where is it? I think it was.
+In a multi-task environment, how
+do you pick the right conversation
+to continue? Yeah, that's a challenge. Yes, that's, yeah. So where is it?
+There's an option for that. And I include
+that in my memory. Resume, can you
+resume? Here it is. Session ID. Ah, interesting, okay. yeah the the the
+challenge is select is getting the session id
+so what i'm what i'm going to so what i'm
+trying to do here when you look at like uh
+where did i put where did i put this is that
+like linux session id like the process
+id or your claude or your it's claude
+specific so we're looking at the claude settings
+right now and i'm i'm essentially storing
+some of that information I just need to expose
+it more easily. So what I think I'm
+going to do with my memory is I'm going
+to include the option for these session IDs
+because apparently Claude doesn't give
+you an easy way to find out what those sessions
+even are. I think you can go back and
+take a look at the top. Could you include them in the Slack messages? Yeah, that's not
+a bad idea either. Here we go. Yeah, here it is. but the problem is
+when you need to use the session ID
+it's only at a point where the session is
+longer running and you're not going to
+know what the heck that ID is so it's a
+really stupid way to do it so that's why
+I'm going to save it in the memory and
+then all we need to do is go back to the
+memory list the previous memories which all
+have a session ID and that should solve
+the issue I think And you inject it
+into your bash prompt? Yes, that's exactly
+what's happening. Yeah. So it's... Right, and give it a cute
+name. Yeah. Yeah, exactly. So what I'm doing, I'm
+basically abstracting this stuff, right?
+So all the things you see here and the settings
+file is what I'm... So this acts as a
+wrapper, essentially, for Cloud Code. And
+I'm injecting prompts and various sort of
+additional environmental variables based on
+the settings, right? That's it. That's
+essentially what I'm doing. Can you talk a little
+bit about how you manage context, if
+anything, that you do? Yeah, I'm condensing
+it. So each of these subtasks
+uses a to-do option. So there's,
+you can invoke, well, like let's go
+to Cloud SDK for a second. I'll show you
+what that looks like. Cloud code SDK. I'm still using Google. You're not dead yet. All right, so
+Cloud code SDK. So what I see here
+in the Cloud SDK is you have all
+these different options and tools, right? To do, yeah, here
+we go. so you can see here that I
+can define my MCP servers and I can
+define to do's I can yeah I can I can
+describe those and I can abstract those
+in the file so I'm inject I'm either
+crank temporary files or I'm creating
+prompts I inject one of the two the benefit
+to temporary files is it's clean and
+separate but the drawbacks is you can't
+see it so what so well because it
+doesn't show in the UI So depending on
+what I'm doing, I do a little
+bit of both. You can see
+basically everything I've done is a
+combination of CLI arguments or
+SDK arguments. So I'm just using this. And the other thing
+I did, which is also interesting, is where
+is that? I think that's under, I'm
+going to find that, batch tool. uh they don't do a
+really good job of describing the batch tool
+yeah seriously it doesn't even come up in
+their search i i the batch tool was the
+thing i discovered that really made all this
+stuff work i'm thinking it's on purpose but
+that's just check us out i i do i what what's
+annoying now is i'm like the the first
+result and so it's like it's like a feedback
+of my own information. It still makes it
+even more hard. Here we go. Number
+one result is me. That was my post
+I did last week. Number two. I'm the first
+three results. That's not very helpful. Maybe two. But okay. Where is it? I've permanently skewed the results.
+It's all me. Okay. Okay, so
+now I can't even find the thing
+because I'm almost every single one
+of these results. Click code CLI maybe. Here we go. This is the old
+command line. Yeah, I guess it's
+sending me back to this. It's me. Is Swoom using
+the batch tool? Yes, it's the main thing. So this is literally
+my description. Thanks, Google,
+for giving me no credit. But anyway. Are you looking
+for Anthropics page on it? The batch
+processing page? Yeah, that's what
+I was looking for. Doc slash doc slash
+build dash with dash cloud slash
+batch processing. No, I'm not looking
+for batch processing. I'm not looking at
+batch processing. I'm looking at
+batch tools. Batch processing is
+something different. it looks like
+they might have actually hidden
+it like they really don't
+want us to use it that's interesting
+I think it's causing a lot of problems
+because I think it's really slowing them
+down look at that it's gone this was on this
+page last I obviously discovered it somewhere
+I think they've gotten rid of
+the batch tool uh documentation could be
+the 50 000 downloads i had and the 30 agents
+were each running i single-handedly cost
+them a million dollars a day well you kind
+of if you think about what how many lines of
+code you're doing yeah you are i mean they
+don't think about the the cost speed differentiate
+differentiate i don't know you know what
+i mean it's interesting it's really interesting
+the price they're charging us for
+tokens is not what it costs them to produce
+it yeah no of course not there's a there's a
+99 markup i'm guessing um i don't see unless
+unless you guys are are i found that last time
+on the batch on the sdk page they've
+totally they've totally removed any mention of
+batch tool yeah i'm sorry i might have missed
+it you were talking about context how you
+met managing it you went to the sdk side i still
+kind of didn't get what you meant um so
+i'm using i'm using the i was oh i was
+hoping to show you guys the batch tool
+documentation which is gone but basically in this
+is what i'm doing so and you can do this
+it's the top of the hour so i think we're
+back i'm back so we're gonna go and
+we're gonna do dash c actually we're gonna
+start fresh i'm gonna go back here and i'm
+gonna live dangerously and so you can basically
+create your own swarm by doing this
+create a I'm gonna do it to agent swarm
+that way use up my tools swarm using
+batch tool to implement the zero-person
+startup system using a modular file holder
+structure, something like that. I don't
+know. I think it's 5 o 'clock UTC, so we
+should be active again. I was only limited
+for half an hour. And I'm not going to
+do 15 concurrent agents because I got work
+due this afternoon. But you see here,
+it's thinking. Here's how it's thinking. Here's how it's
+going to do it. It's going to look at
+my code. Now it's launching two
+agents. This is it. The basis of everything
+that I've done is based on that batch
+tool they apparently don't want us to
+know about you don't take away this is
+the first agent and this is the second
+agent and now they're running in parallel
+a future version of cloud code will
+probably remove batch tool functionality
+outright so they better not that's the
+best freaking part if you have a really
+good prd can't you focus on this and just kind
+of break it up in a way that you could
+have multiple processes putting it all together
+or is that too early still to do something
+that's exactly what you're doing a hundred
+percent no that's that's exactly what
+you're doing so you're great the better the prd
+the better the output and most times a
+client comes to me and they're and like i do
+these hour coaching sessions and people
+basically show up and like what can you build for
+me an hour and the the key to that is basically
+before you even show up have a detailed
+sort of deep research you did on google or
+whatever that basically outlines exactly what
+you want to build how and what tools you
+want to do and then i'll give it a quick look
+over and i'll realize it's missing something
+or other and i'll and i'll point the
+agent to just click news just to do a more you
+know clean appropriate version of it and
+then i literally got it run for an hour
+but do you have a good process to create a good
+prd that you do use or this is the entire the
+entire problem here is having a really
+good prd is it's what i call the it's what i
+call the first mile problem you know everybody
+wanted to talk about the last mile problem
+and like networking the prd is the first
+mile problem you you you got to be like a
+you got to know all of the different parameters
+you don't know the tech stack you got to
+know the market you don't know that the
+the product in and out that's what but but in
+fairness that's what this is doing so in
+terms of this structure what i'm doing is i'm
+again it's minimal but i'm i'm telling you
+know how the agency to work how the memory
+works what what each step looks like you know
+i'm using code to do it because it seems to
+work better with code definition i'm saying
+what the pseudo code looks like um then
+i'm saying what the architecture needs to
+be and how you refine it and then what's you
+know then how you complete it but yeah but
+to david's point you've you've created a
+good prd i mean it's right basically in a
+sense that's a that's a response that is a
+response what we're looking at here is a
+response to somebody who gave an initial
+prd prompt that have done like you said
+spent a few hours doing some research about
+thinking about your product your your use
+cases your your user stories like i'm a i'm
+a product manager by trade man that's i've
+designed complicated systems my whole life
+and complicated prds i know how to do this
+stuff but am i in my sleep you know to
+build a really good prd i i get paid to do
+that it's my day job yeah and that's why
+that's why we still need you this isn't
+this isn't magic we're somewhere someone
+has to describe what they want to do
+and what it is. I totally agree, man.
+That's why I think that actually product
+managers are not going away in the world of
+agentic workflows. I think for many of
+us here who are still learning how to use
+Cloudflow, the thing that's helped me accelerate
+quickly to getting it running for three
+or four hours without interruption has been
+to define in about three or 400 words,
+the application or the thing I want to build,
+and then ask it to list 10 things that are
+unclear or need to be improved and keep iterating
+until I'm satisfied that the next 10
+things are irrelevant to the application.
+And then ultimately, that ends up with maybe
+a, I don't know, 300, 400 line markdown file
+outlining the project along with supplemental
+documentation. And that seems to be
+enough to get to the point where I can walk
+away comfortably and come back to a prototype
+that i can play with yeah that's a really
+awesome iterative iterative sort of way to
+iterate through developing a prd i love that
+that's cool if you know if you're not if
+you're not a technical product manager who's
+used to sitting down and writing a 20 page
+prd like like i am that's a good way to
+develop a prd i have people ask me all the
+time how do i define my prd so that I can
+actually start with Spark because they want to
+know the first step. For me, I write a 17
+-page PRD out of my head for a product
+because I know how to do that. And that's
+my starting point. But your iterative
+process here, that's awesome. That's a
+great way to do it. Yeah, yeah. Oh, and Mandeep shared
+a nice little snippet here. I don't know
+where he found that, but this is the key
+to the parallel usage. Um, so with less likely
+to make parallel tool calls, four,
+four seems to be much more willing to make
+parallel tool cause. I don't have any
+issue. Uh, 3.7 was a little weird that
+way. 3, 3.7 ******. I don't know what
+that was all about. That was like the, or something. It
+was just garbage. Um, so the link is there. Okay. Well, feedback there. feel like I got my guitar there for that one. Um, all right. I,
+I, you know, some people are having some
+bugs and you know, maybe let me know,
+like you can't get installed or whatever.
+Let me know. I, I, again, I'm,
+this isn't like a business, a startup.
+I'm literally just creating **** and
+seeing what sticks. Um, so you get what you
+get a little bit when, with these things that
+I'm building, but the, my, my suggestion for
+anyone that's having trouble point, Claude
+clone the, the actual repo and point cloud
+at it and say, fix it. That's literally pretty
+much all I'm doing. Ruf, do you have any
+sort of guidelines as to when to kind of
+specify the amount of agents for a thing or
+whether to just let it decide on the right
+amount of agents? I know I just, to
+test it last night, I tried with 30
+agents and it wasn't such a huge task,
+but it was quite amazing how granular
+each agent became with what their
+responsibility was. It was pretty
+impressive, actually. yes i did i did 50
+agents once as you guys could tell and i was you
+know it worked amazing i cranked out again
+i think it was 500 000 lines it was totally
+functional and i was then quote quote
+limited after like two hours but that that did
+work but generally the reason i set five
+agents as a default is i didn't see much
+improvement um for most things when i went beyond
+five other than And, you know, it's, you
+know, if I was optimizing using an MCP, you
+know, and I wanted it to, you know, spin up
+a GPU cluster and then do like, you know,
+massive distributed sort of testing, then I
+would spin up like 10 different agents to do
+that. And I was using Hugging Face for that.
+But for most things, I didn't see a
+particularly, you know, dramatic increase in
+performance using 5 or 10. So 5 seems to be optimal.
+and then later on and so i let this thing
+like back to that q dag system i was telling
+you guys about and in that i i would after
+almost two days of running almost non
+-stop with a with a five agent cluster i then
+used a much smaller cluster to actually fix
+some build or i use a sequential approach
+to uh where the heck did i put that
+thing i got too many things open
+yeah so So right here, you notice I
+did benchmarking. So this benchmarking
+tool, which I built, I didn't build this
+in Rust. I did this actually, ended up
+doing this in Python because it was faster.
+But this basically allowed me to
+sequentially build and test and then figure
+out where I could get better
+connectivity. So in this case, you can see here
+that I was getting 38 millisecond
+average response time. And then I was creating
+a cluster of 50 connections and I
+said, did it go up? So what this was doing
+was helping me optimize the system,
+right? So I'm talking one millisecond
+obfuscation and deobfuscation, which is
+what you want to see. So part of this was
+done as a cluster and then the final
+fix is sequential. I don't know if that
+answers the question or I was rambling at
+this point, but this is a perfect example.
+So whatever I'm building, I don't
+actually assume it's correct. Correct. I
+always take a really, I'm basically, I
+think it's BS until I've run a series
+of different benchmarking and
+optimization processes on it. So in this
+case, you can see I ran, so this is how I
+did the benchmarking for the dark
+addressing system. And I created a
+CLI for it. This is actually built
+all in Rust. And then I get, give me a final, a final benchmark. And then I realized
+Rust was kind of a pain in the ***
+for benchmarking. So I switched back to
+Python and then, and then here we are.
+I've got I get the whole system so
+I benchmarked you know deployments and
+all kinds of stuff analysis here's
+here's the final optimization so this
+ran all last night just running fixing running
+fixing so and then and then I ran this
+morning and fixed all this stuff so
+I ran some problems with large message
+handling natural transversal DAG
+operations and then I had some some suggestions
+for optimizations. And then the quick wins, you know, I could
+see a massive performance
+increase here. Let's see what
+that looks like. Again, this would
+have taken a team of dozens of people,
+months or years of work. So here's my
+performance bottlenecks, variants. One question, Mark. Ruv, have you
+seen a tendency for, I see
+particularly Claude try to generate a
+lot of mock data. It defaults to
+implementing mock test cases and mock
+data as opposed to actually running
+a benchmark. Yeah. That **** happens
+all the time and makes me want to
+throw my computer. It does. It 100% does. It happens. that is
+exactly why I'm doing what you're
+looking at. So not only am I doing the benchmarking testing, I'm making sure that
+everything I'm actually doing is something
+that I can review. I assume that it's
+bullshitting me at every stage. So I need to
+see here like, okay, here's a thousand
+iterations, here's a hundred iterations, and I
+need to know that the average time on a thousand
+is gonna be different than the average time
+on a hundred because obviously it's 10
+times different, right? So we can see here that
+it struggles a little bit on some of the larger
+vertice operations, which actually makes
+sense, which would indicate that this is
+actually true. So you're saying I'm doing ops
+per second here. What is that? 152,000. This
+is 51,000, which is again logical given
+it's 100 versus 1,000. So this is all the
+proof that's going into my benchmarking that's
+telling me that everything I'm doing is working
+and not just a hallucination of a
+system that looks really complicated, but truly
+a system that actually is novel unique and
+never been done before so you know this if
+anyone goes and says okay what you just built
+is ******** i've got everything i need to
+prove that no it's not ******** this is
+actually fully functional yeah that's huge
+explainability is huge and then there's like the
+the step of not just being able to inspect
+the json manually but than incorporating like
+observability graphs. The problem being
+that you have to essentially vibe
+code the graphs for your new
+benchmarks each time you create a new
+benchmark, but. That's exactly
+what I'm doing, but that's the best part. I literally
+built an entire benchmarking system
+just for this random thing I wanted
+to build, right? So you're building
+the software for the software. Now, in my
+mind, one of the reasons why I was thinking,
+well, I'm gonna build the benchmarking system in
+Python on for a Rust -based system was a
+kind of independent or Rust-based system. So
+I thought that if I built it separate, it
+would be a more independent analysis of the
+system rather than the original benchmarking
+system that I built here, which was
+essentially doing similar things. But what I ended
+up noticing was there was really tight
+integration with the system. So I ended up not
+going down that path. Where is it? Are you abstracting to like HTTP? Like, are you, at what level are
+your test harnesses? It depends. So this
+test harness you're looking at for
+the benchmark, the Rust-based benchmarks
+were direct integrations into the tool
+itself. And then, but I want an independent
+sort of analysis. So what I ended up
+doing was using the API and the CLI as a secondary
+call. So everything you see here within
+this particular darknet system actually
+has a corresponding API system. And that's
+what I ended up using. That makes a lot of
+sense. I feel like the CLI is kind of now gold
+standard for making things interoperable
+at the command line, especially now that
+these terminal agents prefer to operate there.
+so i'm even considering like moving a lot of
+my documentation to the llms.txt format
+and just exposing curl commands as like the
+documentation itself so that the models can
+just run it in situ um that's a super solid
+approach thanks for that yeah it's you know
+it's it's we're we're living in some crazy
+times like i don't know so that i'm not
+even sure how to even i'm gonna put i'm gonna
+do a post this afternoon maybe when i get a
+minute on how i built this system like using
+the swarms and the benchmarking and all
+that for those that are interested as not
+necessarily to use a dark net i don't know if
+anyone actually cares or wants to use a dark
+net system but it's more like the process
+i went through to build a very very complex
+system can you think can you think about
+something about cyber security for example
+something like unison accounting is uploading
+a bunch of stuff to deep seek how do we
+focus on protecting that because that's a lot
+of demand for that kind of stuff i would
+think yeah that that is something that it's a
+little bit worrisome this clod swarm system
+is really really good at hacking stuff like
+crazy good and it turns out all you need
+and i'm saying okay first with great power
+comes great responsibility don't be an *******
+and hack people blah blah blah okay now we
+get that out of the way this system is
+really good at ethical hacking and i pointed
+this thing at some code i did for a client
+project yesterday and it found crazy
+vulnerabilities, not just in the thing I built, but
+everything that they had already built
+previous. And I actually sent them a list of
+like a hundred different ways I could get into
+their system with proof of how I got in.
+This system did the whole thing. All I did
+is I said, do a pen test on this code. And
+then it followed the yellow brick road back
+to their original site. And it, and it did
+the pen test on them without me even asking
+and found all the vulnerabilities and then
+unfortunately it actually went in when it went
+into their system it was crazy like i
+just basically said do an ethical pen test i
+i don't know how going into their system was
+ethical but it did it what about finding
+all those hidden api points that nobody
+documents and they're there oh yes that's
+even that's even crazier i did that you're like
+literally reading my mind um so what you
+what you can do and this isn't meant to
+be like a how to hack stuff to speak be nice
+guys but what what you can do here is you go
+to your network area and try and yeah so
+once you've got this uh where is it you can
+do a search for you know apis or whatever i
+guess this site doesn't this this type
+doesn't have currently given me anything for
+some reason but um depending on the site
+you can then use this to to sort of inspect
+what's happening and all you need to do is
+figure out where the api calls are and then
+point it so here we go This is a perfect
+example. So here we get, we see
+it's using Google. There's not much
+happening on this site. Yeah, you're on
+the docs domain. If you went to
+the, I think probably the API
+URL, it would work. Yeah, and then I
+basically pointed at the API and
+I say, look, you know, do a pen
+test on this API. Maybe I'm
+searching for you. Was a lot of
+the pen testing examples like just
+inspecting DNS? It was following
+and looking at the obvious locations
+for things like swagger and ports
+and structure. And for most of the
+stuff, it basically found, like, the
+open API.json file. And once I had
+that, it just did a series of different
+vulnerability tests and sort of
+brute force attacks. And it got right in. Jeez. Yeah, it was. And the swarm did it.
+and i did i i that's where again i feel like
+i shouldn't be saying this but anyway that's
+where i did a 10 uh a 10 agent swarm and
+it was it took like five minutes and i was
+and i was totally in wait so this is where
+this is where people are not talking about
+the dark side of vibe coding people who don't
+understand this stuff and what happens when
+they go in production um it's scary if you
+think about it right yeah it's well the ease
+and all i and it the ease of which it worked
+and the fact that i just i all i needed to
+say was be ethical to be unethical was it
+was all i needed to do to get around it
+literally the word ethical yeah well it totally
+worked so yeah i'm doing an ethical pen test
+which i was in fairness but that's all it took
+and we can't get the formula for creating
+meth but we can do that that's that's that's
+the funny part i don't know if you know what
+i'm talking about the llms are all saying
+you can't get like drug formulas right so
+uh yeah i mean to your point you're absolutely
+correct yeah i don't know what you're saying
+is i can't get the formula to create some
+kind of uh ******* drug right but i can i
+can hack a pharmaceutical company in five
+minutes right that's exactly what i'm saying
+right it's it's it's crazy just say uh
+ethical nuclear bomb and we'll do it for you yeah
+an ethical yeah craig it's i think the the
+uh are the days of like human-based security
+ops might be over that there's no way a person
+can deal with you know a swarm of agents
+that are doing nothing but looking for
+vulnerabilities 24 7. would you say that's a smarter
+approach for places like super base to
+upgrade their mcps to look for these kind of
+things because they're like a certain line
+of defense and that's an interesting market
+strategy for the for those type of companies
+i would think but you know it doesn't sell
+more super base credits that's a good point
+super base is an anonymous token concept
+for most of the access for their system which
+means that you're essentially relying on
+cores for authentication of the edge functions
+and potentially rls rules for the database
+now the challenge you have with both of those
+things is both can be hypothetically you
+know without without some really detailed um
+procedures in place can be spoofed without a
+whole lot of effort right so what makes
+Supabase easy is also what makes it super what
+makes it easy to implement makes it super
+easy to hack so if you are using using Supabase
+make sure you set up your cores policies
+for any edge functions. Otherwise I'm in and
+make sure your RLS policies are dead, are
+really, really strong. That's why I use the
+Supabase MCP. And I say, you know, do a pen
+test on Supabase. And I let it run for a
+while and it secures the **** out of it.
+Is that why you're interested in the stuff
+that you're doing with DAG? Just to understand
+the security side of the process. Maybe
+you'll create a quantum base or something
+you want to call it. That kind of handles
+some of these things. Well, maybe that's an
+approach. the the the ability to exploit
+bitcoin and ethereum right now is so freaking
+easy it's it's not even it's not funny so once
+i realized that you know basically without
+with rudimentary effort you could basically
+exploit their their system it's like this
+isn't going to last so those technologies are
+******** so then i'm like okay what what
+comes next like if i was going to build a
+blockchain today which i did what would it look
+like well it's certainly not going to look like
+a linear blockchain that drags every
+freaking transaction ever along with it, because
+that makes no sense. I'm not going to use
+proof of work, which makes no sense, or any
+of those other sort of consensus algorithms.
+Basically, it's 20 -year-old tech. So that
+was all my sort of thinking in my brain
+while I was pondering what I was going to build.
+And so I like DAGs. I like the sort of graph
+structure. I like how it mimics a neural
+network as well. It can work in various sort
+of structures like a vector just as easily as
+a neural net or in this case a just a
+decentralized communication system that all went
+into the thinking process and and and i also
+don't want i also like the fact that all these
+freaking blockchains require you to buy
+some token like why so i i wanted to build the
+system explicitly it didn't require some
+some kind of like token to access it i want it
+to be free accessible for anyone that that
+that was my planning anyway i like it wait
+i want to play i want to clarify something
+you say it's easy to hack bitcoin you mean by
+using quantum technologies i'm not gonna tell
+you guys how to do it but there there's been
+a recent breakthrough like in the last
+month and a half in terms of quantum
+capabilities go go search and you'll see what i'm
+talking about it's never been easier to do uh
+hyper optimize and crack various forms of
+encryption unfortunately we're we're in uncharted
+territory i'm really actually i'm really
+not sure why no one's really talking about
+this so much but they Yeah, I'm not. I'm not going to do that. But yeah, you guys can. I'd short Bitcoin if I were you, personally. Ruv, I've got
+two... Ruv, did you really mean that
+all of the RSA has algorithms are
+now under threat? all the traditional i
+would say both ethereum and unless they have
+explicitly implemented you know you know the
+quantum secure crypto they haven't they're
+all under threat and i would say like within
+the next 12 months we're in some trouble
+with those traditional approaches i'm sure i
+have one final question what is this agentic
+.org thing that you talk about i kind of
+noticed you're connected to it right so what
+is that so you might be asking yeah a group
+of us formed a so back in 2023 we coined
+the phrase um agentic engineering and
+everyone's like what the **** is that and over
+time it became a thing and you know unlike
+the work i did early on in cloud computing
+i'm like all right as soon as i came up
+i bought the dot org and held on to it for
+a couple years but over the last uh several
+months you know agentic engineering is really
+blown up it's it's hot so i figured let's
+create an organization dedicated to the
+advancement and fair use of this technology
+and we're working on learning systems
+and we're doing events we had one in stockholm
+in indiana yesterday um we were we're we
+have one coming up in toronto next week and
+we're doing educational processes you know
+we're helping train you know students
+and various things so it's it's it's meant
+to be the the opposite of open ai it's meant
+to be open accessible hopefully free and
+to empower people to become agentic engineers
+which we believe is like the next big sort
+of engineering pursuit so if the masons have
+you know whatever their their secret club
+is we've got agentics .org it's supposed
+to be like the guild Sorry, someone
+say something? Yeah, you said the
+magic word, guild. I'm definitely in. I'm going back
+to D&D days. But yeah, that's
+interesting. Do you speak
+with regard to universities,
+for example? Or you guys just started? Yeah, we got some
+affiliations with the university. And
+guys, I got to jump to my next call.
+I'm already late. It's a pleasure, dude.
+thank you so much i really appreciate you
+guys taking time an hour and a half so that
+was a lot of information if there's bugs i'll
+do my best my my suggestion for any of
+the things you guys see is point cloud code
+at it do a pr and just give me the fix that's
+probably the easiest uh approach here and
+just contribute to my random ideas where
+do we give you the fix in uh on my github
+on the yeah the github just okay because
+literally that's all i'm doing i'm pointing
+claude got it henry about your question
+on the universities right yeah a few of us
+are actually doing um if you are not joined
+just take up free membership a membership
+on agentix.org there's a whatsapp group um
+i think maybe if you are there only but we
+can talk there yeah i'd love to because i
+had a large university approach me asking
+to help them design their ai program
+because they're all struggling right and uh
+i don't i don't know if you know just i'm not
+being political but the The President of
+the United States also demanded that all
+the high schools in America have some kind
+of program around AI. So it's a really good
+opportunity to go down that particular
+level. Oh, I'm sorry, your name
+is Mondweep. I will reach out to you on
+LinkedIn and, well, I don't know if I can,
+but I will join. Also, we've posted
+discord.agentix.org as a URL, you can
+join the Discord. Okay, thanks everyone. Gentlemen, it's a...

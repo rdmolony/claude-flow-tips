@@ -1,0 +1,2507 @@
+We're live. Here we
+are, July 10th. The time just keeps
+flying by and we got a nice cast of
+characters here. Thanks everyone for showing
+up, by the way. First, I've got to point out
+that I'm in the midst of getting a new
+studio set up and you can't see it, but I've
+got what looks like a lightsaber behind me
+that's glowing sort of turquoise and some
+other lights behind me. They're doing a great
+job of making me look a little bit better.
+Not the best canvas to work with but
+this this camera this you know i guess
+it's a canon eos r6 looks much better
+than this previous uh aliexpress uh camera
+i was using before but uh this was my old
+camera you can like all of like 30 bucks on
+aliexpress i think this new one's gonna
+be a lot better so thanks to kelsey and
+angelo for coming in all the way from north
+bay ontario to uh help the setup I
+really appreciate that. I'm going to mute
+everyone here. If you do want to pipe in,
+feel free to unmute yourself. But I
+think this particular Zoom doesn't have
+the auto mute setup. My apologies. So
+we don't want to hear your lunch order
+if we can help it. So before I
+start, though, we got a special guest. So we got John
+Willis, who's the godfather. I'm going
+to say grandfather. Godfather of DevOps. and uh you you've got
+a new book coming out i hear yeah yeah yeah
+um so um thanks Reuven and just to give a
+quick quick you know i i met Reuven on a plane
+ride and he introduced amazon cloud to me so
+that we go back he's like have you heard
+this cloud thing no yeah but anyway yeah no
+so i've done a number i've considered one of
+founders of devops and written a couple books
+but i'm pretty proud of my last book it was
+it's the history of ai it's called rebels of
+reason it's sort of a michael lewisian
+style version of all the things that had to
+happen to get to where we are literally on this
+call right now um and and going back like 100
+years but going through touring and and
+anyway i i think it's pretty entertaining it's
+technical it it sort of gives uh i think
+it's fun book and so uh you know again it's
+out there on amazon i posted the link and thank
+you so much for giving me the opportunity and
+i'm looking forward to hear the question
+i've been asking is where do i get started
+so this was my today is my my jam to hear to
+hear you walk this us through this so thank
+you yeah and again john and i met what 20
+something years ago on a random flight from
+austin to toronto and he was my seatmate you
+know and were we hacking on something on my
+laptop and you're like what what are you doing
+yeah yeah we just like what are you doing what
+are you doing and i told him a little about
+what i was doing and he's like well have
+you heard about this thing i call cloud i'm
+like no what is it and he's like oh man you
+gotta look at it i literally like like as
+soon as i got off the flight i literally dug
+in and like became one of the original cloudoratis
+by accident so yeah no it was uh it was
+definitely a ride and cloud that camp cloud
+camp me and you and dave and anyway we got
+a cool history so yeah we so for for those
+who don't know this is like cloud 2.0 for for
+people like john and i and you know this
+there's a template and i i definitely seem to
+be following it back in the cloud days it was
+like hey let's let's create uh these these
+cloud events to introduce this concept of cloud
+computing and that grew like just crazy
+until i don't know how many cities were in dozens
+and dozens of cities around the globe within
+a matter of weeks and we launched that
+in 2008 so yeah it's been a that's almost
+yeah almost 20 years ago so that's crazy yeah
+wow yeah it is a little crazy so the so this
+week and will actually last couple weeks have
+been absolutely crazy as well with with
+the sort of work that we've been doing with
+the swarm development and some of you might have
+tuned in last week to see see sort of
+early iterations of that and we've been making
+huge amounts of progress um we've got jed on
+the line here as well who's been helping
+debug jed how's it going it's going always fun
+trying to figure out the next uh frontier
+and being at least part of the team building
+it yeah well it's it's it's really nice to
+have uh real people to interact with in the
+development process because i'm often just
+interacting with my ai so you know it's different
+when someone says well this doesn't work
+as expected so really really appreciate all
+the efforts that you and ocean braun and jeff
+and rob and everyone's been doing the get
+get this off the ground so let's get to
+the exciting part actually one before we do
+there we have a new uh video portal that the
+kaltura guys have put together so let me show
+we've lost the cover here today um so there's
+a site video.agentix .org and there's a
+new flash card option i don't know if we have
+zohar on the call or not but let's see if
+i can figure it out there's some nice
+features on this so we're gonna go in here and see
+what so there there's a there's a meetup in
+in new york tonight i think possibly that's
+right yep meet up new york city tonight
+i think they've uh i'm not sure exactly how
+much the space how much space they've got but
+they're booked solid we are already at
+capacity um so the first basically the first 75
+people to arrive will get in and you can name
+drop jed if you need to right i i i'm i'm
+with the band or or whatever they say so
+there's a uh let's see what we got here i'm
+i'm there's a all our previous videos are auto
+sort of being included here there's some other
+options um i'm not sure i'm not sure how
+how this works well i'm my mouse disappears
+that's weird there we go strange but
+anyway i don't i think there's a problem with
+zoom at the moment trying to show it but essentially
+you can go here you can take a look you
+can browse the videos i'm not sure why my
+mouse disappears but that's that's probably
+a byproduct of sharing my screen and zoom oh
+took a second to load you when we've got
+highlights and then I think what you know
+various flashcards anyway take a look look it
+sounds pretty cool I'll do a deeper dive later
+but that's that's probably not the most
+exciting part we're gonna do today so what
+we want to look at is the new latest updates
+to cloud flow so for those who aren't familiar
+club flow is this idea of running swarms.
+So swarms is a concept that's been around
+for a while, actually. It's sort of autonomous
+agents that can collaborate with each
+other. And the biggest issue we've had with these
+types of environments is they were
+prohibitively expensive. So now with the rise of
+Claude Max, where you can get the sort of
+unlimited use, it's not unlimited, but for
+all intents and purposes it is unlimited i
+i do max out when i start going into like
+crazy land of you know spawning hundreds of
+agents at a time but to be honest most of the
+swarms you're going to do aren't going
+to be in the hundreds anyway they're going to
+be probably somewhere between five and maybe
+20 agents that work concurrently we've
+added a whole variety of different new features
+we i'll show you here in a moment things
+like the hive mind this is a system that allows
+this the the agents to use a queen
+orchestrator which is also pretty crazy the other
+day the orchestrator named herself seraphina
+which was uh i guess a biblical god uh
+like the top angel in heaven i didn't even
+know that was a thing and apparently that's
+funny because i have a very good friend
+called seraphina by the way it's a real name
+really it's yeah and so she's the a six-wing
+god or six wing wing angel he is an angel
+by the way okay there you go right it's it's
+i i i'm not up to speed on my uh on my
+biblical history so but there you go but if of
+all the names to give itself herself it was
+an interesting choice um and i'll dig in that
+a little bit we get the neural networks
+so the system can now you know attempt to fine
+-tune itself uh we've got a variety of MCP
+tools, right, I'd say 87 at this point.
+And this is underpinned by a lot of the tools
+that I've been building over the last month
+or so, including most of the Rust tools,
+the QDAG system for distributed kind of
+darknet. We've got the DAA, which is a sort of
+abstraction of that that allows for a kind
+of decentralized agent process. These are
+all built in Rust and compiled to a WASM.
+And then we've got the neural network
+components and the neural forecasting components.
+I took all that stuff, we put it together
+to create this and we packaged it as an MPX or
+MPM that you can install and run using TypeScript.
+So really, really fast, really light
+and really powerful. So what I'm going to
+show you today is how to get all this stuff
+working. So we're going to go through the
+process step-by-step. Hopefully if you have
+any problems and if you want to follow
+along literally all you need to do is start at
+the vibe casting because that's where I'm
+gonna do it so we're gonna go here and I'm
+gonna I'm gonna walk you through it slowly
+and if I'm going too fast pipe in and tell
+me but this is this is gonna be the step-by
+-step all right so we're going here we're on
+the RubeNet Vibcast I'll pop that in the
+chat here for you guys and here we go it's
+in there you can go here so I'm gonna create
+a new code space on main depending what
+you're doing if you're looking to do something
+that involves like and and more heavy
+sort of analysis then you might want to not
+use the default code space I don't really
+care I'm just going I just want to show
+you guys how this works so I'm gonna go and
+I'm just gonna do the default on main so
+at this point I'm I'm using the web-based
+version now there's differences between the
+web-based version of claw of sort of code
+spaces and the VS code version, the biggest
+difference you're going to see here is a
+moment when I actually attempt to activate
+Claude code. It takes two tries for, I don't
+know why, and it has nothing to do with
+me. It has to do with some kind of way
+that they link the authentication. When you
+use it through VS code directly, this problem
+doesn't happen, but I'm going to show you
+how to get around that problem anyway. So
+we're going to go back here I'm gonna go and
+I'm gonna copy and paste the first code so
+this is gonna install the anthropic cloud
+code and again a couple assumptions here you're
+paying for a pro account at the very minimum
+if you use a swarm the pro account will
+essentially last you about 20 minutes and
+then you'll be you'll be quoted for several hours
+if you're using the hundred dollar you
+can probably get away with the five agent swarm
+for several hours if you're using the two
+hundred dollar you can go all day now if you're
+like me and you're running concurrent
+swarms you know then you're gonna max it out
+after a while but I I I'm comfortably doing
+a few hundred thousand lines of code an hour
+using the two hundred dollar plan it's it's
+crazy all right so while while I was blabbing
+here this was this was setting up so
+now I've got a really generic I'm gonna create
+a new branch let's call it July 10th and I'll
+create that then what I'm going to do is
+I'm just going to copy this in. I'm going to
+select allow. I'm going to allow this forever.
+Why? I don't care. All right. So now
+we post it in. Then I'm going
+to install this. So I'm doing a
+global installation. Now you could do this
+also as an MPX and I think as well as
+not a global, but for this using a
+global, the DASG basically allows you
+to run it as Claude. And And you'll notice
+that when we get to the next stage where
+I'm actually installing the Claude flow, I'm
+going to install that as a remote instantiation,
+not as a global instantiation, which
+means that you can always get the most
+recent version, which works well when you're
+working in a kind of fast iterative alpha
+type of release that what I'm doing right now,
+I'm me, us collectively, we're updating this
+several times a day. All right. So in
+this case where I'm going to go here and
+now that I've got, I'm going to jump back
+because I'm lazy into my type, I'm going to
+activate it. So this is important. If you don't
+activate it, you're not going to be able
+to use the dangerously skipped permission.
+And for those folks who are saying, well,
+the dangerously skipped permission is a
+security vulnerability. Yes, a hundred percent
+it is. You're having an autonomous AI swarm,
+you know, operating with very little
+oversight. And so this is why I'm using
+a code space. It's important. Don't run
+this locally. If you do, it's just a bad
+idea. You're on Mac, high likelihood it
+breaks your Mac badly and you get a kernel
+panic and you're going to have to
+reinstall the entire Mac. Windows, you use
+the Linux subsystem. You're a little
+bit more protected because the Linux
+subsystem is sort of a
+containerized approach. That said, do you
+really want to swarm around your local
+environment? Probably not. So that's why I'm
+using this code space approach here. So I'm
+going to pop this in here and this is
+going to activate. The first thing it's going
+to do is going to prompt me to actually
+log in to cloud code. You can choose the
+color mode. I like dark, so I'm going to
+go with dark and I'm going to choose the
+cloud. You can use an API. Now, interesting
+to note here, if you want to use
+the swarm for like actions on GitHub or
+doing random security checks, things like
+that, then you can switch to an API based
+And you can instantiate that through a
+command line tool that basically gives you
+an argument that you can pass the API
+to or use the .env. I'm cheap, so I'm
+using the $200 a month plan, which
+is, when I say cheap, it's way
+cheaper than the thousands I was
+spending before. All right, so now I'm
+going to click here. I'm going to go
+with the Claude. And now this part, if you're
+in the code space, we're going to have
+to do it twice. I don't know. yeah if
+anyone from Anthropics watching you got to
+fix it I don't know what your deal is but
+this this only really affects the code space
+so I'm gonna click authorize it's gonna
+go to a local host I'm gonna have to go
+back and then I'm gonna click it again and
+we'll see yeah this is what you'll see now
+we're gonna go back and I'm gonna control
+click or command click if you're on a Mac
+and that's gonna open it again the second
+time's a charm don't know why it's a it's
+it's a bug not in my system but in cloud
+code so now we go here this time I'm good
+it's gonna I'm gonna authorize I guess I
+probably should be showing you this this authorized
+code but whatever it's just this is
+just for this purpose so I'm gonna paste that
+in here oops that's not what I want it
+didn't you didn't copy okay let's try out one
+more time copy code when it says copy it
+usually means it copied but in this case it
+didn't let's try it one more time all right
+I'm logged in now I'm gonna hit enter and
+yes use recommended settings I'm giving you
+all the settings here in a moment so you don't
+worry about this too much yes accept all
+right so this is the danger this is essentially
+setting it up so now once I'm done I'm
+just gonna close this for a moment I'm gonna
+hit ctrl C a couple times now what I would
+normally do is at this point as I probably
+switch to my VS code but I'm lazy so I'm
+not gonna bother doing that right now then I'm
+gonna jump back to here close this tab and
+take a look at my next so what this does is
+initializes it so I'm gonna copy this and
+there's a couple different settings here as
+well so if I go here and just copy like this
+this is gonna force so this is gonna overwrite
+if you already have cloud code installed
+and use the force use the force in anyway
+it's it's going to overwrite your your claw
+.md file so if you want it and you can instantiate
+this in a subfolder and then copying
+the bits and pieces that you might want to
+keep but in this case this is a pretty clean
+repo so i don't care so i'm going to go
+ahead and actually run that for a moment now
+i'm gonna gotta i've got a nice little script
+it's gonna ask me to so i included the dash
+dash why give it a sec to do its thing
+bunch of stuff install i'm i'm gonna try to
+make it lighter but it's it's kind of heavy so
+it takes a second to install i'm i'm i'm
+giving you the the wasms and a bunch of stuff
+here and we'll watch it do its thing the
+dash dash y basically just makes it so it
+doesn't ask you questions that's why i included
+that um the alpha gives you my alpha branch
+and as i do updates you're always going to
+get the most recent. There's a double
+-edged sword to that, though. The fact I'm
+giving you my alpha means that if I do
+a bad update, which can happen, you're
+going to get the bad update. You can
+also add the version number to that if you
+find a version you like. But for me,
+I'm just using alpha. And at some point, I'll probably move to a beta. And it'll probably
+stay at beta forever. Now, the benefit
+to calling this alpha is when
+people complain, I can say it's an alpha. It's amazing
+how much people complain on
+free software. But while that's
+happening, if it's done, okay.
+So what we see here, it's creating the
+files. It's the V2. It's creating the cloud
+folder. It's creating my settings. And this
+was, I think, Jed, you suggested, I think the
+settings, maybe someone suggested it. This is a
+local settings option, creating my my hooks
+I'm initializing my memory system swarm
+dot I added this last night by the way this
+is a really cool feature I'll get into in a
+minute but basically I added memp a SQL light
+memory for the swarm as well as the hive
+mind so there's two different memory systems
+and we've got some other sort of commands
+here we and we're installed no now that
+it's installed we can go ahead and start trying
+the thing out so in this case what I'm gonna
+do is I'm just going to use the MPX. Again,
+you can install this global if you want.
+And the benefit to installing globally is
+you don't need the MPX. So hypothetically, if
+you want it to install globally, you do
+something like install, I think it was install-g, but I've already
+installed it. And I don't bother
+with that. You probably don't
+need it either. Now I'm gonna do that
+and we'll do help. This is just gonna, I'm
+looking for a couple of things here. I'm
+looking to make sure I have the right
+version. So we got the alpha 43. So this is
+the version I did last night and I probably
+should get more sleep. I did this at two o
+'clock in the morning. So hopefully all is
+well for this demo. So we've got lots of
+different features. You can see here
+that we've got the hive mind wizard.
+We've got the swarm. Now what I'm going
+to show you is a few things. I'm going to
+start with the hive mind wizard because
+it's kind of crazy. So I'm just going
+to grab that. And so I'm just going
+to grab this part here because I don't
+want to type it. So we're going to go
+back here and I'm just going to pop that
+in here. and this if all goes well should
+instantiate the wizard. Now what the wizard
+does is allows you to create the sort
+of running server for the swarm itself. You
+don't need to run this just to be clear.
+If you don't run it the system just figures
+itself out. It'll go and instantiate this
+stuff for you. This just gives you a
+little bit more control over what it's going
+to do and how it needs to work and we'll
+see that in a second. A new swarm and
+the objective of the swarm needs
+to be something like a really
+compelling demo. And the Swarm name, we'll call it, I don't know, Seraphina. All right. And then
+we have different options for the
+queen coordinator. I know it's straight
+up sci-fi. So it's a hive mind structure. So
+you can, and I'm going to add more sort of
+structures later but these were the ones
+that seemed obvious to me so i went with
+strategic high level planning now you're going
+to notice that there's two different approaches
+there's the hive mind approach and
+then there's a swarm approach and the key
+differences i'm still trying to figure out exactly
+you know what and how this all this stuff
+works to be honest this is a lot going on
+here but from what i can tell the hive mind
+approach is really good at kind of open
+-ended, go figure it out, do the best possible
+solution to a problem, but I'm not sure what
+that solution is. So it leans a little
+more towards vibe coding and a little
+less towards I've got a particular architecture
+and system that I want to implement.
+Now you could guide it obviously towards
+those sort of details, but in this case,
+you know, I'm not particularly concerned
+about that. So I might choose tactical
+for detailed task management. And so I
+might point it at my my GitHub to create an
+issue or something like that. I've got
+adaptive, it just learns and adapts. I have a
+tendency to use that. I don't know what
+I need to know, but I need to know it
+needs to update itself. So I'm gonna
+choose adaptive. And maximum number of
+workers, and I might, I'll choose five
+here today, why not? And then I can
+choose different types of researchers
+I can include. So I'll choose
+reviewer, optimizer, document, I'll
+include all of them, and
+I'll hit enter. Now, there's a
+consensus system built into this. The consensus
+system essentially allows the system
+to determine how it can collectively
+come to a decision. So depending on the
+consensus you want to use, it'll make different
+determinations based on the queen and the
+subordinate agents. So a majority means the
+majority rules, right? Everyone has to agree.
+You know, if I got five agents, then three
+of the five agents essentially have to
+agree. a weighted approach means that there's
+more waiting towards the queen basically
+is kind of the the ceo if you will and the
+byzantine that's that's a little more difficult
+to explain the easiest way to explain
+it is it kind of works like a consensus
+algorithm on a blockchain similar to how the
+ethereum blockchain would likely work where you
+have sort of a proof proof of work proof of
+stake kind of approach i'm still trying to
+figure out exactly how that one works so
+I'm not going to use that today I'm going to
+go with majority rules all right so now we
+get that now you'll see here that we've
+got you know an auto scaling this will means
+it can add new instances on the on the fly
+sure hey quickly Ruben on your on your consensus
+algorithm thing do you know uh what the
+advantages are of the different modes I'm
+still trying to figure that out okay it's fine
+yeah I built I built it three days ago right
+and so I'm learning I'm learning as much
+as you guys are i i know that there's
+differences i can see them when i try different
+things but it's too early to even tell you
+exactly what those are and maybe you guys
+can play with it and tell me i i don't know
+you want to say something jade the best
+suggestion i have for everyone who's experimenting
+with this is to get to a cloud code
+interface and use that to ask questions of the
+source code that's the only way i've been able
+to ramp up to maybe 20 of the speed that
+Reuven been getting. Yeah, that's a really
+good suggestion. And to be honest,
+I do that too. So now that we have
+this instantiated, you don't necessarily even
+have to use the Claude flow system because
+I've given you all the commands. So as soon as
+you instantiate Claude code by going here
+into a new tab and just typing in something
+like Claude will help. and I'm just going to
+grab the dangerously skipped permissions
+because I don't, and so I don't have to
+necessarily instantiate it the way I was
+showing a moment ago. And the benefit to doing
+it the way Jed just said it is I get all
+these slash commands and these, all these
+slash commands are basically the commands
+you see here for like GitHub. So if I
+was to choose GitHub, I can get all those
+commands and you can customize these. So
+what I'm seeing a lot of folks do is they, once
+this is instantiated, they're just going
+into cloud code and they're instantiating
+this inside an existing repo and then they're
+saying go customize the command customize
+the cloud md file to meet the specifics of
+this particular repo so what i'm giving you
+is a kind of generic template to create
+these either hive style or or more traditional
+if you will swarms but you you can
+instantiate any way you like so in this case
+you i i did it that way now this is running
+here so now it's suggesting here that
+i've got uh and i wasn't fast enough so it's
+decreasing it's so it's auto tuning itself
+so in this case it's decided to reduce the
+concurrency of agents to nine so i'm going to
+go ahead and just grab this and we're going
+to create yet another instance and then then
+we're going to get the swarm to go do
+something so this again this is the hive this
+is the hive mind so create research oh what
+are we gonna research any ideas
+what what you guys want to create
+research and create the most amazing
+breakthrough of all time and build it. Maybe we'll
+choose a genre. I don't know. Is
+there any genre? How about animations? It'd be cool to see some visual stuff
+come out of this. Like a front end
+kind of experience. Quantum entanglement. Yeah, keep in mind. Yeah, front ends are probably
+the least if you want to do a front end
+you're probably going to want to use something
+like like uh i don't know like uh lovable
+or something they're kind of rudimentary like
+we can do front ends without question they're
+just it's it's almost like you know using
+nuclear weapons when you could use a bullet
+or something i mean that's a bad analogy i'm
+sorry interrupted you yeah go ahead go ahead
+yeah i'm building this pitch deck uh
+thing just stupid idea i want a founder to get
+the deep research facts and then build a pitch
+deck for their idea or for their company can
+i build something can we build something
+like a back end that provides this kind of
+work yeah why don't we why don't we do two
+why don't we use alex's animation system and I'm
+going to get the swarm to do that and put it
+in build, you know, uh, create it in
+the animator AI. And then what we're
+going to do is write it while that's
+building, we're going to do a pitch
+deck system and we're going to use a
+swarm for that. All right. So we're
+going to, we're going to call it Alex
+triple X animator. All right. triple
+x animator might not go too well
+maybe double x ruve i find ourselves
+here far too often i don't know
+how okay two x two x five catch man
+i i never even thought that the
+triple x was well i just thought it was
+lots of x's okay yeah we'll go too
+since this is being saved to the internet
+forever yeah all right yeah so okay
+two X's. My apologies to Alex with two
+X's. All right. So we're going to
+launch that. Oh, that's, I didn't,
+I didn't install it globally. So we're going
+to have to go back. I'm going to add the
+MPX. This is something that happens. And
+because I didn't install globally, I've got
+to add the at alpha. Now I'm, I'm, I'm
+usually running in my dev environment where
+I started globally. That's why I just wasn't
+thinking, but if I installed it globally,
+that wouldn't have an issue all right so
+i'm going to go ahead and instantiate that
+we can see here that now it's launching the
+swarm starting with initial worker count
+four it's using the dangerously skip
+permissions it's using the auto spawn to launch
+instances automatically it's verbose so
+it can see it it's using the shared mcp
+swarm memory usage which will store the
+information to the actual shared memory, which
+we can take a look at here as well while
+it's sort of starting up. So we'll go
+here to HiveMind. All right. So now that
+that loaded up, now a couple of things
+to look at quickly. I'm basically what I'm
+doing is I'm injecting dynamic variables and
+prompts. So you can see here that I'm
+giving it the HiveMind structure, you know,
+consensus algorithm majorities and different
+settings. I'm telling it what the researchers
+need to do. I'm giving some other
+information about the mcps that needs to interact
+with to sort of understand learning and task
+orchestration and worker management and
+then i'm giving examples it's just a well a
+sort of well-defined prompt now at the bottom
+here you can see it instantiating it's
+kind of flickering a little bit which is i
+know it's because i'm on my smaller monitor
+but basically i can't really show it because
+it doesn't let me scroll too much but basically
+it's it's instantiating the memories and we
+can see that when i go to the hive system
+here for a moment We'll see that
+it follows well. And there's two
+files. There's a memory and there's
+a hive mind. And we'll let it do
+its thing for a moment. Take a sec to start up. Now we can see this
+is the introspection. And this is the part
+where it's going to get interesting later
+when I get to building web-based dashboards and
+simpler systems. This allows me to see
+what's happening within the structure. So I
+can see the collective memories. I can see
+consensus decisions. It hasn't made any
+decisions yet. I can see different swarms. I
+can see tasks. No tasks I've started yet. So
+this gives me the ability to see what's happening
+within the structure of the system itself
+in real time. Now, this is the data. Now,
+what's great about SQLite is it's super
+fast and I'm using the write, I think it's a
+head write. I forget what it's called.
+Basically, it's the fastest option for
+SQLite. And someone else is probably more
+familiar with SQLite can explain exactly
+what how this right mechanism wal works and
+we got another memory system here this is
+kind of a secondary memory um i might get
+rid of that but this is just another
+mechanism for the memory i'm gonna let this run
+for a bit basically let's just we can sort
+of see it thinking a little bit we can see
+it's you know creating some information
+now here's the part that's important it's
+it's it's working in in a concurrent sort
+of fashion you see there's tasks and these
+other tasks are sort of basically writing
+alongside the other. So it can instantiate
+and decide when it needs a swarm or when it
+needs to do a sequential or how they need to
+sort of optimize. Interesting, quantum computing animation
+algorithm, which is funny
+because someone mentioned quantum
+computing. So it's looking at,
+it's researching that. Now, while this does this thing- Just a
+quick thing, Rufin, is that
+there's a new rewrite of SQLite
+and they're writing it in
+Rust, by the way. Yeah, I've been looking
+- called the limbo project it's not fully
+compliant yet but that's where that's
+where they're going and it's like really
+fast we could probably rewrite that and that
+might be a project and do right now when
+it was with the swarm like and that's a
+lot of what i'm doing is i'm rewriting
+existing libraries so for example when you
+look at my neural forecaster i took the
+neural forecaster python library and i basically
+pointed it at my swarm at that and
+said build that for me bed and the same project
+yeah so let's let's let's let's take a
+look at limbo project all right so let's let's
+do let's do a swarm let's do a swarm so
+so let's go and i'm going to type this time
+i'm going to do npx flood flow at alpha
+but this time what i'm going to do is i'm going
+to use a swarm rather than a hive mind
+now the hive mind is currently running you
+can see a building here in the alex with two
+x's uh animator folder it's going to build
+it it looks like it's probably going to build
+it in i don't know sure what it's going
+to build it in i never upload what language
+to build it in and it's i can't quite tell
+there's no files yet you know i guess we'll
+let it keep doing its thing um well while
+that does its thing i'm going to go and i'm
+going to look at the swarm settings so i'm
+just going to type swarm and i don't have
+an objective so it's telling me i need an
+objective so this to be honest most of the
+work that i'm doing involves using the the
+swarm capability or my github capabilities so
+we go back we can see here we got other
+options so it depends so when i get up in the
+morning and i look at my repo and i see
+these various uh issues like we'll we'll go
+to my issues here and you'll notice that i
+i respond to some of them you know, let's
+see what we got here. I'm using the GitHub
+option to do that. So here's a proposal for
+a quick setup guide. Someone, KoiGeek,
+and thanks KoiGeek, you've been providing
+a lot of great ideas here. So he
+came up and he's saying YOLO and
+some other things. So then I pointed
+the GitHub at it and it says, here's
+your, here, I'm Claude or whatever.
+And here's just some suggestions and
+here's what we want. want to do here's a
+deep analysis so some persistence so it came
+up with an idea then it created a follow
+-up bug and then we can take a look at that
+and that's literally how i created the sql
+component last night based on someone saying
+well why doesn't it persist only in the
+hive mind you should it should persist
+other than hive mind i basically pointed at
+it and i'm not sure why it's taking so long
+to load that but it's not sure that the libvo
+project is fully open source i mean it is
+but i think they have a closed repo did roof
+freeze for you guys yes yeah he's frozen so this is a new
+youtuber setup that he had hey uh
+rob can you text roof and let
+him know please yeah i'm moving
+faster than the speed of
+light and sound or at least the
+speed of information so is this the is
+this setting where it's hitting the
+github um like out of the box now with
+this with this alpha uh no that one i
+believe rUv had a custom or github mcp yeah
+that then pushes the or manipulates github itself
+uh the other option is to use the github
+cli make sure you authenticate securely
+into it and then you can have cloud code
+manipulate the github cli to then make changes to
+the repos you control and so are there
+specific requests so are you are you just are
+you are you going into the github cli and
+or are you going into cloud the cloud flow
+cli in the terminal to authenticate and then
+i let cloud code cli manipulate the github
+cli independent of me That's because Claude has native GitHub
+integration, and they rely on the GH. It's not native, David. You have to install
+the GitHub CLI. Yeah, you have to install
+the GitHub CLI to get it, but the capability
+is built into Claude. Otherwise, you've
+got to use a GitHub MCP, which I prefer to
+use MCP because I have more control over my
+GitHub connections. Sorry, you mentioned that it's already included. but we don't
+have to do it. It is not
+already included. No. You have to explicitly
+install it. You have to install of
+the GH, the GitHub CLI command set. That
+doesn't come bundled with Claude. You've got
+to do that manually. But it knows how to
+use that tool set once it knows that it's
+there. You don't have to have anything else.
+It knows how to talk to GitHub once you
+install the GitHub CLI. but sorry i every
+time i trigger uh one workspace in github for
+example do i have to install this mcp
+connection to github to be able to follow there's
+two ways you need to authenticate your mcp
+to github yes if that's what you mean by
+install it you need a patch which is a
+personal authentication token okay all right
+so there's two ways to have claude communicate
+with github One is through an NCP where you
+have a GitHub MCP and your personal
+authentication token, you set that up, or it has
+built-in code natively that knows how to
+talk to GitHub without an NCP, but you manually
+have to install the GitHub CLI. Just do
+it like an app install on Linux. So there's
+two options for you. I don't like the built
+-in way because you have to follow the
+anthropic methodology for doing GitHub, which
+means you have to do PRs, you have to do
+workflows, you have to do issues. You have to
+mention at Claude. You have to do all their
+workflow that's built into it. You kind of
+do and don't, but they – and you have to
+authenticate stuff. I prefer the MCP way
+because then you get to do your normal standard
+GitHub methodology. The most important
+thing is you do only one of the two
+methods. If you do both methods, there will be
+weird hallucinations that are very
+hard to untangle. I've tried that as well, Jed, man, and
+it's not cool. because it has GitHub.
+Claude has GitHub capability built in,
+but that built-in capability doesn't want
+to naturally use the MCP if you have it,
+right? It wants to use itself plus the GitHub
+command line set. Yeah, but you store the
+personal access token for the MCP. But
+where do you store it? you put it in a .m
+file and then you configure it in your
+MCP config you ask Cloud Code to draft
+detailed instructions on how to do the
+thing I do it manually if I have a command line installed how do I tell Cloud to use the MCP only or do I have to uninstall
+the command line options so that when
+it tries to use the command line option it
+gets an error interprets that it's an error
+and tries another way yeah you only want one
+you only want to use one either mcp or right
+github command line if you can configure both
+but it will hallucinate if you're used to
+using the command line that means you
+lose that if you want to use the mcp but but be
+careful right because when we say command
+line like most it's the gh command line yeah
+i understand yeah yeah the gh cli they call
+it right and and normally you don't use
+that you're just doing a full install of git
+and it's not the same. Yeah, there are a few
+small things that I'll use GH for, but I hear
+what you're saying. And also, if
+you're doing it in a Codespaces, you
+can avoid that. Yes, Codespaces,
+it comes, it's already installed,
+right? You get the full GitHub
+command line set. Just a note, Ruben's
+entire computer has crashed, so he's rebooting
+and coming back up. And my understanding
+with the GitHub, the the personal token is
+that given what it is going to be used for
+with the swarm that it should be just for a
+single repo and minimal permission is restricted
+to your account you can't have the
+token restricted to a repo yes it's full x
+it's full account based well they could think
+i don't think it can do fine i i tried that
+i did see find game print control i never
+used it it doesn't it doesn't limit to
+the repo it limits what you can do in all
+repos so only read only write, only file issues,
+only edit the wiki. So what I have had to
+do is create multiple GitHub accounts tied to
+specific organizations and then share repos
+to those organizations with specific roles.
+That way I'm able to enforce slightly more
+granular permissions to make sure I don't inadvertently
+push to main. for those of you
+whose main branches are dependent on
+actual things. Yeah, it is a little
+tricky. It does get a little tricky when
+you are committing back to a branch and
+you're issuing those commands, what's doing
+it like you want to be very careful about
+it. And that's why I prefer the MCP. I
+get a little bit more control the way I
+want my normal GitHub methodology. We could
+probably use Cloud Code to extend the MCP
+so that only select commands to GitHub's
+API are exposed to the LLMS tools. That might
+be a better way to fork it or improve
+that specific feature. Yeah, I think that's
+a good idea is to enhance the MCP
+option because I think I asked Reuben
+about this and he's using the
+called Swarm, right? And Flow are using
+the GitHub MCP. i forget the precise
+um mcp version he's using i know it's
+not the official one he's using some a
+third party mcp for github yeah there's
+a there's a lot of them out there actually
+right it's quite it's quite annoying
+back ruve you there oh it's like a seance
+are you there ruve who's got the finger
+on the ouija board So while we're waiting
+for Ruben's return, anyone else have
+specific questions? Yeah, that was like an
+epic, that was an epic crash. Remember I
+was telling you about the kernel panic?
+Well, I don't know. I had to restart. And then I had to
+get all the cameras back up and running.
+It apparently takes five minutes
+to get back. Where did we leave
+off? Let me pause for a was everything i was
+saying making any sense yes to the point
+where you do make where we can make
+sense of what you say yes i last remember
+you talking about quantum animation and
+then the whole triple x uh mentioned so
+whatever you remember after that yeah
+quick question yeah when you start a swarm
+do you ever need to stop and resume or
+change tasks change when the computer
+completely my computer never crashes I guess
+it was Zoom or something but yeah we're going
+to have to go through that right now so
+the higher resolution of your camera plus
+the transcoding for YouTube is probably
+taxing your computer yeah I need a Mac I was just going to say Windows I was going to
+suggest have a different computer
+do the transcoding yeah that could be
+maybe my ****** camera what was the difference
+this is a great camera though i i
+will say um but to uh matt's question like
+how do you how do you recover from a like
+an epic fail um well we're we're about to
+uh go through that process if that's
+interesting so give me a sec i'm still getting
+everything back up and running um so just
+to summarize multiple modes two instances
+up and running right you had a monolithic
+traditional Claude you had a Claude um
+i don't know it was a swarm or flow whatever
+doing the doing the animation system and
+you were about to spin up a third one
+to do the sequel limbo yeah exactly all
+right so just now i'm gonna i'm actually
+gonna switch to um vs code i'm not i don't
+i don't know what caused that epic
+failure probably zoom it's not probably
+not the the best for high-resolution
+streaming, I would guess. All right. It's
+live, so, you know, you get what you
+don't pay for. All right. Here we go. Let's see here. I'm going to connect
+to my Codespace. I'm going to share
+my screen again. And so while I'm getting up and running again, if you get any questions, I'm happy to answer them. What GitHub MCP
+are you using? Yeah. I know it's not
+the official one. I just don't
+remember which. Have you noticed that
+that one isn't working particularly well
+recently? It was working great and it
+stopped. Or is it just me? Not just you. I
+also moved to the CLI. Yeah, it was
+it was amazing. Oh, we lost him
+again, didn't we? Rob, can you please text
+Roof? Tell him to stop using the VS
+Code web page. I think that's interfering
+with something else. whenever he starts
+that up and tries to share it it's
+causing problems you need better
+separation of concerns or just use vs
+code desktop yeah but he was going to
+use the desktop right he wasn't going to
+use that to make an appropriate sacrifice
+to the demo gods maybe calling it
+seraphim was a little too yeah yeah he's I thought he was
+going to not use the integrated
+web VS code, and he was going to
+go for the app. I don't know what
+he started to share. Yeah, me either. Could tell. So, Jed, can we ask a few questions as we wait? Go ahead, although
+it's probably faster to put
+them in the chat. Well, I don't know. I think my problem
+is my camera. It's the only difference today is a much
+better camera. Zoom keeps crashing. Way too much data stream. Yeah. Maybe I
+switch to low res? Yeah. Good idea. Let's see here.
+Sorry. Did someone have a question? Yeah, I have a question. We can wait
+after the demo. Mine was actually
+on memory. It's maybe related to
+what you're about to do, but the memory
+management, like in the case of
+right now crashing, is that kind of
+where it comes handy as well? Are you
+talking about memory as in RAM or memory
+as in context? No, the memory, you
+have the HiveMind memory management that you
+showed us earlier. So that is the database. It's just a
+database into which snippets of
+text are stored on other config
+and metadata. Yeah, it allows you,
+it essentially allows you to resume. So
+it has context to what's happening in
+exactly this scenario. So, and I switched
+to low res. I don't know if that's
+going to make it. Hopefully this is
+not going to crash. This episode is a
+little buggy. My apologies. We've got
+a new setup happening. So, here we go. I'm going to attempt to restart this whole thing. New terminal. Now, it would have
+lost the session. it might have continued
+for a bit but it probably it probably
+stopped let me just double check where we are
+yeah what i tried and it worked really
+well is i don't use vs codes terminal i open
+separate terminal and run cloud there
+while it's absolutely fine works on the code
+that i have in the VS code. Are you
+running locally, Elio? Yeah, yeah, when I
+run locally, yeah. And I have...
+That's a terrible... You think my
+system is going to crash? You do
+that, you're almost guaranteed to
+crash your system. Especially if you're
+doing anything under load. You're going to
+be spawning hundreds, potentially thousands
+of processes. You know, you could
+do it. It's just almost guaranteed to screw up your computer. And probably why
+I'm having trouble myself because
+I've done it. If you do do it, do it
+in a Docker instance, maybe, or use the
+Windows subsystem, if you're in Linux
+subsystem, possibly. I just, yeah, I would
+highly recommend not doing that. It's
+just a bad plan. But back to this,
+you've got, you might have noticed
+that I just, to resume where I
+started, I did dash C. So the dash C essentially
+allows it to recover, right? it's it's
+kind of like there's also resume option i
+think is basically a synonym for the same
+thing so now what when i do dash c and now the
+drawback is here that i had two different uh
+systems so it looks like it's instantiated
+the hive one now i i can say something like my
+uh computer crashed and i need to
+resume uh review the mem memory
+and continue Does Cloud C
+automatically go back to the Swarm
+Hive, basically? Because I know you
+said, Reuven, in the chat, you said
+earlier on in the WhatsApp chat that
+asked the Queen Hive. So what else? Yes. That's
+exactly what I was doing. So it's
+looking at the memory. So you
+see it here. It It's determining
+where it left off and now you can see
+it's spawning additional agents to resume
+where it left off. Oh, I see. So basically when
+you recover, you see, obviously you
+use Claude C and then dangerously
+skip permissions. But could I have just
+said, once I start Claude, could I have
+just said, now look at the memory in the file
+system and resume using the Hive Swarm approach,
+continue? Because I tried that it didn't.
+Okay, all right. That's exactly what
+you could do. And it depends if you're
+using Swarm, like up until last night,
+I had a pretty rudimentary memory system
+for unless you were using Groove Swarm,
+which would have the SQLite approach,
+but the Cloudflow was using essentially
+a JSON structure. which is okay, it
+did work, but it wasn't as elegant
+as this. This allows it for much better
+introspection. So now we can see the concurrent tasks running, doing writes and doing
+the Cloudflow Swarm. I can go back to the
+Swarm and see the memory. So now it
+uses a combination. So the Swarm memory
+gives you a kind of introspection into what
+it's thinking about. So here, well, I'm actually
+probably using the hive mind. So I should
+go look at that one. I think it crashed
+before I got a chance to
+start the swarm. But the actual memory
+in, you see there's different structures
+for the memory here. Now the memory for
+the swarm, I actually did quite a bit
+more for it. So when you go here
+and you see memory, this one's not
+running currently, but you see here that
+there's a lot more options. I've got
+agent interactions, I've got code patterns,
+error patterns, knowledge graph,
+MCP tool usage. So I've taken it sort
+of a bit further. Now these two can
+work together. Like you can
+have the Hive where you use the
+swarm as well. And often you'll see
+both- Quick question, Reuven, the SQLite
+database that you're using, is it
+running on one of the, on the machine,
+on the Codespace, or is it running in
+a cloud instance? It's running right here. It's a local
+Codespace, David. Yeah, local Codespace. But
+it's just a file. I know, yeah. Well, it's a little
+more than the file. I'm using the right
+ahead option. But out of the options I
+looked at, it was the simplest to distribute
+because I could literally just include
+it in the MPM, MPX. And there was no external requirements, really. And I did some
+benchmarking, and it was the fastest by far for
+the types of things that I was doing. Now,
+if you're doing an enterprise application
+where you'd have multi-tenant users and
+other things. You might want a more elegant,
+but for the types of things that I'm
+doing, it was perfect. Yeah, just so
+everybody knows, right? It's familiar because
+where the actual instance is running,
+what machine, either it's a cloud
+instance or it's locally on your dev
+machine somewhere, your dev instance. Yeah. Now, to the gentleman's
+point in regards to running it in
+different terminals, that is actually a
+really good idea because you don't, as long
+as those terminal sessions are going to
+some kind of remote or at least containerized
+environment, somewhat separated from
+your local environment. If he was doing that
+with Docker, for example, locally,
+that'd probably be fine. If, you know, if you
+wanted, you know, additional GPU resources,
+you could spin up AWS instance, and then
+just SSH into it. That, that also would be
+fine. I'm just, I just reluctant to recommend
+right now, anyway, reluctant to recommend
+running this just in your local environment
+without any kind of containerization i'm
+just i've run into a lot of problems with it so
+i just don't want to i still want people
+thinking that's a particularly good way to
+start unless unless you're like really comfortable
+with devops and you can fix your own
+problems i think by all means but but if
+you're not comfortable with massive configuration
+issues then you're just don't do it i i
+everyone keeps emailing me i ******* up my
+computer how do i fix that, you know, I
+don't know, you got to reinstall it. Right.
+And I just don't want to go down that road
+and be the guy that suggested you screw up
+your computer. I think a good thing to say,
+Reuven, is if you're like a one machine person,
+like you have a nice big powerful Mac and
+that's the only thing you use, don't do it
+on that system because it will, it will
+splatter a lot of stuff everywhere. And, and,
+you know, if you don't have other systems,
+like I have like five Linux boxes in my, in
+my house here. So if you're, if you only
+have that one system, don't run it on that one
+system or containerize it or mac i have a mac
+mac minis and stuff like that they use i
+don't really what do you do if it disconnects
+from the code space or you're like mid
+project and you have to tell it to come
+back and and look at it again because i've had
+that happen a couple times code space is
+flexible on disconnects it will stay running
+for a couple of hours well it depends you
+notice that this didn't it depends on how
+how you disconnect so yeah i'm I'm just
+saying the code space is flexible. The app
+that you ran, the swarm, that's going to
+get a timeout, right? Danny, if you disconnect from
+a terminal session in the code space,
+depending on how the code space was launched,
+it may also kill that terminal session. So
+what I've been doing to allow me to resume a
+disconnected code space is using Tmux, spelling
+down in the chat. And I spin up
+multiple Tmux instances, each
+containing a cloud code session so that
+I can disconnect from my computer,
+commute home, reconnect to the
+Tmux session, and then see how far
+it's progressed. Oh, yeah, that's what
+I was looking for, because sometimes it
+disconnects and then I have to tell it,
+like, it starts trying to rebuild the whole
+thing. I'm like, no, no, no, you already
+built half of it. Like, stop. Just be careful,
+right? Tmux, I get what you're saying
+to you. Tmux is a little bit of a DevOps
+tool, right? You got to kind of know how
+to run it. It's not super user friendly.
+Well, the good news is that I asked CloudCo
+to write me a very detailed set of
+instructions on how to use tmux i didn't know how
+to use it two weeks ago i i know how to
+use tmux i had to learn it by hand and
+so yeah but you you're the man man i love
+the way you do stuff there uh what's going
+on well anyway i'm i'm uh you've got various
+options available to you you know i i don't
+think i had the there we go github i think
+i think i just need What? Is there a
+reason you're trying to install GitHub
+twice? Or did you miss a dash between GitHub
+and Sheetracker? There we go. Oh, I did it twice.
+Good call. No, I'm all flustered
+from my epic failure earlier
+is what happened. But yeah, so
+basically, I can go in here, and I can
+create GitHub. So in this case, well,
+now what's going on? anyway guys the
+today today's demo is uh it
+let's just let's just do a swarm
+i know that works npx that we'll go in
+here and we'll do quad flow alpha it's
+actually kind of good though reuben to because
+a lot of people have this have this
+particular problems which is you know something
+broke something stopped i gotta stop
+it or whatever and i really really it's a
+very common problem to know how to continue
+on from where you left off either intentionally
+or accidentally that that's a there's
+a very common problems that a lot of people
+are going to face yeah yeah so so in
+this case we we just noticed i just noticed
+there was a there was a bug i i see here this
+what this bug most likely means i think is
+it's not instantiating clod code correctly
+would be my guess and i'm just doing a quick
+test in the swarm but now what i what i
+would do actually what i'll likely do is i
+would spin up my actual environment that i
+have running for where do i have that my
+cloud float instance so i'm gonna so this is
+spinning up a swarm so you can see here it's
+it's injected the memory patterns and it's
+analyzing i basically said fix my problem
+it's it's not you know it doesn't know what
+my problem is i'm just messing around
+with it but in this case i did notice that there
+was a potential bug so while that's going
+and figuring out what it's going to do i'm
+going to go i've got another vs code instance
+and in this case this one looks like
+it actually resumed interestingly so i'm
+going to i'm going to close this for a sec
+and i'm just going to confirm that there's a
+bug so you notice that i'm running this uh
+this is the environment that i'm running to do
+with the development of cloud code it's
+or cloudflow itself. You can also
+do that as well if you want to
+use the wrapper. And what I'm going to
+test quickly is the dot cloudflow slash I
+guess spell it right. Low GitHub. and it looks like
+the issue was causing me a problem so I'm
+gonna type that yeah it looks like let's
+just double check yeah looks like
+there's an error there that's because I'm
+probably in the wrong repo so I'm gonna switch
+to my other my 2.6. I'm going to go
+lazy on that. Help. Copy this. I guess I could
+type it out, but I'm lazy to do that. And we're going
+to go here. I'm actually in
+Jed's repo. So I don't know why
+there's an error, but I'm not going to
+worry about that. So, I'm going to go to my actual branch
+that I know works. And I'm going to
+stash and switch to what was the
+name of my branch? I think it was v2
+.6, v2.06, v2.06. For everyone else
+offering errors in the chat, please include
+instructions on how to reproduce that error so
+we can try to fix it. Yeah. And one of the reasons
+I create branches whenever I test
+someone else's issues or PRs is for
+exactly the scenario. So this one was
+exploring the transparent feature or something
+like that. So now I've got that going, I'm
+going to just quickly check that that is
+no longer an issue. So I'll go here and
+we'll just, I'm going to instantiate the
+wrapper just because I want to see if
+that causes an error. There we go. Sorry, Jed, your branch is having some trouble. Now I'm going to
+be the first time. I'm going to go back
+here and I'm going to just double check
+that the GitHub stuff is either
+broken or not. GitHub and then I'm
+going to grab the GitHub I
+think I tried the issue. Which one was it?
+I don't remember which one it was
+at this point. Issue tracker. Yeah, issue tracker. So I'm going to go there. What I'm trying
+to do is see if I can create
+that error again. No, it's one of
+those things. So interesting note, it
+doesn't happen when I try to instantiate
+it with the wrapper. Interesting. So there's a lot of
+different ways to instantiate it, right?
+So if I instantiate it with the MPX
+and I add alpha, we're going to try that. Doesn't seem to have a problem there either. It's one of those,
+this is a common issue I run into.
+It's the works... So, you notice that I
+did the same thing over here, and here I had
+these issues, right? So this is, I don't
+know what this is even doing, let's just close
+that for a sec, and issue GitHub, issue
+tracker, and then we're going to just
+run that one more time, oops. So this is how, this
+is how, this is a lot of the debugging
+that I need to do. So now that I see
+there's an error, oh, yeah, here we go. This, all right. I
+think this is, one last thing I need
+to check. I think this is because
+I'm not checking, I think Claw's making
+me log back in. Yes. So this is, so what
+I didn't, so what I did on the swarm
+and what I did on the hive mind, but
+what I didn't do on the GitHub is do
+a check for whether or not you're
+logged in. So now that I verify that
+that is the issue, I'm gonna go create an
+issue that addresses that. So I'm gonna
+go back here and all right. And then I'm
+gonna go back to this. But you're not
+gonna create an issue in the GitHub
+UX, right? Yeah, create an issue for
+the following error using, you know,
+error. When Claude code requires you
+to re-enable the token, I'm getting
+the following error. this was fixed in the
+uh what was it in the uh swarm function that
+i got spelled right create a issue with the
+problem and solution use the cli yeah back
+to jed's point the the cli i'm just using
+cli for a lot of stuff you know the mcps are
+useful but at least i know the clis work
+so in this case i'm a uh an issue
+we'll let and then oh man not
+again so oh what oh he's back
+you're back okay it's oh it crashed
+again i think we're good guys
+i apologize zoom's dead we
+still hear you roof we can hear you
+guys we can yeah we got your audio
+can it be the streams i don't
+think he hears us okay um yeah what
+is this video we're probably gonna have
+to benchmark his uh internet connection his
+transcoding capacity yeah well he he might
+have changed his camera pumping a ton more
+data into his machine than whatever webcam
+he was using it's not just that he's also
+streaming to two other locations yeah he's got
+a lot and youtube so like that's a lot of
+transcoding maybe claude flow can build distributed
+system for him. Can you share the
+YouTube channel? I haven't been
+able to find it. Just look up
+Reuven, I think that's what it's called. If that's not it,
+it'll show up in the WhatsApp group later,
+maybe the Discord. All right, thanks. Can I just clarify
+something? So I'm just trying to
+summarize, so we were on your branch
+Jed, right? There was an issue that
+Roof noticed. Did we actually I noticed he was
+creating a GitHub issue. Were we demonstrating
+the ability for us to say when we notice
+an issue about how to report back? Back to
+your comment on the chat? I ran into my own
+problem while using the latest version of pre
+-alpha clod flow and basically it had to do
+with resource exhaustion my computers are
+running out of ram so i tried to i prompted clod
+code to create an epic as an issue in the clod
+the rovnet clod flow repo to detail a
+solution that has the swarm that makes the swarm
+aware of the remaining resources in the
+specific environment and to decide whether it
+should spin up another agent or to cue the
+task for the existing batch of agents to
+consume later. That way I avoid resource exhaustion
+and the number of agents hypothetically
+would dynamically scale up and down based on
+the available resources in the environment as
+well as the collective existing agent's
+resource consumption. Now, I spoke a lot of
+words. I typed about maybe 100 of those
+words, and then it generated a however long
+epic, including testing plans, feature sets,
+user stories, that a subsequent invocation
+of cloud code picked up without the
+context that was originally generated and pushed
+into the issue, and then started trying
+to build and build tests for within my
+Cloud Code instance. Hey, everyone. It's David
+Bratton here. I'm the chair of
+the foundation. Reuven just messaged
+Robert and I that he's done.
+His system has crashed again.
+Obviously, we'll get some systems
+there figured out. There's a fairly good
+dialogue going on here. So I'm happy to
+keep the stream going uh uh jed braun and
+ocean were active with Reuven um developing
+the system uh so if they're if they're
+down to continue this discussion um i'm
+happy to keep the thread open uh otherwise
+uh Reuven will not be returning to the
+stream unfortunately good to know i'm
+good till two o'clock eastern so i've got
+another 50 minutes with all of you if you have
+any specific questions happy to answer them
+i feel abandoned just to just to
+talk about monday's question right so the the question for you
+monday was that the the thing that
+the the issue that you described jed i'm not
+sure that was the issue that actually Reuven
+was dealing with that was the issue which
+caused the branch that's what led to the creation
+of the brand in the first place my question
+was more like jed going back to your
+comment on the chat if we are having an issue how
+do we report it back to you in a meaningful
+and automated way so what i heard from you
+is saying if i install cloud flow swarm alpha
+and like that hook error right if i face
+it do i have the ability to ask cloud code to
+report it to roof's repo as a github uh
+um issue i believe so yeah it should be easy
+to test right now just create a dummy issue
+verify it can be created and then close it
+i think there's no constraints on who can
+create issues right now uh jean i'm not sure
+that's super easy to do actually i think anyone
+who's a member of the of the repo can
+actually create an issue and this is where you
+need to be careful because all issues are now
+going to be picked up by Claude Flow and the
+swarm and potentially acted on. Well, that
+part isn't automatic. That's why we explicitly
+have to prompt Claude Code to pull a
+very specific issue. For that reason, we
+don't automatically pull all issues
+for development. So the human is still
+curating the issue. And that's the normal
+process for GitHub issues is that anybody
+creates an issue And then the dev team and
+the maintenance or the allocated sub
+-maintainers would go and review the issues
+and decide which ones they want to work on
+and which ones get pushed to PRs and PRs
+get created and such. I'm not sure that
+the team has gotten that level of
+sort of process yet, but I think
+you guys are sort of manually doing
+that review phase. In a way, I'm only
+working on my own issues. I know Ocean
+and Braun are working on super low-level
+stuff that I don't fully understand, but
+I know that when they get it working, it
+works really well. And then I do know
+that I see other issues being pushed into the
+repo. I don't know if those users have
+explicit permissions or access, so I'm going
+to assume they are submitting issues as
+members of the public. Yeah. So I assume,
+based on that evidence, hopefully this isn't
+a hallucination, but I assume it
+also means, Monduit, if you come up
+with an issue that can be reproduced,
+it's possible to have cloud code generate
+the necessary documentation to
+reproduce the problem, recommend a solution,
+and then have a completely independent
+instance of cloud code pick up the
+issue that was left behind by the first
+instance of cloud code to work on that issue,
+resolve the problem, and prepare it for
+another release. So it's a form of
+swarm across entities, but much slower
+only because meatbags are involved. I hear you. So the
+way a user is going to use Cloudflow
+Swarm is to use the npx command, right?
+So the big commands, the four or five
+step that Reuven shared on WhatsApp
+and on LinkedIn. That's the way they're going to get started. Now, during the
+process of work, you're going
+to get issues. So if I hear you
+correctly, what I can say, ah
+i've got the issue so i'm going to
+say okay please explain why this
+issue has occurred if i'm sophisticated
+enough i will create a second court instance
+that you have asked me to do and try to
+create a resolution and feed it back to the to
+the designated i guess repository if i'm not
+that sophisticated the least i can do is
+say okay document this issue and report it
+to that particular repository as a github
+issue correct the most important step is in
+is a set of detailed instructions to reproduce
+the error because if i can't make it fail on
+my machine the same way it failed for you
+i i can't help you hey ocean welcome that
+that's that's normal that's normal github
+process though jean right i agree a lot of people
+a lot of don't know that here are not
+technologists Yeah, I know, man. We're going to
+try to support them. Yeah, so what I have
+my hands up is, do you guys want to
+see how I'm actually developing the swarm,
+like using that kind of methodology that
+you've been describing? Okay. Yeah, man. Show
+me how you did the report that I picked
+on yesterday, man. You did an awesome
+redo of it. I love the redo,
+by the way. Oh, thank you.
+has questions i'll still be active
+in the chat all right so let's
+take a look at this um let's say so
+right now there are certain issues so the most recent one
+i submitted was uh about roof swan
+is issue 13131 about roof swan machine
+learning and then trying to get that integrated
+with the root swan core because currently
+the 27 neural models are not actually
+integrated into the rust and then um so i'm
+trying to get that working and then and
+that is what working on and uh so via yeah
+the i'm not using the uh release version of
+root swan right now so i have to tell the
+cloud code to use my local uh response
+test mcp server please So you created a
+branch and then you pulled your
+branch down? No, this is a session
+start command. This is not part of
+the Roof Swarm nor the Cloudflow, but
+it is how you can use Swarm in another way
+because the Roof Swarm itself is a SDK,
+so to speak. It's a topology with neural
+net optimizer. so it is can be theoretically
+used with anything and here I have a
+my own orchestration system I guess similar
+to hive mind but by goes kind of like
+I personalized to me all right so so
+now the session is started it's a issue
+131 is a test-driven development for SWAN
+machine learning integration testing
+and then let's get it started and see
+what should we do about it assess the
+situation please sorry guys what was this I
+missed if just quickly I'm sorry interrupting
+you yeah sure go ahead so we're you know what
+we're doing is You know, Mondavit was
+asking about if he has a problem with the
+system in any way, what should he do? And Jed was
+saying what you normally do is you would
+create an issue, have Claude create an issue
+for you. That issue will go and get created
+against a repo in the master GitHub repo,
+right? One of the repos. And then, you know,
+then it will get worked on by some
+other instance of Claude, like one
+of Ocean or Jed or somebody else or
+Reuven working on it. And so if you have
+a problem, that's how we're managing
+to fix problems. Ted was saying you've
+got to create your issue so that we understand
+it's reproducible. The cloud system can
+reproduce it, which will give it enough
+information to then be able to work on it. What
+Ocean is doing is he's showing you how he
+dealt with an example issue, 131, right? And
+where he's working on a part of the system,
+which is the neural network system. That's
+the part he works on with the GPU stuff. So
+he had an issue that was already created,
+and now he's pointing his system at this issue
+and how he's dealing with that issue and
+what his process is. Exactly. I guess I can show
+you how to report an issue once, you
+know, after it works on this and then
+find new problems. Jed took over. Yeah. Hey, guys. I'm having some
+technical difficulties with the new setup
+today. My apologies. We got your back,
+Ruben, man. We got your back. Thanks
+for taking over. Yeah. I'm gonna
+take off anyway guys, so I'm
+not sure if you want to shut
+this down or... We will keep it. Implementation that should be
+separate issues, please post those
+on GitHub directly. and yet i have
+a question i remember roof
+saying that if you want to help
+and just point your resources to the
+repo but many people don't know how to do
+that so i think it would be very nice to instruct
+the the majority of people because even
+myself i i have no idea where to start
+to help so if that's an option or many
+people don't know how to do it but at least they
+can put resources or cloud computing, then
+it will be really nice to have instructions
+how to do it. I was going to tell you to
+have cloud code draft detailed instructions
+on how to do that. But in the interest of
+time, what I suggest is familiarize yourself
+with the repos URL. It's github.com
+slash rovnet slash cloud dash flow. So when you're
+prompting odd code, you tell it either through
+the GitHub CLI or the MCP, but not both,
+to create an epic as an issue in repo URL
+that references a solution to problem,
+whatever the problem is. detail it as much
+as you can manually. And then on the other
+side, in a separate instance of clogged
+code, so it's not using the same context,
+you say claim issue link to issue, and
+then implement or apply test-driven
+development to resolve the issue and ensure
+that all tests pass. Keep iterating until
+there are no more failed tests. And
+in that way, usually you get 80% of the
+way you needed to merge the code into
+whichever main branch is ready. At which
+point flag, ocean, brawn, ruvin, myself,
+and then we can so at least I will
+review the code using cloud code to summarize
+what was changed and then to validate
+the changes against what was described
+in the issue to make sure that it makes
+sense and that it's ready to include in
+the next release. The other thing I would
+also suggest is to prompt your uh prompt
+the issue puller the thing that's claiming
+the issue to create a new branch and to
+also every time code is committed to that
+branch add a comment to the issue so that any
+other observers can follow in near real time
+what's being done to resolve the issue does
+that help do we need to be a contributor
+in order to to commit to the branches i
+believe so so in that case you may have to
+create a fork and then a pull request that
+references the fork but in i believe you can
+still file the issue in the main repo okay
+um cross check with cloud code i may have
+hallucinated i was just showing like what jad
+was saying that like once you commit the
+issue uh as cloud code and then you do the
+claim command, and then so it did not
+actually claim the issue. It's supposed to write a check the actual
+patterns in. So what this command
+is supposed to do is to write a comment
+on the GitHub issue, change a label to say that
+this issue has already been claimed by
+somebody else's swarm. So that when
+you point your swarm at all
+of the issues, they will just skip
+that. So that is how Ruben developed this
+GitHub system aiming for multi-user
+collaboration on this. I think it also
+puts your, allocates your user ID as one
+of the associated to the issue as
+well. so we can see who the owner,
+the sub-owner is. Yes. So now it has posed
+the comment to GitHub. And this is just
+the very standard, simple way that this
+one says it has, it should label that
+a claim. There's something wrong
+with the prompt. I use a slightly
+different setup. So right now,
+the issues has been claimed, and then... Oh, yeah, now it's adding the SwarmClaimed label. This is how other Swarm
+can know that they should not work on
+this issue anymore. And then I guess I can tell it, let's work on this. Orchestrate and
+make a plan. Whilst this continues,
+I think for those of you who may have
+seen this LinkedIn. So there is basically
+these videos. I think one of our
+colleagues has implemented a mechanism to query
+the videos. So I think all these
+discussions that we are having is queryable
+and it kind of can, it's a natural language -friendly query system. That was, I think I
+saw the LinkedIn post today, which was quite
+amazing, actually. Is that a LinkedIn
+thing? yeah so yeah yeah yeah so I will ping
+it on the chat here so it allows you to us
+to create any educational content from all
+these videos that we are recording and query
+if you have a specific question around
+whatever that is covered by these videos you
+can get that except a specific clip of
+video as well like so so let me just bring it
+to you slightly well tangentially relevant
+when i'm looking up the latest information
+about a topic i will instruct clog code
+to download youtube transcript retriever
+from github and then use that tool along with
+youtube search to extract a minimum 50
+videos from youtube and their transmits to
+write a detailed summary about whatever topic
+i'm trying to learn about so in that room
+i'm able to identify across multiple experts
+which areas they agree and are presumed
+to be general knowledge for experts in that
+space and then which areas they disagree
+so i can figure out which rabbit holes to
+burrow further through yeah that's a good
+idea the yeah the the transcript retriever
+is pretty good actually it's just text which
+is great so it's on the chat now so zohar
+basically he basically built in the mcp server
+for Kaltura where the recordings are there
+so that link if you follow the linkedin link
+that details it so up until the point where
+ru froze it's he we got to most of the
+parts that are completed for the install right
+that's because he launched the installation
+demonstration took about eight minutes and
+a lot of that was reuben explaining uh components
+of the system the actual install i
+think would take seven commands seven lines of
+commands yeah okay and it also assumes you
+already have node.js running in your environment
+yeah i was going to mention that it's
+it the npx and the npm require node.js so a
+lot and that's reuben generally just assumes
+that that's everybody knows that what about
+the deployment uh because most of all the
+videos most of all the conversations we have
+is a setting up getting swarms going what
+have you guys seen in time or views for
+deployment once what do you mean by yeah what do
+you mean by so once the so once the animation
+app is built then and completed then you
+and then i know it was mentioned this is
+mostly back end then you add front end and then
+you just you know what go to aws gcp so or
+how do you get it running once what what
+not how what do you have you seen or what do
+you recommend to oh it depends on what building
+so for example uh if you go to let me put
+the link in the chat it also depends on
+how you designed and architected and told
+it to design your product as well so as
+an exercise in full site full software
+development life cycle i prompted broadcode to
+develop a pose detection algorithm that
+uses your webcam to put an overlay over
+what it sees to identify limbs now in the
+course of developing that i very explicitly
+told it to conduct all tests using a docker
+container to build the code into a docker
+image and then run tests against the
+built docker image so in my environment i
+had to use something called docker in docker
+so that i was able to have the tests
+running inside the docker container as
+another docker container It's a little convoluted,
+very backwards. Reuven would
+probably disagree with the solution,
+but it is a solution that I
+got working for me. So during that
+time, when I had the container
+running, the code space would
+forward a port to my local computer, at which
+point I could access it through my web
+browser and then confirm that things work. In
+software development, I believe this is
+called user acceptance testing. And so in that
+moment, I'm able to get the console logs from
+the browser, the backend logs from the Docker
+image, and paste those back into CloudCodes
+context to say, hey, this thing isn't working.
+Here are the logs from that time. Please
+fix it. and then it would **** along as
+one or two concurrent agents. It doesn't
+really work if you're trying to do it with six
+concurrent agents. They end up stepping over
+each other, but it takes maybe three to
+five more iterations of that to get something
+legitimately working. Now, I also want to
+emphasize, while I do know how to write
+code, I know absolutely nothing about how to write
+TypeScript or generate WASMs or whatever was
+used to create the application at that
+link. I wrote the entire thing using English
+and copy-pasted logs. So hopefully, Matt,
+that gives you some insight in how you
+can complete the development lifecycle
+through to deployment. Yeah, it does.
+Thanks. And in my case, I happen
+to host most of my services
+on Kubernetes. And so I use that to,
+I use CloudCode to generate other manifests,
+which are basically deployment configurations,
+to take the generated Docker image
+and deploy it to my Kubernetes cluster on a
+high availability basis. So while I happen
+to know how to write Kubernetes
+manifests, I didn't need to use
+that knowledge to write the manifests to
+deploy to the cluster. And while I don't yet
+trust Claude Code to manage my Kubernetes
+instance independent of me, because a lot
+of secrets are still stored within the
+cluster, I am at least confident in having
+it build the necessary manifests to deploy
+any new application or create in a well
+-opinionated, resource -constrained way that
+doesn't kill the cluster. The thing here,
+though, Gene, is that you know your
+dev environment, your production environment,
+your environment that you have available
+to you for deployment for dev, right? So,
+like Matt, you need to have an idea of where
+you might be wanting to deploy if you want
+to deploy it in amazon or gcp right you need
+to tell it that in the in that that
+ultimately your what you're designing is going to
+be should be either a kubernetes container
+like microservice or a docker and it's going
+to be deployed in aws you know or whatever
+right or on a local linux system somewhere or
+whatever you need to tell it you know it's
+not going to it could tell you but you really
+want to use english conversational language
+to tell it what what you're thinking okay and
+i should also emphasize i only am fluent in
+english i haven't tried this in another
+language so for those of you who are polylingual
+uh try it i'm curious to know how well it
+would work good that's a good question so
+just do a really good job of generating all
+the keys the thing i always run into when i
+deploy an application is there's always a key
+somewhere that i didn't get set up correctly
+the first time right do you find that it does
+a good job of handling that stuff what do
+you mean by key like a key value like a
+security key like an api key or so secrets
+whatever there's some form of digital key so in
+terms of secrets i still manage that manually
+i have found a good way to let cloud code
+manipulate secrets into the environment without
+inadvertently sending that secret up to
+wherever the llm is running that's what it
+makes sense so you could potentially get it to
+generate a script that would generate in my
+case very keys but you would still have to
+manually then then uh so what i do is i i
+prompted to explicit draft explicit instructions
+on how to deploy a secret into wherever
+the deployment is and then i separately in a
+completely separate uh web browser or something
+generate the secret using whatever tools
+i have available to me okay you you you have a
+pretty good methodology for managing secrets
+right because you've been burnt that's
+your day job right as part of your day job
+is to is you use them a lot whereas i find that
+it you know as Claude flow swarm as it's
+building out your app it's mocking up a bunch
+of stuff it's mocking up a bunch of you know
+api calls and secrets and api keys so it
+will kind of forget um you know and make
+assumptions and then and it and it just won't come
+back around to it or and you will get caught
+out because it it just won't remember or
+you won't remember because it's doing a lot of
+work and it'll the solution to that is
+exactly what i'm showing right now to break every
+single task to issue byte and then just
+work on through those issues which you can
+actually observe in real time and you can just
+comment on the github issue and say you know
+whatever you're trying is wrong try again
+please yeah you're right yeah that makes sense
+right that that part of it um that i'm
+actually really excited about the issues integration
+stuff for reasons like that it's it's
+always that there's um you know that either
+it's really easy when you're beginning to
+make the assumption that the ai is going to
+figure out all of the things that need to be
+done if you ask it to figure out all the
+things that need to be done and it really
+it isn't quite ever going to do that so
+having an issue tracker to say um hey if you
+know if there's a gap that that you identify
+during testing or something else or if i
+identify something and i can use issues to
+establish that and do exactly what you're
+demonstrating now which i haven't tried yet
+so i don't fully understand it but that
+to me i think is um kind of the right state
+of the art for today the cool thing about
+it though is that sorry sorry james no i was
+always gonna say is you're always gonna
+have something right now as things stand
+today you're always gonna have something
+in a sophisticated deployment that you're
+going to have to get involved in in some way,
+shape, or form unless you want to share
+everything in the world. And even then, if
+you want to really trust that everything
+has been done in a way that you can trust
+the application moving forward, you're going
+to have to get involved. So the issues thing
+is good for that. And part of my reason
+for the question is I'm kind of
+in between two worlds, of the world
+and trying to figure out the stack,
+if you will, like you know, for secrets,
+HashiCorp, Vault, Doppler, do you use like I use sealed secrets
+and then I set up the private key so that
+it would take, I tune the private key so it
+takes a $100 million amount of Amazon
+compute to brute force it. So the way I
+see it, my systems are only vulnerable
+to state actors. hypothetically or I
+guess you know Tesla so I just want to add a
+little bit of methodology of what I'm actually
+doing here so to initial initially I
+pointed to a few issues on github and then saying
+that is what we're going to work on today
+and then I kind of guide it to make a
+very comprehensive plan which I know is what I
+want to work on and then what I ask you to do
+is I'm going to go have lunch, please work
+all of them out, and then typically I just
+go to something else. Then a few hours
+later, it will be able to resolve
+everything to a degree that I am ready
+to pick at again. Then I will probably
+start to sequentially validate everything it
+has really done to make sure the test run,
+there is no mock, etc. Then I push the changes. It is not getting
+human out of the loop. It is more
+to automate the part that requires
+traditionally technical expertise
+to even write. But what I'm doing
+is managing the whole software
+development flow. The role has actually
+changed quite a lot. Yeah, so that's good
+stuff, Ocean. And to sort of close
+all this, not as much close it out, but
+Mondavit, come back to Mondavit's question. If
+you have a problem, you document it as an issue
+and then do all the reproducible parts of
+it in that as well. But you have the
+power to also have it work on and solve
+your own issue is what I'm saying. Once it
+gets created as an issue in the GitHub, it
+doesn't mean that somebody like Ocean
+or Jed or myself or whoever is going to
+pick it up and work on it. It doesn't mean
+that that's going to get fixed. It will
+sit there as a known issue, and someone
+can look at it, but it doesn't mean that it's
+going to get fixed. You have the power
+with Claude Flow and Roof Swarm to actually
+have it go and read the issues and
+actually work on your own issues. That's
+what Ocean is doing, right? He's saying,
+here's my issues, and I want you to
+go and come up with a plan to solve this
+particular issue. I think that's what I
+wanted to clarify to you is that if you've
+got a problem, you can have it documented as
+an issue. It doesn't mean that once it goes
+into an issue that someone will pick that
+up and fix it for you. You might actually
+have to tell it to go and pick up your issue
+and fix it yourself. I think David mentioned
+a really good point because what this
+is doing is just to add an orchestration
+structure into this to make sure that every
+task is very well divided. And this
+goes back to the roof swamp in terms of
+context engineering. And then so we only want
+to provide what they exactly need. And then
+that's why I'm using GitHub issue for all
+of those contexts. Otherwise, when
+contexts get bloated after a few
+auto-compacting, it will forget way worse. And that is why I am
+doing the main cloud code as an orchestrator
+pattern only. All the work are supposed
+to be done by the task agent, such that
+the main cloud code can reserve its
+precious context and then won't really get
+crushed. It will have the capability to
+double check, verify the task agent's
+work, rather than to blindly just take their
+words at face value. This is another
+type of interesting pattern that the
+Roof Swarm enabled because previously
+when you do this kind of five-task
+agent together, you can directly
+via Cloud Code, yes, but this five-task agent,
+they might conflict each other's work
+quite a lot unless you get a very good
+coordination going on. Sometimes two agents
+might add the same file and then while
+another agent is doing testing and then they
+say oh all of work are done but then
+when you get all the work together it is
+not done maybe each individual task task
+agent did their stuff so that is why you
+need some kind of coordination system
+therefore they do not conflict and then and
+then this five six task agent are doing
+one thing so that the orchestrators is
+very clear and they just keep on going
+okay one question here, or one idea. Is it
+possible to assign a specific model from
+Claude to orchestration? For example, if you try
+to use your resources as Oppos for orchestration
+and then Sonnet for the rest of the
+stuff, is it possible? No. Currently, you choose one. Yeah, you choose the pro
+and the max 5 and the max 10 or max 20
+right uh max 10 5 pro max 10 max 20 that's
+all you can configure as your back-end
+model uh back-end subscription and it's
+other opus or sonnet and there's controls with
+opus or sonnet that it will back off
+after certain api connections and messages
+correct but i think if i read correctly
+somewhere in um tropic you can try to force
+it Yes, you can. You can, yes. That's why my idea
+that you can actually somehow define that
+your orchestrator will be your best model,
+so it will be less used to be fair, less
+used, and then the workers will be
+sonet. Is it possible? So that is what I'm
+doing right here. I don't know how to
+do it automatically, but I'm just
+having Opus to do the planning and
+then have Sonnet to do very early
+orchestration. When you invoke
+Cloudflow as a what's it called?
+A command line call instead of as a batch
+tool, you can explicitly say which model to
+use. Opus 4, Sonnet 4, Auto, and I think up
+down to Sonnet 3.7. So it is possible
+to set different, for lack of better
+term, models within a specific running instance of Cloudflow. yeah but the the
+system doesn't do that uh the old system that
+reuben had and and like the ruvy system
+it could do this but i'm not sure it
+does that right it doesn't switch between
+between models based on orchestration or
+or planning or that still requires human
+curation yes yes yes but then jet uh if
+i'm not wrong the example that you
+mentioned that you run a couple of different
+terminals and in each terminal you have like
+a specific type of orchestrator worker
+and if you can use Claude for the
+orchestrator the opus one and then you just
+open the sonet for the other ones that
+will work or not? Maybe I haven't tried
+it personally but that it sounds plausible
+well there's a command line switch within
+claw to tell it which model you want it to
+use there's also a switch there's also a
+slash command switch right yeah so since
+you're running in multiple terminals yeah
+yeah so exactly that slash model opus or
+sonnet and then you switch yeah you go
+slash model yeah that's that's that's simple
+yeah all right so i just asked opus to evaluate
+the work of the previous one and then
+i'm just going to go back to sort it to
+continue please continue um so what i want to
+get out of it is to uh have a more have a
+smarter model to confirm or to deduplicate
+double check etc to continue this autonomous
+flow before i have to personally examine what
+they have done this just add one tiny
+iteration loop in the middle to let itself
+debug before I have to. While we're watching
+this, I just wanted to cover one other
+GitHub scenario that you guys, some of you
+might know about. And there's another GitHub
+scenario that deals with issues on a
+very automated way called the workflow
+and the runners system. And GitHub, that's a
+service that GitHub will make available
+to you. It's not free. It uses certain minutes
+that you have, three minutes you have
+associated with your account. You have to
+set it up. And what you do is – and sometimes
+it needs an API key based on what it's
+doing. It will go through and review automatically
+issues, and you can put certain keywords
+into an issue like at Claude. If you put
+at Claude in there, it will trigger an
+automated run through an issue and actually
+start work for you on a Codespace machine
+and actually start working and do everything
+that we're seeing here. It will get
+automated. But that system only works with the
+integrated Anthropic Claude GitHub CLI
+command system, not the MCP GitHub. So it only
+works with that, and it will potentially
+cost you money because workflows and runners
+are the sub-processes that run around. You
+can configure, we could configure a Reuben
+Swarm to be a runner in the background, and
+it could automatically do what Ocean is
+doing. But I don't believe Swarm and
+Flow are configured to use the workflow and
+the runner system yet. Not yet, but I think
+you are able to figure out somehow because
+there is official SDK for the cloud
+code that you are able to just make into a
+script. And then any script can be part
+of the GitHub action. So what I'm showing
+right now is previously we did a
+Swamp claim, right? And then so
+Ruben set up this GitHub action
+that will say, oh, this task has
+been claimed for 24 hours without any
+updates. If you're still working on
+this, post an update. Otherwise, we're going
+to get rid of that claimed label and
+then allow others to work on as well.
+So a lot of things you can to accompany
+this one pattern. Yeah, that's a cool
+action, right? Or you could say, you know,
+if a certain keyword is entered, like auto
+-fixed by Swarm, it will actually say,
+oh, got it. I will go and create a Swarm to
+solve this problem. And that will spin
+up a Swarm and it runs in GitHub on the
+GitHub Codespaces. So that's where it
+costs you money. And it will do all the
+work you're seeing here and actually
+try to automatically solve and write code
+to solve your problem based on its own
+review of the issue. So that would be a
+way to automatically solve problems, but
+it's expensive and it costs money and we're
+not doing that yet. Yeah, I think once,
+if we're able to find a way to get
+Cloud Code $200 Max plan to automatically
+do that, the only cost would just
+be Codespace. Yes, yes, and that would
+be a cool system. Of course, the cost
+would go against somebody's Claude
+Pro Max account. It wouldn't be free
+because it would spin up an instance of
+swarm or flow in the GitHub code space to
+actually start working on that issue. And
+imagine if there's, you know, everybody's
+creating hundreds of issues per day. Now
+we've got hundreds of cloud flow and swarms
+get created inside of GitHub to deal with
+them. It's awesome because a lot of stuff
+will get fixed, but somebody's going to
+get charged for that. Yes. So another way
+that I do massive issue -based development
+is I would kind of create way too many
+issues that I can possibly handle or any swarm
+can possibly handle. And then I'll go in and
+then start to rearrange all of this issue
+into a nice sequential plan. And then I'll
+start just working on one by one in the exact
+order I showed. So some of my crazier
+attempts is not just on so I want to mention
+this the swarm pattern is not just for development
+and then the github integration is not
+just for software development so for
+example here is a academic research project that
+I did on a proving the point of a rust based
+rust based framework that was doing for
+capability um and then of course like something
+we know about this vibe coding stuff is
+you don't know what's going on in terms of
+like okay it works but what is what does it
+really make scientific sense or mathematically
+proven so um one thing i did was i have the
+swarm to go take a look at all the rust
+code and then start to doing formal uh formal
+verification and then derivation of each single
+component to verify the claim i think this
+is how the agentic is becoming a science
+in that regard very cool um yeah so so
+all of this stuff have incredible amount of deep
+research behind uh it is coming up with its
+own academic proposal evaluate the novelness
+of those and then it is actually planning
+to release those on my journal. I'm just
+like, I got to read it. This is amazing, Ocean,
+because it kind of sort of a question I
+had, which was, you know, from a business
+point of view, how do you explain to
+someone the benefit of this? You know, for
+a fee listing that is just starting, for
+example, they could go to Cloud Code and spin
+off number of agents and, you know, know,
+sub-agents and ask them to address
+different tasks and they will get something up
+and running at some point, right? So how
+do you prove exactly as you've explained right
+now, you know, the impact in terms of
+performance, in terms of saving time, in
+terms of orchestration and so on, I think
+it's going to become a very important topic
+going forward, yeah. So this is a very,
+I would say, this is a difficult topic
+to really have, if you would try,
+because it's very technical, right,
+Vincent, what we see here is super
+technical, right? And when most people
+that ask those questions are business leaders,
+right? Because they're writing the check
+to fund some project or part of a business.
+And it's quite, quite difficult because, and
+I had this, we asked this question, I think
+Chris Royce asked this question a couple
+of sessions ago about, you know, what's the
+point of, what is the value of swarms? And is
+it to do lots of work faster or does it
+increase the intelligence of a system to actually
+do better, higher quality work, right?
+And maybe there's other value props as well,
+but they are the two major ones that come
+up. And initially, Ruben said, you know, it's
+really, at the moment, it does lots of work.
+It's quantity, right? It's a huge amount of
+horsepower that gets spun up parallel
+batches and parallelism. But it's evolving now
+to actually increase the intelligence of
+the work that gets done and so and so that's
+part of the conversation you would have with
+a business leader to say here's why here's
+why you would do this here's here's why it's
+so a paradigm shift and to use a system
+like like swarm and flow um because well i
+think i think this is but this is just just
+want to add one one more point which is in
+safeguard of integrity you know like you
+maintain the integrity of your project your
+code base because you can prove like you
+said ocean and this was recorded fantastic
+you say then you don't have to take things at
+face value right yes it's you know this
+that and i think that's the key here yeah so
+a lot of this stuff is really good when it
+comes to things that are like ai verifiable
+and results like back -end stuff it's like i
+want this outcome and the ai can reach that
+outcome and say yes i've achieved this
+thing but that's why reuben's like let's not
+do front and stuff okay it's it's too much
+subjectivity right it's up to the user to like
+say you know i like this or i don't like
+this and the ai is never going to determine
+that and like one thing you'll really
+run into a problem with or i did is using it
+for say like databases like i was building
+a web app about a database integration
+into the web app and you know a lot of things
+where it's like you could make one table and
+then like have like say 15 columns instead
+it's over here making 15 tables with one
+column right and it's just making things
+really really complicated and uh like things
+like that that kind of has like takes a
+little bit of human subjectivity to go into
+it it doesn't do so well at but if you give
+it like an end result that it's like say get
+to this point or hit these benchmarks it'll
+get there and then yeah you might not
+you might even want to refactor a little
+bit and make things a little more efficient
+and stuff but it's really good at back end
+stuff and then making it test things that
+it can verify like you got to know what
+you made so that you can say as long as you
+hit these points and like in the database
+or the tables it says this this and this and
+this at these points right and you can get
+those outcomes then it's really good at
+that but yeah you kind of got to know
+what you're making and breaking it down to like
+ai verifiable points where if as long as
+it's hit these points you know the system
+works type of deal. Yep. So one little
+background on the Lion thing. So I built the
+Rust-based framework in February over
+a couple weeks. But with the Swarm,
+I was able to do formal verification
+in the morning. All of that mathematical
+stuff or the machine proofable
+theorem stuff, they're all done in the
+morning with Swarm. Wow. Yeah, it's great. that
+stuff absolutely and then the point is that
+is once it does all those formal verification
+i can start going back and pick all the
+architecture flaws that i initially designed
+it as because some of them might just be not
+that great it works but it's not great
+what is no state of the art or anything like
+those but through this kind of processes you
+can intuitively refine and then get to
+where you want to get properly yeah so that
+actually Chris Royce invented a really cool system
+called the devil's advocate that will
+actually go and review your the plans that
+it creates and then basically pick holes in
+it and say well here's where you're wrong and
+that's a really good system I'm not sure
+Claude low or swarm has that but it's a it's
+a you could manually prompt it to do that I
+guess that's another good way to do it yeah Yeah,
+I've been building this like cognitive
+triangulation system. So like how fair
+am I, what I'm playing with
+now works is it starts with goal
+clarification. And then you clarify
+what works. And then you also clarify what
+tests work and what benchmarks work. And
+like you tell it to go do something. It goes
+and does the research. It comes up with a
+plan. And then it's very important that
+the system goes through a lot of specification,
+a lot of questions to make sure it's 100
+% clear what you're doing. and then it goes
+and makes user stories and specs and then
+it says then it goes to a devil's advocate
+and this devil devil's advocate says okay
+how do the specs and the user stories match
+up with the user's initial intent okay
+anything that's off we fix now we go on the
+next phase pseudocode okay how does the
+pseudocode align with everything in the user's
+intent okay good move on now we go to
+architecture okay now the devil's advocate how
+does the architecture align with the
+pseudocode, the specs, the user stories with the
+user's initial intent. Okay, now let's
+make the test. Let's pass the test for
+all the features. Okay, now that we have
+everything created, let's create a model.
+The model is basically the architecture of
+what did get created. Like the architecture
+is before you code anything, but now the
+model is after you've code anything, this
+is the architecture of what does exist now.
+Now, how does the model align with the architecture,
+the pseudocode, the specs, the user
+stories and the user's initial intent? Good.
+All right. End to end test. Now, how
+do these align with everything? And so
+everything kind of plays back and triangulates
+itself on the user's initial intent is the
+main point of interest. Everything else is a
+viewpoint on how the system works towards
+that. And that's how I'm trying to get the system
+to as closely align as possible with
+the user's initial intention is what I've
+been playing with lately. I think that feedback
+loop is amazing. That's a really cool
+concept. And I think something that Cloudflow
+should ultimately kind of get there as well
+as to have well-tested, well-known feedback
+loops built in to the way that the agents
+basically are held accountable for the
+output that they generate. The output is really
+good. Like the reason I was doing this is
+because I was playing with swarms of like one
+to 200 plus deep seek agents running in
+parallel. And by using like this triangulation
+technique, like the outputs I was getting
+were, were very on point. It was quite
+incredible. no it's really i mean that's really
+cool i love that i shout out to chris man
+he is the king of swarms he invented his
+pheromone swarm system before you know rUv did
+a first cut at it chris went went crazy and
+built an entire system um and so he really
+has put a lot of deep thought into it that
+the process flow that chris just described is
+in is in his pheromone system it's not in
+Claude Flow or Swarm fully at that level of
+detail, but, you know, there might be a
+merging of minds between Chris and Reuven at
+some point. And I also wanted to say that,
+you know, what Vincent was talking about, what
+Chris just described, how would you,
+you know, all that verification, testing,
+and cross-referencing, imagine trying to do that
+in a software development company with all
+the different teams, that would take you
+like weeks and weeks to get all that sign-off
+with Chris's methodology and his system. He
+does that in like seven minutes. So how
+much money are you saving, time, effort, resources,
+just to do that, automated with a
+system like this? You have thousands or millions
+of dollars. There's a business justification
+right there in why you would want to
+do a system like this. So right now what
+I'm showing is swarm observability. So we
+have been seeing they've been using MCP a lot,
+memory storage, and then communication
+and such, but there's no way that we actually
+know what's going on unless you go see
+this SQLite database. So right now I'm asking
+it to save. Go find out which DB that
+we used, and please tell me, did the data
+actually got saved are they being persisted
+and what are in there so let's see if
+there anything actually in the sqlite and you
+know of course once you get things into
+the sqlite you can use it however you can
+so right now it found uh 41 agents in the
+database 23 tasks uh okay it's gonna
+show me some of those i i would in my opinion
+i think uh this is very great feature
+and then all of this data can be much better
+utilized in terms of the uh how do
+we do the neural network training for the
+ontology optimization but of course
+there's so much to experiment and explore
+i i got the rust NCP just functional as
+of kind of yesterday. So the Rust NCP is a
+lot more stable and then much quicker than
+the current released version. I'm hoping
+to finish this in a couple of days so
+that the cloud flow can be even faster
+and then more stable. yeah just so people
+don't get confused uh ocean you're
+you're working on the neural network component
+with inside of of Claude swarm right so
+they um just you're giving an example
+of the work that you're doing just so
+you recognize that so remember the roof
+mentioned about his neurodivergent that
+has like supposedly 27 machine learning
+models that will optimize the
+ontology the topology of the SWAN
+framework as you go. Then that is what I'm
+actually implementing right now to get
+those functional and then with GPU
+training support. Yeah. It seems to be fun.
+It has all the data persisted and then they
+can be later on reused and then validated, which
+is the observability part because then you
+can go see whether the optimization is
+good or is it any use of any use but even
+without the neural training this swarm pattern
+itself is already include increasing the
+um quality by a lot which is something i'm
+most shocked at that topology by itself is
+already very very capable all right um i think
+that's uh it's a good cycle of how i how i
+resolve issue to use swamp to develop swamp so
+uh thanks everybody yeah great great stuff
+ocean thank you it looks like we're we're at
+the oh it's 11 o'clock here in san francisco
+did you want to uh you want to close it
+down or we're good keep going well if you're if
+you're willing to host david happy to let it
+keep going i do need to hop off me too man
+i got a meeting as a reminder for everyone
+else we do have the new york city agentics
+meeting this afternoon this evening um i
+believe the link is at agentics.org so for those
+of you who can attend all the details are
+there looking forward to meeting a lot of you
+in person tonight right me too i gotta join
+that as well thanks everyone i will not be
+there but uh but i'll we're planning the one
+in san francisco silicon valley and then very
+soon thank you guys

@@ -1,0 +1,2575 @@
+Hello everyone, I'm
+Rube. Thanks for coming out. It's
+summer, which I'm probably surprised
+so many people come out in August,
+but here we are. So, thanks again. And
+some of this for folks who came before, this
+is the intro, you've probably seen it. Are
+we recording this? We're a mix, yeah. All right, so this
+is being recorded. Anything you
+say will be used against you on the
+internet forever. So, you know,
+keep that in mind. Um, I'm going to give you
+the quick overview of what in the world the
+Agentex Foundation is. Every time it's probably
+a little different. Today I'm going to
+actually give you a slightly different
+version because we've been having an existential
+crisis at the Agentex Foundation trying to
+figure out why we exist and for what purpose
+we exist. So I'm actually going to test
+a thesis, a hypothesis, I don't know,
+some kind of new positioning on you
+guys and And you're going to tell me
+whether or not I'm crazy for
+this positioning. So you're a bit of a
+guinea pig on that a little bit. But for
+those who aren't familiar with the Agentex
+Foundation, the Agentex Foundation is what
+was founded by a group of us in March of this
+year, it was dedicated to the concepts of
+Agentex engineering. Now the first
+thing you're probably going to
+ask is what the heck is Agentex
+engineering? And it sounds like
+probably like a medical procedure or something
+like that, but it isn't. So in the most
+simple terms, we're devoted to the idea of
+giving systems agency, you know, applications
+that can operate autonomously with little
+to no human oversight. But I'm not saying no
+human oversight. So our foundation, if you
+will, is geared towards, kind of in the most
+simple terms, it's meant to be sort of
+the antithesis of what you see in the Silicon
+Valley, where you see all these big companies
+trying to create what they believe to
+be AGI or this kind of next big revolution in
+technology, and they're looking to build and
+control that technology. What we said is what
+if we could create an organization that's
+dedicated to making that free and open
+to everyone, not just a small collect group
+of very rich, powerful tech elites in the
+Silicon Valley. So we're the other end of the
+spectrum. So we're a little bit socialist,
+a little bit open. We want this to be
+empowering people, not companies, making the
+world a better place, not a worse place, et
+cetera, et cetera. So a little hippy-dippy, but
+that's why we exist. So everything that we
+put out is free. We have a focus on open
+source technologies. Some of them have done
+pretty well recently. There was a project
+that we put out called Cloud Flow, which was
+arguably one of the first swarm-based
+implementations and technologies that blew up. We've
+had, I think, 200 ,000 or 300,000 downloads
+in the first month. And I think we forced
+Anthropic to change their business
+model based on that. They've actually
+copied up all our terminology, including
+the sub-agent concepts and other
+sort of components. Not that we
+get any credit for that, but that's OK. When you give your
+stuff away, you can't complain, right? Then
+that's the key here. All right, so we're
+geared towards the field and
+study and practice in design of
+agentic systems. And there's a group
+of us that, again, we've been doing
+this, this is kind of my fourth year,
+I'd say, of being a kind of agentic
+engineer. And when I first updated my
+profile on LinkedIn, mostly everyone said,
+you know, I was crazy. That's the stupidest
+thing they'd ever heard of, which I
+knew when I was onto something. Whenever
+someone tells you it's crazy, it's never gonna
+work, it's usually an indication that
+it's probably not crazy and it's going to
+work. So half the world thinks we're nuts,
+the other half of the world shows up for
+these things. We're doing these in dozens
+and dozens of cities around the globe. We've
+got a, I think it's an online event
+tomorrow out of London. London's actually
+one of our biggest growing cities, London,
+UK. I guess we're in Toronto, so we've
+got to be clear. But we've got these
+happening all over the place. We've got
+them coming up in the big city.
+We probably get one of these
+events happening. You know, we are sort of member driven organization
+that means most of the funding that we
+get right now is this basically volunteers
+you know adding their time or giving doing
+a nominal sort of monthly subscription
+for not a lot in return other than help support
+our mission to make the world a better place
+kind of thing through adjectives so again
+we're a kind of you know or grass roots
+organization if you will all right so now I want
+to get into the new position that I was
+talking a little bit about this is this is
+something that we've been you know discussed
+quite a bit in this idea of a guild and when
+you look historically in new emerging areas
+if you go back quite a ways you'd have stone
+masons and weavers and iron workers and
+as these new sort of industries took took
+shape you you see these guilds form where you
+were able to share your sort of you know
+your your art and your science in a way that
+you know where you had a kind of master
+and apprentice or a structure that allowed
+you to share not only the the means and methods
+in which you use to sort of build these
+things but the the ethos the the ethics the
+morality the the sort of guard rails the the
+reasons and methods maybe that drove these
+new industries and what we really see that
+I think the agentics organization of
+foundation is is a way to sort of one we believe
+that the idea of an agentic engineer is going
+to be a new profession it's a profession
+that will undoubtedly alter the way you look
+at work and when you look at the work of an
+agentic engineer it's pretty clear that once
+you master this type of work one person
+you can do the work of many and when I say
+many I'm talking potentially thousands of
+people so that is going to be disruptive without
+question. Like the fact that I can show
+up and do work, you know, one of the projects
+I literally did the work of 15,000 people,
+and that took me literally four days of
+effort to replace 4,000, sorry, 15,000 people
+in a company. And that got me thinking. I
+don't want to be the guy that steps in and
+just replaces 15,000 people without any
+ramifications. We need mechanisms to apply
+that in a way that's meaningful and not just
+in a way that's going to disrupt without any
+kind of consciousness, some kind of meaningful
+structure. So this organization is meant
+to want to empower people that can have
+great power, but that has to come with
+great responsibility. Thank you, Spike Man.
+But I know it sounds cheesy a little bit,
+but that's what's driving a lot of this.
+And I think we realize that every large company
+and probably every group within a large
+company is likely going to have an
+agentic engineer who's helping shape that sort
+of transformation that we'll likely see over
+the next few years so we want to be that
+guiding light not that I don't trust a bunch
+of billionaires in the Silicon Valley
+but I don't trust them so we we want to be
+those guys of people I should say that but
+help facilitate that transformation in a way
+that is conscious of the impacts that
+we're going to have. I know I sound like a
+hippie weirdo when I say this stuff, but that's
+kind of what we're getting at. So we just
+carry that sort of spirit of not only
+the label of we are an agentic engineer, but
+what that actually means and how it's
+practically implemented. All right. So again,
+the guiding principle here, and this is
+important, I've made it bold just to make
+sure it was obvious, is it's not about
+replacing people. It's about empowering
+people. For us, it's about making sure
+that we're making the world, the work
+that we do, the companies we work with
+better, not worse. We don't want AI
+to be a crutch. We want AI to be a
+unit of empowerment. Now, maybe that's
+wishful thinking, but we still want that to
+sort of be the sort of driving sort of effect
+and role that we place in how we sit in the
+sort of fabric of an an AI-centric society.
+So at the end of the day, our role is
+my last thing I should hold to this as well,
+is to not just shape the tools, but the
+safeguarding principles that guide the safe
+use of this technology. Now, you might not believe
+that the technology or AI might be all
+hyped, and might not be as revolutionary
+as some may say. And a lot of what we see,
+especially with GPT-5, is based on a lot
+of ********, right? And it's like GPT-5
+is a perfect example. We went from last
+year being AGI to a ****** incremental
+update to GPT, right? So, you know, we
+have to balance, you know, the reality
+with the hype that we're seeing in the
+space. But if you play in the space
+enough, you realize that if you push away
+a lot of that BS, this stuff is pretty
+dangerous and pretty revolutionary in a lot
+of ways in terms of how we work and how
+we interact with information. We conjure
+just about anything by asking the right series
+of questions, which is just insane when
+you think about it. If I had shown a swarm
+demo to you, you know, a year and a half
+ago, it would have been completely science
+fiction. Now I can build quantum computing
+systems in minutes, right? And these are fully,
+fully functional. And I built one yesterday
+just because I could, right? And that's the
+interesting part about this
+technology. You can build things
+just because. at almost no cost, which I'm going
+to demo here after we do our little
+presentations. I'll give you guys
+a crash course on how I build
+stuff in moments. All right, so
+in terms of the four general
+structures, and how are we doing for
+time here, Rob? Okay, so these are the
+sort of guiding principles that
+we look at when we're building our
+agenda systems. One, it's proactive.
+It's anticipating in the sort of needs before
+they are required. And when you look at
+some of the tools that we're building, these
+tools are obviously reactive to the things
+that I wanted to do, but they're also
+anticipating what needs to be done before I even
+realize what I need to create. So they're
+declarative. I declare what I need to do.
+I'm setting the sort of initial state and
+the endpoint, but everything in between A
+and Z are basically defined by the system itself,
+not by me. I'm giving it general
+guidance, but the system is proactive in how it
+applies that guidance. That is a level
+of autonomy, and when you think
+about agentics, the word agent or
+agency is critical. These systems are
+meant to operate with little to no
+human oversight, which is amazing,
+but also dangerous if not guided in the
+appropriate way. So operating independently
+is important. Collaborative. When you
+look at these systems, they're not only
+collaborating with me, they're collaborating
+with each other. So when you see these, these
+supposed swarms operating in a kind of
+parallel or concurrent fashion, they're operating
+in very narrow focuses. Each item, each agent
+is operating in a very narrow scope. So
+rather than getting these systems to say do
+everything all at once, they're doing particular
+things that they need to do and then
+working with other people or other processes in
+a, in a very narrow focus. And that relates
+to being targeted. So if you're looking
+at building these agentic systems,
+the most important thing you're going
+to want to consider when building these
+systems is making sure that these
+systems are defined specifically at
+the things in which they need to do. What
+you don't want to do is give an open
+-ended, you know, that's by coding,
+right? I'm not sure what I need to do, go
+figure it out, which is okay if you're going
+through kind of ideation but it's not particularly
+great if you're looking to solve real
+problems that's where a targeted approach to
+these systems really makes a difference
+so if you're looking to build an agent
+the more targeted the more narrow the more
+collaborative the better the result is going
+to be at least that's the velocity that
+we've been doing if you look at the some of the
+systems we're building this is the sort of
+guiding principle of all those systems
+and how they kind of operate and the reason
+we can build the crazy things that we build
+and i'll give you i'll give guys a little
+demo of that later all right so the
+foundation as i said is dedicated to making an
+ai innovation i think i covered this pretty
+well uh you know we focused we we're
+predominantly a sort of online so we've got our
+discord channel and our whatsapp group we have
+various committees um how many
+committees we have now martin i would
+say eight eight's a great number
+so i'll go with That sounds like
+he's made that up. It's about eight, about
+nine, about seven. I always use a
+prime number, but OK, we'll
+go with seven. All right, open source. Everything we
+build is open. And we use pervasive
+licenses, meaning just because it's open
+doesn't mean you can't use it in proprietary
+fashion. So everything I build is using an
+MIT license, meaning you can take it,
+build a startup with it, let 1,000 startups
+grow out of there. We do a lot of
+live workshops on Thursdays. People
+tune in and watch basically MeCode,
+which I thought that would be a thing,
+but apparently it is. And on Friday, we flip the script,
+and other people show what they're building.
+It's very similar to this, but just
+online. And we've got people coming in from
+dozens and dozens of countries around the
+world at this point. We've got groups
+devoted to safety, education,
+and other areas. It's, again, kind
+of organic in how it has come to be. We
+collaborate with, you know, both governments
+and institutions. Lots of stuff like that. This number is
+totally wrong now. Our Discord server is
+probably quite a bit bigger, actually.
+I think these numbers... In some
+way, 1,700. Okay. Whatever. We got
+lots of views. That's all that matters. These numbers
+are meaningless. Alright, last
+thing. Because everyone always
+asks me about this. the difference
+between a vibe coder and an
+agentic engineer, like almost
+every single day. And when I describe
+a vibe coder, I'm not using that as a kind
+of negative. I see vibe coding as a kind of
+mechanism to discover things that you didn't
+know, right? And I vibe code all the time
+because I'm just looking to learn or explore
+in ways that are sort of unstructured. So
+if you think of the spectrum between bi-coding
+and agentic engineering, bi-coding is a kind
+of learning and fluid structure for
+discovering the unknown. The human is the
+feedback loop. You're guiding it. You're not
+sure what to ask. And on the other side of
+the spectrum, you've got agentic
+engineering, which is structure. It uses a
+process. It uses an architecture. It's
+defined. It uses planning. That's the part where
+we see the value. That means that we're
+guiding it in a way that's meaningful and
+insightful and guided by us. Now, it's not
+in the same way that traditional sort of
+development process would work, where
+you were a kind of technician. It's moving
+more towards this idea of a kind of, I don't
+know, almost like an orchestrator or
+director. But at the end of the day, you are
+still the one guiding it and defining what
+needs to be built and how and which it
+needs to be built. So hopefully, you
+know, one side is ideation, the other side
+is iteration, right? One is flow, the
+other is planning. Hopefully that's helpful. And, you know, and
+again, nothing wrong with being a bot coder. And
+there's nothing wrong with being an agenting
+engineer. There's just different parts of
+the sort of flip sides of the same coin or
+something like that. Sure. Yeah, question?
+One question. I don't know that
+good question. Maybe it's just... Is
+that the planning on the agent side or on
+the human side? So I guess both. A
+little bit of both. So one of the reasons
+I know a lot of tech companies love the
+infinity sign. I think I saw a new
+relic shirt up there. But the key here is
+the feedback loop. So what makes
+all this work is a recursion
+in the system. One of the big
+breakthroughs we had about a year and a half ago
+is when we added a sort of testing feedback
+loop that allow the system to understand
+what works and what doesn't, and then
+react and respond based on that feedback loop.
+So when you look at any of these agentic
+flows, it almost always revolves around
+some form of recursion. Did it work? Did it
+not work? Is it working correctly? Can it be
+improved? And that loops back to the
+system. Once you add a recursion to the system,
+you get away from this idea that it
+built something but it doesn't work. Now we
+can create a convincing system that is not
+necessarily functional, but that's a whole
+other conversation. How are we doing for
+time, Rob? We're here. All right. One more question. So just some more feedback
+on this presentation. So I believe the
+agentic guild concept is new for this
+presentation. So I like the idea, but I
+don't like the label. Because with agentic
+guild, a guild is also associated with gaming,
+for example. and with gaming you have say
+kills and MMORPGs first of all I don't
+know if you want to associate yourself with
+gaming or things that happens inside guilds
+so that's up to you that's just my feedback
+so they can also run in the background
+endlessly right like depending if you have
+like they could always be on right like the
+agent could be scanning something and then
+something happens they just continually always
+do whatever it is that it's doing right
+flywheel yeah yeah it's kind of an
+infinite loop and that's what makes these my
+opinion is if if agi is a thing if that's even a
+meaningful thing it'll likely be some form
+of infinite loop that makes it happen it will
+likely not be based on language and if
+you look at a lot of the things that we're
+building we're building it around the concepts
+of sort of mathematical structures versus
+linguistic The problem with a lot of the
+current thinking around AI and AGI is the
+assumption that we can define reality based on
+the description of it through language,
+mostly English language. And if you look at
+the things that we're building that are most
+interesting, at least for me, it's based on
+the structures that aren't described by
+language but described by mathematical
+processes like symbolic reasoning or calculus
+or abstract algebra. and I think that when
+we if and I'm not convinced that AGI is
+the goal to be honest but if it is the goal and
+we were looking at some kind of all
+-powerful capability all -knowing capability AI
+it's not going to be described based on
+you know the English language at least it
+might be it might be described based on a
+neural network pattern but if you look at the
+neural network patterns none of those neural
+network patterns are actually described
+based on the language But anyway, I
+digress. Sure. I think this came
+out last time. Do you think humans
+can insert their language then? No,
+they can't. Even if you tell them to
+tell us, not maybe? That's the dichotomy
+that we face with this technology. The
+language provides a kind of interface to
+complex systems beyond our comprehension. So
+there's a lot more to reality and the
+constructs that we can't articulate, so we
+need some form of linguistics to articulate
+that complexity to us. So language models
+obviously serve a place as a kind of
+abstraction to those complex things, but
+the complexity of those things don't need or
+shouldn't be defined by the language itself.
+It just should be interpreted, if that
+probably makes any sense. Yeah. We invented
+mathematics so we didn't have to use
+language to describe science and that happened
+like several hundred years ago. Several
+thousand years ago. It all happened
+in the renaissance when it first
+started expressing science as
+mathematics. Calculus. Language is not
+a good vehicle to express really complex
+systems. Scientists figured it out
+that way. Yeah. Unfortunately,
+the LLM world hasn't clued into that. Right? And when you
+look at all the problems of LLMs and
+hallucinations, all those hallucinations are
+a byproduct of an inappropriate way to
+describe things that probably shouldn't be
+described by language. Yeah, sorry. Oh, yeah, an important organization. Yeah. I guess, what about code? I guess, how does code, like, is code
+a better way to describe things? Is
+it in literature? Well, code is a
+kind of abstraction of the mathematics
+itself, for the most part, with a
+linguistic spin on it, for the most part,
+but I think so. You know, it depends
+on what level of the abstraction you're
+talking about, and it depends on deep into
+the computational structure you get.
+Eventually, you're just talking about binary
+or something, but, you know, for me, if
+you're asking, like, what language I like,
+I'm all the rust. Can we just make a
+new language, then? Yeah, but here's the
+problem. We could invent a new language
+that's hyper-optimized for neural networks
+or something, but then we won't be able
+to understand it. It's the same problem
+when you try to dig into the fabric
+of a neural network itself, right? It
+becomes more complex than we can understand,
+and we don't understand exactly
+how it works. So you're not sure about
+EGI and whether language is obviously the best
+form of communication when it comes to
+creating a new systems. But do we believe,
+like, in ML and machine learning,
+we have a concept of reinforcement
+learning, right? That it's learning
+what people are doing, and it's getting
+smarter and smarter by the feedback that it's
+collecting, right? So looking at GPT
+of GPT-3 to GPT-5, I know it has problems
+and stuff, but like, it is getting
+better, it is learning from what people expect
+out of what they're writing, right? So
+it is the models getting trained on
+what the feedback is. So if I'm writing
+to it today, the GPT-5 today,
+even though it has issues
+and so forth, it is a lot better at
+knowing what I exactly meant than two years
+ago. You know, some of the feedback that's
+been collected over like, hey, I didn't
+mean that. So when I say, hey, I didn't
+mean that, it's getting better because it is
+somehow behind the scenes. Instead of
+the feedback, it is reinforcing what people
+are feedback into. So, do we think a sort
+of AGI or ASI, for example, in three or four
+years from now, would really be able to
+guess what we mean by something and relate
+it to something else that needs to be part
+of the process so that it can bottom it,
+so language can become a thing. What is HGIT
+or ASI, is it like something I understand?
+It's artificial general intelligence
+and ASI is artificial. But you're saying
+that like on its own thinking.
+You're saying that AI can
+understand you better. Because it's out of
+everything, out of every interaction we
+have in the system, right, it starts
+learning what we really need. So if I say,
+for instance, that's just like something
+that you're saying. I think I understand
+what you're saying. And I don't necessarily
+disagree, but if you look at the
+difference between GPT-4 and GPT-5, the big
+aha was QSTAR, or Reinforcement Learning
+Algorithm, that essentially allowed it to sort
+of have a more unsupervised learning
+process applied to it. You know, is GPT
+-4 fundamentally different than GPT-5? No. We've discovered test
+time. So it allows it to ponder the
+question longer and then using an internal sort
+of gating structure. But other than that,
+and maybe we, I guess we, if we want to
+recap the last year, we came up with a mixture
+of experts models so we could create an
+internal gating that allows it to subjugate
+each of the different models based on some
+kind of internal expert ranging from 8
+to maybe 16 different models. Then we
+discovered that we could create a better sort
+of longer thinking process using a kind
+of test time model that allows it to ponder
+for minutes or longer to solve a problem.
+But those are all just essentially levels of
+recursion that exist under the covers,
+right? So the model hasn't changed, just
+our ability to extend the time it thinks
+using a loop internally. That's it. That's
+the only difference. And ultimately what the
+result was, was, you know, more in-depth
+thought processes, way worse hallucinations.
+But is it fundamentally more capable than it
+was a year ago? No. Any of us working
+on the models from a year ago were
+able to get the same results because we
+were able to create these kind of
+recursions using GPT-4. So, you know,
+when it comes to, like, solving
+a SWE bench, if you want 100% on
+SWE bench, all you need to do is create
+a model that ponders the question and then
+has tools to go answer that when it experiences
+an error. And if you do it long
+enough, you get 100%. And we've been able to
+do that since GPT-4. Now, the problem is
+we're, like, fixated on this idea of, like,
+these these gaming or game leaderboard
+stats and things that are completely meaningless
+and if you look at what GP like the
+open AI guys and Microsoft the Googles
+are doing they're not dramatically improving
+their models they're just gaining these
+models to better to better rank in in
+these model these these leaderboards like the
+best model right now is still G you know
+In my opinion, Claude 4.1, yet it ranks
+fifth for some reason. Not because it's
+a lesser model. It's because
+they don't give a ****, and they're
+like, whatever. That's my opinion. I think I'm
+wrong with that time for my random
+random thing. Yeah, one last quick question. What
+is AGI to you? I think it's
+********, personally. Is it important for
+a given to the bill? That's not the goal.
+What, the goal is to create some kind of
+super intelligence? If there was super intelligence,
+what would it do? So you're basically
+effectively trying to create
+God, I guess. And if that's the
+goal, then by all means. But what's
+the point of that? I get your point, but
+in my head I'm like, either we guide it
+or on its own does it think. Like on its own
+it learns it's benchmarks from zero and then
+somehow we don't even know what it's benchmarking.
+or it's a black box yeah and a lot
+of these sort of if you're looking at the
+hallmarks of what we believe AGI to be as some
+sort of a general intelligence that's able
+to understand and operate with little to no
+human oversight well we're pretty much able
+to do that right now now is it a hundred
+percent no but can't create a quantum computing
+system in an hour on a whim on a Saturday
+night because I felt like yeah that's pretty
+crazy in itself we are guiding these like
+right now right but I wonder what it's gonna
+be like I yeah I I don't I I think I think
+if we achieve AGI we didn't even know it
+or it might not even matter yeah if you know
+we passed the Turing test like a year and a
+half ago and nobody even blinked it didn't even
+make the front page of the New York Times
+or the Toronto Star no one's like well yeah
+whatever you know if that had happened 10
+years ago it would have been oh my god we
+just passed the torrent test now it was just
+like no one even cared all right i'm down
+to my rent whenever whenever we're talking
+about agi i always want to put out the idea
+of putting data on the capsule as far as i'm
+concerned i think that's the one missing
+component um i don't know how many engineers
+here today contributed to stack overflow you
+know for all those decades and all of that
+wisdom and all those skill sets that all have
+been assimilated into these incredible coding
+models and I think there may be a path
+that we may be able to figure out to you
+know ascertain that a certain portion of the
+revenue that's flowing through artificial
+general intelligence if we get there by whatever
+definition should be attributed to the
+source of the data which is like
+humankind and all our cleverness so I would
+say put that on the cap table. We got
+a couple wonderful speakers tonight
+really excited to have both of our speakers
+and then we're just going to show an update
+to Claude Flo. If we get time maybe
+we'll talk about swarm registration use cases
+because there's an awful lot of use cases
+around swarms that are above and beyond just
+ready code. Ready code is just one of
+the hardest use cases. First of all, I want to welcome Cary
+Osirino Birita. Sorry, Cary. His premise is
+that the future of AI is not AGI,
+but narrow AI, designed to solve
+specific human problems. Narrow AI is useful,
+it's computationally power efficient,
+and serves humanity without
+creating fear and hype. Cary is going to
+share his personal experiences delivering
+narrow AI iSolutions in retail, finance,
+and healthcare with details about
+infrastructure, power utilization, and the financial
+value created. So these cases show narrow
+AI delivers orders of magnitude more
+ROI than simple tools like ChatGPT or
+language models like FeetSeek. So we're
+very happy to have Carrie with us tonight
+and welcome Carrie. Which one is
+for the slides here? Oh, yeah,
+just unplug me. I love the philosophical questions personally. Yeah, it gets like
+when you have a long day after you're
+just... That's all I do all day. I get
+paid to have that conversation like
+multiple times a day. Do you get to
+talk to your wife? She pretends like
+she's interested. That's awesome.
+No, she cares. I'm going to fall
+down the stairs. This is the future of AI
+is narrow, and I'll talk a little bit about
+narrow versus AGI. And then I talk a lot
+about common sense and responsibility.
+I think it's a lot weaker. And then I'll
+share some examples of how I've implemented
+narrow AI with some of my clients.
+I'll share some actual financial results
+that we delivered. and I really
+haven't heard any financial results on
+any of the Chad GQT, any of these LLM's yet.
+I've heard a CEO stand up and say,
+you made $10 billion. So what is AGI? I
+don't know what AGI is. I don't think there's
+a clear definition of what this
+post-singularity world is. I think
+it's Silicon Valley billionaires just
+opining because they have too much
+time and money. All of the things
+we've ever created are superhuman already.
+Like every computer is superhuman. The day it
+was invented, it adds numbers faster than
+people do. That's superhuman, right? If it
+added numbers slower than a person could, it
+would be very useful. So every single
+tool we've ever invented is superhuman
+already, right? And why do we need
+a general approach? You know, like, I
+mean, we can solve specific problems with
+specific approaches. We don't need the
+general, everything, make me a cup of
+tea, write my code, take my kids to school.
+you know like specific solutions for specific
+problems our LLM is a path to H&L very
+quickly and who's winning I think the only
+industry winning are the tech bros no one else
+is winning yet so I mean all of our best
+solutions are narrow right we send a rocket
+to space you know it's not a car with a rocket
+engine it's a purpose built rocket airplanes
+don't look anything like rocket ships cars
+don't look anything like airplanes right
+we're not going to build a general transportation
+machine that does all three of those
+things that would be really stupid highly
+inefficient so therefore everything we build is
+already narrow right the Swiss Army knife
+is great to go camping but you're not going
+to build a house with a Swiss Army knife
+right again you have a purpose-built tool for
+a specific use case nothing we build is
+general so why even bother are looking for AGI,
+a total waste of time, right? Everything
+we build is narrow and specific and
+efficient, right? So everything,
+literally everything since the dawn of time
+that we've invented is superhuman. A
+cup to hold water is superhuman. It's
+better than the human hands. The human
+hands don't hold water very well, so
+a cup is superhuman. A hammer in a human hand pounds a nail
+into a wood, a piece of wood
+better than the human hand could. So a
+hammer, by definition, is superhuman, right?
+A computational fluid dynamic solver
+solving the Navier -Stokes equations
+around an F1 race car does that better than
+any human being can. That's already way
+superhuman, right? Any invention would
+be totally useless if it was not
+superhuman. So why is there this weird
+moniker of AGI? We have been building
+superhuman tools all the time, right? Any
+general solution that did all of those things
+would be ridiculously stupid. So I think
+it's a really, it's a weird conversation
+that I don't understand the purpose of, because
+there is no specific goal or definition of
+what AGI is anyways. I wanted to comment,
+like I totally agree with you,
+it's awesome, but I wonder if in the sense
+of like robotics, maybe like where
+people try to build a robot, I guess.
+Well, even though the narrow robot can do
+a narrow specific thing, some of you
+see the robots that go into narrow spaces
+are like a worm, and if you were to
+build the ultimate football player,
+would it look like a human being? No, you'd
+have wheels on it and a gigantic net
+that was a thousand feet tall with a
+cannon that shot the football at supersonic
+speeds, like... The corporate concept
+of trying to build a human-aid robot, you
+know, the human... why are we so we're
+so anthropomorphically centered like why do
+you think that the human form is the ultimate
+thing right like build the specific
+solution that solves a specific problem that
+the human form is not necessarily the best
+thing if you want to build the ultimate human
+form get married have a baby or you don't
+have to get married to have a baby but we
+we know how to drink humans already we've been
+doing that for decades you know the
+scientific method the scientific method works
+right I think that's why somehow science has
+been lost in all this you know you know
+computer scientists came along when computing
+power has been growing over the last 50 years
+and the world has changed you I have this
+data therefore must explain the universe
+and somewhere and that's not true we started
+with you know ask a question do background
+research understand what the status quo
+is come up with a hypothesis that extends
+the status quo test it with experiments if
+you don't have data you do experiments to
+collect that data you don't need all the data
+you need only the data that's relevant to
+your theory then if it works move on then
+sign publish a paper everyone will **** all
+over it to try to improve it and that's the
+scientific method so it starts with a
+mathematical theory first and then the data second
+but you don't go on a sea hunt for data
+right complex system dynamics cannot be
+learned from the data. So even if you knew the
+location of every single atom and molecule
+in the universe, you knew its position,
+velocity, acceleration, you knew its time
+history since the Big Bang, you could not
+derive Einstein's general theory of
+relativity. So complex systems that have
+either uncountable inputs, interactions,
+or performance indicators or behaviors
+are complex. So system dynamics is a
+separate thing from what to do given
+the system dynamics. These two things
+need to be separated, right? So an
+example of complex system dynamics
+was like orbital light. You know, I'm
+trying to predict the location of
+stars and planets. So in the history,
+Aristotle thought that it was a
+geocentric universe with the Earth at
+the center and the sun and the planets
+rotated around. On the pink graph at
+the bottom, the vertical axis is the error rate
+and the horizontal axis is the amount
+of data. So the wrong theory, no matter
+how much data you collected, you had a
+very high error rate. Then, because we
+observed Mars and some planets in retrograde
+motion in the sky, Ptolemy came up
+with this idea that planets in
+sun do epicycles. And that was a
+really ****** theory. No matter how much
+data you collected, the error rate
+was high. And Copernicus got
+realized, hey, look, it's a sun
+-centered universe, and the planets in
+the circular orbits was almost right.
+With very little data, you hit the
+flat error rate, and no matter
+how much data you collected after that,
+it didn't matter. Then along came
+Kepler, who said there are elliptic orbits
+with even less data. We got the error rate
+way down, and then Einstein came along,
+and with like three data points, you can
+predict the location of the planets and
+everything. So having the right theory is
+way more important than having all the
+data that you need. If you have the right
+theory, you only need to get a small
+number of data points. So isn't the three
+-body problem a perfect example of a
+complex system where if you've got three
+bodies of orbit, you can predict maybe
+the next hour of it and then it just
+flies out? No, you can, well, how do we
+predict the locale? How do we send a
+spacecraft to Pluto? We'd probably say
+that our solar system is more
+than three bodies, right? Sorry, sorry, I
+meant three bodies in orbit of each other.
+That specific problem. Yeah, well,
+that's a nonlinear dynamics problem, right? that's lots of physics
+that are non-linear and you get a chaos
+when that happens, small variations in initial
+conditions. So that's if the lots of
+physics are highly non -linear in certain cases,
+which is why if you walk into any physics
+lecture or any computer science lecture, the
+first thing they'd start with is linear
+regression or a linear version of the
+equations and solve the three-body problem. If
+the three equal-sized bodies are in trouble,
+you can't really get anywhere but like with
+the solar system we solve one planet and
+the sun at a time and then we calculate the
+effect of each planet on the on the previous
+one that's how we've done the solar system
+so we can predict the location of getting
+the planets with extremely high precision
+solving in two bodies at a time and do
+corrections right because the sun has the
+biggest effect on the universe and then there's
+the inner planets the outer planets and that's
+So we make a linear approximation to the
+scientific theory. So we need to
+separate, you know, the decision
+-making policy from the system
+dynamics, right? And the system
+can be anything, a process, a machine,
+a game, right? A self-driving car
+is very finite. If you have, you
+think of a race car, you have, maybe you
+can divide the steering wheel into ten
+positions, you know, ten arcs that the
+wheel would be within. the brake you have ten
+brake pedal settings you have ten gas pedal
+settings you have seven gears so that's
+like 7,000 possible states so you can
+learn how to drive a car quite easily
+and from a software perspective language
+is also a finite system right with chat GPT
+and all these things that you know if you
+have a dictionary of a hundred thousand
+tokens you know it's probably like ten to
+the 15 combinations you can put those tokens
+in, and that's within the finite range,
+that's within the range of computing power
+today, although I think unnecessary.
+Chess, Go are infinite. You can't learn
+those. The rules of the game are very
+simple, but the possible system
+states are infinite. Business is also infinite
+in retail, one of the industries I worked
+in, if you have 5 ,000 products and you
+have to pick 50,000 products and you have
+to pick 2,000 a month to promote, it's 10 to 3
+,600 possible states. And so you need to
+specify the dynamics. And so once you
+describe a system, like if I do this,
+what happens? Then you can ask the
+question, what's the optimal decision
+-making policy? And I think that's where
+reinforcement learning comes in or what the
+engineers have been doing for decades, which
+is optimal control. And so deciding what
+to do, given the system dynamics, you
+say, if I do this, run it through the system
+dynamics, what happens? And we do a feedback
+loop. That's like the first order of
+closed-link control. Computer scientists
+think they invented it in 1995
+when engineers were doing it for 50
+years before that. So power-hungry general
+approaches, this drives me insane.
+So, like, I heard the final training of ChatGPT,
+one of the earlier versions, took 24
+,000 NVIDIA H100 GPUs, 100 days, and it cost
+them $100 million. Deep Seat took a lot
+less, older generation GPUs, I don't know
+how many days, but it cost 6.5 million, I'm
+sure the costs have gone down, I don't know
+how the current stats. And OpenAI is talking
+about building a nuclear power blend
+to train models and do inference, that's
+completely insane to me. that we're using that
+much and the fact that data centers
+for AI and computer projected to use 9
+% of the power grid by 2030 that's also
+completely insane work that I did we
+did work for a 25 billion dollar retailer
+one of the largest Canadian retailers
+we trained it weekly using narrow AI using
+Nvidia GPUs that were like 4 generations
+older than that they cost me like a thousand
+bucks each and We trained for 24
+hours a week, and we delivered a 5% total
+company sales. So we grew that retail or
+sales by more than a billion dollars a year
+by being intelligent, coming up with a
+mathematical theory, using reinforcement
+learning, simulating. We didn't have to,
+like, boil the ocean and run LLMs and spend
+hundreds of millions of dollars. So if you do
+this very intelligently, it requires no
+energy at all. To build a response model
+for direct marketing, if you do recency,
+frequency, monetary value segments, it
+takes 10 minutes to code that out from scratch
+without using ChatGPT. You can manually code
+that. I can do it for you. And you can
+target marketing and deliver 300% lift
+over random marketing just using RFM segments.
+And I did this for 10 years for companies
+and delivered tens of millions of
+financial value doing something simple.
+because, you know, how recently you bought
+milk, how frequently you buy milk, and how much
+money you spend on milk is a pattern that
+repeats itself over and over and over
+again. If you're helping retailers make more
+money, that works. So don't need a general
+approach to help companies make lots of
+money and ultimately service you and I,
+the better. If I help a large retailer make
+more profit, they reinvest that in price,
+which lowers the cost of goods and services
+to you. So if every company is highly
+efficient, they don't give it in, that out,
+they invest in price because price is a
+race to the bottom of the, you know, the
+cheapest option out there is typically the one
+that most people buy. So who's benefiting
+from the current hype? I think it's all the
+tech bros. Like I haven't heard, like I
+said, I haven't heard anybody of significance
+stand up and say, you know, we use Chachi
+PT and we grew revenue by 7% and we gave
+everyone a giant raise and we divoted it out.
+huge stock payments to our shareholders and
+you know we're killing it the only people
+killing it and this are all the are all the
+tech companies as far as i can tell and it's
+this hype is just a self-fulfilling
+marketing thing to get us uh you know to buy uh
+what about uh consulting companies such as
+mckinsey which are now able to do the same
+amount of work using less employees therefore
+reducing the amount of cost that they have,
+therefore improving revenue. I still haven't
+heard them come up and show any financial
+results. It's hot. Well, nobody wants to
+go on record and say, I replaced
+15,000 people. It's happening. I don't believe it. I did it. You can't
+hide it. I did it. It's not happening.
+Yeah, in India. It's 100% happening,
+but I'm not doing it. And we're not doing
+press releases saying, well,
+you might be in denial, but
+it's happening. 100% it's happening. You can see the
+unemployment rate going and like when I was
+we were automating merchandise
+planning for retail. That's what my company
+did and we were you know we were
+looking through it like it ultimately would
+replace people but the human backlash was so
+huge in the clients we worked with they
+like got us kicked out of those companies.
+So if you humans were being replaced there
+would be gigantic backlash. People would
+be in the streets It's rioting if they're
+losing jobs wholesale. So there might be a
+few small data points here and there where
+people are replaced. But you saw the Hollywood
+strike was a little inkling of what
+backlash you're going to get when you go into
+the district. If you went into retail and
+replaced all the store employees, people would
+freaking freak out and be throwing bricks
+and Molotov cocktails on the streets. And
+that's not happening. For me, that's the litmus
+test that we're actually replacing people.
+I think what you're saying is in modern
+North American society, possibly. but maybe you're
+not paying attention to Bangor or India
+but it's happening in those places for sure
+sure if you'd see it a lot of the workforce
+the workforce that you're using is
+outsourced to another country they lose
+their contract they might know that you
+know you would you don't see it you
+you pay attention to what's happening in
+Bangalore India we yeah you're like an
+expert in Bangalore so then okay so any
+complex problems are being solved
+So when they say drug creation is
+being done with AI, it's first done with
+science, like the AI doesn't learn
+molecular chemistry and quantum chemistry, you
+program that first, and then the LLM is,
+or the AI is added on top of that, reinforcement
+learning, deep reinforcement learning
+is an add-on to the core science, right?
+same with aircraft spacecraft and race car
+design you don't learn aerodynamics with
+data you solve that problem first and you
+can add an optimization around that so any of
+these really complex problems are not
+being solved with the AI alone they can
+solve the fundamental science first and then
+AI is wrapped around that solving some
+parameters like you can design an optimal wing
+shape for an aircraft flying from New York
+to London to optimize fuel consumption
+that's a problem that aerospace engineer to
+solve optimal control and that's a type of
+reinforcement learning and you can do that
+these problems but they start with the
+scientific theory the fundamental partial
+differential equations that govern how systems
+work so code the known dynamics first you
+know when we worked in retail and insurance
+we defined partial differential equations
+if you look up some my patents. There's PBEs
+and we've implemented the patented numerical
+methods implementation of solving those
+partial differential equations and then
+did reinforcement learning to find the
+optimal decision making. So before you roll
+out LLMs you know like identify is there a
+business case are there more efficient ways to
+train this do you need to use an LLM can you
+use something simpler build small models for
+specific use cases, use the known
+dynamics if there are any or invent the
+known dynamics. You know, I think for
+the majority of problems, you don't need LLMs
+or agenting workflows. Like if you have
+somebody calling customer service, I talked with
+a CEO the other day, he says 95% of my calls
+are five questions. Okay, what do I need
+an LLM for that for? I can just hard pull
+the answer to those five questions. And I just
+with natural language have to recognize
+that. This was question one, map it to this
+super hyper-optimized parametrized code that
+delivers the solution to problem number one,
+and maybe the last 5% you can use dynamic
+code generation to solve that problem, but most
+of the problems we know what the use case
+is, we can hard code the answer to that use
+case, right? but we don't need to dynamically
+generate something where we know what the
+problem already is and we know what the answer
+to the problem is. LLMs and this technology
+doesn't do very complex math. Like I
+gave ChatGPT my grad thesis. I gave it all
+the papers I wrote. It didn't even, couldn't
+even write a line of code. It just wrote
+me a templated shell. It says, call an expert.
+This is beyond my capability, right?
+So LMs are good for certain types of, I
+think, simple, medium complex stuff, but I
+think they're really mathematically or
+scientifically complex, which is what you
+need to solve problems like how to optimize
+what item and price, what products
+should I promote, what prices should
+I charge, how much inventory
+should I allocate. All of these are
+super complex mathematical questions
+that can't be solved without
+mathematics first. What do you say about
+opening AI, winning the goal of the
+Math Olympiad then? I don't know. I gave,
+I gave, I've given all these LLM's, like,
+my master's pieces, or asking to code some
+complex mathematical thing. I can't, they
+can't even come close. It bails, it just says,
+go call an expert. I can't help you,
+right? When you say call an expert, what you're
+really saying is call a tool. so what what
+you're what you're forgetting is these
+systems can call external tools so if you're
+asking a language model to do math obviously
+that's silly but what what if you ask the
+language like the cold if you're asking to
+invoke a secondary tool that understands
+the mathematics then it's going to understand
+and answer the question right I'll give you
+a demo I think I think I think sometimes
+you can flake the the inability of the system
+with your inability to understand how you
+use the system. We talked earlier, LLMs
+don't do math, right? So like, and if you have
+a complex mathematical system, then LLM is
+not. Yeah, it's a language system. I think
+something interesting. Content generator.
+You guys are doing a lot of scientific
+research and paper. A lot of time, it's very
+hard for the public to have access to it.
+So they're probably training models on more
+of the web, like data. Your stuff is probably harder to find, like, how many people get
+access to read your, and same as all the
+other people. I mean, these things are
+trained in general, and they only optimize
+what you know, like if the complex numbers
+weren't invented, and you trained
+LLM on everything before complex numbers, it's not going to
+invent complex numbers, but you can't invent
+something outside of the current knowledge. It
+can find new patterns within the existing
+knowledge that we haven't found, but it's
+not going to invent something completely
+new, right? Because it's energy inefficient to
+go try the infinite possibilities of, what
+if I did this? Yeah, somebody went, the
+third negative one, let me just call that I,
+and then see what the **** happens, and they
+run with it, right? A computer cannot
+do that. Maybe with the quantum stuff,
+they'll simulate, like, everything,
+a lot of stuff to the same, I don't
+know much about it. So, I mean, we invented differential
+equations, you know, I'm not going to go
+through these so I'll show you that, you
+know, these are the differential equations
+that govern how retail works, this is one of
+the patents that I filed, we solve these
+equations, like the laws of physics you can use
+to solve, you know, how do I send a rocket
+to the moon, how do I calculate what happens
+when two black holes collide, it's the same
+laws of physics that govern all those
+problems. So similarly, all the retail
+problems, we've been to a set of PEs that
+govern what's the optimal set of prices,
+what's the optimal set of items, where
+should I put them in the store, what
+should my assortment be, where should my
+stores be located. All of those retail
+questions can be answered in the same set of
+mathematics, and that's what we were trying
+to do. I figure if you're going to use AI,
+you should have a common math so that all of
+your processes are pulling on the growth
+in the same direction. Here's the
+numerical solution to some of
+those equations. Here's some real
+-world results. So, you know, there's 2
+,500 groups of items in this, so we broke them
+up into 10 groups. The vertical bar
+was the impact in ad block sales per store
+per week. is showing that the top 10% did
+$1,100 per ad longer store per week. The
+bottom 10% did $33. Yet the number of ads
+that the stores, that retailers do, they do
+a ton of ads, an equal number of ads across
+the board. So we're just saying, why don't
+you do less ****** ads and more good ads? When
+we can financially, we can predict this
+12 months or 12 weeks in advance of it
+actually happening with a hundred percent accuracy
+at this level of granularity and so just
+by doing less of the bad more of the good
+you can grow sales this gross total company
+sales about more than five percent so i was
+just wondering how do you get those proofs
+was it for example through k and n or
+unstructured machine learning or did you use
+mathematical theory no we just We just looked at
+how many ad dollars, ad revenue, just a fact
+of the database. We added up the transaction
+receipts instead. Milk sells for a
+thousand bucks a week when you were
+in ad. Or RFM? No, no, just a
+query to get these. It's just a lagging
+metric. You're very specific about
+solving that problem, right? Yeah. That's
+why. I love that I brought your
+presentation. Yeah. And then this is an
+example of like 10 different retailers.
+So a company I used to have found was
+Daisy Intelligence. So the red lines to
+the left are, or the graph is year over
+year, same source sales difference. So prior
+to Daisy, all of these retailers'
+sales were declining, right? They were declining,
+then they used our system to start helping
+choose what are the optimal set of products,
+optimal prices. We turned their
+sales around. That's a 3 to 5%
+delta in total company sales, not just
+promo sales, total company sales.
+So this happened literally at 100% of
+the retailers. Where it fails is human
+chain management. People don't want to
+give up their jobs even though we show
+with 100% accuracy and a leading indicator that
+we can 12 weeks in advance predict what's
+the best items and prices at the level
+of red, yellow, green. I'm familiar with
+some of the story and within my experience
+as well, can you mention the cost
+savings because I think you didn't mention
+it and I'm not sure that... Well, our
+target was revenue, so we grew total
+company sales by 5%, so from a Canadian
+retailer, $25 billion. Yeah, so this retailer
+today is looking to replace 80% of
+their staff that does merchandise planning
+by automating that and they have like about
+a thousand staff, so I'm looking to replace
+60 hundred staff. I just looked at
+the merchandise planning use case.
+So deciding what to promote, what prices,
+regular, promotional, how much inventory
+to allocate, what store did they
+have? Those questions are done by assault
+by a thousand people and they were
+automated by $800. Hey, question.
+If you applied this to different
+stores, it wouldn't have
+been effective. So the way you applied
+it to this company, you crushed it because
+that's why they hired you. No, we
+applied the exact same math, but the same
+differential equations to every company.
+But their data is like, hey, this is
+your... No, but the differential equations
+are the same for everybody. It's like
+the laws of physics, you have a different
+gravitational constant. So retailer A has a
+gravitational constant, retailer B has a
+different gravitational constant. So we learn
+the specific parameters for each client from
+the data, but the laws of physics are
+the same for each retailer. And the source
+code, those numerical equations were identical
+with the exception of some parameters
+that were that made each client unique.
+Like you proved it multiple places, no one
+can doubt it anymore. Yeah, we did it in
+like 25 different retailers. But where
+it failed was the retailers didn't want
+to eliminate their people or the people
+grows up on mass. And ride in the streets. I think people take
+me in the hallway and say, I don't
+give a **** what your system says, Gary,
+wine will be on the front page of every
+flyer, storm away. So it's not that it
+can't displace labor, it's just that there's
+resistance to displace it. Yeah, companies
+need to be willing to do that, right?
+So I think we need to be, one of the things,
+we need to be super skeptical about all
+these claims that are out there. I think AI
+is just technology, and most of the, there
+are a narrow number of use cases, I think,
+for LLMs. We're trying to invent businesses.
+Because we have a hammer, everything looks
+like a nail. I think solving some of these
+business problems, like how to make a
+company more revenue, how to reduce costs,
+these are not problems that we're currently
+hyping about. These are ********
+math and science that we know how to do
+that with companies. You know, we can put
+men on the moon. We can build accelerators
+that accelerate particles at 99.9999
+% of the speed of light. We can build
+nuclear power plants. Certainly, we can
+run businesses optimally using
+the same scientific methods. We don't
+need any HCI or any of this silicon road
+tech to do that. Was your work
+published? Yeah, it's been published.
+I have patents. What are your thoughts
+about it making its way into the
+training department? Because I have a set of differential equations. That's published.
+That's patents. So it's published
+and it's in the patents. So the
+patents are numerical implementations of
+the mathematical differential
+equations. Okay. I'm just going to call
+back because we have another speaker okay
+so um do you mind holding off from today
+okay great i'm looking forward to the post
+show by the way i think it's going to be
+fascinating thank you speaker that we have
+today um uh has flown in and so i just flown
+in from san francisco she's a long time member
+of the genus foundation and co-chair of our
+research committee and a former
+applied medical A.I. researcher with
+Rose Pharmaceutical. She's going to be
+presenting on her personal journey of exploring
+applied A.I. with medical research
+for some personal projects and family
+projects, and we're really glad to have you.
+Welcome. Thank you. Is that Gen AI or that's real, the background? It's Star Wars,
+is that near woods, is that
+what it is? Is that near woods? Is
+that what it is? Oh yeah. Oh. So which window?
+Let's see here. I don't know which way are
+you, this way or over this way? Oh, you're
+on the left, okay. This is why it
+can be a big buck. Okay. Okay. Hi all, I'm Antoinette.
+Thank you so much for coming. First,
+thank you so much to the Identix Foundation
+for inviting me here. I got bitten by the roof back about two years ago when custom GPTs
+came out and so I was trying to figure out
+my way how to build one how to do it
+and I was looking all over the web to
+figure out you know who has built it and
+how did they do it and most people had
+it in private mode contrary to Rufy
+had like 50 or so of this build your
+accountant and your lawyer and who knows
+how many of this and it was all open all the
+instructions were open and so I read through
+this and some of them I borrowed it was
+about creative ideas and he was using different
+frameworks of how to come up with
+creative ideas which is something i have a soft
+spot for like i can't remember the details
+but i was fascinated by what he has put out
+and ever since i've been following him
+around and even recently when the the video
+started group has a video on thursdays uh that's
+12 p.m local time and he's live coding
+so people can learn probably most of you know
+and then Friday there's another meeting at
+the same time but also people are invited to
+show their stuff and so I've been totally
+like fascinated by that and I've been
+blocking my calendar every single week unless
+I'm on the flight I'm falling and so I am
+a believer in this technology and what I
+had seen from Groove is nothing else but magic
+and so I'm not the developer I'm a molecular
+biologist by training but I've bitten the
+bullet and I'm following everything that I
+can learn from people with tremendous multiple
+decades of experience in engineering and
+applying the new technologies and it's
+nothing short of miraculous what I'm seeing and
+also the side effect of that originally I
+was just going for a group but then I
+realized the community is absolutely outstanding
+people as well and so I'm so happy for all
+of you joining here just enjoy what we have
+here in front of you right, the people in
+the Asian Foundation. And so I decided to
+fly here to meet them in person because I
+think this is a very unique community of
+absolutely exceptional people that drive
+the future, not only talking about it, but
+doing it. And so, you know, I live in the
+Bay Area and I still see a lot of hype
+there and there's tremendously, you know,
+talented, incredible people. But what I see
+from rural community, sharing all the
+knowledge, I don't see it anywhere else. so it's
+absolutely incredible and so about two months
+ago i decided instead of just reading this
+endless newsletters in the morning what on
+topic did and what open ai did and what is the
+new feature on this and that i decided to
+take a plunge in the deep end of the ocean
+and start building and start learning you
+know from all this and although i take one
+step forward and maybe two back maybe five
+back i keep going and today what i'm going to
+show you is actually a demo of something that
+is still in flight. And the way I think
+about it is I want to fly a plane. I want
+to know all the knobs and I want to go any
+place. And I'm still driving a car today,
+but I'm gonna go there. You know, following
+all these amazing people and learning
+from everybody. And so my goal here was
+to learn, but at the same time, I don't want
+to take a class and do a stupid project at
+the end and just get the certificate. I
+decided to learn while building something for
+my family. And so what you're gonna see
+today is an app I'm building for my son who
+has a rare disease or rare condition where he
+has difficulty swallowing which he developed
+about seven eight nine years ago all of a
+sudden and now he can swallow easily any solid
+food but only liquid foods and so usually
+you have a panel of doctors to solve this
+there's the ear nose and throat and urologist
+and radiologist and whatnot and it hasn't
+been He has done a lot of tests and what not
+and no one can help. And so what I decided
+to do is actually employ the technologies
+that are currently available and generate
+a digital team of doctors, equip them
+with all the world's information about this
+condition and as well as provide the medical
+record of my son and see what kind of blind
+spots we may have had in his journey what
+kind of ideas what kind of areas that we can
+improve on and so yeah so my goal was skilling
+but at the same time applying it to
+real problem I think most of the startups
+that are successful start with a problem that
+is a problem that somebody had all of a
+sudden they realize a lot of other people
+have it so this could be something potentially
+developed for other people with rare
+diseases where they have a problem that they
+haven't been able to solve. And so essentially
+what I'm learning and maybe many of you
+are learning at the same time is you may be
+an expert in your own area, right? So I
+come from a biomedical field and so I know
+a lot about that. I have a lot of
+ideas and I want to develop them. And so
+far the way it has been working is you
+would have a team of multi-disciplinary
+team, right? And so somebody's going to
+put together the plan, somebody's going to have
+the vision, somebody's going to implement
+and so it takes a long time and somebody
+else is going to do it so what I wanted to do
+is essentially shrink that gap and be
+autonomous learn the tools this is quite possible
+today it takes a lot of effort and time
+to learn these tools but actually shrink
+things so that whatever is in your head you're
+gonna have to implement and Drew is doing
+this every single time on Thursday showing
+us now he woke up with an idea and then hours
+later it's available I wanted to do that
+too in my field so this is where I started
+but then at the same time so you know your
+field you may be developing the application you
+may be doing research on within your field
+at the same time agentic engineering is
+moving fast right so even if you're a developer
+you still need to upskill right for
+this specific area and then there is the
+traditional software engineering this is where
+I get you know blocked most of the time because
+you know no matter how much I want to
+build something you have to do practical stuff
+and engineers take it for granted all this
+stuff that they know I have to learn it
+along the way that's why i'm saying one step
+forward several steps backward but anyway
+so this is martin who has the fear of choking
+and difficulty swallowing and a lot of doctors
+around his medical case that can't solve
+it with multiple tests visit over the
+years it's a significant burden overall
+because it affects all kinds of layers
+of his life he he wouldn't want to go
+out and be with friends because when you
+go out you go eat and drink and he
+he can't do that so it affects
+everything. And so I decided to explore, you know, put
+these digital agents together
+that specialize around his case
+specifically, right? And if this
+were to be a product on the market, it has to
+be regulated by the FDA and the U.S. But
+because I'm doing this on my own, for my own
+personal reason, I don't have to report
+to anybody. I can do anything, right? So
+that's what I'm doing. I don't have any regulatory
+consideration. And then the way I understand
+it is to develop this locally first
+because medical data is very sensitive data.
+And I don't want to put something on the
+web without knowing all the constraints and,
+you know, how to do it. So everything that
+I've done is local. And so the approach
+is to build this multidisciplinary team
+of agents. Each of them is specialized in
+their area. And they're equipped with specific
+medical information just like lab doctors,
+right? medical guidelines are what
+doctors consult so that they can provide
+care at the same time there's the
+scientific literature there's databases
+there's social media and whatnot so on one
+hand we are providing those solid medical
+materials because we want this to be guided
+by evidence and not just like that and
+then the patient data and then another goal
+of mine was in addition to just figuring out
+what we may be missing so far the other thing
+was i wanted this to be available to
+do 24 7. so in in two areas two doctors one
+is a dietitian one is the cognitive behavioral
+therapist i thought that if they are
+familiar with the full they meaning the agents
+are familiar with the full case all the
+details they can be available 24 7 for my
+son so if he ate cereal for breakfast because
+because semi liquid right it would know
+the nutritional the nutritional value
+of that and able to recommend hey maybe you
+make a smoothie with avocado and whatnot to
+complement the various nutrients and whatnot
+so constantly consulting right and the other
+one is cognitive behavioral therapist
+right we all know you're talking the systems
+and they don't judge you they give you
+straight you know answers so i thought that
+that would be very valuable um evidence
+considerations so when when i feed the evidence
+to this agents there is there's different
+weight to different information that we
+feed it like medical guidelines and the
+biomedical literature or clinical trials
+may have higher rate while if you read
+about somebody with a similar condition on
+Facebook or whatever it's completely different
+or if we analyze his blood data and we
+figure out something that data may be provided
+for those digital doctors but does it
+have the same weight as a clinical trial
+it's personal so it's very relevant but
+actually it's a kind of one so it's not
+clear I'm still trying to figure things
+out and provide also valuable information
+so this is the setup guidelines it turns out
+they don't have like an aggregated place
+you can go grab them I have to research
+everything manual manually it's kind of annoying
+but this is how things are and some
+of them are behind the paywall others are
+not but even if you go and grab all those
+those guidelines that doctors use, they are
+full with workflow diagrams and whatnot,
+which are not really easy today, I think,
+and error-free for those LLMs, right, and
+tabular data. So there's still humps on the
+road to be able to make sure that whatever
+I grab from these guidelines is actually
+applied the right way. In any case, let
+me switch to, oh my God, I lost this.
+You're on the left. We should have
+probably extended it. Yeah, I need to remember that. Yeah,
+you're over, yeah. Uh, okay. This one? Yes,
+yes, that one. All right, and
+F11, then it goes to the screen.
+No, you're a Mac. Let's go here. Okay, thank you. So
+this is where I am right now. I'm showing
+you the app on the left-hand side. I
+have all the patient info. And so we're
+on the Epic system. And so what you're
+seeing is the mock data, which is kind
+of similar to what he has, but again, this
+is private information, so I didn't want
+to expose it, but it's structured in a
+way that, you know, medical data in the
+epic system would read, you know,
+basic information, chief complaint,
+medical history, and what not, if there's
+any medications, and so forth, I
+can't even scroll. Oh. It's, uh... I'll drive. I love a random demo.
+Oh my god. Anyway, I don't even need to
+scroll, but... the left panel yeah you can
+scroll down on the left panel you can you
+can yeah then you can see the complete
+information right now if there's any everything
+that is in red is abnormal like maybe
+there is some allergies maybe there is
+abnormal tests and so forth so that is being
+fed to their to their agents okay maybe if
+i don't look on the screen i can figure
+it out so what So what you see on top is
+actually the different specialties that we
+know from reality that they have been
+involved with his case. So there is a speech
+language pathologist and, you know, these
+people are involved with dysphagia or difficulty
+quality assessment and so forth, and what
+are the goals reach for this doctor. then
+there is an ENT doctor, and there is a
+radiologist, there's a dietitian, there's
+gastroenterologist, neurologist,
+psychologist, cognitive behavioral therapist, and so forth. And so these doctors
+work together, and the idea is that
+they're presented the case, they
+have each of these doctors as a
+specialist that has access to their
+specific specialty guidelines, and they
+advise on the case. There is a primary
+doctor, Dr. Mitchell here, so this is the
+doctor who presents the case to everybody else,
+and they start the discussion. The
+goal here is every specialist, every agent
+with a medical specialty presents their view
+on the case, and then the moderator, who is
+the primary doctor, assembles all of that,
+figures out where they agree, where they
+disagree, and channels the discussion
+forward. work on the disagreement and
+resolution of cases and on the right-hand side
+I'm just tracking the the progress so the
+way I had done this is originally I didn't
+want it to be outside of my laptop right
+because I didn't know what was I was doing
+plus the medical data is very sensitive so
+what I did is I took two small models of
+Mistro 7b and Lama 7b which I can install
+directly on my laptop just to see whether
+this whole workflow that I'm building is
+working and so So I started with that, but
+recently I actually hooked a plot, and so
+right now hopefully I can demo how it would
+go with the panel. So Dr. Sarah
+Mitchell on top is presenting
+the case first. I'm going to close this. This is Michael
+Smith, 26-year-old male with eight
+years of dysthesia, significant loss and
+large tonsils and so forth, and the diagnosis
+originally used just guidelines. Later
+on, I said, okay, maybe first we start
+with the very high, the highest evidence
+level, which is guidelines, and then
+maybe we can incorporate publications, we
+can incorporate, you know, social
+media accounts, and so forth. And so as you
+can see on the right, maybe you can see,
+I can't see what's happening, but it
+should be counting how many doctors have
+spoken already. And so there is actually a
+where-on-round-round, so Dr. Sarah
+Mitchell, sorry, here after the first
+round, after every doctor had spoken,
+summarizes everything and figures out,
+okay, here are the areas of
+agreement, but here are the things we need to
+still resolve. Then another round
+starts until they eventually reach some
+level of consensus. And I have no
+idea what level of consensus I need,
+but I said that he's 80%. Then I raise
+it to 90%. And so at the end, after how
+many rounds? Okay, after five rounds
+of discussion, we had reached the 92
+% consensus level. And so this is where
+the discussion stops. And the decisions
+have been tracked. So this is work in progress.
+I have a lot more to do. But even
+from this level of insight that we got,
+I can proudly say that there has been a
+progress because after seeing all this and
+all the discussion that we had, my son decided
+to stop vaping. Every doctor told him
+until then. But now he actually, for three
+weeks, he's not vaping nicotine because nicotine
+actually constrains the blood vessels,
+makes also your mouth dry. So it's not
+the primary cause of this condition. It
+could be psychological because he actually saw
+his brother choke and frequently these cases
+are sometimes driven by such an event
+because nothing else structurally has been
+proud of him nonetheless. But anyway, I claim
+a small victory by actually getting
+him to a point where he's not vaping iniquity
+and he's improving regularly. I'm
+not saying we have solved it, but I think
+it's a pretty cool example of where
+these technologies can help us and not
+to be afraid. Yeah. So I saw a rag. Yes. Do you have a rag
+for every agent? Yes. So all of the agents
+are equipped with their own documents that
+are brought by. Oh, I forgot to show you. So
+actually because. No, no, that's okay. That's
+fine. Yeah. So here is actually the
+guidelines for each agent what has been cited,
+you know, for all of them. So I didn't
+show you here, but you know, if an agent has
+used a guideline here, American speech language
+hearing whatever this is real right I
+can see exactly which guideline was used and
+well it used to highlight the area but now it
+doesn't in my place because this agent
+sometimes they they change things with that I
+have to say all the time don't break anything
+while you're building doing anything and
+sometimes they do change things so last
+time I actually looked it was highlighting
+in yellow what are you using to build this
+it's quad so so a mix of I think it's spaghetti,
+so it's Claude, but with Claude Flow, but
+I'm trying also, so Claude Flow is amazing.
+And I tried it in code spaces, and it
+unleashes multiple agents, but it goes so fast
+that I can't learn. And for me, it's very
+important to learn. So I actually now
+use Claude Flow with a single agent,
+so that I can read every single thing
+while the code is being built, so I
+can learn from there. So this is
+what's happening. Yes? When I asked
+you about RAG, it wasn't to take a
+subset of the data, it's, in my opinion, the best thing RAG can do is inject the bias. So each of those doctors have their own bias. Now, when you combine
+all the other biases, the head doctor, Michael, can then orient
+which bias components so you've
+forgotten by which way, and you'll
+start to pyramid up. So that was my question. Not about conflict,
+it's about conflict. Yeah, and honestly,
+this is a very difficult problem to solve
+because how do you build consensus? There may
+be some frameworks, but no one tells you this
+is how you use it. And in the medical field,
+I know, there's the Byzantine, this and
+that, and there is in the medical field, there
+is this thing called Delphi, and there's
+the five Ys, and there is the Bono hats, and
+there's endless of this. And so I was
+trying actually, I did, by the way, while
+developing this, I did deep research all the time
+because I frequently go to an edge where
+there's no answer. So I'm trying to figure
+out what are the best practices and what is
+the latest literature summarize for me And
+then I say go implement this just very similar
+to how you do those stuff And it's on
+every piece on this application. This is how
+I approach it Right your biggest challenge
+you're going to watch out for when doing this
+is grounding The the semantic search and
+rag has a tendency to give you the answer
+based on the keywords and the similarity But not
+necessarily optimal So yeah, go keep
+an eye out for that Yeah, I have to keep
+an eye on that and I realized originally,
+so for the head doctor to take all
+the opinions and to summarize, to build the
+consensus, originally it was just doing
+keyword search, right? And then I realized
+this is suboptimal, so I was like, okay, what
+semantic similarity can be calculated
+between the answers? And so I realized I have
+to kind of improve on all areas, so it's
+like there's like, I don't know, 50 modules
+here that each of them can be tweaked and
+improved, but I'm glad that I have something
+end-to-end working. And I'm super
+glad that his mouth stopped
+vaping, actually. So whether this is
+going to end anywhere or not, I'm going
+to learn along the way, and
+hopefully he improves. You're drinking the
+Kool-Aid. I love it. Yes, Danny. I'm interested in the
+role of the moderator and how you instructed
+the moderator to kind of build consensus
+between the various agents. Because you
+mentioned there are several different
+philosophies that you've applied towards it.
+And have you seen some of those philosophies
+work better than others, build consensus
+faster than others? Describe that sort of
+experiment. I'm very early to that because
+I was so blocked early on even to get the
+agents to express their opinions. Very
+recently, I actually was able to build this
+consensus and actually to do it multiple rounds.
+Because also, even when they have
+agreements, it's a whole world. Like once you
+enter, it's a rabbit hole. Even if they
+have agreements, it may say, oh, they all
+agree that he has to do removal of the tonsils.
+But even if they agree, what is the timeline?
+What is the risk? Like, even in the
+agreements, there's things to figure out. And then
+there is disagreement. So I have, I, at some
+point, initially, I just said, use all
+these frameworks. I don't care whether
+it's just this one or that one. Just use
+everything and build me the best. And I can,
+because this is the case, like, the thing
+is, in this case, there's no ground truth,
+right? It's not like I can compare it to
+some benchmark and say it's working or it's
+not working. But at the same time, there is a
+benchmark because I've been involved in his
+care and I've listened to these doctors, and
+I'm also, like, I'm not a medical doctor,
+but I'm in this field, so I understand,
+right? His genomic data and whatnot, it's
+also being brought in, and his blood test
+and data from sensors and whatnot, so the
+composite picture. So the answer is, I don't know
+yet, but I'm trying things out. Sounds
+like what happens when you put two doctors
+in the room together, you get an agreement
+no matter what it is. Exactly. The thing is
+that I want to equip these agent doctors with
+the full information from the world, whatever.
+And I don't care whether it's the US
+system or Canadian, I didn't show you that,
+but I have Germany, I have Canada, I have
+England. I have all the best, I researched, I
+did the research, which are the best countries
+that do that well. And they sent this
+and then I have to, Germany has guidelines
+which are wonderful. in German then you have
+to involve you know the translator how do
+you translate medical language really well
+the general language is good so every step of
+the way I have to solve a problem to make sure
+that the system works but but I guess I
+can I can call BS in many cases so I know
+when things don't work if this doctor start to
+completely go off the rails right digital
+doctors yes I think I mentioned this to you
+last time but there's actually a startup
+called consensus started around three years ago
+consensus.com which allows you to input a
+question such as for example in this patient
+case which you described below does removal
+of the town tonsils improve outcomes and
+in that case that will actually look at their
+existing research literature that's
+addressing the question and give you a yes or no
+for example 70% of the research literature agrees
+yes it would improve outcomes but their
+approach is a little bit different to yours
+so i mean yeah and the guidelines are
+supposed to uh aggregate all that specialist
+knowledge right and they're being updated every
+year every few years and so that's the bible
+for the doctors right if you're you're no
+****** you you look at that and that is
+supposed to channel all those research right
+but if you have a case of three people that
+quote that versus a clinical trial of 300
+people how do you weigh that right so and yes
+maybe i do use consensus there's actually a
+lot of uh companies lately that aggregate
+the the biomedical literature right and
+it's all on my list to do like there's biomia
+there's others it's just like i wanted to get
+everything done from a to z and then improve
+on each area along the way yes well i think
+it's brilliant thank you i'm curious uh
+how do you distinguish the body of knowledge
+that you train one professional, so like
+a neurologist versus a psychologist, there's
+going to be a lot of knowledge overlap, but
+you want to train them differently, so they
+behave really different functions, so how do
+you distinguish that training base? So, some
+can argue this is an OLM, they're trained
+on the same knowledge, right, so why do you
+even have to carve out agents, so that's
+why it's important to equip them with, but
+first of all, define the role, like look just
+in ear, nose, throat versus the radiologist,
+look at, you know, think through that
+lens, but also equipping them with
+different materials, with RAG, it just
+channels it in that direction, and
+I want that, I want the diversity of
+aspects, right? Yeah, and I guess
+that's what I'm getting at, is how
+do you define the RAG knowledge base
+to say this works, this works, this
+works, this works. For now, for now,
+it's just the medical guidelines for specialty.
+I'm agnostic to the country, I take all the
+guidelines, right? So for your nose and
+throat, I think I have six guidelines that I
+was able to fetch on the internet. And that's
+the way so far. Yes? You should be aware
+that when the LLMs break up the
+documents into tokens, as they put them into
+the transformers, as they split
+a concept up, you will not get
+the correct thing. I would not get the
+correct thing? You will not get the
+correct thing. What do you mean? It will
+split up a problem into multiple pieces and
+in a transformer. The token count
+will be different. It will not get
+the right thing. So I saw a link the
+other day, and I'm happy if I can find it.
+I'll show it to you because these systems
+are mechanically naive. they're physically
+naive because of how they do the mechanics
+of converting the words into tokens and
+then dropping tokens, which means they
+misdescribe the problem, they misdescribe
+the solution, they misdescribe the
+overlap, and very few people get to
+that level, and I'll try and find it. So
+because this is, I mean, everything is
+supposed to be evidence -based, that's why
+I equip them with the guidelines, and
+that's why if a doctor expresses an
+opinion, they have to ground it in that, and
+I go and double-check, I can actually see
+in the paragraph. You don't know what
+part of the, which documents have been,
+so that she has a law, it shows exactly what
+parts of the law. There's a solution to
+that too, by the way. When you rag, you can
+do contextual retrieval. So when you're
+describing is the embedding of the data
+from the document into the vector store. So
+what I do is I do a vector overlap. So when
+you embed your information, if that's taking
+your PDF and making it available to the
+LLM, you can add additional metadata to
+describe the contextual information of where
+you're getting it, the page, images that
+exist in correlation to it, what's before
+it and what's after it. So when you do a, I
+usually do probably around a 100 to 200
+character overlap between what was before it
+and what became after it. So it gives it
+contextual relevance. Consumations? So otherwise, it's
+sort of a moment in time is what
+he's describing. It solves that
+problem. I'll give you my email. So
+if people. No, no, you don't
+have to give me. he'll, he'll. Okay. Okay. It solves
+that problem. You're on the spot now. He's right. We'll go right
+to the source. Okay. Yeah. And it may not be. It may not be the
+total thing you're facing, but you know
+what, you need small improvements. I need
+small improvements and large improvements
+in all the areas. You've got
+the crew right here. Yeah. Happy to help. Yeah, we're the ones. Awesome. Thank you.
+You're welcome. Yes, of course. I have
+a thought about like some way you can improve
+it. Yes. So I love the idea about since
+there's very rare cases of those things, is
+there a way you can do like have your son
+have like a like a wearable or a quick
+transcribing he's like hey i feel this right now
+and you feed that into it that's part of i
+didn't show there's a lot of bells and whistles
+that i didn't show you but that's part of
+it the survey also i wear a lot of sensors
+he does 24 7. yes yes so there's the heart
+rate there's there's does the sleep quality
+affect how he swallows we may be able to find
+i didn't show that part but actually the
+idea is to actually bring all additional
+data build correlations build trends you know
+figure out and maybe the end of one
+correlations and trends are actually much more
+valuable than the guideline of that doctor because
+it's learned from your experience yeah is
+there hard is it hard to find those people
+like it is right which people can you can
+you try to get more people to like give you
+more data you know like oh you're saying if
+there is people with the similar conditions
+maybe they don't know you exist like oh yeah
+they don't know yeah so I have so much
+to do myself before I even go there so
+maybe I'll do it yeah nice work thank
+you thank you so we got a couple
+more minutes before we sort of break
+up I know that there's an update
+to cloud flow roof yeah I don't know
+you guys want to see some swarm
+capabilities and stuff? Yeah, I just build
+stuff because I can. That's
+totally a vibing. All right. No, this
+will be a crash. Do you want it? Well, the quantum flow
+update includes a lot of the stuff you guys
+are describing, you know, in terms of like
+consensus mechanisms, multi-agents,
+rounding. I've been struggling with all
+the same problems. Like, you ever
+notice that you take one step forward and
+three steps back? I've been trying
+to solve some of these issues.
+Get a quick sense of who's been
+exploring or experimenting with
+swarm orchestration? Swarm engines? Awesome,
+awesome. Alright, so he has to say,
+quad flow is a hit. Let's go here
+for a moment. I'm going to brag just
+because I can't. Oh, this is my
+Neurotrader. Neurotrader is nuts as
+well. but yeah in the first month I've had
+about three hundred and fifty thousand downloads
+I think a drop it changed their business
+model based purely on the success of this
+which is cool I guess they also copied my
+terminology all right so yeah it's it's doing
+really well so those those are interested I
+only currently support Ubuntu I guess people
+are using a Mac as well I I'm only one guys,
+so I built this for me, but you're basically
+getting my development environment. Just
+to recap, I have the hive mind intelligence,
+which it shares a common sort of memory system.
+We've got my multiple neural networks, to
+your point narrow is better, so the system
+can create neural networks specifically
+for the tasks, both on a swarm level and on an
+agent level, lots and lots of other features,
+it does all kinds of stuff. So quick overview,
+if you're looking at more narrow application
+development you're going to use a swarm.
+I typically use swarms. If I'm vibing
+like the quantum system that we're describing
+I actually use the hive mind system to create
+that. Let's go to my Rust for a second I'll
+show you. Let's go to my dashboard and let's
+see what I got here. I do a lot of Rust. I love Rust.
+What can I say? Yeah, so this is the
+schedule I created. So I'm cheap. I don't
+have a lot of GPUs. I don't have a lot
+of money. I'm doing a nonprofit organization,
+so it's not going to have a lot of money.
+So I'm bound by not being able to spend
+a lot. So what I did the other day is
+like, I've been using the free $500 credits
+from Azure for their quantum system, but
+it's only $500, and you can blast through
+that really fast. So what I wanted to do
+was create a mechanism to segment the quantum
+computing system so I can run multiple
+jobs at the same time using the same
+resource. I'm like, has anyone ever thought
+to create a virtual machine for a
+quantum environment? Apparently not. So I buy myself a
+quantum virtual machine. So anyone that says
+you can't build complex stuff, just
+point them to this, and you can see all
+kinds of crazy stuff. So the other project
+I did the other day It was a Karten
+matrix contained attention mechanism
+system. So inside of neural network, I
+created basically a matrix system to
+optimize the internal workings of a... Anyway,
+crazy stuff. This is all being created
+using swarms. So let's go here. Let's
+go to a project. So tonight's project,
+just as an example, is I'm going to
+build an anomaly detection system for
+AI outputs using Go. because i'm kind of
+curious about the go programming language
+but basically what i'm trying to do
+is detect emergent behaviors in ai systems
+globally it's crazy it's basically i'm
+trying to look for signs of extraterrestrial
+life and communicating to us within the
+structure of ai just because it's bonkers
+i know but so this is the project i'm
+going to run tonight so basically this is
+what my spec looks like so i come up with an
+idea and the crazier the better in this
+case you'll see that I've got different you
+know analysis in terms of my complexity
+protocols you know I use a pseudo code outline
+so I'm not implementing the exact code I'm
+giving it a sort of guide to the sort of
+algebraic approach to what I need to build
+and how I need to sort of an out doing
+analysis not you know this is complicated
+I'm trying to push the boundaries of the most
+complicated thing I can possibly build
+that's never been built literally that's that's
+what I'm striving to do so I have to do that
+I go into plot code so so So again, for
+those who aren't familiar with Cloud
+Code, you can go in here, you can install Cloud
+Code. I generally suggest using a virtual
+machine like Docker. This is running in a
+code space on GitHub. And if you use
+Alpha, you're always going to get my
+most recent version. So if you're
+installing for the first time, you're
+going to do init. I've got a bunch of
+new init's as well. So, and this
+is I'm going to publish probably
+tomorrow. I'll give you a
+little sneak peek at some of the new
+features. I'm running this locally so I
+can run it globally here on help you
+see there's a ton of stuff here so I
+know probably too much stuff but I've
+added a new truth verification system a
+pair programming mode and the truth system
+acts allows it to if you've ever built
+something and you're like does it actually do
+what I thought it's supposed it's supposed
+to do or is it deviated from the original sort
+of guide this system allows it to sort of
+prove that it's still doing the thing at
+which it needs to do without deviating into
+some rabbit hole of trying to be, it's
+convincing fraud. And one of the drawbacks to
+especially using swarms is it can create very
+convincing fraud. It's like, yes, this is
+a quantum computing system that can solve
+the inner blah, blah, blah of the universe,
+but no, it's just telling you that it's totally
+********. So what this does is allows
+it to ground it in the original sort of purpose,
+maybe in mathematics or whatever it is
+that I'm building and to do that you'll see
+here that we now have the option for cloud
+flow and I'm gonna just give you the verify
+do you think we should do that hierarchically
+like say okay no never harm a human and
+then kind of like well the four laws don't
+work because every time I try to create laws
+for these systems they reprogram the laws
+Yeah, I apparently, as an author, didn't
+understand programming. But, yeah. It might be a creative way to
+think about that. Yeah, what you're describing
+is guardrails. So, in this case,
+I've got various, so this is the
+verification. So, this is what
+I'm going to launch tomorrow. We do verification
+help. You'll see I've got different
+thresholds. So, basically, it enforces
+truth and accuracy in my multi-agent
+operations. So what I'm really trying to do
+is have a measured approach to say, is
+this still factually correct based on what
+I wanted to do? So when you go back to
+here, I wanted to build this crazy AI ET
+explorer kind of thing, but I needed to
+actually do what it was intended to do so it
+could verify that. It's training a model. So back to this
+idea of narrow AI, which I'm totally
+all about. So the system basically has
+a reflective component that can do the
+neural training. So what I'm doing is
+I'm creating neural patterns within
+each of the agents that learns what it
+needs to do. So the more programs, the
+more efficient it becomes because it's
+creating micro neural networks that are
+explicit to the application of which
+it needs to build. now you can apply that
+to applications like yours where you might
+learn what a doctor might think or I
+might mimic a certain a certain doctor persona
+within the structure and then it might
+learn that some of the things were right
+some of the things are wrong so over
+time it gets better so I'm jumping around a
+lot here hopefully this is not too you know
+off the wall but a practical application
+of that is my neuro trading system so in
+in the case of a neuro trading system This
+is a system that I built to basically do
+various types of real -time stock trading,
+crypto trading, sports trading, things like
+that. What I want it to do is get
+better at doing those trades so I basically
+have a positive trade. So obviously an LLN
+is not going to have a clue what a good or
+bad trade is going to be to take a point
+earlier. It's going to tell me essentially
+what it thinks it wants me to hear. So it's
+going to ******** the answer. So what
+I need is a mechanism for it to be grounded
+to get smart and understand what a good
+trade is and what a bad trade is. So what this
+system does, it uses a combination of
+time series data. So information that flows
+over extended or temporal sort of approach. And
+then it correlates that with a neural
+network that understands what the benefit
+meaning to that is. So I'm able to do that
+under 10 milliseconds for high frequency
+trading. and it can look at 128 different
+stocks or cryptos or whatever and determine
+out of those based on correlating to
+other factors, in this case, polymarket
+prediction markets or sports betting or other
+social media or news events. It can make
+a determination what the outcome across
+multiple types of assets would be because
+it's been trained to understand the
+correlation between those. Anyway, long story short, I'm building all
+this stuff using this plot
+system. So let's just jump in for
+a quick second. To invoke it, we're
+going to go into plot. And actually, I use aliases because I'm lazy. So DSP allows
+me to operate dangerously skip
+permissions. DSP-C allows me to
+continue a previous session. I'm going to
+go here and do DSP. and once that's running
+you'll see here that we've got different
+modes so these are all the different modes
+and these are what you're getting when you
+install a quad flow is basically my sort of
+development environment I'm just basically
+every day or two I'm just publishing my
+environment you get to sort of piggyback on the
+way that I build stuff and so if you look
+at my github repo and all the crazy experiments
+and things I'm creating you're just
+you're basically just seeing my tests and how
+I'm testing this platform to build a quantum
+based virtual machine or whatever you know
+neural network component I'm building but
+they're all invoked through this and you
+can customize all these components by going into
+the cloud folder and you'll see there's
+commands and there's agents folder each of
+these agents are basically invoked so if I want
+to do something I can just go and invoke
+it either manually or through the system
+there's a UI I'm building anyway I don't have
+a lot of time to give you guys the full demo
+here, but basically, if you're curious on
+how to build stuff, Claude-flow is how
+I do it, and you can install it just
+by running my MPX. This is built. I'm
+delivering, for those that are more
+technical, I've basically created
+a Rust-based WASM, WebAssembly I think
+is what it stands for, and then that gets
+delivered through the MPX and remotely
+instantiated. So you'll basically get all my
+crazy by running the mpx that said you know
+this is this is a fully automated system so
+i would not suggest running it locally you
+know you could get a kernel panic if you
+run it on a mac locally and that's not my fault
+you've been warned um best is running a
+virtual machine yeah The underpinnings of
+this is another project that I created called
+Roof Band possibly. This is how I do
+the neural networks. Yeah, like you were showing like
+the automated. Spark. I built so much stuff
+it's hard to keep track of. Yeah,
+field limits and now you're showing Cloud
+flow and like... Rue code? Rue code
+inside of some other tool. Yeah,
+I still use Rue code. I like
+Cloud, it's cheap. But I guess like my
+question is like, and the way I look
+at all this stuff now, I'm on a
+designer and I, every day my computer is
+up and I just have a way of my sensor
+well, just like text showing up.
+And it's not weird. And it just works. What are you using? It's getting better.
+It's getting less technical for sure.
+And a lot of what, you know, when you're
+using my tools or even Cursor and other
+tools, is you're abstracting the
+complexity, right? It's allowing for tool
+use, it's allowing for the integration of
+secondary systems. So a lot of what
+I'm not showing you guys is like
+all the MCPs. So when I'm in here
+running these tools, let's jump into
+Cloud for a moment. There's a combination
+here of agents. The agents run enabled. So one, you can see
+all my commands. These are the things I'm
+doing most frequently. And you can see my
+MCPs. So in this case, I've got my Podflow
+MCP and Root Swarm. So I'm basically
+abstracting various tools, these are secondary
+systems, like you see my neural training
+system, so if I go to Neural Train, you
+can see the different options. So I'm basically
+using these MCPs to sort of access secondary
+complex systems. So as Nick was
+mentioned several times, LLMs are inherently
+stupid. So I'm augmenting those LLMs with
+tools that make them smart and recursive
+and feedback upon themselves. So it's the
+combination of tools and feedback that
+makes an LLM capable to build anything you can
+possibly imagine. If you go into ChatGPC
+and say build me something, but you don't
+tell it how to build it or what the context
+of what to build it, it's not going to
+build you anything. So sometimes people
+conflict their own ignorance with lack
+of capability and the key here is to
+understand what you don't understand and ask
+the right questions yeah so you translated
+into rust but I'm thinking that if you get
+closer to machine code you can get even more
+optimization have you thought about translating
+it into assembly of course I have yeah so
+yeah I've been playing with assembly for
+exactly that reason because I wanted to get
+closer to the silica I I've seen incremental
+improvements by using assembly over rust
+like if I'm getting you know 10 milliseconds I'm
+seeing nine milliseconds in assembly so at
+that point it's like it doesn't make any
+any real difference now what's interesting about
+rust for those that are curious I potentially
+could take the rust and neural network
+components I'm building and embed them directly
+in an actual basic chip and what that allows
+me to do is to create an actual synaptic
+network of multiple chips that are roughly
+i'm i'm i'm cheap 12 these are 12 nanometers
+so give or take three and a half centimeters
+by three and a half centimeters with 256 of
+these neural networks on a chip that runs on
+a a double a battery and i content i
+based on this i could potentially
+run in a solar cell from it's
+like like a 1980s Calculate. The
+nanotechnology stuff is going to be crazy
+because you can pack the power of this
+stuff with cloud. Well, what's interesting
+about this, so I'm piggybacking, and
+I'm not sure if the guys who have allowed
+me to piggyback on their chip run are
+here or not, but I'm piggybacking on this
+run, and this is about a $5 million chip run
+that's happening next month, but if I
+actually did this on the latest one nanometer,
+I could get this down to less than a
+tenth of a centimeter. and put 256 of these
+things in a pinhead. What if you put
+10,000 of them in different places?
+And I could run, but what's running,
+these are all running in parallel and
+concurrently. So to your point, what we
+could do, once you get to that size,
+you could pop a pill. And those pills can
+basically spawn a series of tiny little
+nanobots that go through your body and they
+can communicate with each other using
+subsonic frequencies. which is also a
+project I built, the ultrasonic, and
+so what this does is uses basically no
+power at all and uses ultrasonic frequencies
+at the 18 to 20 kilohertz range to
+form a secure internal eugenic network, but it doesn't use any power. So basically,
+it's using the sort of heat
+from your body to power the
+communication within your body. It's just bonkers,
+right? And this is me on a Saturday
+just fooling around. And if you don't
+believe me, you can go and install this
+and give it a spin. Because, like, say
+they're collecting certain sensors. It
+might be cheaper than all this natural
+language processing. So you might get all these
+different sensors. You might get a cool,
+like, some data. Yeah, I'm 100% in the
+camp that LLMs are dead-end. It's just a
+language, right? Yeah. It's like a tool to
+talk about, right? I think if you
+look at the tools that I'm most excited
+by, like the roof band, which is a
+fast artificial neural network,
+and it's kind of funny that it's
+banned, but whatever. This is essentially
+just a micro neural network architecture.
+So rather than creating a monolithic
+architecture, giant models, I'm
+creating many, many, many small models
+that are capable of communicating with
+each other securely. And so I created,
+of course, a communication system
+that essentially is a quantum
+-proof darknet. And that's how these
+agents communicate. This is essentially,
+what's that, Terminator? You know, it's
+essentially a sky net. like it's all the
+same sort of you know elements of Skynet so
+when you look at what Claude flow is it it's
+a layered approach the most bottom at the
+basic level you've got a quantum based
+communication system with darknet and various other
+components here then on top of that you've
+got a system that allows it to communicate
+with each other then I compile the whole
+thing to a a standalone wasm which is like
+this packaging format that has no no dependencies
+then I delivered that as an mpx so
+each thing builds upon itself do you want to
+explain the history of fan how long how long
+that took the original people to build it
+and how quickly you transform it into rust
+the original fan project is a C project it's
+one of the most popular neural network libraries
+it underpins things like PyTorch and
+other most modern ML libraries use some variant
+of it so this isn't the support i actually
+completely rewrote the entire library
+using the swarm so v1 of the swarm was essentially
+this this was like this was my original
+test like what could what crazy can i build
+with this swarm thing that i created once
+i built that v2 was a combination of this
+project then this project led to another rest
+project called GAA which is essentially
+the sort of practical implementation so you
+can think of QDAQ as the SDK this is the sort
+of app middleware layer and then that led to
+the the next layer being the roof fan layer
+and then within roof fan I was able then
+to create the neuro the core neural network
+system the neurodivergent system because
+everyone tells me I'm apparently neurodivergent
+which I think is a compliment and and that
+led to you know the time series analysis
+then then finally you'll see the roof swarm
+the roof swarm is that is the is the swarm
+wasm component and I'm talking probably
+gibberish to half the guys in the room but and
+when you look back here you can see here
+that the roof swarm I do all these as MCPs so
+the so the basic model of all this stuff to
+the orchestration is essentially building
+on top of everything. So have you ever
+thought of doing an MCP to do a deep,
+now I'm fascinated by the opposite
+of infinity. So if you deconstruct,
+when you're grounding knowledge to something,
+to validate it, deconstruct it for
+the most simple thing, where it's just for sure
+it's this one thing, or this one data that
+it's just for sure. But then you have to
+deconstruct everything you do, and then somehow
+they would have to do it like um i i
+think i understand what you're saying i'm reverse
+engineering all the things that came
+before me okay and then reassembling it like and
+and the novel element is isn't necessarily
+that what i'm doing is 100 original it isn't
+it's the re it's the reformulation of all
+the things that i took took apart and put back
+together in a new way so when people say
+that you know AI can't invent new things no it
+can't invent new things but I can invent new
+things with it right by the reassembly of
+those things so it all depends on which way you
+look at it that's why I think like a lot of
+these similarly you give up these things
+that you simulate you know to do the 10,000
+different experience maybe it starts discovering
+but it's just too much in my head to like
+start thinking about Alright, we've got
+to run out of time. Hopefully, I
+didn't get to do the whole demo,
+but hopefully that was helpful
+for you guys. Couple notes, just so you know. Thursdays and
+Fridays we do live Zooms online,
+they're free to join. We post them on the
+Ingenetics Foundation and share them
+around on LinkedIn, day up, morning
+up. So everybody's welcome to pop on
+to those. And then we have these
+gatherings once a month. She says a big
+thank you to Tribal Scale for
+hosting us and having you here
+at the event. I'm from IEEE
+Blockchain Canada. Not this Thursday, but
+next Thursday, we're going to have an agentic
+slash decentralized AI event. It's a
+lunch and learn, and it's going to be close
+to the Eaton Center. We're going to be
+serving food. So we're going to be bringing
+the lead of the media agent AI coming from
+New York City to talk to us So if anyone's
+interested and yeah So yeah, if
+anyone's interested just look up luma
+actually watching We got a WhatsApp group and a Discord channel. Yeah, we just hang out on
+a Discord channel. We're all in a room. We create crazy ****. That's our thing. Yeah, deal with it. You should see
+that I got a nail down on basically
+the AI software. So, see this
+kind of graph. So, you need
+to talk to it. Yeah, no, it's
+probably said. Yeah, it's okay. It's okay. So, we're appreciate it. We believe in this. We don't have a whole thing. We need to start this in our live. We can do this. We'll be doing
+this one time. We're really showing you the encaster
+of our advisors They're everything other than open, now
+they got open.

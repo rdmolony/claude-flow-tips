@@ -1,0 +1,1879 @@
+two, one. And here we are, AI
+Hackerspace, June 20th. What a week. I guess
+it's not a great week if you're into security,
+but what a week what we're having.
+And yet again, a spectacular week in AI.
+Every week is crazier than the last, at
+least for me it is. So we've got a great
+show lined up today. Rob, who do we
+got? Yeah, yeah, a bunch of
+stuff going on. We've got the Paris event now is on the
+map officially for monday the 23rd and uh
+kelsey cole vincent and emad are putting that
+together that should be a lot of fun um
+for the we've got the new york city crew
+that are planning out the first event they're
+going to be joining us today they got a
+couple tools to share or a tool to share as
+well and then we'll get a recap from mondweep
+and bensa they've got a heck of a week
+in London with that panel on sustainable
+AI development at Greenwich University
+and then their hackathon which has been running
+since Wednesday so we'll get an update
+from them then as well we've had a lot of
+help the last few weeks from our long-time
+member Dimple she's a data and AI engineer out
+of Edinburgh Scotland she's been helping
+with getting everything together for the
+guests. And I think we have Miko as well. Is
+that right, Dimple? Yeah, Rob. So thank
+you. We have Miko. He's a longtime member
+as well. And he has founded seven tech
+startups with three exits. And he has a new
+startup. And the mission is to build
+the infrastructure of the Nordic welfare
+state with AI. So yeah, over
+to you, Rob. right wonderful that's
+great i'm really looking forward to hearing
+how that uh about this project um miko we're
+going to start that the lightning talks
+probably around 12 20 something along those
+lines but it's really clear that finland gets
+it and they're working on some fascinating
+stuff to to sincerely prepare for the imminent
+arrival of agi so that will be fascinating
+so that's the lineup today roof all right so
+it sounds sounds like we got a great show
+line so some of the originals i'll we'll try
+to get everyone in um this week for me has
+been particularly interesting around swarm
+based development so i i've got a bit of a uh
+i don't know obsession might be the right
+word with with you know applying sort of swarms
+to various things and i so i'm learning a
+lot about the sort of application of the
+these kind of complex swarms to various types of
+development and securing and deploying and
+all kinds of things. But there's a few
+takeaways that I want to discuss, you know, first
+and foremost. And it starts with this exploit,
+which we don't know a lot about. And
+there's been a massive password breach from
+the biggest providers of OA. And the reason
+this is kind of worrisome is,
+you know, if you've ever logged
+into any website using Google or
+Facebook or Apple, that means you're
+trusting these providers to secure your
+authentication information, right? So then that's
+why you can log in with one click with
+your Apple or Google. And it would seem that
+16 billion passwords, which is double the
+population of the planet, basically, in
+terms of passwords, was leaked relatively
+recently, apparently last month. we're just
+finding about it now well what's interesting
+about this and i have this is all
+anecdotal by the way i've got no proof of who or
+what or how so i can only sort of uh you
+know surmise what that potentially could be
+but what's interesting is the fact that it's
+never been easier to hack right and this
+idea mostly uh has been around concepts
+of like kitty scripters right get get these
+various tools like nets you know metasploit
+and other kind of tools and and then sort
+of click a few things in your keyboard and
+see what happens. That's been the
+traditional approach. But now what we're
+seeing is we can kind of take that and we
+can amp that up using these agentic tools
+that we use these kind of kitty scripting
+tools, but can also like sort of
+adaptively look and discover. So what's
+my sense, and I have no proof of this,
+but my sense is this exploit is likely one
+of the first major, probably is extensively
+using AI as a kind of core orchestration
+of the exploit itself. I have no proof of
+this. This is just me guessing, but it seems
+that given the timing, given the things that
+I'm seeing in the space, it's, it's pretty
+likely that somewhere, some group of bad guys
+were probably using, you know, a lot of the
+same tools that we're using to build and
+create crazy things for the opposite reasons,
+right? So what But we're experiencing
+what's probably a sort of first step and will
+likely be a really interesting few years
+to come. And just as a note, yesterday, actually,
+I was looking at one of my projects for a
+client, and they're basically giving me
+a hard time. Is this secure? Is this actually
+doing what you're saying it's doing? And so
+I'm like, OK, so I pointed the swarm at it
+and said, look at this API endpoint, which
+is actually in the development environment.
+Now, it wasn't even live. And then I let it
+run for a while. I went off and start talking
+about other things. And then, you know, 10
+minutes later, I came back to this swarm that
+was basically looking at the development
+environment and trying to determine whether
+this thing that we had built was secure.
+and one of the parts of the swarm had actually
+decided without me telling it to go and
+explore the sort of you know the sort of rabbit
+hole where that api led to and it led to
+the production site and then as part of
+that process it actually mapped the entire
+production environment that they had set up and
+found all their exploits and it actually gone
+in and took advantage of all those exploits
+without me asking it and what's interesting
+when you look at these tools and you
+And if you were to say, go exploit ABC site,
+it's going to say, no, sorry, I can't do that,
+right, HAL 2000 or whatever. But the virtue
+of the fact that I started with a sort of
+development environment, and I said this is
+an ethical sort of pen testing structure,
+it seems to have, like, given it the sort of
+okay to go and do all kinds of bad things.
+So basically, it's a semantic description
+or a sort of guide that allowed it to say,
+okay, I can move beyond my own sort of
+limitations and things I'm not allowed to do, which
+is crazy and scary. Needless to say, I
+think I might have ruined their weekend
+by showing them a whole variety of
+exploits. And this was in a highly regulated
+space, just to add the cherry on top,
+which got me thinking, it's a brave new world,
+to say the least. Let me show you a few
+things here that I'm working on for those who
+haven't been up to the latest and greatest.
+So, last week, I created this. Oh, let me
+share my screen quick. I created an abstraction
+layer, essentially, to Cloud Code. I
+called it Cloud Flow. Notice I'm version 72. That's because I
+wasn't paying attention at one point, and it did
+20 freaking versions. where I decided
+to publish each incremental change as a
+version update to NPM, that's another side
+effect of these swarms is because
+I'm spotting, in this case,
+sometimes 50 concurrent agents to do
+things all at once, you've got this sort
+of different... It's hard to guide it. Well,
+not hard to guide it. Sometimes it's hard
+to see what's actually happening within the
+structure of each one of the swarm elements.
+When I'm doing concurrent development like
+RueCode or Cursor and those types of sort of
+sequential development, I'm able to see generally
+what's happening because it's doing
+this, then it's moving to the next thing.
+Maybe it's spawning a subtask, but I've got
+the ability to really understand kind of
+what's happening because it's sequential or at
+least it's a single thread. Where when I start
+implementing these swarms, there's the, you
+know, especially when I do large swarms,
+like this idea of a 50 -agent swarm, it's hard
+to know that, you know, agent number 33 has
+decided to go rogue. So, the one thing
+that I've learned, I think, this week
+is certain tasks are better suited
+for this type of environment. So,
+early development or complex, so complex
+development is actually really good,
+too. For example, earlier this week,
+a storage company hired me for literally
+an hour because I do a lot of these
+kind of hour projects. And they're like, we
+have this old school storage system was
+literally built in PHP, which was interesting.
+And as you guys probably know, I'm
+not a huge fan of PHP, nothing against
+Drupal. They still hate me for porting it
+to JavaScript. But nonetheless, I pointed
+that system at legacy code. We're talking
+probably around 50,000 lines of code,
+so a decent amount of code and
+significant amounts of technical depth. And
+I pointed and said, basically, rebuild
+this for me using Rust. And their latency in
+PHP was high. Obviously, it's PHP. It's not
+great. So they were looking around 300
+milliseconds for a request. And I managed to
+get that down within an hour to less than
+two milliseconds using a Rust-based full
+implementation of their legacy system, which
+basically means that it would use the same
+API and SDK sort of structure. So anyone
+that had previously deployed it would just
+kind of magically work. That literally took
+an hour. So I started looking at, like,
+what kind of output can I do in this
+timeframe? And then I discovered a tool
+that allows me to sort of measure some
+of this stuff. so there's a tool that
+i found earlier that that allows me to sort
+of look at my clod token monitor and
+which is interesting and it tells me
+things like burn rates this this it always
+says tokens exceeded max limit i i obviously
+am not exceeding the limit so ignore that
+but what's interesting is i think this is
+pretty accurate in terms of of you know what i'm
+doing so in this case i did uh 272 000 tokens
+and three this is a little project i
+was working on earlier basically it was a uh
+trading system that i was i was building but
+it was i i was i was curious about sort of
+how it was uh you know working let me get
+some uh quickly clacks here i'm just kidding
+you guys all right sorry i'm muting everyone all
+right so um so what's interesting is is i i
+did some benchmarking to sort of see like
+what's the most i can possibly crank out in
+in the run of an hour so i i was comfortably
+i'm able to comfortably do around 500,000
+lines of code in an hour. And then I say
+500,000 lines of code, 500,000 lines of
+usable code, not just garbage spaghetti
+that doesn't work, but usable functional code
+that passes tests. That is an incredible
+amount of information. I mean, you think
+about 500,000 lines. Let's put that in
+the context for a moment. According to
+developer guides and stuff, and regardless,
+list, they're saying that the average
+developer puts up somewhere between 20
+lines of code a day as a professional
+developer. So let's crank it up. Let's say that
+now with Copilot, you're doing 50 or
+100 lines of code. That means 500,000, I
+don't even know what the exact number is,
+but it's orders of magnitude more than
+the typical developer could do in a day
+we're doing in an hour. This is like, in some
+ways, probably 10 years of work that
+we're cranking out in an hour and using
+form-based approaches. And this is all
+for 200 bucks. Now, a couple of
+things to note. For those that are
+interested, I'm just going to do a quick
+crash course again for those that don't want
+to know. So there's the, you have to,
+to get it installed, what, there's a
+repo I created. Let me just jump to that
+repo quick. Oops, it's going to let
+me do that. Yeah. So Cloud Code Flow,
+I created Cloud Test. Cloud Test, this gives
+you the quick sort of step-by-step step
+on what you need to do so this is just a
+little repo i set up to to test my my stuff
+when i start so you've got to install the
+cloud code now there's an important part of
+the process that people seem to get stuck on
+when they're using this for the first
+time and that is the dangerously allow um
+i've already run this so i'm not you're not going
+to be able to see it but there's a command
+before you run cloud code you need to go
+in here and run the help command so you've
+already installed it and you're going to
+help you need to go here and run the dangerously
+allow if you don't do that you're going
+to get an error and i just i probably can
+figure out a way to get to to make that
+error not happen but basically it's it's
+basically not allowing you to run dangerously
+mode until you sort of there's this like ui
+interface that says are you sure you want
+to run dangerously allow well obviously i'm
+sure i'm putting in the freaking tag here
+but anyway it It asks you again, and if you
+don't do this right off the start, so Claude
+dangerously allow. And the other thing
+you want to do, if you ever are running a
+swarm and you go to bed and it stops at two o
+'clock in the morning or whatever, and you
+want to resume where it left off, you can also
+add the dash C, and that allows you to
+continue where you left off. So it basically
+invokes the previous session. So this is
+a particularly useful component. you can see
+here that it's continuing it says here that
+i've i had an api error i need to to
+implement so let's let's go ahead and let's do
+that so now i have i've got i see that there's
+it's it's created my test infrastructure
+it's created a new collection it's testing
+it's doing my market information and it's
+doing integration so this is a um a trading
+algorithm i won't go into details because
+you know i probably shouldn't be showing this
+but anyway what we're going to go here and
+i'm going to quickly create a swarm create
+a five agent swarm and by the way i can
+also do this by and oops let's i can do slash
+you can see that i've got different options
+i've added here but i'm i'm not going to
+bother with those right now because i'm just
+going to do something And we create a five
+-agent swarm using batch tool. Now, the
+other interesting thing, so the way I
+can create these agents is using
+batch tool. All references to
+batch tool have been removed from the cloud
+code documentation. I looked yesterday,
+I couldn't find it anywhere. So I'm hoping
+they don't remove it completely from the
+tool because that would suck because I'm
+really enjoying these swarms. But the batch
+tool feature is the secret sauce to making
+these swarms work. Basically, it allows
+you to create multiple instances and have
+them run in parallel. So if you want
+to invoke a swarm, really all
+you need to do is tell it to
+use batch tool. Now, in this case,
+I'm saying create a five-agent swarm using
+batch tool to fix, and I'm just going
+to grab this here, fix this. All right. Hey, on that, Ruben, And
+on that, I did a bunch of testing yesterday
+and yeah, all the documentation is definitely
+gone. I couldn't find it like you, but I
+tested Claude Code and it's still in the, the
+tool's still there. You can't see it, but you can actually
+reference it. Yeah. So that's exactly
+what I'm, like, it's exactly what
+I'm doing right now. So, so now you see
+here, it says swarming. I love that. And so, and I've got my
+thinking mode enabled. The thinking mode
+I've set to 20,000 tokens. that seems to
+be about right and it allows it to ponder a
+little longer it works really well you can
+you can also tell it to think harder or do
+like ultra thinking and it thinks forever
+depending on what the problem you're trying
+to solve you might want to get it to ponder a
+little longer i like that that sounds like
+a poem but the the key when you want to
+ponder longer you might use it for certain
+things like algorithms you might want to
+design or or solving really hard problems
+now you see the reason i know it's working you
+can see each of these tasks is being spawned
+independently now if all's well we we
+should see five uh five units whoa i'm not sure
+where that came from but um so now we've
+got one two three four five and i'm not sure
+what the blue thing on my screen i'm seeing
+is but uh hey chris wait how's it going
+good welcome back um All right, so now
+when you spawn large swarms, you're going
+to see this. And this happens because I've
+continued a previous setup, and it's going
+to flicker for a bit. This generally goes
+away, and it doesn't mean it's not
+working. It's a little aggravating, and this
+is back to the thing I was telling you
+about where you can't actually see what's
+happening particularly well. Now, I've got
+a status mode here. I'm going to jump through this one for a sec. um any idea how
+i clean that blue thing off my screen
+this is a first my chris voice put it on there chris are
+you guys that i i am either the
+ones to see that no no no it's okay
+yeah we all anyway it's okay well didn't know
+the blue line i'm not sure what that is but
+anyway there's also a so to to give a little
+bit of introspection what i've done is I'm
+still working on this is a work in progress
+for anyone and you cloud flow and you can
+do help and in this case we can if we we
+see how we get different options we've got the
+ability to look at you know various statuses
+so we can go to the memory memory and
+then we we can see the various queries we can
+we can do lists and this gift this will help
+you sort of get an idea of what's happening
+i've also got this for agents and tags and
+types so in this case oh i didn't do memory
+let's do let's go back let's do memory memory
+so this is showing all the different
+things so what i'm and this and my memory
+system is is actually the most rudimentary memory
+system i could possibly invent there's no
+vectors there's no well i've got an option for
+sqlite but generally it's just it's just
+json and of all the things i tried the json
+structure was actually the best it worked
+it was simple it was easy it allowed it
+allows the system to sort of understand what
+what's happening oh it looks like i my swarm
+crashed my instance let's go back here and see
+what's happening and all right do you
+have the orchestrator running in one of the
+terminals yes it's running right here so this is
+you can see it running this is the system
+the the system invokes the orchestrator itself
+as part so the so clod code invokes the
+orchestrator and the memory so you don't go
+clod clod flow start yeah okay got it yeah
+exactly exactly and i guess i i apologize
+guys i have no idea how to get rid of this
+blue line which is is a little strange um all
+right guys ruben uh yeah in your cloud test
+repository you laid out the four steps right
+just so that all of us understand i think
+there's a bit of variance here so first
+step is cloud code install which we understand
+obviously cloud flow your reinstall but in
+order to get started did you you said you have
+to invoke a dangerously dangerous permissions
+do you do that from cloud code for
+quote yes i do and and i think what i'm going
+to do i'm going to i'm going to just update
+this quickly so errol let's let's do it real
+time it's just a command line option it's just
+a command yeah it's a command line option
+right so here so the problem is run
+cloud flow start the orchestrator so what i
+need to do is i need to add another step step four
+we'll make oops step four and what this
+what we need to do here is we need to do clog
+and then we need to do uh what i think i
+have this in my memory so let's grab that game
+run dangerously this one yeah and and then
+i then what you need to do is you need to
+accept the UI warning message, then you can
+run the orchestrator. And again, the problem
+I'm running into is I'm like kind of
+working between both. So it's a little bit,
+sometimes I skip a step here or there.
+Oh, I don't like the way that looks. I'm
+going to fix that too. Let's add some
+brackets around that. And once you start
+orchestrator, does it invoke
+Spark under the hood anyway, basically the
+Spark methodology? Yes. That's step
+number five. Yeah. And the other thing
+that I've been working, and the other thing
+we can do here, which is kind of cool, and
+I'll push this out sometime this weekend or
+maybe early next week. I've also integrated
+the MCP feature. so we can go in here and now
+we've got clod flow mcp if you want to
+integrate it with like cursor or whatever and
+so you can invoke the different get cursor
+to do it for you and the other interesting
+feature is you can use the clod code system
+as the mcp itself as well which is kind of
+a fun little way to interact with it and
+if you're interested in doing that all you need
+to do is do clod mcp serve and then you
+can do ports and stuff like that but if you
+do i think by default i think it runs in
+studio and then you do that and now you're
+running the clod mcp server mcp server
+which you get clod code to use clod
+code mcp directly in itself which is kind
+of cool and uh to see that i'm running i'm
+doing some work here on the mcp but i'm
+gonna show you that quick so in clod i'm
+not i'm not running with dangerous at the
+moment but i'm just going to show you
+what that looks like. It's kind of like
+a recursive system. All right, so now
+we're here. Now when you have
+MCPs, you can go here and you can
+do MCP, and then you can see you
+have a Cloudflow. I haven't published
+this yet, so you'll have to use my dev version,
+but in this case, I'm going here. Then I
+can view tools. I can see all my different
+modes, and each of these modes can then be
+invoked directly within the sort of swarm
+itself so you can do swarm it's like i don't
+know what i call it like subtasks within
+the swarm it's kind of and so the so the
+additional the addition of mcps within the swarm
+really kicks up the the capabilities and
+and back to my original comment about you know
+hacking and exploitation that is the part
+that's most worrisome Because you can
+create the swarm that invokes various CLIs and
+MCPs, and then you've got the sort of –
+you're the master of the universe at that point.
+It can do anything, anywhere. Hey, on that,
+Ruben, so you only run one instance of
+Claude code as an MCP? No, I run it – each
+instance uses its own MCP. It's magic.
+I'm not sure how exactly it figures
+out, but it just works. Does that option runs CloudCode as
+an MCP server? Yeah, it runs
+CloudCode as an – oh, here's
+interesting. My swarm just crashed
+my instance. So this happens.
+Oh, it looks like it finished anyway. But
+here, this is how you recover from a
+crashed instance, if you guys are running
+too many VS codes. Yeah, so this is going
+to happen. And this is probably a byproduct
+of the fact that I'm trying, this is a
+trading algorithm I'm building, which is
+probably just putting a lot of CPU stress on it.
+I probably need to switch at this point
+from a swarm based implementation to a
+sequential implementation. So there's two issues I
+have. I'm probably just using a code space that
+doesn't have enough RAM, most likely.
+But when this does happen, I'll show you
+exactly how to recover from it. So it's not
+a big deal. And I'm to add better recovery
+tools as well here but i got too much stuff
+on my plate all right hopefully it comes back
+to life here in a sec because this this is
+uh here we go okay all right give it one more
+second there's a as i said the dash c
+command is the part that essentially allows you
+to recover so you're going to do clod dash
+c and then i'm going to grab that dangerously
+overly complicated command. And then I'm just going to do that. And that allows you
+to recover. There's also a session ID that
+I might start using as part of the
+memory. I haven't actually included that
+in my memory. That allows you to have
+multiple sessions and remember. So if you're
+running multiple terminals, you can do
+that. All right. So that looks like it
+actually didn't quite finish. So I'll just
+type in continue. And it'll continue
+where it left left off nice room quick
+question for you and i've noticed you
+know you kind of go for fives like fives
+five or 50 like like how do you decide
+on how many agents or how yeah how
+many like how many unique agents you want
+to have going in a swarm like i put in five
+and seen what happened like yeah i did of
+course of course i did of course i know
+yeah it crashed badly um it got to it got to
+about 150 and everything sort of stopped. But
+so it did attempt. I think I know how to
+do 5,000. I would have to have multiple
+$200, you know, Claude Max accounts. And then
+what I would do is use Tmux, whatever, how
+do you pronounce that? And then I'd create
+multiple instances, probably a VS Code Swarm.
+If you guys remember that VS Code Swarm
+system I built a couple months ago and then
+i'd have multiple vs code instances or multiple
+terminals or multiple containers running and
+then i'd orchestrate all of them i totally
+want to do like the guinness book of
+world records for swarms yeah no i i don't want
+to i don't want to i don't want to spend
+like two hundred dollars times five or
+whatever or times a hundred but yeah it's totally
+it's totally doable the other thing and
+all of them building guardrails well they're
+going to be taking over the web. The
+other thing you should note, the reason I did
+five and not 10 or 20, five seems like all my
+tests, it's the optimal amount of agents that
+balances not maxing out my account so
+I can actually have multiple projects running
+concurrently. So this trading system I was
+showing you and other projects I'm working
+on. And I also saw, I saw a little improvement
+going beyond five, like in certain things,
+like if I was doing like a GPU cluster or
+something, having 20 concurrent agents
+orchestrating like my hugging face in a
+cluster probably would be okay but for most things
+i saw zero improvement using 10 versus using
+five so i'm like all right i'm i'm gonna
+make five the default because most people
+have no idea and i just make it easy for
+you that was my entire entire thing how do
+you measure improvement you say so is it just
+subjective or you have some kind the metric
+i've met i get benchmarks so i was it
+last month i can't remember but i i integrated
+the swe bench tool that basically is a
+tool that allows you to measure the performance
+of the software engineering agents and
+then i then i used the swarm against that
+agent and i by the way i got 100 on that swe
+bench i didn't fail once so it's and and then
+what i did is i said how many of these can
+i do concurrently and then i just kicked it
+up a notch you know and i started doing 50
+or whatever and then i tried to do like 5
+000 and it's funny you know alex's point i
+do seem to like fives but um yeah and the
+other interesting thing 100 100 completion
+on swe bench it never failed once nice i'm
+gonna take us to the speaker component their
+guest component roof um let me see if
+that's uh if that's good that's good
+let's go all right all right so uh first
+off we got ****** ****** v3 and the
+new york city crew are with us hey ******
+hey jad hey guys you're on mute there hey what's up
+everybody can you see us all in the
+awesome room that Zohar provided us
+with at Kaltura. There we go. Wood paneling.
+This is Andy Warhol's original
+workshop. Wow. Right? So we're here
+making some art. All right? So a couple of
+weeks ago. Oh, guys, this is the first time
+we've all gathered in person, too.
+This is our first planning meeting.
+If we can get a little hurrah.
+I know we're all developers and
+introverted and stuff but gotta get one of these
+uh posters yeah yeah right so so we're pretty
+excited here we're gonna get together
+and plan our first event and uh hopefully
+get some some good turnout here in new york
+so um so that's that for my demo guys a
+couple of weeks ago uh you all saw me share
+a um prototype really a terminal-based
+application that was uh you know hooked up
+and running and you know writing midi code
+and running it through like these like old
+like files and stuff like sf2 files and
+like pretty cool stuff um but i did a little
+bit more exploring and i found this library
+called sonic pi um and there's a whole
+bunch of other libraries too um but some
+people told me about sonic i forget how i
+heard about it but um anyway so i landed on
+sonic pi and it ended up being really cool
+so i uh made this awesome little app that
+you have to download sonic piper so if
+anybody's gone on sonic pi composer.com and
+tried to use it it doesn't work you only
+have to run i just made that website
+because i was like having fun and i tried to
+reach out to the guy but he never responded
+so whatever um i hope he's a cool guy
+if anybody knows him you should hook me
+up sam or something like that um so anyways
+let's uh hear the first thing i hope
+i'm sharing sound oh i'm probably not hold
+on um let's do this Yeah, can we
+hit this one? Because I'm going to
+have to play audio. That works. Well, it's either echo or
+nothing, I guess. you know we
+you know i love feedback loops right yeah and you can share
+and you can share with audio i think
+in in zoom and by the way we're looking
+to move away from zoom probably next
+month or so to some other river
+riverside or something like that yeah that
+should be great robert you're not
+in a car that's great to see you
+know home base oh did we lose the
+audio i i kind of like watching these guys
+moving the camera around yeah there was a
+friend of mine attended a lecture at uh you
+know online at uh berkeley and uh in the
+first hour of the three -hour event was a
+fellow staring into his laptop trying to fix
+the audio like infamous that's art yeah yeah
+it's like in our events in london we
+have never managed to a second event i think
+we've got lucky this time we got a recording
+but we never seem to get the sound right
+on our live casting yeah yeah you know you
+know a little background you know guy beaver
+who's on this call he and i we used to
+work at the citrix uh R&D Lab to do video
+conferencing for their various web
+conferencing technologies and we spent many a
+day trying to figure out that problem
+but we never solved it but it was fun
+to be in the R&D Lab Is this looking
+like this one's going to go here
+William? We can come back too
+****** after the it's it's the demo gods which greek
+god is the god of demos i i
+don't even know it's probably demolus
+yeah demolus it'll be low key the god
+of mischief yeah i i was going for
+like rome or roman or greek but uh
+norse also works yeah yeah all righty guys
+well we'll come back at the end at the
+open open session will it be three we're
+looking forward to to hearing the music
+once you're once you're good to go um
+let me see so oh we got a quick update from
+uh mondweep and bents they had an uh just
+a wonderful week out in london uh rocky
+um isaac uh chris poulter mark d um that
+uh an event there at Greenwich University,
+an important panel, and then their
+hackathon, too. So I'd love to hear the
+update, Manduit, Benson. Yeah, sure. We
+basically had, we were invited
+to an event that was going
+on for the week. On Wednesday, we kind
+of had a small panel, mainly our group,
+basically, with Rodrigo, who was organizing
+it, and some of the members from the
+university. So it's a general discussion,
+more like introduction about our experiences,
+how we got involved in Agentix and the general
+potential of it. Then we opened
+up a hackathon, which we had
+prepared for. There were focused
+participation, I think not as much as we'd
+have hoped for. I think it was a different
+stage and event compared to the previous one,
+which was at Google. and today we kind of
+again had a much more closed view where we
+had some demos back from some of the couple
+of the participants about work they had
+attempted using the frameworks and then we
+did a workshop of broadly very basic uh starting
+with basic of spark original spark to
+like bits of the swarm architecture um we
+we also were not the demo gods went very
+favorable to us because we did it remote today
+but that is a summary but Benz please add if
+I have missed anything please yeah the learning
+is that we don't we shouldn't use
+Microsoft Teams on live stream events because
+it carries the GPU completely but yeah it
+was great and people telling us you know
+the demand for learning and agentics is
+incredible there was a A friend of mine from
+New York even was connecting live the live
+stream and she didn't know that agent exists
+and now she's planning to join every Friday.
+So even if it's local, then it can have
+an effect globally. And we intend to
+actually follow through in the post-event
+setup. So we would be following through with
+the university faculty to see what we can
+actually do tangibly based on this experience.
+So that is the main thing that we are
+actually aiming for. Thank you. There's several other
+universities that are interested in
+collaborating, European universities that are
+interested in collaborating with you. I'm going
+to introduce you to. I had a call this
+morning. I'm not sure if he's on this call
+or not, but with a university out of Heidelberg,
+Germany, and they're looking to do something
+to collaborate. So I told them
+about you and some of the folks like
+Vincent in France. lots of collaboration
+opportunities please do dangerous
+thanks cool it's i always find
+funny just uh that you know people haven't
+haven't heard of agentics yet maybe
+because i i spend my days doing nothing but
+talking about it but it's we're we're in
+early early days like it's it's it's it's
+barely a thing um it's it's a thing to
+us i guess but it's 99% of the world has
+never heard of it. Incredible. And when is the next London event,
+do you think? We are planning
+one in July. Yeah, amazing. Monvick, you have a info? Yeah, I mean, we may have we don't know the
+dates, but there is another one. This one
+is more firm that Ben was talking about,
+but we are planning one with LBS probably
+late July or August. there's one yeah
+because the shashi uh wanted to join
+the agent dc has a london ai meetup
+group with 150 people and he's keen
+on to merge with us let's do it
+wonderful let's do it fantastic chat here
+just just uh since we're on the topic um
+if you are looking to host an event in your
+city, you can sign up to be an ambassador
+on agentics.org slash ambassador. So
+I just put the link in the chat. You might
+have to scroll up a tiny bit there. So
+if you think that you or somebody you might
+know wants to host an event, we're here to
+help support that. You can message me
+directly too on Discord, but we have events
+popping up all over the world and just
+want to make sure you all have that link.
+So you do have to become an ambassador
+in order to kind of get the the support that
+we have here as an organization so sign
+up there and we will process you and make
+sure that you have everything all right
+amazing and remind us how do you become an
+ambassador so that yeah alex um i'll just
+speak to that quick so that process you
+fill out the form and then uh we'll have a
+chance to uh meet we'll get on a zoom call
+get a sense of your background you know
+if you if you've done any event management
+before what your thoughts are and then everything
+looks like it's in sync you hold your
+first event and if that all goes well
+everybody's thrilled and happy then uh
+then there's a chapter formation and then um
+yeah and then it's off and running so that's
+sort of the process perfect appreciate
+that uh vincent you've got a paris event on
+monday it was the last second thing kelsey's
+in town anything you want to say about
+paris uh the keyword is uh agility because we
+we learned yesterday that the event was on
+monday and luckily we have a very nice host
+uh it's a guy who is famous for organizing
+a very large event in corsica the rock festival
+he has a nightclub he has a rooftop
+rooftop uh space in in the heart of paris so
+depending on how many people join because
+it's last minute we may go for the the rooftop
+25 otherwise it's going to be up to 200
+people uh and i'm also activating my network
+there so let's see but uh it's going to
+be a mix it's not going to be uh coding it's
+going to be kelsey uh doing some form of a
+keynote on what she did with ai so far and
+her job with coke coca -cola she's the mastermind
+between uh behind the the coke campaigns
+you know and i'm gonna do uh i'm gonna
+uh i'm gonna show i'm gonna to build stuff.
+I'm going to have about 20 minutes, 30
+minutes, and I'm going to kind of reverse
+engineer, you know, what they see and how this
+happens, right? So a little bit like a light
+touch roof session. And then we have
+champagne, of course, because
+it's Paris, right? In the summer. Yeah. That's the idea. And last update before
+we do a next little presentation here. On
+Tuesday in Toronto, it's Toronto Tech
+Week. We've got 300 and something people signed
+up and i think we only have space for 60
+so we'll see how that goes um and so that
+that's gonna if you're in toronto and you
+just ping me or rob or brad or anyone in in
+toronto and we'll make sure that you you get
+you're in just show up early and help us
+set up um but it's going to be it's going
+to be crazy so that's on tuesday i think 5
+30 that's right 5 30 to 8 30 and rube i
+think there's like 128 people on the waiting
+list plus the 200 cops so that's that 338
+you're talking about it's growing by the
+hour. So yeah, it's going to be a, it's going
+to be a lot of fun. And this is John
+Messing. I just want to let you
+know for Vincent, my son who lives
+in Paris and a fellow colleague
+are going to show up for the
+event on Monday. Excellent. That's three
+of us now. Perfect. Bring it more,
+bring more. And, and John,
+welcome. I know you're, you're, you're,
+you're our old school sort of programmer
+and love that you're joining us. Thanks
+for coming on today. All right. Rob, who's next? So next, we've got
+Miko Alessarela, and I'm really excited
+to hear about these projects. So Miko's,
+this startup is with the previous CIO of
+Finland's government infrastructure, and
+they're working to prepare the nation for
+the arrival of AGI. You know, Finland
+seems to get it. They seem to get
+everything right. So I'm really looking
+forward to it. Miko, thank you.
+Thank you for sharing. Yeah. Can you see
+my presentation? Yep. Can we see Slack
+or something? Are you presenting
+your WhatsApp? WhatsApp, yeah. Oh, I'm sharing
+the wrong screen. Let me try to find the
+right one from here. So, you now see the right one? That'll build an AI
+native public sector. Okay, cool. Okay, let me
+do this quick. So, yeah, so this
+company is basically technically started
+at the beginning of this month, but it
+went to the register in Finland in April, and
+then we got all the paperwork and
+everything ready in May. So, I'll tell the
+story on what we do. So this starts
+from my history. Of course, I have almost
+20 years in AI, having founded
+companies in Silicon Valley in Berlin,
+Germany, and also here in Finland
+over the years. So I got concerned
+about this lack of understanding
+in public sector on this massive
+transition to AGI. It will probably
+change everything in terms of how
+governments are funded, how things are run
+in societies. and now that we basically,
+I mean of course our group here
+understands that this HGI is imminent but the
+general population is still like a
+myth so I show these government, how to say leaders in the
+country that this HGI will
+change everything and in order for
+us to be able to preserve our
+welfare society which basically has
+yielded the happiest nation on earth for 8
+years in a row So we will have to jump onto this
+bandwagon and implement everything to be
+ready for this change. So I'll explain
+to them that AI is already able
+to do everything. It's able to use tools.
+It's able to memorize everything. And the
+only thing missing from it to be generally
+capable of doing almost anything that
+we can imagine is that it doesn't yet have
+a world model, which probably will emerge
+over the next 18 months. And this has caused
+the internet to basically be filled
+with AI content. It was 57% at the
+beginning of last year already. It's
+now probably available over 70% or maybe
+80%. It's going to be 90% by the
+beginning of 2026. It also means
+that the bot traffic on the
+internet has surpassed human
+traffic last year. In Western Europe,
+it's currently over 70%,
+according to stats. Majority of this traffic, unfortunately,
+is malicious. So we literally have
+a bot fest going on in the internet
+on a daily basis. And now these
+are the two most important slides
+of my presentation. So in today's world,
+like most people still don't use AI to perform
+their daily work. They only occasionally
+use it for some tasks. And majority of those
+who are using AI are using it as a
+tool, which means that they can achieve some
+kind of incremental improvement to
+their productivity. There's a small
+group of partners that are able to
+more than double their productivity
+with AI agents. And then there's us who
+are basically pushing the boundaries on
+the world scale. And in order for us to really
+compete and in order for us to really build
+a society and any organization should
+be looking like this, everybody should be at
+2x or more productivity levels. And on the
+top end, it should be the next plus. And if
+this shift happens, I think these companies
+and organizations, whether it be
+private or public sector, will be
+able to compete. And my argument in my
+country is also that if we do this, it's
+literally the silver bullet to make a
+massive jump on the productivity, then turn
+it into GDP growth. And so it's
+imperative for the whole country
+to do this. And in order for you
+to achieve this, you have to understand that
+this is not a tool. Every time people say
+that AI is a tool, I say that you are
+looking for incremental improvements, not
+transformative changes. You have to
+understand that agents can do everything. And I also tell
+the public sector that they can
+actually automate the whole decision
+-making process. There's an insane
+number of different processes going on in
+the government, like issuing permits,
+registering companies. issuing social
+security payments, doing all kinds
+of things that are currently
+done by humans. And I said that you
+can automate it all with AI because these
+things are based on rules and laws and
+regulations. The only thing you do is that
+you start in a step -by-step plan to go
+towards AI-driven decision-making. And
+this could yield like, for example,
+organizations like the Social Security
+Administration to basically make decisions on
+the social security payments in minutes
+rather than in days or in weeks that they're
+currently doing. So I'm also telling,
+this is very important in Nordics, you
+tell that you're jumping into this AI
+band, but it actually reduces your stress,
+it doesn't increase it because you are
+delegating work to agents to focus on
+the important tasks. And this is an
+important message because people
+always see that, hey, I need to double
+my productivity, I need to triple
+my productivity. It means that I have
+no free time, I'm going to be stressed every
+day and so on. So I'm just telling them the
+story that it doesn't mean for the human
+workers any added stress necessarily. It means
+that they're adapting AI to get all the
+stressful tasks done. And I'm also telling
+them if we are able to basically
+get our citizens into this like
+multiplier trajectory that I showed in
+the previous slides, we will have AI
+capable citizens and AI in the public
+sector. We can compete and we can survive
+this. I'm also having like a lot of
+technical stuff that I don't have time
+to go into, like how we are building
+this infrastructure. But yeah, that's in short what we are building. We started at the
+beginning of June with the company.
+We already have one multiple, and this
+is the fun part, definitely fun
+for Ruv to hear, is that we've won
+multiple very important government bids
+on building AI infrastructure for
+them through doing this AI-native transformation
+against very large companies as a
+two-person startup. This is very
+important because the government guys
+understood that these guys who have done over
+100 AI projects in the past combined with
+an army of agencies is probably better
+for them than having 1,000 employees in
+an organization. okay mika you gotta
+meet my favorite my favorite fin is a
+guy named martin mikos he's uh oh yeah
+i know i know him very well yeah oh
+okay yeah he he you should talk to him
+he'd be all over this if you don't know him
+i can intro yeah you know you know he knows
+me well as well so i okay yeah i mean i
+will definitely have a discussion now that
+you mentioned it like like if he's working
+on this field yeah he's he's he's really into
+this stuff right now so and he was i think
+he was the CEO at HackerOne. I might still
+be there. I don't know. Yes. Yes. Yeah. I
+think he quit as a CEO. So, but yeah, he's
+another consul of Finland in the Bay
+Area. I actually hanged out with him
+quite a few times when I was living
+in the Bay Area. So, yeah, really nice guy. Cool. This is, this
+is, so a couple of comments, you know,
+there's inevitably every agentic
+conversation ends with, you know, AGI, ASI,
+or some sort of, you know, singularity
+conversation. And, you know, the idea
+of AGI is this kind of all knowing, all
+encompassing AI that can solve all problems.
+And in my opinion, that isn't going to happen
+from a statically defined language model
+that sort of, you know, is responsive, right?
+And the challenges that we have is this
+perception that a lot of these models are sort
+of you know inherently smart right and can
+do and act and they none of these things
+as we know from agentic as being agentic
+engineers that requires guidance like whether
+it's a swarm you know operational source
+constructs i think that the the building blocks for
+agi will emerge from the tools like the swarm
+components you were you were seeing
+earlier and how we sort of orchestrate and and
+use those in a kind of feedback you know a
+perpetual feedback probably you know what
+what are you thinking what are you thinking in
+regards to like what AGI even looks like when
+when you're describing this to a government
+or an organization well I mean uh from my
+perspective AGI like how I explain it to
+them is uh it's not like uh explaining like
+artificial consciousness or anything like
+this it's a simply uh saying that AI can do
+anything that we can do and you know and and
+that's it like uh be it like a swarm of
+agents or be it like some kind of like a
+combination of tools and others uh the thing is
+that the fact what what you guys are achieving
+already and i'm also achieving similar
+things now uh uh is is that that it's a
+testament of this aga happening like like
+literally uh we can multiply i mean rube you have
+showed like multiple times like how many
+people's work and we can now do with ai i
+mean that's literally explaining how the ag
+is emerging uh so it's yeah mikko you know
+public sector is great but i think one of the
+underserved areas is the smb sector because
+the problem with smb is they don't have
+enough money they don't they don't like now
+i'm helping one of the smbs but neither none
+of the big players really want to speak
+directly to them so they are true resellers and
+others right but they are the backbone of the
+economy to be honest i think there is a
+huge opportunity to actually engage and
+them better to something seminar I think yeah so the funny thing is that
+a lot of the problems for small entrepreneurs
+is coming from like all the obstacles
+and government practices and other things
+that are making their lives hard like in
+unnecessarily difficult ways I'm actually working
+on multiple initiatives already with the
+government that are making it easier to
+be an entrepreneur in this country you know
+so I mean a simple thing like for example
+automating the process of registering a company
+or doing filings and other things like
+completely for some reason we do have some parts
+of the government that are completely
+automated one is taxation I guess like anything
+that makes money for the government is
+instantly automated because it makes money
+faster for them but you know when it comes
+to like supporting entrepreneurs uh we
+have a filing time for a company um it's like
+about three to four weeks uh like you file a
+company you get get it registered in three
+to four weeks and it costs like 370 euros
+to do do like a limited company and then estonia
+does the same thing in one day and 50 bucks
+uh so i mean i see i see a lot of room
+for improvement and the same thing is is true
+with that with all the accounting uh which
+is a small business benefiting thing like
+what if what But if all the accounting was
+basically trivial or free for most of the
+entrepreneurs, it would take a lot of burden
+out of the next. And, you know, and so that
+would be also helpful for for the
+entrepreneurship in general. In Canada, we are
+equivalent, I think, is building permits
+and the ability to actually build a
+house without getting crushed by massive,
+long and expensive processes. Miko, I
+love that Finland has never wavered
+from the concept of the requirement of
+a social safety net. So I think you
+guys are in an incredible position
+to really illustrate around the world
+what it means to prepare for the
+arrival of AGI, considering that
+definition, that it's capable of doing
+the vast majority or all economically
+meaningful work. Are you optimistic
+that the public sector is going to
+become AI native? Yeah, I mean, lots of
+people were skeptical when I started this.
+Like, they said that this is an impossible
+task. Like, you can't convince these
+******** to do anything meaningful. But at the
+end of the day, what happened was that we
+happened to have, like, a perfect combination.
+Like, I'm very well known in Finland
+myself as an AI hacker. And then my co
+-father, Janne, he's basically one of
+the most well-known public servants of
+the country, like before he started
+doing this with me. So now having this
+kind of star power that we have in the country,
+it's much easier for us to negotiate with
+the public sector decision makers. but but
+also uh it requires them to learn that that uh
+it's actually better to buy from a nimble
+nimble company that it has a lot of ai like
+and behaves in an ai native way than uh
+doing like this massive contracts with large
+corporations with thousands of employees because
+they will take years and they will cost
+millions or tens of millions and and they
+will usually get nothing useful eventually for
+the government uh that's a simply ways of
+extracting money from the government So our
+philosophy of doing this transformation is
+important here as well. Miko, you're on the
+right path because I just saw a reel
+not too long ago that London,
+England is actually, Robert, using AI to
+scan all the documents specifically for
+building permits. Because they've got
+surveys in boxes that if you file something,
+it's like there's a water main that
+was laid 300 years ago. So they've got
+all the boundaries and all the registrations.
+So apparently London, England is
+already doing this. And also here
+in Canada, Miko, IRAP, so the Industry
+Research Association, they've got like a
+couple of mega funds. And one of them
+specifically, they repeatedly have going is the
+adoption of AI for SMBs. So they'll create a
+fund and then they create incentives for
+consultants to actually help them um adopt ai
+so there are initiatives here in canada that
+would actually dovetail to what you're doing
+so yeah yeah i mean i i'm i'm hoping i'm
+hoping that we can like export happiness
+uh to the world like uh the happiness is part
+of the part of the thing that and i think
+finns are famous for that uh like this for
+some reason win this like world happiness
+ranking every year like past eight years and
+i think it's partially because because like
+we learned to be content and you know and
+this kind of contentment and because everybody's
+taken care of like like it leads into
+this kind of contentment and and and mental
+safety so uh if we have ai and let's say
+that we managed to build this nordic welfare
+society model with ai and we can export it
+to everything then we have basically all the
+government services available for technically
+free with no tax money needed uh for
+everybody everywhere and i think that's
+something that we should do uh i mean uh if we
+care about humans like like i think that's
+the right thing to do hey miko i have a quick
+question for you um what do you feel like
+agentics foundation could do to help support
+that initiative or what you're working on
+other than obviously like kind of having a
+platform to speak is there anything that you
+would wish that we as an organization would
+be able to do to help support someone like
+you in your position uh yeah i i'd be i'd be
+discussing actually we actually have members
+from the like some of the government uh and
+this in thinland here also in the agentics
+already uh i think there's a demo from
+citra here on basically listening to us right
+now um and and uh uh we uh like like we've been
+discussing with them that that we could
+basically put together the two of us like some
+kind of agentics, like local entity that helps
+do this one thing, which I have in this
+curve, which is like helping the citizens
+become more AI capable. And this is like a
+very important part of this educational
+aspect, like how do you make people
+more AI capable? So this part, I think
+agentics can help a lot with. i think uh
+uh right now uh of course we are kind of
+like a group of hackers who are pushing the
+boundaries and so i think there's a lot
+of engineers who have very let's say high
+iq and high technical capabilities uh but
+how do we help like this to be spreading
+like large like to the society at large you
+know and you know help everybody to be more
+on the bandwagon that's a question that i
+don't have an answer to yet but uh i think
+there's some kind of trickle down effect
+that they can probably induce all right well
+we're we're at the top of the hour which means
+we're going into our after hour show where
+we lose some of our participants really
+appreciate you taking the time to show us and
+tell us about what you're working on love
+love to see love what what you're doing i
+have a whole variety of questions around ubi
+as well which i'm sure is probably a hot topic
+as well and i think the takeaway here is
+is um socialism isn't necessarily a dirty
+word that you know we sometimes are kind of
+conditioned to think that the only economic
+model is is pure unadulterated capitalism
+not that i'm trying to sound like a communist
+or anything crazy but the i think we need to
+think about the future where we work in
+partnership with ai and and i guess that opens
+the question is what in the world does does
+work even look like when ai is better at
+most knowledge working jobs not that i haven't
+answered that but but but i i don't
+think this is like like from my perspective like
+this is not socialism it's basically like
+uh caring about others and building an
+infrastructure for helping people and you know
+and if you do it with ai then we don't
+have to have so high taxes either because
+because like uh the tax money is trying to fund
+this kind of system but if you have AI
+to do it, like it's probably like much lower
+cost for us to run. So from my point of
+view, it seems to me that AI represents a lot
+fewer people generating a lot more wealth.
+And the issue then is how does the excess
+wealth get distributed? Do we have things like
+minimal income and everybody benefits or
+does it go into the hands of a few and we get a
+a ruler-based society and and that to me
+is the bottom line in all of this uh i i my
+my story includes one slide like i didn't have
+time to show here but it says that if we
+have uh like a gl-level technology in our hands
+and we still don't have a like we don't
+serve everybody in the society uh the two
+things are true at the same time we have technology
+that can solve all of our problems and
+we are in trouble why is that like like it's
+a choice that we are making like we are
+making choice to be in trouble even if we don't
+have to so i i'm trying to bridge this gap
+bridge this gap like to to bring the technology
+to solve our problems and then uh everybody
+can feel more safe and cared for uh in
+this environment i mean most problems are already
+solvable today like this is just at another
+order of magnitude right but like we could
+redistribute resources in a certain way
+where everyone would eat nowadays it's already
+happening so i think john your point is
+extremely valid um yeah and great i think it's
+a powerful initiative i was just wondering
+for for the initiative for like the small
+business owner and maybe government supporting
+the small business owners is there anything
+that you you've seen works or what small
+business owners or consultants or or people
+are looking forward to even even get started
+like just taking that first step to understand
+what what the heck's going on because like
+you said everyone's so busy and they don't
+have the big resources like other ones is there
+anything that you're seeing works or people
+are interested in i guess open to
+the whole group i think yeah
+i'll let someone else answer it
+yeah i can i can take a stab at
+i mean i think obviously it's the
+bandwidth and understanding that is that's the
+constraint but what everyone cares about
+everyone most probably have been through
+a cyber incident at some point in time for
+me i think the biggest entry point for
+raising that awareness and effectively making
+people understand adopt is through that
+route effectively showing like how can we
+actually like back to the point about your
+ethical hacking group, I think the ability
+to show that, look, you are exposed, but
+we can approach it in this way. I think that
+is the first step to making people realize
+what is Agentex AI and why it can be bad, but how its power can be leveraged as well.
+That's my, you know, two cents
+perspective on this. And Ferris, that's
+the entire purpose of the Agentex organization
+is as a counterbalance to, I think, what
+John mentioned in this consolidation of both
+power information and wealth. And in
+essence, I really liked the original concept
+behind OpenAI circa like 10 years ago, where
+they said they were going to create an
+open organization dedicated to sort of
+stopping a group of very wealthy, powerful
+companies and individuals from basically dominating
+the space ironically they became the
+very thing they were founded to stop i don't
+know i i don't know why that happened
+but money corrupts apparently so the same
+thing with google right google don't their
+motto was don't be evil and now does that
+mean as soon as we're successful we'll we'll
+be evil like i hope not um is it is there
+is it or i don't know it's like it It must
+be possible to do things with some level
+of altruism, isn't it? Or am I just
+kidding myself? Please forgive me
+for interrupting your conversation. Someone
+else would be able. Please forgive me
+for interrupting your conversation. I
+probably should share my picture better than
+I do, but I look horrible, so I would
+just scare everyone. But what I think it
+is, is not that the money corrupts you so
+much. is the preservation of what you have
+that corrupts you, so that when you have so
+little, you're not that concerned with preserving
+the status quo. I can only say this
+because I was born in Harlem, and I remember
+being a revolutionary. I was a Black
+Panther. I was a Black Muslim. I was a
+revolutionary. I wanted to change the system,
+and all of a sudden, when i got a job
+and i started making over six figures i
+remember my brother telling me one day
+i worked for ibm at the time my brother
+told me one day he said you know
+you are the man now and my politics changed
+and i think what it is is that you
+know when you when you have so much that's
+entwined with what is the way things are
+you know to you it seems the way things
+are are just fine. Please forgive me
+for interrupting you. No, that
+makes total sense. There's a couple
+terms, you know, one that came back, I
+believe from the 90s, is the concept of
+techno capital, that as technology speeds
+up the cycle between the accumulation
+of capital and the growth of the power of
+the technology ultimately lead to a singularity
+and um and i think collectively near
+universally we want to avoid that kind of thing
+the other term that it gets referenced as a
+perpetual uh perpetual dictatorship because
+in its darkest form because if you have
+the ability of absolute artificial AGI and
+or under the control of a single entity, that
+becomes really scary. I love the idea. We've
+got to get to the idea of there is a
+form of participation, economic participation,
+whether it's UBI, although I don't think
+it should be basic. I think that's an
+assumption we want to challenge, that there's
+great plenty in our future. There can be
+could be great plenty. And that so I push
+back against the idea of a basic income or a
+minimal participation, because the one
+element I think that we sometimes miss or
+doesn't weigh in is that we all contributed
+to the data that allowed for science
+and capital to test the hypothesis that all
+you needed was scale. so all of our data went
+in by permission or not right and therefore
+i think data is missing from the cap
+table and universally a dividend to individual
+humans around the planet might be one
+path that we explore and martin i think you
+want to pipe in there we i think we cut
+you off yeah sorry i didn't mean to in ****
+like that um i'm saying that everyone
+recognizes the hazard of someone else being evil
+right so if you're in the community you go
+oh someone here could really take all the
+power but if you're the person who made it
+to the top it's it's a hazard right because
+you know you set a constitution like any
+founder of a um like in government say oh
+let's not do evil but the temptation that
+once you're there is like well i'm the best
+person to look after this and i think that
+um you know altman and etc they they
+recognize the hazards but once they're in power
+they won't stay there so guys just um i can
+show you something a little more altruistic
+or practical so you guys know that i've
+been working on varai for a while and one
+of the things in terms of what mika was
+talking about in terms of like how you can
+use ai for social good My investor, Unity
+Labs, has been pushing me. So I've actually
+used the Agentec platform, and I
+now have a full example of a SaaS
+platform for managing an eyewear practice
+because it is so horribly bad if you
+are in North America. And one of the things,
+if you go, I kind of feel good about this
+startup because the World Health Organization
+says there are 4 billion people on
+the planet in need of eyewear or like eye care
+in general, right? And you basically have
+like the first world where we spend a lot
+of money on our frames and it's covered by
+insurance. And then you have like the third
+world where you basically don't have opticians,
+ophthalmologists, limited access
+to hardware and glasses and whatever. And when companies
+like Wixotica have an overrun of their frames,
+they donate them out of charity. so I do
+think that when it comes to things like AI
+there are things like business like really
+sucky things with respect to the government
+that you can automate and streamline and
+I think the Public Service Alliance of
+Canada will like that idea but maybe they can
+you know be retrained to do other things
+that actually add value but on on the platform
+that I just finished I now have the ability
+to help optimize the practice using AI,
+looking at the bookings, using the windows.
+And I actually built, and I'm sharing the
+wrong window, but I actually built connections
+to publicly available repos for medical
+research on AI. So it's like on Hugging
+Face and other places. So if you're not the
+Mayo Clinic, this massive organization
+in the US that like has all of this control
+over the market right in terms of like
+research um this there's basic practice management
+patient management optimization but
+part of my roadmap is to say hey where are
+these publicly available apis and libraries
+and how can we create software to empower
+diagnostics not just for the first world
+but if i release the sas platform and the
+data that's being trained on these ai
+models around diagnosis, right, and being able
+to get a diagnosis over your phone,
+using AI to do different kind of
+eye diagnostics, you can actually do
+good in serving a specific vertical
+or group that way. So I'm very
+close to being able to publish this. And hopefully by
+September, this launches in like North America,
+but the idea is that all the intelligence
+that we're building the
+platform can be used in other markets
+for other people. I like it. I love the concept. I have a soft spot
+for trying to empower and improve the lives
+of people indirectly who don't even know
+this technology exists. Yeah, I was just recently
+talking to a lawyer and a few medical
+offices, small practices that have all this
+documentation they have to manage daily.
+They only have a handful of people to do this
+work. One has taken on a licensed attorney
+has literally taken on himself to learn
+this, all this stuff that we know, and has
+already made a 90% efficiency in his own,
+in his own law firm. And so there are
+at least four or five verticals
+I could think of right now that
+are old school. Manufacturing is one of them. They are
+so old school. They do not want
+to modernize, but yet they have
+so many processes that need to
+be modernized. Steel Incorporated
+is one of those. They're just a behemoth
+of an industry that's been around for decades
+that has so many old school processes
+and really needs to be brought up speed.
+tools like NAN that have built-in agents and
+workflows are easy for these individuals
+to get up to speed on. Consultancy is where
+I think it could come from, is where we can
+prompt engineer them into a better workflow,
+help them see how these tools can be
+tied together, and set those things up and
+go, here you go. Here's your custom workflow
+for your company. Here's how you can
+make yourself more efficient. And I'm
+already seeing it here locally, just
+in St. Pete, Florida. Nice. Please forgive me. I'm sorry, you were
+talking, I'll listen. I'm building an
+application using Claude and some of the
+tools that Rue has come out with for
+lawyers. I'm a retired lawyer, and I'm
+probably a lot older than most of you.
+I'm 82 years old. So I'm going to be
+presenting that next week to about 250
+lawyers. I've just about got it done in terms of
+the test environment. So I'd like to show
+it to you all next week or the week after,
+because I think it may give some insight
+from somebody who has content experience
+over many years of the content area as to
+what's needed because the question is
+what's needed and the people who are doing
+the work don't really understand what the
+contribution can be and the people who have
+the tools don't really understand what the
+tools need to be applied to and I think we can
+do a really a good job if we can understand
+what we need to do to begin to open a
+conversation to answer those questions
+so that there's a connection between the
+people who need the tool and the people who
+can provide the tool. I just have to say
+this very quickly, and please forgive me.
+I feel like I'm the representative of the
+underprivileged in the room. But again, coming
+from my neighborhood where I came
+from, I don't know how many of you
+are aware of this thing. It's called
+Make Wakanda Real. Have any of you
+ever heard of that? Nope. So there's Will I Am
+who's a rap singer and he has this movement
+called Make Wakanda Real. So the answer to what
+at least we believe needs to be done is I
+don't know any of you that has ever heard of
+the Rucker Tournament in New York. It's a
+basketball tournament in New York that my
+uncle is famous for. He started it. So what
+we believe is each one teach one. And with
+Make Wakanda Real, what we're trying to do is
+meet people that are in underprivileged environments.
+And when I speak underprivileged, I
+include the people of West Virginia because
+I've been to West Virginia and I thought I was
+underprivileged in Harlem until I met a
+white guy from West Virginia. And I realized,
+oh, wow, it's not just us. There's a lot of
+people that don't have the basic things they
+need in our country. So what Make Wakanda
+Real is trying to do is get everyone at least
+interested in the basic concepts of AI. And
+one methodology of doing that is there are
+so many free, fundamental, introductory AI
+courses that are out there that people are
+not taking advantage of. Like, for instance, AI
+900. You know, you can get a certification.
+My dog could pass the certification, but at
+least it gets you where you're intelligent
+about the words that there are in AI. So I
+think the start for most people is not necessarily
+exposing them to tools, but exposing them
+to the fundamentals. And what I've found
+for my students is that when I get them that
+first certification, it's like, you know,
+first one's free on the streets. You know,
+you get the first one and you're hooked from
+that point forward. Well, I love what you
+guys are saying. And just to John's earlier
+comment as well, you know, if you're looking
+for some peer review before you're going to
+give your presentation, you want some some
+insights some tweaks whatever you know our
+crew are always happy to uh give us constructive
+feedback um you know just shoot shoot
+it to the group join our our uh martin's
+done a really good job of managing that
+discord for us discord .agentix.org um and dennis
+uh to your point yeah we have anything we
+can do to support some of your endeavors you
+know the the you know the philanthropic sort
+of you know elements i conceptually i i
+love that idea you know let's let's use our
+our newfound powers for good thank you sir
+yeah it makes sense to me love that yeah so
+we're running out of time here um you know
+it's been it's been another crazy crazy week
+they're always crazy i'm you know if if
+anyone wants to present something you know
+reach out to rob or the team here we we love
+to see your work um our crew in new york sorry
+about the presentation but if you want to
+show it next week you know obviously we want
+to hear your tunage um you know or if you
+got it working you can type and show it now
+if you if we got a couple more minutes
+before i get a hop um otherwise we're in the
+last moments anyway anything else anyone
+wants to share or tell um make sure add your
+linkedin if you haven't already at add and we
+We represent ourselves with our little infinity
+icon on LinkedIn. I try to like or follow
+anyone I see that has that on their
+posts. So it gives me a little visual indicator
+that we're sharing our alignments or
+feedback loops anyway. All right. Rob, is there an
+official image? Oh, we use the emoji. Oh, gotcha. Yeah, we co-opted
+the Infinity logo. I know
+it's a little weird, but it's
+good marketing. And basically
+what we do is we slap that in our
+little profile. So if you do
+that, you can just copy and paste
+that if you want. And that sort of
+shows affiliation. The other thing that we do,
+if you're a member of our group, even if
+it's just a supporter, you can add yourself
+as like, I think it's like an employee of
+the organization. and then then you show
+up in there and then you see what other
+people are posting and it creates a nice
+little kind of community element and brings awareness
+to our organization yeah which is neat
+on linkedin you can rearrange the order
+so it's not looking like you changed you
+know like you don't work at where you work
+anymore you you can lower it down but it's
+it's a it's a neat thing and uh yeah as
+well too uh really like when john when you're
+done that presentation we'd love to I'd
+love to have you and hear it as well, and
+you as well, Dennis, as that gets momentum. Brad, a quick
+little update on membership, I guess. Is the site set to at
+least test live next week? This is the new
+member site, right, where we'll be able to
+get all kinds of content and those free courses,
+all that stuff? Yeah, I'll give a proper update next Friday. I'll remind you to
+try and get on the schedule. But thanks
+to all the donors so far. It's keeping
+the lights on. We're going through updating
+the site. We'll have a sneak peek on
+Toronto Tech Week. For us, lots
+of things for learning-centric events, committees, ways
+to get involved. We got a whole crew
+of people helping right now. So we're
+looking to at least have something that we
+can glance at early next week. And then
+we'll be taking our time to make sure we
+implement it properly. But again, thank
+you to everyone that keeps the lights on.
+And everyone that's a member right now
+will be migrating you over to the latest
+and greatest. And hopefully lots of
+things are for you. Is there a
+governance section of people who are interested
+in foundational documents? because
+in U.S. law, if you're a non-profit,
+people who give you money can get
+a tax deduction. So that might be a
+funding source that if you had the proper documentation
+as the umbrella of the organization
+could give benefits to the members. And if
+Anthropic ever goes back to its old billing
+rules that people who are members might be able
+to get to the discount that was discussed
+about a month ago when the billing rates were
+much higher and those kinds of things, because
+it might be useful to start looking at
+those sorts of things to get more advantages
+for the organization. I've got some legal
+skills that are pretty rusty, and I'm not
+allowed to practice law, but I don't have to do
+that just to look over documents as a member
+of an organization. I love it, John.
+yep we'll reach out certainly uh we've done
+um the registration because we are a
+not-for-profit we've done registration with
+technical organizations that give discounts
+to software um and we have been rolling
+that out but you're right there are
+some constitutional things that i think
+would benefit from um your professional
+experience um so we're we so just as an
+fyi We're currently incorporated as a
+Canadian not-for-profit. As we grow, we'll
+likely have to explore what that means in
+other jurisdictions that we need to operate
+within. The most likely being our
+friends to the south. We did Canada because
+the core crew of us are basically Canadian
+and it was easy. um but we as we sort of get
+more organized we're probably going to have
+to figure out how we can collaborate with the
+larger tech companies and that likely means
+a not-for-profit in the u.s and a separate
+charter foundation something that addresses
+the irs requirements we haven't figured
+that out yet yeah we're we're we're very organic
+all the time yeah We're just a group
+of folks that are volunteering our time.
+You know, we have no, there's no financial
+incentives here other than we have a shared
+passion for this tech. Amazing. All right. Is that it?
+Anybody else, anything else wants to bring
+up? I know I see Chris Royce, our favorite
+neighborhood viber. Hey, buddy. Yeah, what are
+you even building? um well i've been i've
+been trying to optimize fair of mine but
+essentially what it is is i took spark right
+and then i was seeing you with spark doing
+amazing things right so i was like okay so
+rUv is orchestrating or managing all these
+workers so you know and he's and he's walking
+it through the spark process so i was like
+okay so fair of mine essentially let me
+replace rUv with like 10 orchestrators right
+and i'm like okay now i got these orchestrators
+they orchestrate out the whole spark
+process like or the development process like
+end to end it's like that's cool what do i
+need now to make this better i need to put
+rUv back in the loop right but instead of
+having to say rUv as say the manager of the
+workers i now have him as the ceo the manager
+of the managers right and so that's essentially
+what i've been messing with lately is
+figuring out how to best input put the human
+back in the loop to make the system align best
+with user intent and that's been a lot of
+fun but it's the same problem I was addressing
+earlier when I said that when I do a 50
+agent swarm I sometimes lose the ability to
+understand what each of the agents are actually
+doing during that process so you're trying
+to add the kind of introspection as part
+of that yeah with like goal clarification steps
+mutual understanding documents and then
+like anytime that you tell the ai something
+it has like a separate database that stores
+all your ideas so that's more aligned with your
+focus so it doesn't ever go back and do
+stuff you told it not to do before again type
+of things like that that's really interesting
+because you think about big organizations
+and how they do that right now you know
+they're typically in one of these enormous
+collaboration suites right so that is actually
+where they would expect to see those sorts
+of conversations and and that's actually
+where the existing humans whether it be senior
+manager or CEOs and what have you would expect
+to collaborate with a mixed team of system
+actors and human actors working together
+and indeed where the interface points
+currently already are like people would you know
+whether it's Microsoft the Microsoft Azure
+platform or obviously Atlassian or an IBM thing,
+they would expect to see them in Laskow's
+collaboration suites. So maybe we can
+service some of your what I imagine are
+inside data structures and MD files into one
+of those enterprise systems. That would
+get attention. All right. Well, I
+think that's it. I think we've got to jump.
+anyone that's in Toronto next week and that
+wants to go to the event there's a massive wait
+list but obviously you know us so if you
+want in, just ping one of us show up early
+if you're going to go to that event and
+good luck Vincent and crew in Paris next week
+if you need any help promoting that let me
+know, I've posted it at a few places you
+might want to post it on the AI Prompt
+Programming subreddit the thing does pretty crazy
+I'm almost at 90,000 subs and uh millions
+of views anyway so that if you want the
+you know if you want the reddit crew you'll
+you'll get them on there and i'm the obviously
+creator so i can make sure it gets seen
+thank you all right thanks everyone
+appreciate it um till next time and again thursdays
+we also do live coding creating crazy things
+i'm not even sure what i'll create next
+week but i'm sure it'll be nuts and uh and
+oh we've also put together a production
+team for this so we're gonna we're trying to
+get a little less wayne's world and a little
+more organized as we go forward so we're
+going to be putting together a much more
+polished version of this with rob and kelsey
+and nick and and the rest of the crew
+helping sort of put this together so um that'll
+probably a few weeks off but if anyone again
+this is a volunteer org so if there's
+something you're interested in helping with
+whether it's legal or producing podcasts or
+whatever reach out i'm sure there's a spot for
+you where we're free uh video intro submissions
+right roof yeah exactly let's see yeah
+let's let's see you crazy cool or maybe
+we'll get ****** and crew to create the
+musical interlude um song or something that
+sounds like intel chimes or something all
+right thanks everyone thanks good weekend
+thanks bye bye take care Thank you.

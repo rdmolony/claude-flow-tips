@@ -1,0 +1,511 @@
+All right, so he has to say Quan Po is a hit. Let's go here for
+a moment on the bracket, just as
+I can understand. This is my Neurotrader,
+this is the Neurotrader's
+events as well, but this one here. Yeah,
+in the first month, I've had about
+350,000 downloads. I think they've
+probably changed their business model
+based purely on the success of this, which
+is cool, I guess. They also copied
+my terminology. All right, so yeah,
+it's the two of us all. Well, so
+those are issues. I only currently
+support Ubuntu. I guess people are
+doing it on Mac as well. I'm only one guy,
+so I built this for me, but
+you're basically getting my development
+environment. Just to recap,
+I have the high mind intelligence,
+which shares a common sort of
+memory system. We've got to find
+multiple neural networks to your point,
+narrow is better. So the system would
+be creating neural networks specifically
+for the tasks, both on a swarm level and
+on an agent level, lots and lots of
+other features, it does all kinds of stuff. So,
+quick overview. If you're looking
+at more narrow application development,
+you're going to use a swarm. I typically
+use swarms. If I'm vibing, like the
+quantum system that we're describing,
+I actually use the highline system to
+create that. Let's go to my Rust for a
+second. I'll show you. And this is what
+we're doing here. I do a lot of
+REST, I love REST, that's what I'm
+going to say. Yeah, so this is the
+schedule I've created. So I'm cheap, I
+don't have a lot of GPUs, I don't have a
+lot of money, I'm doing a non-profit
+organization, so I don't have a lot of money.
+So I'm bound by not being able to spend a
+lot. So what I get the other day is I've
+been using the free $500 credits from
+Azure for the quantum system, but it's only
+$500 and you can last So what I wanted
+to do was create a mechanism to segment
+the quantum computing system so I could
+run multiple jobs at the same time
+and using the same resource. I'm like,
+has anyone ever thought to create a
+virtual machine for a quantum environment?
+Apparently not. So I buy myself a
+quantum virtual machine. So anyone who says you
+can't build complex stuff, just point
+into this and you see all kinds of crazy
+stuff. You know, so the other project I did
+the other day was a carbon matrix constant
+attention mechanism system, so inside of
+neural network, I created a basic matrix system
+to optimize the internal workings of
+a, anyway, crazy stuff. This is all being
+created using swarms. So let's go here, let's
+go to the project. So tonight's project,
+just as an example, is I'm gonna build
+an anomaly detection system for AI at once
+using Go, so I'm kind of curious of the Go
+program language. But basically what I'm
+trying to do is detect emergent behaviors in
+AI systems globally. It's crazy, it's basically
+I'm trying to look for signs of
+extraterrestrial life and communicate to us within
+the structure of AI. Just because. It's
+bonkers, I know. So this is the project I'm going to run tonight. So basically, this is
+what my stack looks like. So I come up
+with an idea, and the greatest year,
+the better. In this case, you'll see that
+I've got different analysis in terms of
+complexity protocols. I use pseudo code
+outline, so I'm not implementing the exact
+code. I'm giving it a sort of guide to the
+algebraic approach to what I need to build,
+and how I need to sort of navigate the
+analysis on this is complicated. I'm trying
+to push the boundaries for the most
+complicated thing I can possibly build that's
+never been built. Clearly, that's what
+I'm describing to you. So to do that,
+I go into Cloud Code. So again,
+for those who are familiar
+with Cloud Code, you go here, you
+can install Cloud Code. I generally
+suggest using a virtual machine
+like Docker. This is running in a
+code space on GitHub, and And if you use
+alpha, you're always going to get my
+most recent version. So if you're
+responding for the first time, you're
+going to be in it. I've got a bunch of
+new inits as well. So, and this
+is going to be published
+probably tomorrow. I'll be able
+to sneak peek at some of the
+new features. I'm running this locally so I can run it globally. If you're going to help. You'll see there's all
+kinds of stuff here. So, I don't find too much
+stuff. But I added a new truth verification
+system. A pair programming mode
+and the truth system allows it to, if you've
+ever built something and you're like, does
+it actually do what I thought it's
+supposed to do or is it deviated from the
+original sort of guy? This system allows it
+to sort of prove that it's still doing the
+thing in which it needs to do without deviating
+into some radical or trying to be, it's
+a convincing fraud. And one of the drawbacks
+to especially using swarms is it can
+create very convincing fraud. It's like,
+yes, this is a quantum computing system that can
+solve the inner, blah, blah, blah of the
+universe, but no, it's just telling you that
+and it's holy ********. So what this does is
+it allows it to ground it in the original
+sort of purpose, maybe in mathematics or
+whatever it is that you build it. And to do
+that, you'll see here that we now have the
+option third-class load, and I'm going to just
+give you the verify that you told it. Do
+you think we should do that hierarchically?
+Like say, okay, no, never harm a human, and
+then kind of like... Well, the four laws
+don't work, because every time I try to
+create laws for these systems, they reprogram
+the laws. Interesting. Yeah, I don't
+know, apparently it hasn't. I didn't
+understand programming. It might be a creative way to think about that. Yeah, this is a dark,
+what you're trying to describe
+is a dark race. So in this case,
+you know, I've got various, so this is the
+verification, so this is what I'm going
+to launch tomorrow. Verification helps,
+you see I've had thresholds, so basically
+enforces truth and accuracy in my multi
+-engine operations. So what I'm really
+trying to do is have a measured approach
+to say is this still factually correct
+based on what I wanted to do. So when we go
+back to here, I wanted to build this crazy,
+you know, AI, ET, you know, explorer
+kind of thing. But I needed to actually do
+what it was intended to do so that they
+could verify that. It's training a model.
+So back to this idea of neuro AI, which
+I'm totally all about. This system basically
+has a collective component that can do the
+neural training. So what I'm doing is I'm
+creating neural patterns within each of the
+agents that learns what it needs to do. So the
+more programs, the more efficient it becomes
+because it's creating micro neural networks
+that are explicit to the application in
+which it needs to build. Now you can apply
+that to applications like yours where it
+might learn what a doctor might think or it
+might mimic a certain doctor persona
+within the structure. And then you might
+learn that some of the things were right and
+some of the things were wrong, so over
+time it gets better. So I'm jumping
+around a lot here, but at least it's
+not too off the wall. But a
+practical application of that is my neuro
+-trading system. So in the case of a
+neuro-trading system, this is a system that
+I built, basically doing various types
+of real-time stock trading, perfect
+trading, sports trading, things like
+that. What I want to do is get better at
+doing those trades so that I basically have
+a positive trade. So obviously LLM is
+not going to have a clue what a
+good or bad trade is going to be to
+the point earlier. It's going to tell me
+essentially what it thinks it wants me to
+hear. So it's going to ******** the answer.
+So what I need is a mechanism to be grounded
+to get smart and understand what a good
+trade is and what a bad trade is. So what this
+system does, it uses a combination of
+time series data, so information that flows
+over an extended or a temporal sort of approach,
+and then it correlates that with a neural
+network that understands what the benefit and
+meaning to that is. So I'm able to do that
+under 10 milliseconds for high-frequency
+trading, and you can look at 128 different
+stocks, cryptos, or whatever, and determine
+out of those based on correlating to other
+factors, in this case, polymarketing,
+prediction markets, or sports betting, or
+other social media, or news events. It can
+make a determination what the outcome across
+multiple types of assets would be as
+it's been trained to understand the
+correlation between them. Anyway, long story short, I'm building all this
+stuff using this plot system, so let's just
+jump in real quick. I'm going to invoke it, we're going to
+go into plot, and actually I
+use aliases since I'm lazy. So,
+DSP allows me to operate day-to
+-risk permissions. DSP-C allows me to
+continue to read this session. I'll go
+here, I'll leave DSP. And once that's
+running, you'll see here that we've got
+different modes. So, these are all
+different modes. What you're
+getting when you install a plot load
+is basically my sort of development
+environment. I'm just basically,
+every day or two, I'm just
+publishing my environment. you get
+to sort of piggyback on the way that
+I build stuff. And so if you
+look at my GitHub repo and all the crazy experiments and
+things I'm trading, you're basically just
+seeing my tests and how I'm testing this
+platform to build a quantum-based virtual
+machine or whatever, you know, neural
+network component. But they're all invoked
+through this. And you customize all these
+components by going into the quad folder,
+and you'll see there's commands and
+there's agents folder. Each of these
+agents are basically invoked. So if I
+want to do something, I can just go and
+invoke it either manually or
+through the system, the UI building. Anyway, I don't have
+a lot of time to give you guys the full demo
+here, but basically if you're curious on
+how to build stuff, I'll upload how I
+do it, and you can install it just like
+in front of my MPX. This is built, I'm delivering, for those that are more technical, I've basically created it from Rust-based Plasm, WebAssembly is what
+it stands for, and then that gets delivered
+through the MPX and remotely instantiated.
+So you'll basically get all my crazy
+by running the MPX. That said, this is
+a fully automated system, so I would
+not suggest running it locally. you know,
+you get a telepathic, you can write it
+on the Mac locally, and that's not the
+quality of the word. That's the run
+-in work list. Yeah. Okay, well, let's take
+a, you were showing Roof, like, the
+other program, Roof. Roof. But the other, the
+other thing for this is another
+project that I created called Roof
+Band, possibly. This is how we
+do the normal effects. Yeah, like,
+you're showing, like, the amount
+we did, like, a bunch better, like, really on this part. I've built so much
+stuff, it's hard to keep track of it.
+Yeah, a few other things, and then now
+you're showing Cloud. Root code? Root
+code is having some other tools.
+Yeah, I still use root code. I like
+Cloud, it's cheap. Okay, but I
+guess, like, my first thing is,
+like, and the way it all sounds
+bad, it's fun. I read it in my
+computer, it's just like, oh, man, it's kind of
+like a mass material. I just find it weird, and I find it all,
+like, it just works. So what are you using? I used to work in a
+little bit, and I'm like, oh, it's really weird,
+but it just works. And then, like,
+a few months from now, I'm
+like, okay, is it going to be
+more technical? Is it going to be less, like, what's
+the information? It is getting
+better, right? It's getting
+better. It's getting less technical, for sure. And a lot of what,
+you know, when you're using my
+tools or even the first or other
+tools, is you're abstracting your
+classmate, right? It's allowing
+for tool use, it's allowing for the integration of
+secondary systems. So a lot of, and
+what I'm not showing you guys, is like
+all the MCPs. So when I'm in here
+running these tools, and let's jump into
+the plot for a moment, you know, there's a combination
+here of agents. The agents run, so one, you can see
+that, I guess you can see all the
+commands, these are the things I'm doing most
+frequently. And you can see my MCPs, so
+in this case I've got my Claude-flow
+MCP and Bruce Swarm. So I'm basically
+abstracting various tools. These are secondary
+systems. You can see my neural training
+system, so if I go to neural training, you
+can see the different options. So I'm basically
+using these MCPs to sort of access secondary
+complex systems. So as Nicholas mentioned
+several times, LLMs are a normal student.
+So, I'm augmenting those LLMs with tools
+that make them smart and recursive and
+feedback upon themselves. So, it's the
+combination of tools and feedback that makes an
+LLM capable to build anything you can possibly
+imagine. If you go and check your PC and
+say, build me something, but you don't tell
+it how to build it or what the context
+of what to build it, it's not going to
+build you anything. So, sometimes people
+conflate their own ignorance with lack
+of capability. And the key here is to
+understand what you don't understand and ask
+the right questions. So you've translated
+Rufan into Python, but I'm thinking that if you
+get closer to machine code you can get even
+more optimization. Have you thought about translating it
+into assembly? Of course I have. So I've been playing
+with assembly for exactly that
+reason because I want to get closer
+to the silicon. I've seen incremental
+improvements by using assembly
+over Rust. Like, if I'm getting, you
+know, 10 milliseconds, I've seen 9 milliseconds
+in assembly. So, at that point,
+it's like, it doesn't make any
+real difference. Now, what's interesting
+about Rust, for those that are curious,
+I potentially could take the Rust neural
+network component assembly and invent them
+directly in an actual async chip. And what
+that allows me to do is to create an actual
+synaptic network of multiple chips that
+are roughly, I'm cheap, these are 12
+nanometers, so give or take three and a
+half centimeters by three and a half
+centimeters, and 256 of these neural
+networks on a chip that runs on
+a double A matter. And based on this, I
+could potentially run it on solar cell phones
+like a 1980s capitol. The nanotechnology
+stuff is going to be crazy because you could
+pack the power of this stuff with the cloud.
+That's insane, isn't it? Well, what's
+interesting about this, so I'm piggybacking, and
+I'm not sure if the guys there are who have
+allowed me to piggyback on their chip run
+here or not, but I'm piggybacking on this
+run, and this is about a $5 million chip run
+that's happening next month, but if I actually
+did this on the latest one nanometer, I
+could get this down to like less than a tenth
+of a centimeter and put 256 of these things
+in a pinhead. What if you put 10,000 of them
+in different places? But what's running,
+these are all running in parallel
+and concurrently. So to your point, what
+we can do with it, once you get to that
+size, you can pop a pill And those pills
+can basically spawn a series of tiny
+little airbots that go near your body and they
+can communicate with each other using
+subsonic frequencies. That's insane.
+Which is also a... I didn't know
+that you built. Well, I don't know
+that you built. Ultra, you know,
+the ultrasonic. And so what this does
+is uses basically no power at all
+and uses ultrasonic frequencies at the
+18 to 20 kHz range. to form a secure,
+internal, agentic network that doesn't
+use any power. So basically
+it's using the sort of heat
+from your body to power the
+communication within your body. It's just bonkers,
+right? And this is me on a Saturday
+just fooling around. And if you don't
+believe me, you can go and install this
+and give it a spin. Because, like, say
+they're collecting certain sensors,
+that might be cheaper than all this
+natural language processing, so you
+might get all these different sensors,
+you might get a cool, like, some data
+that you might know. Oh, that's
+interesting. Yeah, I'm 100% the camp that
+LLMs are getting. It's just a
+language, right? It's like a tool to talk
+to them, right? I think if you look
+at the tools that, you know, I'm most
+excited by, like, the roof band, which
+is a fast artificial neural network,
+and it's kind of funny that it's
+changed, but whatever. You know, this is
+essentially just a micro neural network
+architecture. So rather than creating one
+monolithic architecture with giant models,
+I'm creating many, many, many small models
+that are capable of communicating with
+each other securely. And so I created,
+of course, a communication system that essentially is a
+quantum proof dark. And that's how these
+agents communicate. This is essentially,
+what, it's a tornado? You know, it's essentially a spin. It's got all the same
+sort of elements of sky, so when you look
+at what Claude-flow is, it's a later
+approach. The most bottom, at the basic level,
+you've got a quantum -based communication
+system with Darknet and various other
+components here. Then on top of that,
+you've got a system that allows you to
+communicate with each other. Then I compiled
+the whole thing to a standalone WASM,
+which is like this packaging format that
+has no dependencies. Then I delivered
+that as an MPX. So each thing
+builds upon itself. Do you want to
+explain the history of FAN? How long that
+took the original people to build it
+and how quickly you transformed it into
+Rust? Well, Richard and Bill Lauder
+used some variant of it. So this
+isn't the support. I actually completely
+rewrote the entire library
+using this swarm. So v1 of the swarm
+was essentially this, this was my
+original task. Like what crazy ****
+can I build with this swarm thing
+that I created? Once I built that, v2
+was a combination of this project,
+then this project led to another Rust
+project called DAA, which is essentially
+the sort of practical invitation. So you
+can think of QDAB as the SDK, Okay, this
+is the sort of app middleware layer,
+and then that led to the next layer being
+the root-band layer. And then with
+the root-band, I was able then to
+create the neuro, the core neural
+network system, the neurodivergent
+system, because everyone spells
+me on, compared to neurodivergent, which I
+think is a compliment. And that led
+to, you know, the time series analysis. Then finally, you
+see the root swarm. The Roof Swarm
+is the Swarm WASM component. And I'm
+talking probably gibberish to half of you
+guys in the Roof. And when you look
+back here, you can see here that
+the Roof Swarm, and I do all
+these as XCPs. So the basic
+model of all this stuff, the orchestration,
+is essentially building on top
+of everything. So, have you ever
+thought of doing an MCP to do like a, not unfascinated, but
+opposite of infinity? So, like, if you
+deconstruct, like, when you're grounding
+knowledge to something, to validate it,
+deconstruct it to the most, like, simple thing,
+like, where it's just, for sure, it's
+this one thing, or this one data, that it
+just, it's for sure, but then, like,
+you'd have to, like, deconstruct everything
+you do, and then somehow you'd have
+to do it, like, I think I understand
+what you're saying. I'm reverse
+engineering all the things that
+came before me. And then reassembling. And a novel element
+isn't necessarily that what I'm doing
+is 100% original. It isn't. It's
+the reformulation of all the things
+that I took apart and put back together
+in a new way. So when people
+say that AI can't invent new things, you know it can't
+invent new things but I can invent
+new things with it right by the reassembly
+of those things so it all depends on
+which way you look at it that's why I think
+you give up these things to do the 10,000
+different experience maybe it starts discovering
+but it's just too much in my head to start
+thinking the original fan project was like
+12 years old alright hopefully Hopefully,
+I didn't get to do the whole
+demo, but hopefully that's helpful
+for you guys. As you know, Thursdays and Fridays, we do live zooms online
+for free to join. We post them on
+the GenX Foundation and share them
+around on LinkedIn. Day up, morning
+up. So everybody's welcome to pop
+onto those. And then we have these gatherings once a month. Just nice to watch. A big thank you to
+Struggle Scale for hosting us and having
+you here at the event. I think there's another
+one that I'm going to ask with. I'm
+actually from Blockchain Canada, not this Thursday,
+but next Thursday we're going to have
+an agentic slash decentralized AI
+event. It's a lunch and learn, and it's going
+to be close to the Eaton Center. We're going
+to be serving food. So we're going to be
+bringing the lead of Nominia agentic AI,
+coming from New York City, to talk to us.
+So it was interesting. Yeah, and also
+we'll look at the broadcaster next
+time. That's awesome. So yeah, if anyone's
+interested, just look at Luma, actually
+blockchain Canada. Yeah, thank you so much.

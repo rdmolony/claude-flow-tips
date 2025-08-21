@@ -1,0 +1,1897 @@
+Hello, all. Okay. Ghost tools. Reuven is on vacation
+this week, as you guys know. So we have –
+so Jed's going to be technical lead, and
+then same thing. I'll facilitate the guest
+speakers and the various lightning talks and
+all that kind of stuff. This is the pre
+-show, so feel free to unmute
+yourself if you want to chat with
+anybody else. We've got
+everything else. Better infamous than
+famous, you know? Yeah, that's right.
+I'll take infamy. me we are live in this
+week uh reuben is on uh reuben's on vacation
+he's enjoying lobster and and uh fish
+fries no doubt on the east coast and uh jed
+has taken the helm uh the technical
+leave for us today and then we'll dive
+into all the various presentations and demos
+hey jed how's it going hello everyone and
+welcome to this friday's hacker space so for
+those of you who unfamiliar a lot of us
+use llms to write code and see if i can get
+this working today i did not make the
+requisite sacrifices the demo gods
+so we will find out how well this
+does or doesn't while we're
+waiting i'm going to see if we
+can kick off any instance of cloud
+code to generate a browser-based game
+and so as we're going through everyone
+else's demo we'll let that **** along
+in the background and then come to
+it at a later time. Oh, neat. I think that's
+set up. Does anyone have a preference? As for the style of
+game, you mean, Jed? Well, I mean, Asteroid is a classic.
+Tetris as well. I'm an Asteroids
+guy, yeah. Okay, so create Asteroid.
+How many quarters? Okay, so create a an offline browser based asteroid game which relies
+on yeah, androids be it another time you
+can actually simulate the war games you
+know, from the classic movie would you like
+to, or shall we play a game right, it's
+more of a I actually redid it with Lovable
+about a month or so ago just to play around
+with it, but I like what you're doing,
+this is pretty cool I'm excited to see what
+this will turn out. Use test-driven
+development. Create playwright to
+renders correctly. What else should I
+be using here? Just a note, at the beginning,
+you have an Android game because it's
+right at the outset. Anteroid. Okay,
+let's see if it can figure out what
+Android actually means. or what variation it
+comes up with yeah we could always use
+a little more entropy curious what other game you've
+already made too jed because you've tested
+this before showing it i'm sure oh you you
+think too highly of me you know what i
+want to do as a game so you know in twitter
+spaces i feel like there's a lot of like
+bugs and language people use one i could say
+i see that lately is like um um like people
+say all the time so i would love to do
+in like a twitter space count the amount of
+times everybody says it and then have like
+a contest at the end like a fun little
+because the agents could like on the background
+make like little like like kind of games
+like that you know tally like interactive
+games it'd be really fun so what did you
+have in there you had uh okay almost go i
+see initialize clause flow we depend on it
+for the system prompt well that's so many
+of those old arcade cabinets have such
+elaborate artwork um i i mistakenly
+thought like berserk i thought
+it was berserko and you know i'm sure
+there's several other games but it's got
+the name wrong. That'd be funny. AI is pretty good
+about tracking typos, but sometimes,
+sometimes not. I love misspelling
+with it. Anteroid. You guys ever
+prompt images just out of random
+numbers, see what it generates? Just
+like 10 eyes, 2, 3, 4, 5, 6, see
+what it just... It's kind of weird.
+I wonder what it thinks when it
+tries to do that. You should try
+that. so i've been doing that for fun
+i download them and then i just
+keep a couple like i do do a lot of images
+but i it will be a screenshot of something
+i'm doing even a terminal session or
+something figure out the prompt like jet post
+something i won't even give an instruction i
+want to see what will go it normally gets it
+you know i see this a prompt for cloud code
+or something you know i love that as a
+process you take the screenshot you give it
+the error log and then you give it feedback and
+then like all three combined is like really
+strong yeah about that um it's taking its
+own screenshot and because it's a docker
+image it's already able to tail the log out of
+the docker container that's being created
+and in theory it's has access to root within
+this environment so it can start and stop the
+docker image rebuild it and then try again
+so this is taking off we have five agents
+running concurrently and perhaps we can
+bring up our first guest wonderful excellent
+jets i love this i love this to get something
+started and then revisit it later on
+in that in the in the episode that's really
+neat so um we got a few folks today excuse me
+sebastian who came to us uh who we we uh
+found and connected at the toronto tech week
+and meetup events uh it's got some uh a neat
+mcp tool to show us And then we have
+Sergio as well. And Sergio has been
+a long-time member, so I'm looking
+forward to seeing what he's got. Probably
+have some membership updates and stuff
+later on from Brad. So why don't we
+launch off? Now, Lightning Talks,
+usually we go about four minutes. We
+try to keep them crisp, but then
+there's lots of time for question and
+answer afterwards. We've got a fair
+amount of time today, too. So if there's some
+folks that have some things they'd like
+to share and or demo, please feel free to
+message Jet or I or put your hand up, let
+us know, and we'll try to orchestrate it
+all and weave it in. So, Sebastian,
+how are you, sir? I'm well, ready
+to have some fun. Let's get started
+there. I'm going to screen share with
+you quickly here. I hope I don't have
+any random message notification pop ups,
+but, you know, if you if it happens, please don't
+mind. yeah i've got this uh okay go ahead
+you should be good thank you very much
+so essentially i built like a fun web app
+thinking of like some of the latest things we've
+been like doing lately so i thought about
+making like a really like super intelligent
+scraping system so building essentially a
+bunch of mcps scraping autonomously across
+different specializations and then also
+applying learning like intelligence to them so
+they get better at it and they could also
+qualify like research or essentially have a
+very constructive autonomous like cloud
+deployment so that they can 24 7 go on and and get
+papers also i added to it i want to make
+them accumulate all the knowledge and ground
+to it and then generate its own like research
+papers its own discovery its own kind
+of combinations of things right now what
+you're seeing and also like a root agent's
+favorite concepts with like a little bit of a
+temporal filter seeing what it's great being
+like recently maybe you see like the most
+recent like repositories was popular i think
+you just look that up in github right now
+you're seeing a lot of like it's not like
+it's it's not fully deployed so i've been
+going through the process of essentially going
+on my cloud services so the initial prompts
+were about orchestrating the the visual system
+a rough copy right then after enhancing
+the backend system and then uh i was i
+deployed the mcps locally so it started generating
+data but i wanted to do it autonomously
+and then being that so so right now i'm
+configuring the front end with the deployed
+backend uh system and then here you could
+see on my fire store uh i got um there's this
+thing i got like all the data kind of like
+collecting into firebase right so it's going
+to be interesting to see once deployed i'll
+update maybe next week uh over the over the
+weeks and months how much it collects and
+generates and we could all maybe chat with it
+uh and just like play around you know maybe
+you have like uh as a group an interactive
+mode so just thinking about some of those
+things it'll be cool to see in the future but
+yeah thank you guys appreciate sharing wow
+yeah my goodness because think about the idea
+of perplexity and all these guys they're just
+like a small startup but they're probably
+doing these kinds of things right they're
+deploying probably their whole web but it'd be
+interesting doing a specialized a more
+focused approach to maybe see what we can come
+up with it's more like for fun creative right
+now but let's it could really maybe come up
+with some really cool stuff i mean i can
+easily see applications like um you know i
+work with bid teams and that's a high pressure
+high stress environment where tools, the more
+tools you can do for automating, paper
+pushing, data pushing. So my mantra is just
+personal task automation. The human being is
+going to be the creative engine, but the way
+we can enable them to get the outcome, this
+is just a direct, it's got that business value.
+It's awesome, man. Totally, totally awesome. You know what's an interesting
+point you say? You know how we have,
+you don't have to pay for all these apis or
+databases sometimes it's interesting
+seeing what we have for free but then you
+know you get a lot of abstract papers what
+if the agent starts to accumulate and combine
+the concepts of that researcher to then
+try to generate it and maybe in different
+variations because only human is just one human
+or a small team but imagine it might
+actually be able to even research papers or
+compare it to the it'll be interesting just Going
+back to that, you're writing an RFP, which
+is quite complex. Maybe you're
+replacing, say, a contact center and
+a frontline system. Welfare, say welfare,
+you're dealing with homeless people,
+people without money for food. And
+that's a complex. But you need to do
+a lot of research. Canada has a good
+welfare system. Norway has one. Switzerland.
+You want to mine the best and say,
+for my country, I want to replace the
+systems I have. That's a great point.
+That's the kind of, because I sit in
+that space. You know, I deal with a lot
+of that kind of environment, contact
+center and omnichannel. It'd be nice to make
+a lot of research. And you have teams
+spending months, 18 months doing
+that research. And, you know, in
+North America, very few people go maybe to look
+at Japanese universities or they look at, you
+know, in Africa and all these places.
+Imagine translating it as well. And also, you
+said that about the distributing it, right?
+Yeah, that's right. It's just getting like
+a global connected parallel like kind of
+system. i i noticed a pop up there sebastian
+that said no mock data oh sorry sorry yeah i
+know right now because it's connected to it's
+not built like the the cloud deploy system
+like i have it um i need to connect it
+properly to the uh so that it's autonomously
+working with the mcps and playwright right
+yeah so then it is i was trying to finish
+it yesterday but not enough time like also
+doing all these other stuff so i'm gonna do
+something i think this is good if we do our
+side projects like this for fun maybe 15 or
+30 minutes a day they will accumulate you know
+because i don't want to overwhelm myself
+and just being now i'm going to put everything
+away and focus on it there's so much to
+do but um i i think it will come along over
+the weeks i think we could all do that and
+just like kind of that's why they just build
+on top of each other if i can uh talk
+sebastian to mondrip's question uh just to let
+him know so i contacted sebastian and we are
+he's trying to give me a little instruction
+set on i should do a i should do one
+hopefully we're already working on getting the
+setup if you like and the prompts it'd be
+good to do a quick loom just showing hey
+install a quick mcp on playwright and maybe
+with jewels just like a quick loom you know like
+it'd be probably very instructional because
+we all have to go through that process or
+like people just it'd be helpful to know how
+to scrape something you know these companies
+are doing it why can't we right so yeah
+suggestion are you planning to kind of share
+open source this or i want to share that
+you know i feel like right now it's a
+community we have a lot of really cool stuff i love
+sharing with everybody so that we can all
+build on top of it uh and look under the
+hood what you're doing because i can think of
+like we can all contribute to it open source
+that's right because there's perspective and
+safety and all these companies they're
+they're making they're charging but why can't
+we have an open one just for the community
+you mentioned about translation right so our
+colleague ben's um ben's basically has a database
+um i'll show you the link um he has a
+database in hungarian on psychology imagine
+wow i heard my name mentioned thanks your
+translation thing that you've done and that
+is magnificent maybe he should mention that
+that's that's such a like imagine oh we have
+the opportunity to combine everybody's like
+expertise around the world and like you can
+just translate everything now just in like a
+button it's crazy to have the ai google's
+models are great for that i mean even samsung
+on their phone over the last two three years
+it's been really good you've seen the voice
+the streaming and all that it's pretty
+incredible i would love to for this it was
+just kind of like a sci -fi thinking i guess but
+imagine we all open a workspace right now
+and we all connected our own dev tools
+isolated and we all just contributed to a project
+like talking to it we could just talk to it
+maybe on a walk or you know typing why not
+contributed to a unified commit or like a
+repository that'd be kind of cool i don't know
+like it's if we all had extra time to do for
+fun right we all have work and stuff but
+stuff like that i think will be very valuable
+maybe in universities or for people just like
+a high school class it'd be kind of fun
+what they come up with oh i absolutely agree
+so the kids together Sorry, go ahead, Jed. Thank you for
+sharing, Sebastian. I don't know if we
+want to move along to the next... Yeah,
+I'm sorry. Every time we rant, I'm sorry.
+No, it's great. It's great. Just one
+more quick question. You're very
+passionate. It's good. We love it. Thank
+you so much. I love that about going
+to Toronto. Everyone who's around should
+come. If I could ever go on the other
+places, I'll always stop by. But it's
+nice to see people and talk about it just
+for the passion of it. And it could really
+help others, you know. this tuesday this
+coming tuesday on the 12th is the next
+one so everybody i'm coming down and
+there's some folks yeah um antoineta and a
+few other i guess antoineta is flying
+in she's going to be uh in the city so
+from the uh west coast that's really neat
+and that's awesome um on some medical
+sorry what's that antoineta looking
+forward to meeting everybody there yeah
+that's gonna be great we'll all come down
+early for the day and we can grab some
+lunch before the event that'll be uh
+it'll be wonderful perfect super thank
+you sebastian amazing when we can uh
+there's a way to play with it really looking
+forward to it 100 it'd be nice to push
+through give me a few weeks maybe a
+week or two let's see but i'd love to thank
+you so much Yep. All right. So, Sergio, do we have, let me see. Sergio Pasquale. Are you with us? No, Sergio. Sergio
+didn't make it in. All right. Sergio Villanueva
+is in the house, but I'm not
+ready to present. Oh, no. it's okay like things
+are so quick we you know it's like i'd
+love to hear the ideas yeah so uh sergio do
+you want to come back and do a little demo
+later on in the hour or is it next week
+no i'm i'm a i'm a different sergio i'm
+just um oh i see yeah but um yeah i'm happy
+i'm happy to i'm happy to improvise something
+but um but um i have some cool projects
+but i'm not a i'm not part of the
+schedule i'm a different surgeon sorry very
+good very good um okay well i don't know uh
+brad do i do uh uh should i put you on the spot
+see what thoughts you have around the
+website and how things are generally going
+with uh the volunteers and the members
+that are working on that stuff oh nothing
+like being put on the spot can you hear me
+okay here okay good um yeah so website
+we're up and running um everything works we're
+looking for content so anyone that has
+content that wants to come ahead go on sign up on
+the website community .agenix.org if you're
+an existing subscriber we're going to bring
+you over Nick and I are going handhold and
+make sure everything's all set up you're
+going to be on a legacy system so you don't
+have to worry about anything so we're going
+to take care of our existing subscribers
+right now we're just really wanting to put
+content on so So any kind of courses, love
+Sebastian's Loom idea. You want to be a
+contributor, a good way to actually
+talk about and promote yourself as
+a contributor to the Agentex website.
+So it's awesome. So we'll be doing a big
+push. We're going to migrate all the existing
+members right now, about 2,000. Plus, I
+believe we have about 500 to 600 that have
+come through Looma and all the other sources
+that we're going to be migrating. so that's
+kind of our short-term goal iteration process
+makes make a whole bunch of mistakes start
+getting a whole bunch of content provide a
+lot of extra value over the summer and then
+the big push is going to be coming in september
+so if you know any friends and family
+get them started right now we're going to be
+doing a massive push in september so we're
+desperately looking for uh not desperately but
+it'd be really helpful if we had some sponsors
+uh to to actually help us do this uh if
+you're a course creator it's a really good way
+to promote yourself create some courses
+provide some value to the community um it's
+we're using something called disco which has
+a really easy ai you can upload a pdf or
+just verbally chat to it and click a button and
+it creates the courses similar to what a
+university or college or an edx would do so that
+content's all there that's it for the
+website one last thing is we have a big push
+and thank you we have a massive community
+thank you to everyone helping with the
+website matt nick the other sergio martin a
+whole bunch of people are helping out but
+we're also working on a big push called
+accreditation so this is going to be something
+unique in the industry and we're looking
+to be really the first so we're just
+brainstorming right now we got a big community
+but the the outcome where it's going
+right now um if it is recorded um don't bring
+this up later on uh because things may
+change but what we're looking at right now
+is we're we're going to be starting with the
+top of the top tier agentics engineer
+certification so something that we go through
+verify that you um adhere to ethics and
+safety and way things go making sure that you
+have a at least a solid knowledge not not
+just a basic knowledge but a solid knowledge
+of general computing and computers so you
+don't have to go to formal school but
+typically you would have to be in the industry
+for a number of years so this kind of degree
+is not really made for a vibe coder at
+the start you'll learn your way to get there
+making sure that you contribute significantly
+at least in one open source project and
+then we're looking at more of like a doctoral
+type program where you present in front
+of essentially a board to to back up your
+dissertation or a project that is
+fundamental in the hndx community so those
+are kind of the guidelines for the big
+degree it's going to be very difficult
+to do very exclusive to help people
+get there we're spending a lot
+of time on having courses and
+essentially similar to a graduate school micro
+certification program so you go and if you're
+just starting out your vibe coder here's
+a series of courses past the courses we're
+looking for course instructors to provide
+these you'll have a level one then a medium
+and an advanced and finally after the advanced
+hopefully with some coaching and some hard
+work you'll be ready for the accreditation
+so a lot going on in the education a lot
+going on in the website stuff even though it's
+summertime and some of us are on vacation
+um we're still moving forward and i want to
+give a big shout out to everyone that's been
+really helpful um and if i missed your name
+i apologize i'm i'm on the spot here so brad
+can i ask some questions about um this um you
+know first of course the course material
+um content etc so i'd i've got a community
+about 1500 across new zealand australia and
+minnesota and inner circle build a circle etc
+so i do a lot of automated automated
+course generation and you were talking about a
+place to advertise i guess or to to get more
+attention um you know i i'm just leaving you
+to think about some of that um in terms of
+accreditation uh that's fantastic but there's
+a i guess agentics is a more technical more
+uh more knowledgeable communities how i see
+it there's a lot of people who i'm a carpenter
+i want to be an ai engineer we you know
+that is something that i would expect not not
+that sort of content is what you're looking
+at um and also that particular website
+hnx.org i thought it was i just uh if you
+could post the link for me to explore a little
+bit i've looked at disco since i've become
+aware of it so it's it seems to be pretty
+cool um happy to help in any way um you know
+in terms of showcasing or even collaborating
+and adding content. I think Jed's
+created a lot of good material. Mondweep has
+been doing outreach. He's come to us and
+presented to our community. So we
+absolutely are heavily engaged and we love
+AgentX and sort of the bleeding frontier
+that it's pursuing. I'm probably in a place
+to distill it because what I do is I take
+every technique and try to build a production
+-ready system and see if I know enough,
+I have enough skill to utilize that technique
+that I'm finding out of AgentX. mostly via
+Chris Barlow who are from our side they
+attend it regularly and New Zealand the New
+Zealand crew right Mark Vincent so Ravi I just
+want to I want to get to some of the other
+questions as well yeah sorry go ahead no no
+that's okay um Lorraine you had you had your
+hand up there I do I've just put in my um
+project management hat on so doing this
+certification process might take a while i was
+thinking let's consider things like cpd right
+because um that's an easy way in and
+when you go to access companies and you say
+okay we can give you some cpd points i think
+that will be useful um i also think that we
+should be thinking about you know tldrs so
+maybe like bite-sized courses so there needs
+to be some sort of what i would call like a
+personality or an angle which means why would
+people come and use our platform to learn
+and do something so we have like different
+levels so accessible to the novice accessible
+to the expert because you have different
+you know different needs and I also think
+when framing if we want to be really really
+robust so to get like a US visa there are
+certain competencies it asks for right if you
+want to get the the highest level so maybe
+we can start thinking about those things
+because it's well if you do this possibly you
+could be eligible because we ask you maybe
+you've spoken at one event or done something
+else if we're benchmarking against well-known
+criteria so it then doesn't feel like it's
+made up it feels like it's with a purpose
+so if I was putting my instructional design
+hats on those are the things I think we
+should be thinking about there's an entire
+community Lorraine that are going back and
+forth over how to do the certification I think
+Brad we can we can pass along the invitation
+link yep so I think that's great and just
+very briefly we're yeah I would love to have
+you if you could help us out Lorraine and anyone
+else, we are really looking at catering
+to all different types of agentic engineers
+from people that just started. So quick how
+-to guides, getting your repo set up, getting
+code spaces set up. What is an MCP? What is
+an MCP? Security. And these would be perfect
+for anyone that's good at Loom. So quick
+two or three minute with a couple of screen
+grabs and going through those so that We call
+it the zero-to-one type of market, and then
+going right up to the advanced, which is
+taking some clips from what Jed and what
+Reuven and others are presenting, what Bron did
+a couple weeks ago, and just maybe showing
+here's what state-of-the -art is, and then maybe
+taking a little bit more time to show this
+is how you do state -of-the-art. So we're
+looking for all kinds of different content to
+cater to different needs. um the big thing
+is we're taking our computer background which
+is we iterate so let's let's try something
+get it going the accreditation as Lorraine
+mentioned we we have to take some time uh to
+do that so really love you to join the
+community I think there's a couple of hundred of
+us that are there and we're pretty pretty
+active brainstorming ideas and um I think
+we're moving moving along sorry and one one other
+thing um so i think in terms of like business
+model right is that where we have this we
+teach you all these things then it's like
+well we're the experts where you know if you
+still get stuck we are here and we can
+support you on it so rather than be you know a
+course a bit like what we're doing with the
+website so it's like okay we can teach you
+all this stuff even when you teach people
+they're still not ready to go but yes we can
+still as a community we can actually come
+and help you in your organization to actually
+execute this as well so i think if we if we
+think of it like a almost like we'll call it
+like a lead flow or pipeline type of thing
+so i think we should be um we should think how
+we we craft this all nice so um uh i just
+want to get to the next demos as well
+thank you everybody that's uh looking
+forward to the uh to the updates and hearing
+more about how that all evolves and brad
+you'd be able to share the links for uh and
+when the next meetings are that kind of
+thing with the yeah i'll i'll get the
+link and post it image i'll post it in the
+chat thank you amazing thank you uh so we
+have nolan nolan's got something that he
+can demo for us today hey nolan how are
+you? Hey, great, Rob. Nice to see you. How's
+it going, everyone? Okay, so share
+is disabled. Okay, yep. One second. We're being, I'm
+looking for... Nolan, I'm glad to see
+you're not driving. Okay, are you ready
+to share, Nolan? Yeah, I'm good.
+Okay, go for it. Okay, let's see. You see it? Showrunner? Yeah. Okay, cool. So I've been, I
+mentioned this sort of yesterday on the
+call, just alluded to some work that
+I was doing where I was thinking
+about, you know, just the capabilities
+of Claude-flow and extending it into sort
+of other domains. I think there's a lot
+of sort of powerful features that Claude-flow
+exposes from like a workflow perspective
+that um you know it it opens up the ability
+for clod code and clod flow to be used for
+um sort of non-coding purposes but you know
+essentially there's there's some coding
+actually happening but i uh i recently got
+involved in this this discord uh channel for
+this this cartoon series called uh or this
+company called showrunner and showrunner i think
+just got some um an investment from uh
+amazon so they've got like an ai platform
+which is primarily um used inside of uh discord
+um actually let me just share my change
+my share here how do i my screen. I'm just doing
+my browser. But essentially, inside
+of Discord, they have sort of commands
+and slash commands that allow you to
+tap into the various capabilities for character
+generation, scene generation, and NLP
+to sequence this stuff together. So, um, I
+use this opportunity, uh, now I need to change
+my sharing. One sec. Where'd I go here? Sorry. Share. I use this opportunity to try my hand at, uh, can you see my
+club or my, uh, cursor here? Yep. So I use this opportunity
+to work with Claude Flow and develop an
+MCP server that helps with script that automates
+script generation based on sort of the
+characteristics of Exit Valley. So Exit
+Valley is one of the shows where they're having
+sort of community contributors to create
+these shows, and they're going to vet those and
+judge those. And if one of your episodes
+is selected, you potentially can make some
+royalties if the show goes to air or however
+it's being monetized. So I developed this
+MCP server. So if I just open up a
+new terminal here, Google Cloud, got my showrunner Discord. Ideally, I want to
+try and tie this into Discord with
+a bot to be able to use the channels and
+the slash commands to generate the
+content. But I have to talk to their
+admins about that. So I've got a
+prompt here. uh use cloud flow swarm
+to generate an exit valley episode using
+the showrunner mcp based on this script i just
+pasted in sort of like a synopsis perform
+deep research on relevant news topics and
+people to improve the narrative if applicable
+uh give it some guidance someone needs to
+die uh it's you know it's very satirical and
+kind of like gruesome uh lots of swearing and
+stuff like that which is kind of fun for a
+cartoon uh also add a new variation of the
+The Crypt Keeper location scenes also generate
+a comprehensive report in Markdown
+format using the generate episode tool. So I'm
+going to let that run, and that's going to
+**** away. That'll show you sort of the next
+thing that happens. So it generates an enhanced
+script in Markdown. And then what I've
+done is I just take that and I
+create a little Claude flow
+project or Claude project here. I dump
+that markdown in and I gave it some styling
+here, but I'll just show a couple examples.
+I'll put these into the chat. They're
+actually quite funny. Where's my, i shared one of these
+is it runway three in the background or
+what's the what's the what are they using uh
+from a model perspective um i don't know
+can you guys see discord here yep so like
+here's an example oh my god mark is that
+a ******* ak-47 just sitting there uh yeah
+that's um suboptimal who the **** leaves
+that lying around suboptimal it's a *******
+murder machine mark okay okay let's just
+iterate on this no need to escalate iterate
+you're about to get iterated into oblivion
+you algorithmic **** wait kim let's
+optimize this optimize this you caesar wannabe
+piece of **** sorry for the uh i guess that
+one had some swears and apologies for
+anyone who's sensitive to that but it's uh
+it's pretty funny so like you know inside
+the channels here. You've got different
+commands, characters. You can generate
+characters. You can generate sets. Incredible. So it's pretty
+cool. It's kind of weird that it's all
+inside of Discord. Like, I get kind
+of why they're doing it, but they
+don't have an API. So my next steps is I
+actually reached out to support and said,
+you know, I'm an agentic engineer. I'm
+also creative and i'm i'm interested in i'm
+building this agentic essentially script
+system because i can go out in real
+like the the way that the prompting is
+working it's just going out and doing deep
+research could be could be stuff on uh uh you
+know current topics you could schedule an
+agent to go and like get you know real
+-time newsworthy newsworthy facts and
+and automate this thing so um there's a lot a
+lot to be done and i want to see if i can
+get access to there um you remember those
+political cartoons i think it'd be funny
+seeing little like just little jokes like
+people would love these just to see yeah totally
+uh here's another one uh this was sort of
+an earlier version of one um but i gave it
+some guidance to sort of model it off of
+swarms and pointed to that uh um pointed
+to that uh quad flow documentation i haven't
+read this in a while but um it might be actually
+no you know what that's not a good this
+one had some errors in it um here's another
+one you know it's interesting we come to
+the concept again so when you're generating
+there's always i love the no filter stuff but
+then like at some point you might have to do
+filtering right so then the the system of
+the prompting itself has to it's interesting
+how it all comes back together oh yeah
+well uh i think that they're probably using
+something in the back like a model in the
+background that um have some right but you can
+kind of go around some but if you get special
+access you get like like permission to like
+play with it without it but then when you
+release it you know like my script generation
+isn't putting any profanity and whatnot
+in because it's using Anthropic under the
+Clot under the hood so it's you know it's
+maybe the clean version. It's the person, the
+person itself right? Yeah you know
+with I could I could augment
+that with other approaches but
+yeah that's Discord channel it's called
+Showrunner oh yeah we should all
+share that to see hey yeah that's that i
+just recently created a repo with 600 plus
+sub agents for all kinds of things non-coding
+i just shared a link in the chat you might
+be interested in reading over thank you thanks
+so current currently this is sorry go ahead
+currently it's it's you know i've I took
+the MCP approach, but my next step, thank
+you for sharing that, Chris, because my next
+step was basically, you know, I think just the
+architecture of Claude code in combination
+with Claude is toast. It's ******* toast.
+Okay. Adam, Adam, the big, beautiful. There we go. That was a quick
+reaction. Good job. Yeah. My next step
+is to actually try and build this more
+into the, the cloud flow dot cloud
+folder architecture. Cause I think I
+was listening to a podcast the other day.
+I think, you know, there's a lot of
+opportunity for non -technical people to
+use cloud flow for purposes beyond coding.
+It's just, it's, it's an incredible
+orchestration framework. That's right. That's
+right. john petty was really speaking to
+that a few weeks ago and i think there's
+some that's uh it is a big uh field as far as
+multi-tool orchestration and how that all
+plays out you should make a fun app
+like you could have it like generate you can
+have a comedian go on stage using it to
+first get or just put a button where you
+activate it and talk to it to generate
+your your your theme and then it just generates
+it'll be interactive like look how you
+made us all laugh yeah very good we
+have uh we have one more
+presentation uh from bensa but before
+we get there jed how's it going on
+our androids game progress update
+it's running is the short answer so um
+now we've got androids i don't know if
+it's streaming well but it works keeps
+track of the store it drives around
+we can change the we can change
+the sprites i'm sure and this
+all i think your volume is a little
+low there jed is it yeah a little
+quiet is this any better yes yeah cool so
+anteroids is now working um it was one prompt
+i shared the prompt earlier in the comments
+and in from that one prompt and And then
+the emphasis on making it darker and making
+sure Playwright is able to visually confirm
+that it's working was able to get the
+game working for me. And now I'm able to
+revisit, what is this, 1980s, 1970s arcading? Yeah, it's 1970s.
+You need to be flying straight up and
+reappearing at the bottom and going
+as fast as you can. Okay. So the
+good news is that everything else
+works. You can drive around. You
+can shoot stuff. so what used to
+take developers maybe weeks to
+do this in 1970s hardware took
+me 20 minutes um and 15 of those
+minutes was waiting i wonder that uh
+intro to programming class where they make
+you make a game what happens now for the
+kids like they just well it's how to
+write words that's what they have to
+do write words The interesting part
+is that hackathons now are very easy to
+win, provided there are no other
+agentists also there. Looking forward
+to showing up at the next New
+York hackathon. There it is. There
+it is. That's good. Very quickly, a thought. What do you guys think
+about how children should be taught
+programming now? I don't know. the
+short answer is they should probably understand
+what a tech stack is and the components
+of a tech stack what goes in the front
+end what goes in the mid end what goes in
+the data layer what goes in the application
+layer but the actual syntax probably is
+irrelevant i don't write assembly there are
+probably three people in this call who
+know a little bit but definitely couldn't
+write a full application in assembly and it's
+becoming increasingly irrelevant so it's
+about architecture it seems that way i
+mean i didn't even give any specific uh design
+direction to anteroids i even misspelled
+asteroids and it's still i love the misspelling
+you could type so fast misspelling it's
+so good so it was now to be fair the use
+case was simple but i'm of the opinion children
+should for those who wish to enter this
+space should focus as much as possible on
+building that muscle learning what prompts
+or what descriptions what text is most
+important to achieving the outcome they need because
+the reality is very few people here myself
+included can teach it it is definitely
+something they can learn but i don't yet think
+it is something that is readily taught i
+love that like young people the kids like
+they like question so much so i've seen like
+this toy dinosaur like company where they
+just have like a voice you know live streaming
+with it and just imagine how annoying
+like i would love to ask 50 questions right but
+your parents at like 7 a.m they'll get angry
+so if you just ask it everything and you
+just learn and learn and learn like it's
+just crazy that they have that now you know
+like you don't have any children sebastian
+do you no not yet not yet okay very good
+awesome i think maybe that's why i have some
+time you know but yeah all in time no rush
+um bence how you doing i'm muted yes yeah
+yeah yeah i'm here yes sorry i'm outside
+so i'm off cam for the for the
+for the minute okay sharing is not turned
+on yet okay you ready okay it's
+turned on yeah okay showing my screen
+just quickly here um here's
+the entire one can you guys see it now yep yep showrunner
+showrunner alpha yes okay so this is the the main
+concept that one we intro kind of is a
+mental health application so it's a reg based
+on just 99 hunger Hungarian documents
+collected through 30 years, like articles about
+how to approach cancer patients
+in hospitals, you know, and relatives
+as well, you know, how to process the
+mental burden, what you've got as a cancer
+patient or relative of a patient. And that's
+working in English. So the language
+model perfectly translates everything
+which is available only in Hungarian
+to English. But the interesting
+one is the Indian. I can't remember now which language is this. It's Bangla. Yeah. Could you go to
+the homepage? is the home page here. What I love is
+Sarvan AI, right? What I love is,
+I think, Bensi, you discover
+Sarvan AI, right? Sarvan is a brilliant
+language model. Servant AI? No, Sarvan. Yeah, it's a sovereign
+language model. This is it. Sarvan. Okay,
+okay. Excellent. And they've got orange
+orange color as well which is just coincidence
+and interestingly i shared this with
+some of this so so i said if it depends for
+example if you type there talk to me in
+assamese or something like that so assamese
+is a language is my native language so i
+shared with some like perioperative surgeons
+in in assam and i said guys what do you think
+about them and they gave some very interesting
+feedback because many decision making
+happens very socially in india so the the
+cultural aspects like lots of people want to
+know and and healthcare professionals are
+overwhelmed by that and therefore they were
+like they were they were like really
+interested in things like this which is basically
+just quite accurate like what they they
+ask some questions themselves and the
+interesting part of it is that the whole
+database is in hungarian and it was very
+relevant in terms of how the information was
+given in a local language yeah this is in
+hindi yeah gosh any language so you can see
+on the exactly on the right side that this
+is a hungarian original document all the
+chunks and this is in hindi summarized so
+it's a retrieval from have you played around
+with doing photos i noticed like it doesn't
+extract photos text but like too good
+but there's probably some cool models like
+that's amazing yeah i've got another project
+for brand visual designers a book is
+processed and you don't only get a text response
+you get logos and color palettes as a
+response from the api it's tricky mixing them
+right like text and visual what does that
+dance it's go hair um multi-model it's a
+canadian oh yeah yeah so so they are brilliant
+on um yeah oh you know with text and
+images together version 4 and then version
+4 embed and then you can chunk
+it up and um use super base or
+any four spreads sorry um and
+how are you the feedback how are
+people finding the accuracy of
+the translations we haven't tested the
+indian translation accuracy yet the english
+is fine and uh the hungarian accuracy is
+97 percent i i have followed so i looked
+through asimist translation it's perfect actually
+perfect really okay it's very very good
+actually so um yeah i mean if there are anyone
+from india here i think maybe worth um getting
+some feedback on this um yeah yeah how
+many dialects are there in india sorry how
+many how many dialects or written languages
+are there in in india so this supposed 22
+languages i mean if you think about number of
+languages there are like hundreds there's
+about 1500 under the constitution of india that
+are recognized or known so ben sir on that
+note just wanted to uh talk about there's tribes
+like tribal language like south hall and
+all that and their language is not electronic
+so there's currently india's building
+the models for those languages by interviewing
+capturing that and the nuances of the
+language the way they use it it varies a lot
+so they're trying to capture all that would be
+good to be able to find a way to integrate
+that because that's where the lack of
+accessibility is you know about this social decision
+making around medical mental health or
+medical nature uh so it would be a huge uh huge
+asset to i think that kind of geography and
+africa as well the same thing is happening
+in africa yeah big opportunity for for
+these guys um they are working on with the
+indian government i guess yep all right thanks guys that's really
+uplifting to see the technology being
+put to those kinds of those kinds
+of projects and tools where that
+can go my goodness so we're if there's anyone else
+that would like to show or demo we've got
+a little bit of time yeah I can go go ahead how you doing can you hear me all
+right oh yeah can you hear me all right yeah
+there we are oh John O 'Hare yeah that's right
+hi John hi how you doing so I've literally
+been throwing this code up the stairs as people
+have been talking uh so it's in a sorry
+state but I think I think you know that's
+the vibe isn't it so I'm just going to go with
+it uh because you only live once uh and see
+where I end up so the whole of screen two
+that's fine have you is that oh wait is that
+now sharing so this is not how it's supposed
+to be clear uh i'm i'm live debushing sorry
+sorry my apologies john you got to share again
+oh okay two seconds that's not your bad
+that's my bad how is is that working
+yeah yes perfect good okay oh neat okay
+cool right so what i'm going to do
+very very quickly so this i started this
+a year ago this is, is there many coming
+across LogSeek? It's like Obsidian,
+it's open source. It's just knowledge
+management. So the thing with knowledge
+management is the Spring Force stuff is next to
+useless because it's very confusing. This
+is my baby graph. This is the public graph
+that's published online. You know, I'm into too
+many things and it's just this information
+fire hose, which got much worse with the
+advent of AI. So I started pivoting to
+trying to manage my knowledge with this. And
+then I got very heavily distracted 12 months
+ago with this. So my background is in human
+-scale telepresence, so large-scale
+visualization systems, holodecks-type stuff,
+which is the things that you see there, in
+which there was a bit of kind of data
+manipulation in 3D spaces. So it's mixed reality,
+telecollaboration, working with other
+people, working with now AI agents, I mean, so
+distributed systems, kind of protocol-level
+stuff. uh it's just very it's a wild moment
+right so i i started trying to put together
+a a way to deal with the um the incoming
+firehose of stuff just for my own information
+management purposes so this i mean 12 months
+ago just vibe coding whatever you want to
+call it at the time managed to stand up
+listening javascript straight away this just takes
+the ***** the data off github re-springifies
+it turns it into something that's crockable
+in a 3d space and it just worked straight
+away in ar and i was like well that's very
+gratifying and i thought well why don't i do
+it multi-user in rust that was a mistake because
+i'm not a programmer and i didn't realize
+how difficult that was going to be so i i'm
+now a hundred thousand mines of code 12
+months later kind of become a labor of love
+in a way uh and it's all you know because because
+code code it's all very well documented
+and stuff the the system now is uh spring
+solving on a gpu uh for multi-user so it's
+got a single source of truth so you can connect
+multiple clients to it it pulls the information
+from github which is sourced in the log
+seek stuff that you saw which is the
+knowledge management stuff and then it re-indexes
+it through rag and microsoft graph rag and
+uh other things it has a voice-to-voice layer
+it has a obviously it's got the agency
+layer and this is what really what the crux of
+the of the demo here is you know there's all
+kinds of interfaces and off and that's all
+well and good but the thing that i've suddenly
+started to add in which has made everything
+false multiplayer 10 times as good is the
+is the the thing that just suddenly makes it
+you know the the can do anything jarvis
+knockoff so i mean i'm just going to type the word
+test in here because we don't have time for
+that but so you can you can spawn up a hive
+mind uh on the data that you have access
+to here and then it brings in all of the
+uh the monitoring stuff which is based on agentic
+flow uh and i'm not really sure how any
+of that works because this is how it goes
+with this stuff you know um i was trying to
+use a much cleaner mcp interface over the over
+the existing port because everything obviously
+is dockerized and speaking to everybody
+else's points about getting these things to
+do anything i've been getting it to do things
+that are right outside the domain of um of
+coding so like a full air circuit board for a
+uh preamp like a preamp with a bit of character
+which somebody told me to make so it
+created the circuit board in my docker i have
+all the latex tools all the rust tools all
+the usual tools that you'd have all the
+electronics tools uh all of the um just whatever
+you can think of that you can digitize slap
+it in the docker connect it to the visualization
+system voice voice go and make a thing
+deliver the thing when it's done and there's
+a this is kind of the opportunity that i'm
+seeing when i'm talking to other people here
+is that they want to see something that's
+a bit Like Andy, they really don't want to
+look at a CLI interface. And showing people
+that it spits out a circuit board with four
+layers of checked code and a bill of materials,
+and it's $120 for this preamp, it's just
+wild. It's unscrewing people's heads. It's
+passing the circuit analysis checklists.
+It's giving you a bill of materials. It's
+a four-layer board. My first degree was
+electronics, and since I've been doing
+these things, So I've been kind of
+ranging around all of these different
+specialisms for years. And suddenly all of
+them can just be stuck in a Docker container
+and you can stick a knockoff Java's
+interface on it. And, you know, how much are you
+actually getting out of the performance
+optimizer telling you how much CPU it's using
+at a given moment? Not a great deal,
+but people do feel strangely comforted by
+this stuff. And so that's good. So this is
+working through my space mouse, which is why
+it's kind of woozing around a little bit.
+but all of these things are parts of my
+information corpus and they'd normally be
+spread out in a much more attractive way but
+all of this works in AR and all of this
+works multi-user and all of it has infinitely
+tunable everything. But the main thing
+is that it voice-to -voice connects to
+ruv-swarm on the back end now and can just
+do anything, connect to a robot, print
+out a circuit board, do whatever. It's
+wild. So exciting. And you say you're
+not a programmer. No, not at all. I've
+never really touched code. It's 100,000 lines
+of Rust, Cuda, PTX, TypeScript, Docker,
+Docker, Docker, Docker. I've got 12 Dockers
+here now because there's the, you know, there's
+the Whisper. It's all local as well. All
+this will run local. So there's Whisper.
+There's the local infancy. There's the local
+text-to-speech, speech -to-text, the RAG
+stuff, the Swarm stuff, the interface stuff, Docker, Docker, Docker,
+Docker, all the way down. And just keeping
+that secure, it's very hard to get Claude's
+flow to talk across Docker boundaries
+into other code bases. It gets very confused
+about where it is. So there's been
+a lot of kind of struggling with the
+container side of things because it's
+all local. And I think this is just
+partly my ignorance. That is by design.
+Yeah, no, totally. I mean, I have a box that
+I lock it in with as many tools as it could
+wish to have so that it doesn't get greedy
+and try to get out of the box. So everything
+that is, you know, it's a very big Docker
+container. It has all the electronic
+stuff. Oh, yeah, GIS stuff. So it'll, you
+know, go and make a 3D, go and find that bit
+of the Lake District into a 3D model straight
+off. And it connects to Blender and it
+connects to rUv. And it connects to, so, you know,
+I've had it the other day make a 100 shuriken
+swarm in Blender over MPTP from its own
+Docker into another Docker that it can get
+screenshots from. and it's just whatever you
+ask for it's just mind -blowing but then yeah
+the obviously the main thing is putting
+this interface on it so that people can feel
+like they have some kind of enfranchised interface
+where they understand what's going on and
+that's not necessarily true but you know
+paul roddick would probably love this
+he's been working on visualizations of the cloud
+flows forums as well um that so if i'm if i'm
+hearing you correctly john uh voice-to-voice
+interaction and if i want to describe an
+idea for uh a new piece of um musical circuitry
+yeah that uh this system has enough
+understanding of the requirements and and inner
+component interactions and rule sets that it
+can actually output in a way no it's just it's
+just i think people aren't people who are
+coders are not noticing how far it can push
+itself it would happily go and download all
+these things if you say go and download all
+of the toolkits that are used for this stuff
+the the gis stuff i was training somebody
+at the university where i've been doing some
+work recently and i'd already because i knew
+the gis stuff because of you know previous
+years doing doing immersive vr stuff i
+i'd already gone and got qgis and and connected
+up the mtp and connected to blender and done
+it all the hard way he literally just asked
+claude to get him some data for the local
+area. And it went and got QGIS and stood up
+the MCP server and did the things. Because,
+of course, that's what it does. It's just that
+we think in a... Well, I'm including myself
+in programmers here. The more constrained
+your language is and the less flexible
+your language is, I think the less that
+you allow it in a way to go and find, to
+explore these things. I didn't... I haven't...
+I mean, my first degree was electronics,
+but I haven't looked at the kind
+of formal validation for circuit board
+stuff for years. I just said, just go
+and find whatever is the current thing,
+download it, put it into the Docker. You've
+got pseudo access, go for your life.
+And it pulled in a load of stuff that's
+command line based. And that stuff did its
+own internal checks. But I've since looked
+at the board and the board is fine. The
+bill of materials is fine. I had to do
+a bit of massaging afterwards. But it's,
+you know, I've run it by the guy who asked me
+to make the preamp and it looks fine, right?
+Whether it is or not, another matter. But
+it's all, they're all the kind of boilerplate
+chips and specs and all that stuff.
+a bit of character I don't know what that
+means so whether whether or not whether or not
+you choose to build it or not but you
+know I think there's a there's an iterative
+process with these things and I think this
+is this applies to is it GIS is it space
+science is it molecular biology I don't know
+how far you can get just asking it to
+go and download the current crop of tools
+as long as you're in a safe environment
+phenomenal is this is a private tool is it open
+source oh no no it's I'll push the GitHub
+up into the chat now. What was that
+last? You said you had a big sack
+and then some of the tools of
+a breakthrough, your voice dropped off. Well, in terms of
+the tools that are in, so that's also,
+I mean, my container is here and you
+can see what's in it. It takes so long
+to compile because, I mean, it's a
+multi-layer Docker. It's taken me weeks.
+It's probably taken me longer than
+anything else that I've done. but of course
+it's got full latex in it because it
+turns out if you give Claude Flo
+full latex then it suddenly it can write hundreds and hundreds
+of pages of document you know go make a bid
+for an internationally significant theme
+park in the north of England What does
+full latex mean? Latex is the kind
+of the academic coding markup language
+from the 1970s that academics use
+in order to change Mathematical formula
+yeah yeah yeah exactly it's an old and very
+well established but also hideously stupid
+and annoying markup language with it does
+yeah i mean it does it does as you say it
+does it does equations it's very good equations
+but all of the archive archive the website
+with the academic papers on that's all
+latex these these llms have chewed through a
+lot of latex they all talk a lot of latex so
+that they they assume an academic voice
+when you make them use latex so you don't end
+up with the the default boilerplate voice
+from them so if you if you force everything
+through the lens of latex and make it
+recompile and recompile and say look over here
+is the over here is the branding material
+in the elsewhere in the docker it comes back
+and it's 500 pages doesn't it doesn't
+matter it'll do it it'll talk to itself for hours
+and it's fascinating to so the knowledge
+management side of things the everything
+else side of things the you know go and go and
+research this electronics whatever else uh
+side of things that isn't coding is the bit
+that I'm trying to kind of ease out into and
+I'm finding most of the successes are coming
+from just giving it its head and just making
+sure that it's nice and secure and doesn't
+want for more tools and then it's fine
+so yeah I can put the links in there
+Do you have to give it guidance to tell
+it to use latex? So I let it know in the docker that I have
+it in I append it to the Claude MD saying
+you've got a full latex environment that's
+the preferred way of uh of making files
+it it's better to use markdown uh internally
+for itself you don't want it running
+off it it can spend hours trying to trying
+to get it gets as lost as any academic in
+latex it's a it's a real pain in the ***
+you know it'll be integrating it and
+deintegrating it forever and trying to sort out
+the indexes and the citations and the
+bibliography and all this stuff so you you want
+to keep it mainly in markdown until you
+get to the point where you've got what you need
+and then you just kind of push it off into
+latex and say this is your preferred this is
+your environment you have all the tools
+you need if you don't you've got pseudo so
+it's fine that's what i'm trying to do with the
+researching like the filtering because like
+it's going to go through the web and find
+all this other stuff but also if you have
+multiple at the same time doing it and then like
+having them talk to each other to like
+filter or like all these because that's what the
+thing is like you're saying you got them
+doing so much things at the same time and
+then how do you know if they're all when they're
+doing at the same time they have to kind
+of work together it's hard to do is that
+interface so hopefully hopefully when you're
+in ar with other people because it is multi
+-user hopefully somebody can see what's going
+on i have absolutely no idea how to keep up
+with this stuff it's it's hard enough simply
+keeping the docker environment together
+i don't know i think this is so cool to
+research because like even with the google's genie
+thing with the video generating it must be
+some sort of mathematical or like like a like
+an autonomous kind of like program that
+somehow can keep like uh order or be correct
+like and just validate it like a verifiable
+yeah i mean i'm so fascinated by verifiable
+our brain is too yeah there's there's
+a real there's a there's a real stretch
+goal around this stuff for verifiable uh
+compute and stuff that that is mathematically
+this stuff does exist i can't just really
+hard and it's just a dead easy job because
+it's a grind job but whether or not people
+want to be i mean now that the cost of
+this just falling so fast to have an agent
+that's over there saying, can I make this
+into a verifiable thing that has no security
+holes because this is passing all of
+those classic academic checks. I mean, it's
+another thing to add into the stack, isn't
+it? It's fascinating. It just goes all
+together. That's so cool. John, question
+around Latex stuff. Have you tried
+to write stuff using Latex? Does
+it do it well? Yeah, that's what
+I'm saying. I've done multiple 500-page
+documents with it in one shot. like we just
+went out my friends who haven't seen for ages
+got drunk uh said said just give me give me
+give me a thing that's a problem in two
+lines and 550 pages later it designed a
+bunch of course material and done a load of
+research written some python scripts because
+of course they have been it went and got
+all the ceos of the of the things then it
+compiled it in that images that's what we
+should do to awesome i'm going to do that
+to the research thing and then that's what
+i want to do train it together like train
+it and like just see what how we could it'd
+be cool to see what it comes up with yeah
+yeah yeah everything everything you do with
+this stuff it spits out cool stuff unless
+it doesn't unless it just gets lost but
+it's like i mean yeah that's what the logo
+for the infinity feels great because we're
+just like in a black hole we're just yeah
+all just i mean it just just i honestly i'm
+spending most of the time just trying to lock
+down the docker more it's it's it's just so
+and the docker's docker communications and
+this is where i start to get a bit out of
+my depth because once it once it once it's
+out of the context that you're in once it's
+locked in its box you're like i don't know
+how to help i'm gonna have to fall back on
+gemini i'm so sorry i wonder if it does have
+a robust networking stack john so it is
+possible to chain multiple docker containers so
+yeah i've got the same i've got i've got a
+private docker network so that's got all 12
+on it and it is aware of them and it can
+see it and that's fine so i've got it
+constrained into a docker network on my local pc
+and this is the because I'm leveraging a lot
+of GPU, unlike the... I've been considering
+going out and using the dev containers
+that you're on, because it's clearly a better
+idea in a sustainable way for this stuff.
+But then the other path is just to stuff
+loads of kind of high-bandwidth taxing
+tools into a very capable GPU-connected Docker
+and just stand it all up in their old
+bunch of Dockers, which is just kind of the other
+route on this stuff. And that's where most
+of the personal tax is coming for me, is
+just trying to keep that uh kind of web of
+dockers going in a way where stuff doesn't
+break all the time which is why i was fighting
+it today to try and get it going again but i
+mean it's fine it's just it's just the next
+thing to do really what i need to do is get
+it just good enough so i can start solving
+real problems with it i would then suggest
+that you point your collection of docker
+containers powered by cloud code to research
+declarative infrastructure yeah yeah yeah and
+i'd like to see this project combined with
+that with whatever braun is building that post
+that he had or that message that he had in
+the whatsapp group where he said he's like
+passed to the other side like the the whole
+the whole agentics one so all of the all the
+telemetrics that comes out that was in the
+one that uh was was demonstrated in the in
+the uh in the branch that had all the telemetrics
+and there's a lot of it um that's all in
+this one in principle so i've ended up
+standing up in another server inside the swarm
+container because it just i couldn't get
+enough out over the mcp channel and now i
+literally have no idea what's going on in
+that corner of the code base now it's it it's
+it's working but i don't know i don't know how
+much uh telemetrics is coming over it seems
+like there's quite a lot of it and you saw
+when i when i zoomed into the green blob
+and that's just like that's just the hive
+mind instance that it had stood up for that
+particular thing and i've got a suspicion
+that you were looking at mock data there because
+that in any given moment the whole thing
+is either working or not working you know
+like a jagged frontier of horrible unknowns
+but i've seen it i've seen it pulling stuff
+live and i've seen it pulling quite a lot
+of stuff live i just don't know what sometimes
+it'll get there i have a question do you
+what do you ever think of naming it or want to
+ask it it's currently ****** jarvis because
+it's It's obviously ***** garbage. I don't
+know what to say. It has other
+names. But I think, I mean, the way
+it is, because, I mean, as you
+can see on the, there's the bland
+name on the GitHub, which is ARAI, whatever,
+logs it contend. And then just, I have
+a bunch of different website endpoints
+because it receives Cloudflare. So you can
+just, you just, the dev endpoint that
+I've got running here, you just recompile
+it the other way and it just takes
+in the Cloudflare tunnel and it just
+stands up straight away on the web.
+So it's dead easy to run and
+push out to the web. And then it's got Nostro
+authentication. so you can have different
+levels of privileges and the whole thing
+will distribute as well so i've got uh i've
+got local containers and distributed uh
+stacks as well so most of the work that i do is
+on uh distributed uh protocol all that other
+stuff so that that stuff kind of uh is to
+come uh i've been kind of working on the
+core bit in the middle so every time every
+time i stand up a new front name so which is
+fine you know so name it per whatever the
+whatever the domain is so this is the domain
+of the knowledge base that i have been
+accumulating that i was fighting to deal with in
+the hailstorm of ai and that's my knowledge
+base and all my rag stuff and whatever books
+i load into it but it could just be that it's
+just a legal interface and it's just a
+medical interface or it's just it's just
+whatever your local domain corpus is for whatever
+company you are which is where it starts
+to feel like it might be a useful product
+because you've got you've got a couple of you
+stood in there and what what i didn't even
+say is that the spring system that you can see
+there is is designed uh with springs and
+weights so you grab hold of the nodes
+and depending on the depending on the metadata
+in the the connections and the weights of
+the metadata for those nodes which are the
+the information buckets you get um you get uh
+as you drag it around it drags other stuff
+around at differential speeds which allows
+you to leverage this is kind of my research
+background which allows you to leverage your
+ocular system to see what moves the most so
+you can see what the connections are using
+the bit of your brain that's good at that
+stuff you know the spring and a spring and a
+ball thing so you can you can go in there
+and very intuitively drag stuff about and
+say that's not important because it's not really
+moving anything and that's kind of why these
+knowledge why these spring systems exist
+there's a whole load of research that i've
+got to go and bring in later to to make that
+more visually appealing and less like it's
+just a big ball of string but all that
+stuff already exists in academia so that's fine
+i can do that we've done it before but the
+whole point is that you can go in there and
+and leverage not only your voice and and and
+kind of the proximity and the spatial
+dynamics of other people in the space with you
+but also the information should be spatialized
+in such a way and also physically embodied
+in such a way that you can figure out
+what's going on without particularly digging
+into it but then of course if you double
+kick it you can dig into it as well or ask it
+about it or ask it to update it honestly this
+is such a cool engineer like you actually
+built like such a cool like system all around
+like that's actually it's really interesting
+i love learning from you more it's just like
+that's awesome like i i love how you deeply
+composed together like you know the systems
+between the indexing and all the different
+like you're saying the structure is not visually
+uh the back end uh different deployments
+it's just every time i knew every time a
+brilliant new thing turns up i just kind of
+smash it in on the side and then my attention
+wavers and i wander off but all of the yeah
+yeah totally this is it and there's so much
+there's so much candy about you can just you
+can smash it together and as long as long as
+it as long as you have like a through line
+and like a golden path that allows you to
+see that you're not wasting your own time
+with it like rag is a pain in the *** but but at
+the same time you know sometimes you do want
+to have a local corpus of microsoft graph
+rag organized uh cross -linked books that
+only pertain to your organization so there is
+probably a through line there am i using it now
+of course i'm not am i am i looking at anything
+am i even updating my own data which
+is the thing i was supposed to be doing in
+the first place no i'm not i'm just wrestling
+with docker containers anyway i've talked
+for ages i'm sorry for the folks not familiar
+somebody mentioned in the comments there that
+it's latex l-a space t-e-k no it's right it
+is t-e-x yes yep okay and it's it has weird
+capitalization because of course latex yeah
+yeah yeah so if you if you look at if you
+look at uh archive you know we've all we've all
+read papers on archive .com you can only
+submit those as latex and then it compiles
+it on the back end to produce the pdfs so it's
+latex spits out pdfs and that is all it was
+ever supposed to do but it's like it's 1970s
+vintage it's proper ***** as you'd expect
+uh you know if you want to put a pound sign in
+good luck and i wrote my phd in it which
+was just the wrong decision massive no thank
+you yeah having done that i'm like oh it's
+cool seeing you have so much fun with it you
+know it's worth it like yeah it's great it's
+really good and it's nice to present as well
+so thank you for the opportunity please do
+like a little page doc for us to like why
+not like you know like apply it ourselves we're
+learning a little bit more i'd love yeah
+well i mean if you so in principle the
+documentation is almost up to date so if you have a
+look at the link the link that i put in
+there uh that what i've had to make sure is
+that is that it gets to 100 000 it doesn't even
+fit in the gemini big contacts window now
+so so i'm starting to lose the ability to rock
+it in one go no matter what tool i use at
+the minute so the the documentation should be
+completely up to date and some of the some
+of the mermaid diagrams code have slipped
+behind a bit while the debug goes as i go
+along so if you want to dig into the the that
+container or the container that i've made with
+all of the different tools in it then those
+are the two links that i put up there so
+you can have a have a kick around and yeah
+just just do by all means do ask them in the
+discord and the whatsapp super john thank you
+really fascinating there was a bunch of folks
+working on different visualizations but
+uh that one is uh is fully integrated right
+with with everything else which is fascinating
+um uh nick i saw that you had your hand
+up there how are you nick i was just uh
+some applause for for john's effort there
+right thank you i haven't worked with uh personally
+i haven't worked much with obsidian
+yet so that being as a base uh that sort of
+grew out of that's yeah that's really fascinating
+we're past the hour and uh i could
+go for a few minutes yet if there's uh Some
+topics or, funny, I haven't heard anybody
+talk about GPT-5 yet. Do folks have
+some observations? Have you plugged
+them into your tool set? I just did
+something this morning. I asked it to create
+an app to compare terms of service and privacy
+terms for AI-based systems so when you log
+on and it says terms of service and privacy
+everybody just clicks through because it's
+too complicated to read and the tough things
+to watch for and what you ought to watch
+out for. It gave me back a useful app, but
+I didn't copy it and paste it in. Well, it
+supposedly paste it in. Yeah, I got an
+echo of some kind. Is that still going
+on? I'm going to mute some other
+folks, just make sure we're okay. Okay.
+Sorry, John, continue. And then I asked it
+to compare loom and i think firefly and it
+came out with some interesting stuff but i
+asked it to do it from its interface so i think
+it just went out and compared them kind of
+sequential sequentially as as prompts but
+i'll play with it a little bit more and
+maybe uh sell what i've got afterwards because
+i think these are the kind of apps that i'm
+interested in i'm not interested in getting
+any kind of certification at my age but i am
+interested in being helpful to people
+and i think in this organization, I come back
+to who are we serving? That's right. And
+if we're going to have a PhD level kind
+of a thing and go to a university
+model, I understand we all come from our
+backgrounds. I just don't know who that
+serves, except maybe some big tech
+companies, ultimately. And so it becomes a
+hiring and an employment agency, which I think
+for a lot of people is just not interesting
+at all. They want to get the information
+so that they can save time in their lives
+and be creative without having to learn coding.
+So I'll come back to my bandwagon, who
+do we serve and why? And another point that
+I'd like to raise, which is somewhat
+troublesome to me, and I'm not going to name
+names, is that there is some question about dues
+that have been paid. And people are
+wondering, where is that money? I would sure
+feel a whole lot better being involved
+in the organization if there were some
+accounting done of that. And rather
+quickly, I think if you're going to
+go to people and ask them to donate money
+as a nonprofit, and it comes out
+that you took money and nobody knows
+where it is, I think you got a credibility
+problem and you might have a much
+more serious problem. So I would make that
+priority number one. Absolutely. So there is
+a board of directors. We do have a treasurer.
+That treasurer is Brad Ross. We have a
+volunteer who manages all the accounting.
+That is Eric. He's a chartered accountant.
+The management meetings on Mondays at 12 o
+'clock are open. So all members are welcome to
+attend. And all board meetings are also open.
+And everyone is welcome to attend. So it's
+full transparency all the money is accounted
+for it's all set good good the whole
+thing is professionally structured wonderful
+yes and as we port to the new membership site
+um that's i mean the whole intention there
+is for all of us to be able to contribute to
+ensure that there's as much value coming
+in collectively because it's the it's the
+strength of the size of the membership that
+can contribute across all spectrums because i
+totally agree with you john i want uh i
+would love to have a browser extension that
+checks and and and highlights anything
+crazy in user agreements before i click yes if i
+have a quick way to scan all those things and
+compare them to best practices I think
+that's one of the really great, truly powerful
+aspects of artificial intelligence today is
+that it gives us the ability of transparency
+and accountability because we can pierce
+through these horrific documents written
+purposely to obfuscate, right? And all of
+that fades away and we can bring out
+those things that are really egregious,
+both in law and legislation and
+also in, you know, day-to-day consumer
+interactions where we don't realize
+we've signed away all of our data for the
+privilege of creating a document more
+comfortably. So I agree completely, John.
+I think you're on all notes. Your
+precision is excellent. Well, as soon as
+I got something working with Claude
+Flow or Claude itself, I'll come back and
+demonstrate it. Well, anecdotally, I booked
+a flight some time ago with not a first
+-year airline. And in their terms of service,
+they mentioned, or the contract of
+carriage, they did not guarantee that the
+plane was airworthy. I have no idea if
+there's any actual precedent or if
+that clause is even defensible. But I've
+noticed a number of operators are starting
+to use that kind of language, I assume,
+to avoid liability. That's crazy. So
+I agree, John, this sort of work
+is necessary. And it's always
+fun to see what other attempted
+carve-outs exist so we can make
+fun of them later. Well, there is the
+whole concept of lawfare, which
+is the oppression of peoples and
+democratic processes through contracts
+and agreements. I shared that in my
+community, a data center was going,
+three data centers were planned and actually
+had been approved. And all under the guise
+of NDAs, we weren't even allowed to
+know the name of the company that was behind
+it. And fortunately, it had to go to
+another entity for final approval. And
+the community just was up in arms when it
+came out. And that was defeated unanimously.
+So these are important, important
+processes that have to be. There's got to be a
+balance back between wealth and power and
+government and the person who is is
+being constrained. It just has to be. So
+that's what I'm up to. We appreciate
+it. Fantastic. your discussion gave
+me an idea for nolan you know nolan you
+showed us the um i forget the name the lovely
+cartoons right so if you find i think we
+can generate original content by taking these
+uh contract clauses like the carriage
+airworthiness etc and creating lovely lovely
+jokes and that's a great idea let's do it
+that'd be very nice we create a channel on this
+yeah everyone shares it and then like it's
+just fun and it's true it's like a like
+the political memes before the newspapers
+before it was like you know a fun message that
+everybody shared not too harsh but it was
+a theme that we all shared and that would
+probably be a nice like way to translate
+your your spirit of what you your your goal
+is which is very nice yeah one more thing
+i think based on what john mentioned it also
+gives me the idea because it help us in pushing
+our whole donation sponsorship thing so
+maybe I think we should consider showcasing
+like how and where like I know this is all
+that content and I have seen it but can we
+maybe create an app to make it really public
+so it's all the spending etc so we can use that
+as leverage to say we are doing it we
+want to do more of this and therefore we want
+this so it's like it becomes real like in
+terms of rather than explaining to the people
+because people ask me all the time like what
+is a gentix when i go and ask for sponsorship
+and all this stuff i think we can just push
+it out there and just do a community outreach
+through linkedin or whatever to do more
+of what we are already doing and show the
+evidence of how the funding has been used
+and what value it has created etc yeah i think
+that i mean i think well two things um
+absolutely so that's a conversation to have at
+the management level and at the board level and
+with council in terms of exactly how that's
+properly conducted. And then I think the
+emphasis really is on the foundation and all
+of us collectively to put our efforts into
+ensuring that that community.agentix.org
+site has a stream of populated value and
+everybody is, we have that structure is unfolding
+beyond just the lives the lives are i mean
+these are wonderful it's the heart of it
+we all get a chance to talk face to face um
+but as john was saying serving the public at
+large uh is also about non-technical non
+-engineering uh skill sets and coming into contact
+with the technology so non-technologists can
+unleash more creativity and insight so it's
+a it's a combination of the too, certainly.
+So again, just so everybody is aware, on
+Mondays at 12 noon is our general management
+meetings. In the evenings on Tuesday
+is when 8 p.m. Eastern Standard Time is when
+we meet primarily with Asian chapters and
+members that are in Japan, Malaysia, New Zealand,
+what have you. So to help orchestrate and
+support their efforts. But those are open and
+everybody is welcome and uh they're all
+recorded so there's um uh yep that's the spirit
+of the entire thing i have one one announcement
+to share broadly speaking so we have
+had confirmation i will do the formal
+logistic confirmation on monday that we i'm
+sorry can you turn your volume up a bit or a
+little closer to the mic is it any better now
+i'm on my phone sorry about it i just wanted
+to mentioned that we we have had confirmation
+as of yesterday that we would be speaking
+at the CISO London summit as a keynote
+and also probably conduct some workshops
+it's in October and event that Joe, Mark,
+Dirigik and I have been working on so that's
+now confirmed I and I am going to work on
+the logistics so again it's a security focused
+session I'm happy to say share the synopsis
+of what we are thinking of and if members
+have thoughts would like to contribute
+to that please do so obviously we'll acknowledge
+the contributions in those workshops and
+sessions and if anyone is attending around
+the uk area the cso london tlc summit um
+then please let me know we can coordinate efforts
+wonderful in october excellent thank you
+mandri well we're closing up on the hour
+any uh uh last i think folks are asking for
+the meeting links uh rob so if we can get
+oh yeah absolutely this is you know martin
+is the best one to share these because when
+i share them they're always difficult
+getting uh uh i had a question yeah um i
+remember it was mentioned about the nvidia maybe
+try to help the the agency with some gpu
+power is this something that will be happening
+or if it's happening how are we going to
+share that power to the community or is
+it i know it's a long project question but i
+think it was i haven't heard anything on it
+yet jose okay and i mean that would be that
+would be nirvana right yeah exactly we can
+get access to some you know that's the
+problem that's the problem with uh flow now i'm
+thinking in nirvana every day yeah that's
+right yeah um and certainly that's that
+that's the goal i know uh those conversations
+are ongoing so as soon as there's something
+concrete or tangible then for sure all
+righty thanks yep so i just i just shared
+the zoom link for the mondays at 12 because
+the calendar link is through the eugenics
+.org calendar you got to subscribe to that
+calendar right so you and you can subscribe to
+that calendar but by the time we get through
+those nuances you're squarely in martin's
+domain not mine right my day's 12 o'clock
+eastern standard time all righty
+everybody uh so jed your asteroids
+game still playing well done i already
+took it down but did you zero shot it was
+a one shot i had to write the prompt but oh
+yeah created the game it was a browser
+browser-based game work with my keyboard i
+could probably prompted to work using your
+phone's accelerometer so instead of swiping
+on your phone you have to rotate the
+whole device um it might be fun i don't know
+if that's worthwhile sure but i think
+we'll close up in the next three minutes
+or so unless someone has any questions
+and then move over to the discord if
+anyone wants to follow up on those
+conversations isn't there yeah very good it was
+very fun everybody thank you everybody
+for hanging out have a good rest
+everyone take care okay guys
+good weekend bye

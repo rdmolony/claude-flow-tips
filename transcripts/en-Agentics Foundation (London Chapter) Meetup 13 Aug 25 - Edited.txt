@@ -1,0 +1,1743 @@
+I'm sorry, I have to set up the live stream. Just a minute. Yeah, that's
+okay. How are you? Yeah, I can see
+it's working. So this is
+recording to Zoom. Just give me a
+Zoom. Okay. Yeah, Zoom, and I share
+the Zoom screen. Nothing else. Lovely. I can't see you,
+though. I can only see myself.
+I don't know why. Yeah, I'm going to. No worries. Just a minute. I have also created
+a PRD. so we'll see what fun we have
+today trying to translate that interaction
+yeah let me i have to search for the
+the zoom window on on my yeah on
+lbs and i can't find it oh yeah i can see nice and now i start the streaming okay linkedin because they
+don't give you the key you know
+the stream key just 10 minutes
+before the event and another one
+for YouTube let me go to the studio need to switch the
+accounts first the UK chapter
+account because I set it up yesterday with my channels live coming so this goes to
+linked linkedin as well is that right
+yeah nice one it's connected
+to the agentics foundation linkedin
+or your your linkedin on the agent examination
+very nice okay okay stream url and the stream key is
+oh okay copy what what can i do with the
+stream key i can just put it on my oh it's
+uh oh you are you are streaming okay lovely
+actually yeah and the OBS okay we have had
+50 uh confirmation people have confirmed
+right so hopefully we should have some a
+reasonable audience starting in so we'll see
+well I will just message on the group as well
+that we are on it. Hi. Oh, not sure. I can only see Benz and I on
+the Zoom call. Let me cross-check. Well, Dennis is
+saying he's on a wrong place, so I will
+copy-paste the link from here and then
+paste it onto the main chat right uh did
+you set up a teams call by any chance
+this is where we are so i uh so denis
+uh oh did was there a teams invite in
+the invite in this setup let us let
+Let me cross check. Zoom. Let us cross.
+So, everybody is seeing you now. You are live. Am I? Hello. Yeah. No, I'm basically
+referring to Denis. He's put on the chat that he got given
+a Teams call. So I have pasted the
+Zoom call on the chat. I gave him the Zoom call. All right. Lovely. Let me go back
+to LinkedIn. I think the LinkedIn, yeah, okay, you're doing that. LinkedIn is starting now. Lovely. I don't think
+anyone should get confused with the
+Teams because there's nothing about Teams
+on the invite. On the main Luma
+page, there's nothing about
+Teams. There's Zoom there.
+It's very clear. And the link for Zoom
+is not mentioned in the Luma link. I'm just
+wondering if that may be confusing, but you
+have sent it via email to all the attendees,
+I'm presuming. Yeah, as a blast, it's in
+the invite and also the Google invite has been
+sent. But now I don't know how many people
+can hear us because I don't know how to.
+It's totally forgotten. Okay, currently on
+Zoom. So shall we just make a start?
+Because I don't think anyone is, it's you
+and I on the Zoom call. I need to admit
+people because I made it very
+secure, I guess. Okay. Let's see. I can't see. Uh-huh. Eight people. Admit. Yeah, we see our members
+joining in. Hello. Hi, Chris. Hi, James. Yeah. Yeah. we were just getting
+our logistics organized as you would
+expect on the first event so um we should
+get hi hey ravi great to see you it's
+about 4 a.m for you 5 30 now 5 30 for you
+in the morning yeah eastern oh you raised
+the stakes for the event now dialing
+in from new zealand lovely great to see
+you hi denis hello all right 6 30 here so
+it's pretty civilized. Where are you, Chris? I missed that.
+Hello. Sorry. I'm good. Busy, which is why
+you've hardly seen me. Right. Given that this is
+our first session, so thank you all for
+making the time today. I think we are being
+streamed on LinkedIn and YouTube. I
+think Ben has kindly set that up, but
+just for information. And the intent here
+is for us to get to know each other
+better, I guess, at this level, at
+the London level. And because I'm not
+sure, I can see, I mean, almost all
+of you probably, I saw Armand and
+Connor and Jim, Marcus, Max, Peter, So we may have
+met, so apologies if I am unable
+to, because I'm not able to
+see everyone. So there is, I just
+thought that we'll start with kind of a
+series of questions to say, like, what
+is the maturity level of what do we want
+out of this goal? And then effectively
+get some feedback loop at the end
+of the hour or 56 minutes now to say
+what value we have gone from this session
+and in the future. So I'm going to just
+walk the talk very quickly. I just want
+to see how many of us do not know about
+AgentX Foundation or Claude-flow? Is
+there anyone here who does not know? Is
+this their first call? Hi, Max. Right, you are on
+mute. But to be honest with you, I
+will just take two minutes just to
+lay the, I guess, kind of cover the
+overall ground. And then we've got an agenda
+that I will pass over to bens to kind of
+socialize but uh i can't share so bens i have
+to request you i think to share my screen
+so i have sent you a request yes now i
+can share so i am going to share my screen
+so it is a build session so we're going
+to build right but before we go into that
+uh if i could kindly request you to please
+um answer the first three questions on the
+mentee uh meter thing and And meanwhile,
+I will just try to spend a minute talking
+about Agentix Foundation for those of us who
+may not know much about this. So we are
+the London chapter of a nonprofit organization
+called Agentix Foundation. That's
+the website. The whole intent here is that
+we want to break down barriers to understanding
+and adopting AI. Our mission remains
+education first. We want to foster innovation
+and basically want to build a community
+with yourselves, which will help drive social
+impact. but more importantly probably
+hopefully every member will be able to know at
+least 10 other members well and will form a
+network and as members we'll be able to drive
+change and also monetize it in suitable measure
+so the intent is to enable that right
+as a democratic organization it's a
+meritocracy so anyone has great ideas please kind of
+just mention and you can jump on the
+bandwagon we got a lot of materials things like
+video.agentix.org i would totally recommend
+if anyone has not seen it ask any questions
+from the last two years of video you could
+learn a lot about agentics from this
+particular application itself so video.agentics.org
+then we have forming a community which is
+community.agentics.org we are trying to
+do lots of training accreditation here it's
+a work in progress but again feel free to
+register have a look if you want to contribute
+please contribute and last but not least this
+is the london chapter membership form which
+i need to find a way of putting on the chat
+which I seem to be struggling at the moment
+so I'll do it later on and we are just
+trying to get to know the members better at
+an individual level our intent is that we
+should know at least 10 other members pretty
+well at a personal level so we can form a community
+which is credible so please fill up
+and if you would like to be featured in our
+member space so we have recently launched
+our London chapter page some of the members
+wanted to be featured. So they are featured
+here. So if you'd like to be featured, you
+are please welcome to fill up the form and
+indicate your consent. On that note, I will
+pause and hand over to Ben. Basically,
+Ben, probably you want to talk about the agenda
+for today, and then we can get started
+with more fun stuff. All right. Thanks,
+Mondri. The problem is that the voice
+on the live stream is not going out
+maybe it's just mine can be heard but um
+yeah this is why it is you know we are
+doing the first time okay okay yeah so the
+zoom is a problem over to you yeah so um the
+agenda uh let's see um so we have already
+the uh over the first point the introduction
+and we're gonna build something with um
+ruben's uh close flow um library so it will be
+i can hear my my voice sorry through youtube
+and i can't mute it anyway um i'm trying
+to to you know speak clearly that um we're
+gonna start some agentic um app builds uh and
+while we are presenting um we we got you know
+the swarm will build uh these these applications
+in the background and then the end up
+to 60 or 50 minutes we go back and we're
+gonna uh check what the swarms did for us
+completely automatic so feel free to um give
+us a nudge how what do you want to build
+we have ideas uh what to build actually
+so we are prepared because if somebody has
+an idea what kind of application to build
+uh please reach out i mean on a chat or voice
+please tell us some ideas and And then
+we've got two guests. Dinis will present
+a fantastic system. And maybe Rocky
+will be presenting his pretty
+innovative idea, a five-year business
+plan, completely built by CloudCode,
+which usually costs about 10,
+20, 20,000 pounds. CloudCode built
+it for free, and it's much better
+quality than an average consultancy which
+have done it. And in the end, as I
+said, we can have some really free conversations
+and questions. So it will be a
+little bit complicated at some point, but always interrupt us on
+the chat window if you don't understand
+the processes. And we're going to have
+a look at getting rid of a little bit of
+cloud code anthropic models and but we stay
+inside anthropic and um we're gonna use gbt5
+we're gonna we can use um open source models
+anything which open router and requests the
+offers so it's pretty exciting on that note
+uh i will go headlong into it but i just
+wanted to um just again briefly share my screen
+and say that it seems like most of us have
+experienced i think you can still you can see
+my screen now probably again so looks like
+almost everyone probably have a level of
+understanding of agentics ai and world flow which
+is great so it has it will be exciting
+and interactive if you could also please kind
+of fill up the other two is that what do you
+want to achieve at the end of the remaining
+50 or 49 minutes and also effectively any
+ideas anyone has what do you want to build we
+have got ideas we're going to kick off but
+if you have some ideas we will help you get
+started as well if you have not done that before
+so please fill this up at the moment he
+says please wait for the presenter to change
+slides so i don't see i only i only saw that
+first question on the mentee on the mentee
+on the mentee stuff yeah yeah so what about
+now do you see it now i have gone to the
+second slide now uh i'm learning yeah i'm learning
+as well so apologies um if it doesn't work
+we're not gonna waste time here i think
+whilst we wait for your responses feel free to
+put it on the uh zoom chat as well like what
+you want to achieve by the end of today's
+session and also if you have any ideas to build
+today put it on the chat if mentee is not
+working but at this note maybe once we hand
+over to denis for the first member spotlight
+denis probably would five ten minutes be
+okay with you yeah yeah as long as you can
+give me um all right so um yeah let me just
+quickly put it my slides right and um and and
+basically uh what i kind of want to just
+quickly talk about right is i did this presentation
+recently there's the videos online for
+a bit longer um and uh and basically is you
+know again like you know like i i'm actually
+i call it like i want to talk about mcp
+security right because i think you know it's an
+important topic right although you know i i
+am full on here right i'm basically if you
+guys can see my slides right you can see the
+slides uh yes we can see there's a different
+tab which we have to click for those who are
+not familiar but yes we can see yeah you
+can see the four setups right stuff yes yeah so
+basically very quickly i came from a developer
+background from the spectrum generation
+and amiga i've i've done security i was a cso
+up until very recently and i'm i'm full into
+gen ai now i'm working on four startups
+everything i do is open source i'm building a
+bunch of open source projects which i you
+know maybe i should cover that next time because
+i think they provide a lot of foundations
+and uh and this is the stuff i've been
+working on cyber boardroom my feeds and two style
+startups which i'll cover a bit later on
+you know other topics uh what i what i want
+to talk quickly about is by the way everything
+i i'm going to say here it looks like i i'm
+basically maybe putting a bit down on on mcp
+but actually i think mcp is pretty cool
+very amazing in fact there's a lot of
+capabilities and um you know but it's a pretty crazy
+thing right and uh and i want to look very
+quickly about this mcp is an api you guys
+know this right and i i when i was doing this
+i kind of come up with this interesting
+analysis which is i think mcp is what the swagger
+guys these guys here should remember that
+and for the old enough remember the wsdl right
+yeah uh if they saw this amazing presentation
+by brett victor which i highly recommend
+and brett victor is amazing right you know
+not just inventing on principle this is great
+presentation where he talks about api should
+negotiate and talk to each other which is
+kind of what we want so let's so they basically
+ask these questions hey what if the api
+was dynamic and fluid what if the clients
+were able to dynamically load the apis what if
+the server was able to communicate back and
+forward what if the api was able to change
+definition and this is all great right and
+amazing features from a development point of
+view but i think on on on the asian world this
+can be quite dangerous and i still feel that
+there's a there's a space for agents in
+the swarm world i think ruben you guys are
+doing but more in a real world right at least
+some of the practices some of the activities
+you want not to say that the swarms are not
+real world but in others i actually don't think
+we want agents the way you describe it
+right now i think we need much more contained
+very well mapped agents that actually it'll
+perform very specific workflows right especially
+because now we're dealing with this kind
+of stuff right and then they really didn't
+ask what can go wrong with this right so
+very quickly mcp allows you to have this client
+server host you guys know this stuff the
+client asks what you want to do the server can
+communicate but also the server can talk
+back to the client which i thought the more i
+looked at this the more i was going like man
+this is so ripe for ***** that's not funny
+right um the client literally can ask what
+you support which is great which by the way
+this is the first blind spot right because you
+can do all sorts of injections already here
+and then the server tells this what i want
+and you talk to each other and then but
+there's also this very interesting uh server
+to client communications which i think is very
+very dangerous right again very powerful
+right but you need to be aware of this because
+again you want to make sure that your systems
+survive the real world and don't get exploited
+left right and center right which they're
+starting to be by now right so this is one
+of the things that is very interesting but
+it's also ridiculously dangerous and i actually
+think there's a lot of interesting innovation
+to be done here which is just even in
+the first step of how do you know which
+tool to call right and because you know you
+cannot give it to all all the tools but that
+doesn't really scale so this is the first part
+And by the way, there's strings everywhere,
+right? And, you know, these days I ban strings
+from my code base, right? So you can see
+you mix all this stuff. Basically, you got
+this, you got that, you got that. And in
+a way, the point of an agent is to be able to
+do all these things, right? The problem is
+that there's prompt injection left, right,
+and center here, right? And then there's
+resources and prompts. This is
+just a way to then go, hey, can you
+do a query for me? And then there's these
+really powerful but crazy dangerous features,
+which is the server can actually talk back
+to the client, right? Can you LLM this for
+me? can you ask the user this or can you log
+this at your end right all of them are you know
+dangerous situations right again you need
+if you're aware of it then you you can
+protect against it right yeah what can go wrong
+with this stuff right um but then you know
+this is just some workflows you guys on
+your talk you know this you know that right what
+i think is interesting is this right and what
+i was just showing here was that the
+idea of a request and sometimes i think we
+miss a little bit this on some of the conversations
+is that the prompt contains everything
+right and sometimes this gets a bit hidden but
+your prompt usually when you get sent contains
+the first question the second and the
+third and the fourth and the fifth although yes
+this can be exponential he does so the way
+the other lamps does they compress some of
+this stuff right so after a while you get
+some compression going on but your prompt still
+has all the stuff on it or a lot of it and
+this is part of the problem when you look
+at MCPs because the problem is strings right
+and by the way I would I ban strings now for
+my code base and i recommend you guys to
+kind of do the same thing right because a string
+is a freaking gigantic thing right of four
+gigabytes or more right of all sorts of
+characters right so i use stuff like this in my
+python code which is strongly type strings
+so a more accurate view is this so everything
+right here is potential injection right and
+then when you look at mcp world what happens
+is the host goes to the servers and going
+hey dude what you got we got a list of stuff
+right and then they get all these lists of
+tools so basically if you look at this loop
+this is just the mcp host booting up and
+then get a nice list of the tools and then
+which is basically they can handle these flows
+and then this is what happens right you get
+an instruction that basically the host then
+goes and figure out what to do this is again is
+very dangerous picks the right tool makes
+the call and then figure out are we done
+yet loops and loops and doves and there's
+these things right the problem with this right
+is every one of these places a place for prompt
+injection and i mean if you have seen
+recently people have been putting prompt injections
+in all sorts of places google docs dns
+records web pages you know responses all sorts
+of places right so i think this is really
+interesting the problem is that we need really
+need to beef up our infrastructure right
+in order so that this is not a problem right
+because uh yeah there's some exploit parts
+here which is i call this can you can you
+llm for this so you can uh this is the server
+to the client right you can attack uh you can
+attack the user directly because you can ask
+the user questions again very dangerous
+and can you in inject logs into the client
+stuff which is again you know another place for
+indirect in fact this could even have prompt
+injections on the admin interface which
+is very powerful right and and this is the
+crazy feature right the llms can actually change
+the definition on the fly which basically
+means that if you don't log everything like i
+was mentioned a second you have no idea to
+even be able to reverse engineer what the ****
+just happened right after after the fact
+right so the problem to defend is and this
+is what i think there needs be a lot of
+innovation and i actually think each of these is
+a it could be a separate company or it could
+actually be an api workflow and i actually
+think that even the swarms you know they
+handle some of this but i think we need to way
+improve these capabilities which is we need to
+log everything post data we really don't
+have good identity access management for our
+agents we really need better identities we
+don't have solution for projection os has massive
+gaps most databases don't have integrity
+and transaction and that's a show left
+front and center and we still don't know how it
+works apart from that right it's what can
+go wrong right um but that's what i think i
+really want you guys to think about and and the
+way i handle this is using semantic graphs
+and creating state flows and and basically
+in a way limit a lot what the lm can do and
+in a way what i like about the swarm stuff
+is i like this idea of evolving going very
+wide and then going very slow right very small
+i like this idea that you can start with
+very wide LLMs that show you the art of the
+possible and then you experiment experiment
+and then you start to have smaller models
+some of the stuff that again Ruben is doing
+with custom models like unique temporary there
+are interesting but I like my models to
+be all customized and eventually you might
+even arrive at code that does that or you
+have very limited places where you use the
+LLMs so that's kind of my approach right it's
+about making stuff deterministic and some
+of these things you know you just can't control
+at the moment and I still feel that the
+way we should really be controlling a lot
+of this is through identity access management
+so that you almost have real-time identities
+real-time privileges so that even when the
+stuff goes over the place the actual agents
+cannot do this and i think we get this
+right and the agents will be a lot more
+successful because there's a lot less areas for
+damage and that's kind of it right it's all
+nice you know let's accelerate thank you
+dennis i think great i think i'm basically
+um look requesting the members if you have any
+questions on what we have heard please feel
+free to drop them on the chat i guess what
+we'll do is that we'll quickly move on to
+the build before we go to the next member
+spotlight and then there have been a number
+of great ideas on the chat so you could
+follow along um in the interest of time what
+i'm proposing and am i okay to share my screen
+again yeah you are you are showing a screen
+now am i showing my screen okay it's a
+bit confusing what is happening here are you
+okay i can't see your screen you can see my
+screen you can see my i can't it's nothing
+uh i can london agenda doesn't be there all
+right yeah yeah sorry so i was driving my son
+to his tuition lessons this morning and i
+realized that i went too much in a hurry
+and i did not set up my navigation on my tesla
+right and then what happened by the time
+i set up the direction i realized i was
+already on a route that had a lot of traffic so
+i waited in the traffic for 20 minutes so i
+said and i thought like i was thinking
+like what do we build today so i said well
+maybe this is a good use case so could we have
+an app that i could just specify the
+destination as i get ready to leave home and it
+goes about and looks at traffic information
+from public sources and recommends the route
+i should avoid right so i said you can mock
+up data maps traffic geolocations just help
+me demonstrate this idea in the spirit of
+building is the new talking motor which
+i'm trying to kind of socialize and that we've
+got this session today i want a prd but this
+is ravi back to your question how i approach
+it that will help me use the ai system
+to create a realistic application so i just
+use gemini here right so as we say created
+a plan and i have a prd here which talks
+about interestingly uh it gives the problem
+like unpredictability of the familiar journey
+uh lots of stuff i will open source this
+so you can have a look and interestingly it
+also creates a vision i mean which is expected
+but it creates some persona which is
+interesting i never asked it to create a persona
+which is basically alex tech savvy parent
+um you know basically chloe the hybrid
+professionals lots of frustrations about last
+mile problem etc etc and then tuition run it
+picked that up so what i've now done and
+is just a very quick question i've got two
+instances here just to show you how to get set
+up i have set up one properly which is um
+does anyone not know here how to set up
+Claude Flow and Claude, is there anyone here
+who doesn't know that? I could see in
+the comments that there was a couple
+of people who don't know. I think it
+would be great to. Okay, we will do
+that. We will time box that to three
+minutes to show that. So first and
+foremost, guys, go to Google and search
+for Claude Flow. You will come to
+this code base here. I'm presuming
+everyone here has used GitHub
+or Codespaces, or is there
+anyone who hasn't used GitHub
+and Codespaces? Assuming, if you
+haven't, just reach out to us. We will
+show you later on. But assuming you
+have, I have created a Codespace here,
+which is, this is the proper one. This is
+the improper one. I am going to, I'm
+on the Codespace here on the
+main directory. And so basically it's
+a temporary cloud infrastructure. I'm going
+to copy this command. What I'm doing is that
+I'm asking, cloud code from entropic to be
+installed in my code spaces one thing to call
+out it is preferable you can use cloud code
+on your local laptop but there is something
+called cloud flow which especially if
+you're using swarms you should not use on your
+local laptop it's not recommended you can but
+it's not recommended because we as i think
+denis was saying we still don't fully understand
+how some of this works and they are they
+can go against your instructions so it could
+damage your laptop so preferable to do it in
+a safe location which is a code space which
+you can throw away yeah i will remove
+preferable from that word now now please don't
+be alarmed when i say dangerously
+skip permissions it basically i don't want
+to keep pressing the yes button all the
+time it's okay it's a temporary space
+so i'm going to just say Claude. I've
+installed Claude code here and I'm going
+to invoke Claude now. So it's installed on
+my code space here. When I do that, something
+will pop up saying, how do you want your
+interface to look like? I'm just going
+to select default and it says Claude account
+with subscription. I do have an account
+where you can use your API billing, one of
+these two options. I'm just going to go for
+that. Now, the thing is that I'm logged in
+as my personal email address and my my
+account is on my um other gmail account which
+is my company account right so there's a
+problem when i copy paste it goes to localhost
+and it doesn't work which you'll see it
+goes it happens i don't know why this happened
+so i close the window and i go back to my
+uh main one and i copy that again and if
+someone can help me why this happens i would
+be grateful because i don't understand why
+this happens sometimes it doesn't work for
+three four times then it starts working
+sometimes it works in two times it just worked
+you see and i don't understand why this
+works so i just copy paste on software
+development that these are the mysteries yes and
+i press that so i'm logged into my
+subscription and i press enter and i said what
+can is general warning fine no problem use
+recommended settings and i said because
+you remember i said dangerously skip
+permissions is confirming. I said,
+no problem, I'm happy. There it is.
+Now I'm going to open another
+terminal here and all I'm going to do
+is copy-paste. I'm going to
+install the latest version of Roof's
+Claude-flow. I'm going there and
+I'm pasting that and running it. Now
+you will see lots of files are going to
+get created on the left-hand side. Okay
+to proceed? Yes. What this is doing,
+what Claude-flow really is, again is it's got
+some commands to make lots of agents spawn
+and do work in a very coordinated fashion
+and you can please feel free i have created a
+tutorial on it if anyone is interested it's
+work in progress so please provide feedback
+and help improve it if you go to my repository
+which is github.com mondry spark evolution
+just go through the readme file is broadly
+up to date So there are some courses I
+have tried to create by interrogating the
+repository of Claude-flow. So please have a
+look, tell me it is good. If you
+are better than me, because I'm learning
+as well, help me improve it. So
+that's the ask. Now you see all these
+files have been, I don't need this
+one. So this is the proper one that
+I had. This is the improper one I said,
+but you see all of these new files
+got created here. Yeah, this is how
+we get started. from here on we can
+actually um we'll create something so before i
+go to that what i had also done is you know
+the deep research we did i converted that
+into an md file and that md file is here
+and what i'm doing here is i'm saying i want
+to build an application live along the lines
+of the requirements in that document so use
+the at the rate symbol like here if you i
+can't go up i can just show you probably very
+quickly by going down there again sorry
+if i'm repeating i'm just trying to keep it
+very basic because some people may not have
+seen it so what did i do oh yeah that's fine
+so if i remove that you see when i use at
+and i say prd it detects that and i say just
+press enter we have around 40 minutes to
+complete the exercise it is meant to educate
+and at the same time build something that
+is realistic and can be trialed or assessed
+using my laptop here what should i use the
+reason i ask that question is for a reason is
+that if you go back to the cloud flow there
+are two ways we can do things one is called
+the swarm mode the other one is the hive
+mind command which means you have a queen agent
+which coordinates in hive mind for more
+complex issues so i'm saying you know what
+i'm just going to ask you what i'm lazy and
+i'm going to just ask Claude, what should I
+do? So you said, you just synthesize test
+-driven development approach. So again,
+test-driven development approach, I think those
+of us who have been developing, I think we
+all know developers in the past or currently,
+the TDD is recommended. There are two schools,
+the London School and Detroit School, as
+I learned from Roof. The London School
+means you write all test cases
+first before you write a single
+line of code. Sometimes it doesn't
+work here. That needs to be investigated.
+Why? But there is a file called cloud.md
+here so this cloud.md file you can modify
+i'm just using the out of the box file and
+this is the basically secret sauce this
+tells ai how it should work so the rules are
+defined here there is another course
+that i had shown you before which actually
+explains to you about cloud flow so you
+can go through this course and kind of get
+and give feedback now all i'm going to do is
+press the enter button now saying i would also
+want you to document yeah I also said you
+should synthesize etc etc I would also
+want you to document how the different agents
+work together to build the product that is
+necessary so the audience can look at the file
+and understand the process better later
+on right so if I press enter here and I agree
+up here we will wait let's see what it is
+this combobulating I don't know what that
+means and we'll give five minutes and then
+we will switch across to the next member
+spotlight it'll build on its own but i want to
+get the process started with yourself it says
+i will use a swarm approach as it is more
+suitable for rapid coordinated development
+with clear agent roles so now it is going to
+create a comprehensive development plan using
+multiple specialized agents working in
+parallel so we'll give it another few minutes
+so that's the to-do list that's the plan you
+see that's it'll create a topology whether is
+hierarchical or star or circular is a
+ring i think that is called it will determine
+so it's going to initialize a swarm with
+specialized agents and set up the project
+structure so it's doing the work and the reason
+this is happening on its own is i said
+dangerously skip permissions otherwise i would
+have to keep pressing the yes button every
+time i'm not doing that one of the things i
+think is important to to clarify here right
+is that and this is where i use the worldly
+maps reference right of explorers villages
+and town planners what i think is super
+amazing on this approach is that this is about
+exploring the art of the possible right this
+is not about creating a production ready
+material this is not what town planners does
+right this is in the early days of genesis
+and custom build what we can now do is use
+this experiment let these swarms go out
+experiment do all sorts of stuff so in the end
+you get a really good solid solution and
+i think that's when you then once you have
+that solution that's when you should you
+need to hand over to another workflow where
+then is about locking down that functionality
+so in a weird way here is where we can afford
+to be highly insecure highly experimental
+failure here is is a feature of this
+solution right and the swarms just allow that
+to occur in a much more interesting and
+effective and iterative way that's excellent
+i think that's a great product idea actually
+that you just said denis is this is like
+proper adoption of this into into an enterprise
+system right so like my ideation to yeah
+and if you guys read about the worldly maps
+what's interesting about and simon worldly
+is amazing guy but he he does definitely
+have these interesting concepts of you do need
+to hand over because they are different
+focus right and i think one of the problems
+we're having at the moment with a lot of
+these conversations is is both ends are good
+but they're looking at the formula wrong side
+the this allows us to create very effective
+solutions but this is not the production
+stuff on the other hand the production stuff
+right you know we'll look at this and going
+that's not how you create things you go
+no but this is how you then hand over right
+to the next generation right not generation
+next sort of individual or group who will then
+really lock this down and make into a product
+and eventually make into a commodity right
+excellent so what we're going to do is
+that it is going to work so instead of looking
+at the screen i guess again i guess if
+bence you can stop my screen share maybe we
+move to yourself for the next spotlight is rocky
+here just checking rocky are you here uh
+i will message yeah yeah i'm here yeah i'm
+here oh rocky uh do you want to go for
+between you and bands whoever wants to go
+first i guess um i don't mind really i don't
+think i'll take that long i've got a problem
+with this live stream it's it's frozen uh so
+the the obs software what we are looking
+at now for the first time is not working
+at all it's okay we are recording this
+anyways right this is recorded isn't it so
+we will do something about it let's not
+bother with that i think the people who
+are here that's great so rocky over to you
+okay one second uh let me just give a 30
+second introduction about what you are so
+dinner sorry we didn't ask you could you
+give a 15 second introduction of you know
+i think you did right at the beginning you
+did yeah yeah yeah i've been around
+doing a bunch of gen i startups and everything
+i do is open source so happy to help
+and contribute okay yeah well what are
+you rocky yeah so hi guys so quick one you
+show this recording it doesn't zoom doesn't
+say it's recording no it i said on
+my side it says it says recording all
+right yeah it says yeah i hope so all right
+cool all right good shall i get going
+yes please rocky right okay hi i'm
+joining you from the beach right now oh
+no this is like a zoom sort of uh i
+don't know how to turn it off i don't
+usually use zoom um i'm actually in
+the car right now so it's better than
+that view i suppose so yeah i introduced
+myself i've i'm ceo of a company called kaipe
+ability i just started this company last year
+and i'm sort of into advanced manufacturing
+and for people who don't really know around
+advanced manufacturing is cyber physical
+systems in manufacturing is how i kind of
+describe it so when you see things like 3d printing
+multi-axis machining 3d inspection inspection
+metrology digital twins robotics ai and
+shop floor you name it it's about the
+synthesis of all this technology together in
+order to create to create value human value right
+and symbolic value but I started my own
+company last year to sort of to focus on the
+trend of reshoring the fact that we struggle
+as human societies to really translate
+technology from R&D into commercial viability
+and scale up right what people call it different
+sort of industries use different terminology
+I call it the valley of depth and yeah and
+then I got involved with the agentics
+foundation through roof and that was in january
+i think i don't know how i managed to get
+involved i used to do some beta testing for
+open ai i was asked to be a business fellow
+for perplexity last year so maybe just through
+some linkedin chat i saw him followed him
+joined the brigade in january february time
+so that's sort of my involvement with the
+sort of program i suppose is that good enough
+for you mandeep for an intro perfect perfect
+rocky you've got to keep me in check you
+know i'm going to then put my timer on you have
+got well we'll got 10 minutes i mean i hope
+you i think we'll go over a little bit if
+uh if you know feel free to drop off but
+i'll stay back but we'll not rush it right we
+have first time so over to you rocky yeah well
+i'll just share what i've been working
+on i didn't i don't really share much i'm
+not a sharer um on social media i'm old school
+i suppose sharing is caring rocky well a lot
+of my sharing is face to face through you
+know phone calls word of mouth sort of thing
+um i'm not really on facebook instagram
+twitter or anything like that x so i tend not
+to sort of do that sort of stuff but i am
+getting more into the ai agentics through roof
+as well um sorry i'm on my perplexity one
+sec and i am interested in it because the main
+issues we're seeing around ai everyone has
+a view on ai my view is it's absolutely a
+game changer and it's not going away just to
+ask can everyone see rocky screen yeah the
+github one um yeah all right lovely yeah
+so i just started this last uh in january
+something my own github i'm not a coder as
+such i do basic sort of macro in excel i've
+never done python or anything i tried i tried
+to do python coding for my energy usage
+and that's about as far as i got so something
+like Claude code coming up upon us you know
+and manas has really been a game changer
+for me to sort of take from what's in my ideas
+and create prototypes but the Claude Flow
+idea it's really sort of sparked a lot of
+interest for me in that you know the ability to
+have different personas working together and
+checking each other's work is a really powerful
+tool I see absolutely the future being
+having a team if not individual AI agents
+within each team who either represent that
+team or you know interface with the wider
+organization so I think this is going to be a
+huge stepping stone in terms of that but but
+being a solopreneur you know I've gone from a
+corporate environment where you have a lot
+of feedback a lot of people in a lot of
+departments to engage with just to yourself so
+how do you sort of do this in the startup
+sort of sense and organization where you
+can't afford to hire a board of directors and you
+can't afford to have teams working on you
+and that's why I think agentics and AI with
+agents really is going to be a huge sort of
+a game changer for us. So the demo I just
+basically wanted to show you is like I said
+that the big issue is how do you take my idea
+and put it in front of a VC, put it in
+front of an investor, a bank you know a research
+organization and what it what they always
+ask for is a business plan right but with
+ai you get you get ideas every single
+day right in terms of business plans so to
+sort of curate and use a magentic swarm which
+can then act as your board and support you
+with a business case and a business proposal
+is actually quite a powerful tool i feel
+right and that's what i've kind of applied
+um the agentics form towards do you want me
+to go through sort of how or maybe at a
+very high level maybe rocky just to show
+like because what your linkedin post yesterday
+was really amazing so i think it'll be great
+to socialize that uh i mean maybe time
+limited to five minutes but give us a broad
+brush overview so my approach to the ai now
+is use every single tool that comes out the box
+and use it straight away and that's how
+i'm kind of learning so if you come on my
+pc i've got perplexity open i've got Claude
+open i've got chat gpt still running you know
+i've got google i've got like open router
+i literally have everything going on at
+the same time so whilst comet is filling in
+a form or doing some research for me on
+something i've got Claude running code i've got
+chat gpt working on something else or i'm
+typing questions to it and i've got perplexity
+doing lab reports for me so it's just like
+that's my team right now right and it's saving
+me full-time engineers so the way i kind of
+focused it for for this project was i saw
+a comment from Reuven it's always Reuven
+that triggers the ideas saying just ask ai um
+you know where do you see yourself in five
+years time right and and i say ai chat gpt
+and chat gpt has got an edge on other ais
+until just actually recently with claude and
+that seems to know you very very well through
+the fact that it kind of reads the entire
+history continuously and uses that as context
+so i typed that into chat gpt it says this
+is where i see your company going in five
+years time and it was just really sort of
+brilliant right in terms of how it kind of
+forecasts a journey for your own company so
+then I said okay let's work on this and create
+you know a multi-year plan we did that and
+then I said okay now I'm working with Claude
+Flow let's create a board pack using a swarm
+of agents to do that right for me in order
+to create that board pack so i got actually
+chat gpt where am i here we go to create
+basically my claude md file not necessarily
+roofs yet because i haven't got that far
+yet to use claude roofs claude flow and it took
+out everything that it knew about me and
+my company based on previous previous chats
+and transcripts and it basically created
+firstly what my mission statement my mission
+was for the Claude MD it created a board for
+me based on my chat history it took out it
+created files based on the source data of
+what it knew about my company doing its own
+due due diligence and I was very explicit
+saying there may be information that you don't
+actually have and this is where you have to
+now use rag and you have to go and use and
+find out the information using the swarm where
+there's gaps in the information and then
+it built my if you can read then it built my
+agentic swarm right which which were these
+personas so planner orchestrator financial
+monitor gtm enterprise architect strategist
+etc etc right so you copy you copy all that
+put it into your claude md file also put in
+your source data in terms of what my financials
+are of the company where i am as an
+individual where i think my business case is
+going what i'm trying to do you know etc etc
+which already chat gpt knew about me and then
+it overall created my business case
+for me and business proposal do you
+want to see a bit of that i mean
+yes yes please so i made it private
+because there's a lot of private
+information in you but it but what i've
+noticed about it is that i i was expecting
+it to fall over right and just have
+so much spurious data so much stuff that's
+just not relevant missing gaps in
+information i know rufe did a demo about some
+trading agents and then he was doing the
+demo and he was like opening folders and
+the folders were empty but i think because
+chat gpt supported me in terms of the md file
+and also the specific prompt to put into
+clode there was literally no folder and
+no part of the business case that was left
+untouched and checked over right and also
+it was ragged and you can see next time
+i'm going to ask for some extra traceability
+but it basically created an entire
+business case end-to-end for me right so
+executive summary market problem
+what's the solution what's my funding
+strategy what do i need to do based
+on where i am today what are the
+actual financial models you know so
+if i just open that you'd expect it
+to be empty but it's not it's all
+full it's full of actual relevant
+information realistic numbers you
+know it goes on and on and on right so you
+think okay well maybe there's something that's
+missing out what about an implementation
+roadmap and it's all there yeah what how do
+i go from 48k revenue which is where i am
+today on a single client to a growth path and
+step by step how to do that right and that's
+really massively powerful for someone like me
+right now let's make a small comment the
+thing that's ridiculously powerful about this is
+that when you create this you still review
+everything right you still read everything
+the difference the difference so in a way
+this is still your work this is still your
+words what you've done was you steer the ellen
+lambs to say here is the path you know there's
+50 different paths you can go that's the
+one i want to go and it just makes you
+ridiculously more effective right and also it has
+the advantage that now as you progress on
+your path you can just go to the LM and say
+hey can you just update this based on the
+latest stuff so the overhead of creating
+this is now ridiculously short yeah right and
+that's the key and also what i found is like
+you also have like no psychological dependency
+on the pain to create this which basically
+means that if somebody says hey can you do it
+like this and can you change it like this
+absolutely yeah you know like dude i just
+spent freaking a week right months and yeah
+put so much effort into it exactly right yeah
+that's the key i think that some people miss
+is the fact that you've decoupled almost like
+your ownership of this this is just a
+physical almost like one representation of your
+ideas that you will change and modify and
+slice without any emotional attachment to it
+absolutely really can i ask you question rocky
+there um what what what's interesting i
+want to think of where you started from where
+you said uh i believe you said that people
+can you don't you're an individual sitting in
+your car right now but you know you came
+from a corporation and and now you you can as
+an individual you know have much more leverage
+because you have ai essentially just to
+park absolutely so the thing i always used to
+say when i started the company and i seek
+them out through just people mentoring me is
+you'd lose that you do lose that kind of
+independent mentorship in the board right and
+you miss that you know that motivation of a
+board motivation of your peers to kind of say
+you need to deliver not just for yourself
+for the company right it's one thing to have
+your wife and kids saying when you're going to
+pay the mortgage but it doesn't really frame
+your business very well it just panics
+your business so to have sort of a board which
+is your own chosen board at the point actually
+of starting a company not waiting for 10
+years down the road where you can afford one
+is it's just massively powerful and do you
+think so looking at this at the screen right
+now i'm seeing hiring um i'm seeing a lot
+of things that to me actually are are anti um
+so so there's not anti but um anti-ai because
+it seems like have created you more of
+an old world business plan um do you think
+that's the case i'm only just reading the screen
+so i'm not yeah i think that i think
+organizations are going to exist they might just
+not be as big as they used to be because you
+just don't need that many no the size grows
+inefficiency so i don't think that i'm never
+you know i can't run look at i'm saying
+i'm running comet i'm running perplexity i'm
+running five different ais in one go that
+should be five people i can't you can't humanly
+do that unless you're an octopus right so i
+can't see myself not having specific roles
+and people running departments in the future
+yeah those departments just may be smaller i
+completely agree right i think what we'll see
+first of all i think we're need more
+developers not less right and also think that
+we will see a lot more smaller teams and and
+teams that have basically almost as an ability
+to operate at a level that today will be
+impossible right in the past speed yeah dude
+if you went to a team and you said like am
+i cyber teams right if i went to them and says
+hey guys before you do anything i want a
+risk assessment i want a pnl i want a project
+management i want structure i want
+documentation i want this this this this this they'll
+go f you right because they wouldn't do it
+right and they couldn't do it because they
+didn't have time now we can so i think our
+ability to create multidisciplinary teams
+and i completely relate to that that ability to
+bounce off ideas to multiple personas is
+absolutely amazing yeah i mean the thing i
+suppose just to bounce off that a bit is that my
+first involvement with generative ai was
+before chatbots and llm ai because i did we
+did a lot of generative design in ai for actually
+manufacturing and what happened was the
+opposite effect you think you're using an
+efficiency tool so you say hey all i need to
+do is give my software my requirements and
+it's going to generate the geometry for the
+product for me i mean how brilliant is that
+yeah so if i want to design a screwdriver you
+just give this functional requirements to the
+software it does all the fea it does all
+the material selection it does all the
+manufacturing method and it gives you a design but
+it doesn't give you one design right it gives
+you 30 to 50 designs yeah so now your problem
+has actually gone your bottlenecks has
+moved right to the human which says now i've got
+50 designs different manufacturing methods
+different cost models different materials
+different geometries now instead of validating
+and pushing one through my whole new
+product introduction process i could have
+30 products i need to validate in one go yeah
+but now we can experiment and i think that's
+the power the power is that what you can now
+do yeah is you can experiment those 30
+very fast with a low low cost and then find
+the one that actually takes to the next phase
+and then you could also experiment on that
+it's a change of it's a total change the
+game but the labor the labor goes up it just
+moves it moves the labor yeah but by the way
+the way i've done this which is so so you've
+done almost always like go and do me
+everything the way i've done this same business
+plan which I put on the links is I created
+voice memos of every area of the business
+plan and then I give it to ChatGPT and Claude
+and I created almost every document of the
+investor pack and only when I have every
+single document multiple iterations is I created
+the business plan so I found that by the
+time I got to make the business plan it was
+actually using my own ideas my own references
+on the marketing strategy the technology
+strategy the hiring the people etc the
+financials blah blah blah blah right and i found
+that quite an interesting way it's almost
+like you do a brain dump but on the end of
+every brain dump you have these ridiculous
+well-written documents really just it's just
+you know the world's your oyster so that's
+it i'm wondering thank you i think uh i
+i learned i think i'm gonna probably try
+trial this actually this is well if you want
+to go let me i'll help you out don't worry
+about it i'll show you how to do it because
+it's just relevant to me and and i'll
+show you how to set it up one thing i did
+notice actually which just sort of to allude
+to is i was actually at google with um tier
+bolt from voice ai and i think that's
+the next thing coming believe it or not so he
+they were demoing voice agents but having
+basically five or six in a room right and having
+conversation with multiple ais in
+parallel seamlessly yeah imagine that so like now
+now instead of uh the next phase will be i
+should be able to plug this straight into the
+voice ai agents and they will grill me and
+ask me questions yeah saying here's your
+checklist what where are you yeah where are
+you on your milestones what's happening what's
+your excuses for not doing stuff um and i
+think that's really coming very quickly you
+know by the way that's one of the problems
+i'm trying to solve the cyber boardroom which
+is talking to multiple personas but also to
+communicate upward sideways and downwards
+in you know with multiple personas and the
+persona is not just a person is the person
+the culture their role their task what they
+want to do right and i found some very powerful
+cases like you talk about where having a
+persona you want to present something and
+then seeing what would this persona react to
+my information yeah and suddenly you start to
+realize that if you want to communicate
+for example with board members or executives
+or your peers etc you need almost to have
+highly personalized focus message to each one
+and again now we scale that where in the past
+we didn't yeah and actually personas like
+that voice ai demos actually suit this sort
+of view because board in boards people don't
+say very much right so you do the talking
+first and then that's where it suits whereas
+i don't think you can get this cacophony
+of voices at the same time but then use semantic
+knowledge graphs to capture that yeah
+and that's how i get deterministic improvidence
+yeah yeah i think that's going to be the
+future yeah so hopefully that's enough for
+you yes thank you um again everyone please
+leave your questions comments on the chat uh
+we will act after the meeting uh let's let
+her look at what we are doing what's happening
+with our swarm so i am sharing my screen
+but it's not showing up here can others see
+my screen we're not sharing i think we're
+still seeing the previous screen you can switch
+the tab on zoom on oh they've introduced
+this new feature there is a there are tabs
+on the top of the zoom and rockies and yours
+you're right there you go yeah that's why i
+got confused and by the way benz i think in
+linkedin i saw it all people sees my top half
+of my face so maybe we are sharing the
+wrong pinning the wrong screen on the on the
+share i was aware i was aware of that this
+is a obs limitation i adjusted now so it's
+not cropped anymore okay but there was a lot of
+technical problem okay so okay no problem
+you have got so a lot of work still ongoing
+by the way it's not completed um so i will
+let it continue it's still working it's
+consumed 1.6k tokens at the moment um and what has
+it done uh last time looked there were a
+bit more information so obviously lots of
+files and testing just has been configured so
+the tdd has been applied i saw that before
+but it's disappeared now from the view so
+it's still working so we will let it work now
+over to you benz um um arno i noticed you
+haven't used code spaces before so towards the
+end of the call if we have time we'll quickly
+show you how to set up a code space so i
+made a note of that so then over to you
+yeah i've got a question how do you make these
+files off local again when you finish
+with code spaces because this is
+being deleted after a while,
+after a week or two. Which files? That swan click. So
+this is what I will do. Because I initiated
+it from within GitHub, the code
+space was started from within GitHub,
+I'm already connected to Git. So what
+I'm going to do, I've got a Git
+ignore file already. So I'm presuming it
+is, I'm just going to upload at the
+moment. It's nothing confidential. but
+obviously people have to check i'm
+going to add to git uh basically git
+commit uh checkpoint commit uh spelling
+wrong checkpoint commit um sorry git minus
+m right yep so i forgot about that yeah
+so basically the answer is you you push it
+to github right yeah and then get push so
+it is going over to git push here
+compressing done so here if we go into my git
+up there was nothing here before there
+should be something here now there we go
+right so now you can download actually so i'm
+going to stop sharing benz over to you
+all right thanks uh so i'm going to give a
+little bit of context uh if i find the
+share button now uh here that's yeah here
+we go and i'm gonna only share my terminal
+window so just we are very focused on
+that uh can you guys see it yes okay so love
+the old school green on black yeah I love
+that matrix kind of thing so I'm going to
+create a new directory sorry and if you've tried
+out cloud code it's working with anthropic
+models I show you now the list of
+models very important so I gave access to
+the to the folder so you type model slash
+model and you see that we've got opus which
+is a very expensive model so you have one
+or two hours a day and then it goes to
+sonnet but you can stick with sonnet if you
+want to save or if you want to consistency
+but what happens if you know entropic has
+a problem they've got a lot of problems
+and you know quality degradation in the last
+few weeks but you you might say that okay i
+want to try out some different models i
+want to see how gpt5 is doing how the
+chinese models and so on and that's that's where
+when you need to use start using some
+routers and routers are supported by by this
+system so entropic allows you to get rid
+of the factory models and and try something
+new so you say exit and you need to
+install we're going to share the link later
+and send to everybody all the participants
+and you it's an npm instruction so it's
+very easy to install one line and then
+you have a kind of a running, is it called
+library? I don't even know what the
+was the ACLI was the official term, but you
+can start this with CCR. This is called
+Claude code router. That's why CCR start. And it starts
+as a server. So at this point,
+when it's running, you need to open a new
+terminal window i hope it's still you can still
+see it um and you say no i think we're seeing the previous
+previous okay let me share the the new one and you say sorry i need to
+cheat a little bit ccr start
+sorry no claude code actually it
+has been recently changed from claude
+there was another instruction how
+to launch but now you can see that
+this is a different now so we are
+using the router the steps are the same
+so it welcomes us that cloud code uh it's
+running already but if you look at the model
+list the exactly the same step what we did
+before uh you will see uh different models
+uh some at you know i don't know why but it's
+it's not loading for me um they i spent like
+five hours today to to prepare this but
+uh it's not it's not showing up uh i don't
+know why but as a fifth or sixth option you
+can see the models here but I show you the
+method once you manage to set it up
+you say model again and you type in
+the provider it can be Gemini it can be
+DeepSeq and slash the version of the
+model so this is the format so I
+switch over to GPT-5 Let's see if
+I manage this. I think it's
+not working now. But the steps are
+exactly the same. It changes to GPT-5
+and it confirms that the model switch
+has been happening. And any time you
+can switch back. so let's say
+you invest one or two minutes
+to set this up you are able to
+use open source models, locally
+run models you can download the GPT
+OSS and run it via LMStudio or OLAMA
+and so on if you have a heavy laptop or
+advanced machine so you are not tied
+to entropic anymore so that's the cloud
+code router and you can it's in beta but
+requestee supports this as well so you
+can choose whether you use open router
+or requestee as a vendor as a wholesaler
+and then you can follow all the logs
+you can follow your consumption, you can
+save a lot of money with this and you have
+the possibility to use the Chinese models.
+Gwen from Alibaba. So Benz, quick
+question here. So if we do
+have one of the Cloud Code subscriptions, we'll obviously use
+a normal way, right? Which is the one I
+showed. But obviously you're saying if we
+have an issue and we'll use the other models,
+so this is the switch. But you use Cloud
+Code there as well. I was not sure
+I fully... I didn't manage to
+start properly this system. I
+practiced all day, but this is the typical. But I'll show you
+what I mean on... We'll do a follow
+-up. We'll do a follow-up, maybe a
+quick snippet later on and then share
+with the audience. Yeah, so this is what I wanted to just finally show you just
+a little bit. Can you see my requestee? Yes. tab so if you
+set up this router via requestee
+then you see the exact balance you
+can see the library so you can choose
+from 419 models and of course you
+can use the entropic ones but it doesn't
+make sense because you have already a
+subscription to cloud code but you wouldn't
+want to do this, so it's better to
+use the most advanced models that are available through Requesti,
+the GPT-5, the open source
+OSS, and the Chinese ones, which is very
+practical, as just the last sentence, that
+you can see the logs and what's
+happening under the hood. Every input that
+you do, it's logged and you can see the
+cost of it and you can see the the the
+system prompt how the system creates
+your um your input so this is something
+for the technical thank you bence uh
+again questions please put on the chat uh i
+know we've gone over the over the our our
+slots but let's have a look at what is happening
+on our build what i've realized because
+I particularly prompted it to use test-driven
+development. It is actually doing that,
+but it is taking a lot of time because it's
+writing all the tests. I'm going to share my screen quickly
+to show you. We have lots of
+tests written, actually. You need
+tests here, as you can see, traffic
+-monitoring.js. If I open one of
+the sample things, it's written all
+of the stuff here and it's working
+through. Obviously, it's hit an error
+now. It's going to fix the error on its
+own and continue so i'm not doing anything
+do you want to share the screen
+oh i am not sharing for correcting
+me what about now yep is it any
+better so i'll repeat whatever
+i was saying because i particularly
+asked it to do tdd and things are moving
+very fast so i can't scroll up much it's
+creating all the test driven develop test first
+and that's what is taking it such a long
+time but it's at work and as you can see here
+is a random basically test file it's using
+jest here it's writing all the tests here so
+once it does that i think that's where it
+is going to it's still working not working
+sequential it's still working there's a
+coordinator here working and the spark coder is is
+active but it's still working i think on the
+ts file here it's a test fine here right
+so you see that's a few questions you know
+while it's doing its thing I've seen that
+you know it compacts the conversation at some
+point it does and then and also later on it
+can do things like oh this test is not passing
+I'll skip this test or I'll change the
+test so that you know it's it's not going to
+fail things like that what's your experience
+because I have seen that happening later
+on and what is the consistency from enterprise
+scenario what you need is consistency so i have
+had mixed experiences to be honest and
+i'm still learning right so i think obviously
+the experts here who i think many probably
+people here actually please feel free to
+share your experiences but i have been able
+to create really sophisticated apps i'm
+still on the journey but with a level of
+orchestration i see myself as the orchestrator so i'm
+basically monitoring but I would intervene
+at some point in time if it is not giving
+me a desired view but then it's a it's that
+relationship I guess right but it it does
+work so today for example I was able to demonstrate
+something quite interesting and someone
+shared an idea with me yesterday at noon I
+had not done anything I kind of all I asked
+the person is that just give me a voice
+your transcript talk to yourself give me a
+transcript that's all I need did the deep
+research and we were able to explain something
+to an exec pretty you know convincingly so I
+think from a prototyping talking a building
+is the new talking that aspect it is quite
+mature because you can really get your
+point across your point about enterprise
+consistency what Dennis also highlighted the kind of
+that narrowing aspect I think that's
+something perhaps as a community we could look
+at to make sure how this becomes much more
+easy to and and and consistent so I believe
+there's some work to do there anyone yeah my
+chris what's your views sorry ravi yeah yeah
+my feeling is that the lm itself is not
+that important it is the the ability to consistently
+digest business context is one aspect
+and enforcement of like workflow like github
+test-driven development all of that
+consistently through the process so when it compacts
+obviously that with cloud code basic cloud
+code it's worse than it is with cloud flow
+um because there is a little bit of
+enforcement built in there and then you learn
+like prompting you know follow this kind of
+events has also shared some prompts you know
+in the community in general uh so there's
+this but i think i'm i'm seeking for for
+teaching perspective a consistent set of practices
+if you like whether that's prompts or
+whatever else yeah we can collaborate on that so
+greenwich university We are in touch with
+them for a module starting September.
+If you are working, I would love to kind of
+collaborate. I know Brad is also working
+on a few things there. So let's, so yeah,
+I'm going off tangent, but
+great. But again, members of the
+community here, did you have like,
+what are your experiences? Like,
+please share. I'll maybe just
+talk a little bit to what
+rUv was asking. It's Peter here. I think I distinguish
+between two things. When I see
+a lot of the Claude flow elements where
+people are prototyping, so I agree that
+you get into scenarios where you're
+compacting context because you're doing
+a lot of things. I compare that to
+how we use it in a real code base. So
+it's a non-AI code base, and we're
+using AI to deliver. I would not expect
+to compact context. And the reason is, is
+because if I am, that means I'm delivering
+two bigger tasks. So if we're doing
+features, if we're doing, we're effectively doing
+lots of incremental change on an
+existing code base within the context of
+that existing code base, we want to have the
+same design patterns, we want to implement
+the same APIs and the like. So I
+think there's a very different experience
+putting it into an inverted commas real code
+base where you're actually trying to
+deliver something you'll deliver to production.
+versus running swarms where it's very
+fluid and you don't really understand what
+the end result is. And just on the TDD, that's where we
+sometimes get caught. We have to be very
+explicit because change the code and
+ask it to retest against the TDD or
+against the tests. And it will
+revert all the code to meet the tests. So you have to be
+very explicit to say, I've now changed
+my code. I want you to go and update the
+tests because the code is correct and
+the test is not. So again, you kind
+of get these cycles of commits and you
+just have to then suddenly be aware
+that actually you have to be very
+explicit on a commit cycle as to what you
+want it to do or else it will try and
+revert your code back to the historical
+tests, basically. Yep, yep. Okay. I think we should
+probably evaluate this a little bit
+more separately. So it was it, sorry,
+I didn't notice who was speaking.
+Who was speaking? Sorry, that was
+Peter, yeah. Peter, right? Yeah, I'm
+making another. I think Robbie Peter, let's
+talk about this. I guess this
+is almost, it's progressing. I know it's
+back in development, it's ongoing
+at the moment. So conscious
+of time, but I guess it's open
+to the community. There are a few more
+questions, I guess, if you could leave on the
+comments, like, you know, how useful was
+today? like you know you know if you can
+say one to less one was it useful to this
+session and also probably in future what would
+you like to do and also like this is again
+democratic meritocracy like anyone like you
+know we are community one thing i would
+request is a form if you kind of fill it up
+just so that we know who the community is
+better and also may i request that we each
+one of us try to know at least five other
+people from the london community right so
+let us know each other better than just like
+what is your name kind of thing and the idea
+is that we are all at different places if
+we see opportunities because businesses
+need help i think especially the smb
+businesses need more help so i guess we are a
+community we can pull together to support them
+so i know calm you got a hand up so over to
+you please oh yeah just a quick one um i'm
+helping out with the agentix.org website
+creating content and i'm embarking on a series
+of fireside chats about just how you
+think about Agentex. So, and a lot of that
+was brought up today. Dennis was talking
+about, you know, about experimentation. This
+is a space for creating. It's not just about
+rebuilding SaaS. So if you want to
+sign up, it's just, if all you need to have
+some experience with Agentex, not necessarily
+Claude-flow, and would love to start
+you in for 30 minutes, it'll be on the agentex
+.org website. the content will be there
+known by agentics um so if that's okay with
+you i can post a link yes please please
+please please do okay an open forum now uh
+uh please leave your comments whether this
+was valuable what more in the future on the
+comments and it's an open forum anyone else
+any thoughts comments views critique anything
+yeah it's interesting conor adams um um kindly
+shared offered his office in london so
+if we want to build something together it's
+very efficient when we physically meet oh
+that's great thank you thanks yes please and
+also because everyone is everywhere we are
+a non-profit all of us are volunteers here
+right and i guess we would love to and we
+want to help businesses so if any of your
+businesses would like to be featured at agentics
+foundation we have a sponsorship mechanism
+it's there on the website so we welcome
+sponsorship from anyone and also any any any
+contributions in kind like the office space
+to run our events we want to run it every
+two weeks initially and i think we got
+vincent here i must point out who's trying to
+train doing some great work in the france
+both uk and france so vincent you might want
+to say a couple of words about what you're
+trying to do in between France and UK because
+I'm in Jersey in the Channel Islands so
+I'm a mix between both cultures you're the
+bridge yeah that's it I'm the bridge so right now my focus
+is on building APIs platform to detect deepfakes audio, video image, text and so on
+because it's becoming an issue in this AI world, the
+fakeness of things and people get abused
+on fake voice calls that try to scam
+them and get their bank details and so
+on. So I'm building models and I'm
+building frameworks to be able to deploy
+these models and I use the techniques
+that we are talking today, the agentics
+techniques we've been discussing so far.
+I'm using all of that stuff so yeah,
+that's the focus and then maybe next
+session I do a demo or show you my my
+workflows and so on and and explain
+also how i work with low because they
+are stuff that make it useful and stuff
+that you should be aware of because
+they are not quite ready for prime time
+so it's important to know what they are
+so yeah that's it thank you vincent and
+last but not least one of the other
+members of our basically co-founding team
+by the way anyone others are welcome
+to kind of volunteer is chris polter here
+who's been doing some amazing work so
+chris would you like to briefly introduce
+you and what you do yeah for sure for
+sure uh so i'm a founder i've been
+working on ai stuff about four years now
+i guess predominantly for building
+stuff and probably like a lot of us
+here i'm kind of almost more interested
+in the tools and what you're building it's
+kind of more fun and interesting and exciting
+and constant innovation and and kind of
+improvement so i've been on a journey on the
+last couple of years trying to optimize uh
+kind of ai for coding i guess and yeah the last
+six months everything has really exploded
+quite a lot i think cursor was the first one
+to really make the like a significant difference
+to coding if you like beyond the kind of
+autocomplete paradigm and then flawed code
+really just took it to the next level so a
+lot of it is really understanding how you redo
+the software development like cycle in the
+world of genetic coding right um and yeah
+probably at the next call or one of the future
+ones i'll be able to show what i'm working
+on which is a it's a different type of
+orchestration uh tool if you like to to kind of
+cord flow uh just from a different philosophical
+standpoint if you like um so i believe
+essentially in very short iterative loops so
+i want to be very controlled about what i
+tell the ai to do and i want to validate the
+work and then kind of continue from there um
+and that's cool when you're working in a
+terminal or kind of one but as soon as you want
+to build bigger things then actually you know
+going through these different tabs trying
+to find out where you need to you know approve
+stuff or change things and do all that's a
+bit of a pain So I'm actually building a kind
+of GUI at the moment, which has all the
+configuration and orchestration kind of
+built in and then basically a task inbox for all of
+the agent supervision, if you like. So, yeah,
+hopefully I'll be able to give a demo
+on that in a couple of weeks time because I
+only started working on it 48 hours ago, but
+I have most of the interface together already,
+which is quite cool. Nice one. and again open to the
+floor here anyone wants to share anything
+before this is going to continue i'll let it
+build and once it is done i may have to
+troubleshoot a bit i'll see if i can record it
+but then i will share the output with you and
+i will also the code base is also public
+i'm not sure if i've shared the link so i
+will put the link to the code base because
+i'm going to periodically check it in on the
+chat so you can also look and contribute
+and test so there it is on that note then our
+first series thank you all for your
+participation and we look forward to the next one
+in two weeks time if we can do it in person
+we'll do it in person and also live cast it
+so whatever and please anyone wants to do any
+demos member spotlights etc on the database
+please drop one of the us here you heard
+ben's chris rocky vincent or i right just point
+that to us in the group we have a group
+at the end of the day so just mention the group
+keep the conversation coming thank you all
+all right thank you

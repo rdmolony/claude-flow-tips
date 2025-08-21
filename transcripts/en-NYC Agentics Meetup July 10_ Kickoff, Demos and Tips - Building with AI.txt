@@ -1,0 +1,857 @@
+coming. My name is Zohar. I'm with Kaltura. I'm a
+Kaltura. I'm a Kaltura. uh we're part of the
+sponsoring partners for the Agentics
+Foundation and i'm happy to have you all here
+joining us this is the very first meetup for
+the Agentics Foundation in new york with
+chapters all over the world now and this is
+the first chapter um the whole concept joe
+will give some more details about it uh in a
+bit i just want to take a thank you for louis
+our friend here who but yeah thank you
+so much for coming I hope you enjoyed this
+I hope this is going to be the kickoff
+of a wonderful group for H&X engineering
+and people who are Avid and curious
+and interested in the world
+of a young age, which is probably
+one of these. Thank you for coming. Hello, everybody.
+I'm Willy. Very nice to meet you. Willy Vansicle the III. And I'd say about
+six-ish months ago, maybe even less
+than that. Right, I was just on
+LinkedIn and scrolling and it's AI
+Hackerspace Fridays. Someone's like my, okay, so I put this, okay? And it's people
+building things with AI, right? And I'm
+like, okay, this is great. This is what
+I've been doing, okay? Not to make this
+like all about me and what I've done, But,
+like, I didn't, like, I'm not a developer,
+right, because I was a salesperson for
+a lifetime of life. And ChatGPT came
+out, it was nice. I started using it to
+help automate some of my, like, sales
+activities, right? And quickly wanted to
+do more, right? I was like, hey, I want to
+do more of this, like, I need to do internet,
+I need to do more. So here, there, and
+then do this, right? ChatGPT was like,
+dude, you want to go, no, right? What do
+you mean? I don't know anything about that,
+anything about that. You say that, right? So I start copying
+and pasting code from ChatGPT to get
+the VS code, right? Running like Python
+scripts, streamlit things, and like
+here we are now, like a year and
+three months later, and like I've got
+the key websites, like I'm actively
+contributing to production
+level code at like enterprise
+software company. So it's really
+incredible what this stuff can
+do in terms of like turning your
+career around. People that are
+looking for a pivot more, looking to
+like, I don't know, just do something
+different with my education and
+stuff, right? Just dig in a little
+bit, like roll this. So anyways, what is
+the Agentics Foundation? So, this was founded
+by Reuven Cohen, about like, technically like
+eight years ago it was officially founded,
+right, it's a non -profit organization,
+and we're basically dedicated to making
+AI innovation and education open
+to everybody, okay, by supporting the
+development and deployment of open
+source agency and AI. So, we're basically
+a group of people that are out
+here building open source software,
+teaching people how to use AI,
+running workshops, training people,
+having these meetups, there we are, right?
+So what is agendics? We're all familiar with
+AI, ChatGPT, right? It's coming up with
+ChatGPT before, right? But agendics, it's a
+little bit different, right? So we're
+talking about a field of study, okay,
+focused on the design, developing, deployment of these intelligent,
+autonomous systems, okay, that are capable
+of like receiving where they're at,
+what's going on, reasoning, making some
+decisions, and then taking action, right,
+with your software, with them, whatever
+you're finding, right. Okay, so they're
+proactive, they're autonomous, collaborative,
+they're not targeted, we create some issues
+with these agents who are not just chatting
+and chatting to them. Definitely not copy
+and paste the code, it's amazing, right.
+So a little bit more about the Agentics
+Foundation here, we believe the next
+generation of builders should not be limited to
+these big multinational corporations, with
+Agentics, builders can come from all
+walks of life, right? A year and a half
+ago, I was making cold calls and
+sending emails, but now I'm running
+websites and building rapid prototypes
+and APIs, right? So, the foundations
+that have impact. We have in-person
+events, that's why you're here, regional
+chapters around the world. Google
+sponsored for London. We've got Toronto
+is big, Austin, a lot of
+different things. Research and
+development, we have these calls every
+week. Get out, we brainstorm together,
+we act together, Reuven shows us the
+latest thing that we look the world
+with. It's pretty amazing, right? So
+our community now, I think these numbers
+are a little outdated because I think we're
+actually at about 1,300, 1,400
+registered members now. We're on Reddit,
+we're on LinkedIn, WhatsApp, Discord,
+all over the place after this event.
+We're going to go ahead and share
+some of those Discord and links for
+you guys to get involved and start
+connecting with us. On every Friday, we
+have the AI Afterspace, that Zoom call
+that I was telling you about, where a
+ton of people get on there from all over
+the world and demo, we kind of do like
+what we're gonna do today, like we'll
+show a little demo, we'll talk a little
+bit about HNC AI and the latest
+developments. I will push to
+the young logo this week and
+then we ship, right, it's a
+great community, right. And so I'm
+gonna talk just a little strange bit here because some real
+guys are gonna get up afterwards and
+show, right, but, Who's heard of
+bio-coding so far? Maybe it's
+your family. Okay, we've all heard
+of bio-coding, right? They've got Andrew
+Barclay's name, famous, right?
+And then we flew up, and now it's
+almost like, oh, it's kind
+of bio-coding, right? So there's two, or not just two, there's
+a lot of different ways to code with
+AI, but we're just talking about two of
+these like sort of primary categories
+you can put them into, right? And one is,
+is this my book, right? It's, hey, AI,
+make a to-do app for me with a really cool
+space background. You know, I'll
+make the buttons red, this and that.
+You're not really worried about
+infrastructure. You're not really worried about architecture. You're not like
+telling the AI, like, hey, make sure that
+this code is scalable and it goes here and,
+you know, use this method for the same
+thing. You just buy it out, like trying
+to get the AI to build something that you
+want to do, right? It's flow, there's
+a human, it's always a feedback
+loop in there, right? You're
+always, you know, change this button,
+hey, no, this, hey, I need you to do that,
+and the other, right? Change that now to
+agentic engineering, okay? And we move to
+a more refined, structured process,
+okay? Where our machine is now
+in the process. And instead of
+me having to go back every
+single time, my AI writes
+a test for it, right, and then tests
+it, and then comes back and fixes it, and then
+comes back and tests it again, and then comes
+back, and you know, we get this feedback
+loop until the task is done, and then we
+can move on, right, once a B and C has completed,
+then we move into this orchestration
+layer, and this sort of, I don't want to call
+it an arc, but like we put a lot of work into
+context engineering, like what exactly is
+each LLM called getting, how are we designing
+all this open so there's a lot more thought
+process that goes into it's a lot more
+structured and and the results aren't just you
+know AI slot one of the results are production
+great software results are you know these
+open source libraries that are now you know
+16-1700 stars with uh group's new uh cloud
+flow implementation so um pretty cool stuff
+here that we're doing uh agentic engineering
+versus bi-coding there's a big difference here
+uh but bi-coding is So cool guys. Thank you for
+listening to me. I'm here to chat
+a little bit. Again, I'm really
+fanciel of the public ambassador
+of this and the Gensys Foundation
+crew, but I'm a person so yeah, no
+big deal, right? So we're going to
+let Ocean get up here and share a little bit
+of what he's doing. Thank you. Don't forget you
+share your screen. Give it up for Ocean. Hello, my name's Nohishu,
+I am one of the co -founder of the HNX
+Foundation. So about one and a half, two years
+ago, I started a, right now we know it's
+like agent stuff, but back then nobody really
+asked what AI agent organization framework
+was. So I was on that, and then that was a
+quick small line AGI. Eventually, so about last year,
+around April, I met with them, and then
+I quickly got very interested because
+our passion are very similar and he was
+very enthusiastic about like I was very
+happy about that. So basketball working
+now and then we have actually made the
+Jetsons Foundation a real nonprofit. I'm so
+happy about that and it's so great to see
+all of you guys here. So what we are hyping
+about nowadays is the all-you-can
+-ease plan called and Nordic Club both.
+Whoop! The $200 plan, it used to be meters,
+and then everything that I'm going to
+show you today might cost is hundreds
+of dollars during the demo, but no,
+it's only good for me. Anyway, so I ended
+up quite wanting to talk about today,
+so I was chatting with the client,
+what should we talk about? I want to
+demonstrate you, right, so tell me what
+you want to demo. and then it come up
+with um now i have so let's get started
+with the cloud code basically it is
+a command line it is a command line
+interface uh that allows you to programmatically
+interact with uh solid bottom so
+what i'm going to show you right now is
+okay we're going to How about warm-up joke, which is the last thing
+we're going to do, I'm talking
+about warm-up joke. All right, option
+one, how many AI patients
+does it take to change your life
+more? Just one, it needs to
+correlate with some research agents,
+but let's talk about an architect
+agent to design the blockchain
+for a firm, and a critic agent
+to tune down. As you can see, I
+have brainwashed my cloud to refer me
+as Ocean whenever. It's really fun because
+today you've got to speak with very
+casual, and this whole system has been
+completely personalized to understand how
+I work for them. All right, this is Lyon. I'm going to give
+it an impossible problem, and so we
+can watch our song. All right, this
+is perfect. Oh, perfect, yeah. Great. Nice. Now I have to
+improvise and go to Devogar because
+whatever I was trying to show,
+go my over here. Yeah, all right,
+let's try again, so change plan and
+let's get started, so I'll explain So I'm trying to change
+the demo planer, I don't realize this is
+going to be, so I'll use . Atosication basically
+is when Cloakville wants to get something
+done, it does not do what it's, it has
+the option to not do itself. Instead,
+it will basically delegate that problem
+to a task agent, which is the sub-process
+independent of the main flow, and then
+that task agent will still get stuff done,
+come back to the orchestrator and then
+we connect to it. So what the lighting
+orchestrator is, is a… so in cloud
+flow, actually, we were talking
+about the task agent. One problem with
+that is let's say we have five agents
+working in parallel and that is kind of
+the initial concept of Squam. We have a
+lot of agents working on kind of the same
+project but one problem with having
+them and agents working together is the
+coordination problem. So what if two agents
+or three agents are editing the same file?
+What if the agents are editing file and then
+another agent is doing my testing then you
+know as here change that was a problem so every
+agent will come back to you and say I have
+completed my test and then when you put all
+this stuff together it's broken and that
+is a major problem what we are trying to
+resolve with this small coordination system um
+so you can brute force it as how I'm showing
+you right now which is a, let's actually take
+a look at what the plan looks like from
+the illustration output. So right now the task agents are doing
+their work. The swarm system
+basically allows each of the task agents
+to report their current status to a
+centralized place to, yeah, kind of
+database where we well use neural
+network to train kind of a topology
+in real time according to whatever
+they have done. The interesting
+thing is, even with other neural net
+training, the topology feature
+by itself already dramatically in the
+quality of language, which is something
+it's so traumatic that all the sleep didn't
+really expect it before, that's why I
+jumped into this form that I'm helping out
+with developing rust. So anyway, so right
+now it's like to show us a consensus
+theory framework. Let's see what it is. Let's actually do this.
+This looks cool. Why are we showing the regular concentration? We are in New York. We are in New York. Question is, is
+the code based task agent being
+actually written? Yes, so, but what, as I can
+see, I want to explain the observability
+following a bit. And then, as you can see, like
+all those tossing and they're doing their
+thing and you just see that it did become
+bigger and bigger. So here it has already
+made 45 changes. I don't know what's
+called where. However, how you can try to
+understand what they're doing live would be...
+Now I can start this. Okay, let's do
+it like this. So, you have all the
+issues on GitHub. And then, have your
+task agents to provide live feedback on GitHub
+issues as comments. So, you know, I'll show you a brief one. I was using
+Swarm to develop Swarm. And then
+while the... while they are remaining, I have to be there. The memory is
+all beneficial. The public itself
+is just... The public itself
+is just direct video icons to
+the Sony platform. Everything that you
+want to have in the public, like automation,
+like locks on memory, It's all additional,
+that's part of which it's an engineer,
+otherwise it's just fine. All right, so
+it has posted on the issue, so
+let's take a look. Yeah, reach which report. You're right, let's check which report
+actually, yeah. Yeah, they do have
+this, and you do need to kind of watch
+out, but I could have had this
+information earlier. All right, so now
+it's having a vision. Yeah, I was just curious. Once you set this
+up, do you ask about how do you believe
+that? How do you basically evaluate
+how effective it is? Just, you know, you
+tend to block them. Yes, I'll give that
+a bit. There's a whole different
+methodology behind it. So what I'm
+showing you right now is the
+depth portion of how they are
+coding them along. So right now
+we just saw the agent opened three issues regarding our
+demo today. And as they are
+working along, so they will post
+comments here. So they probably need
+to sort of batch up them, but they do
+need to clean up the UI, because otherwise
+they want to . best. So now let me show you
+what the evaluation framework might
+be like. It's actually more traditional
+than my thought. So LionGate is a
+Rust framework for capability-based
+security really well, that aims to provide
+very fine-grained control and access rights
+for each individual agent. So what you're
+seeing right here, every single task agent,
+they actually have the same access right
+to everything as for main log streamer,
+which is not ideal. And then in the... So
+I had this idea about back in February with
+NCP, and then there was that very... uh serious
+security vulnerability within the enterprise
+itself especially when everything is
+configured once and then you are doing with
+the multi-agent system so i thought how about
+we start to you know give every single uh
+agent in a multiple telecom a capability of
+what they can access to our system um so i get
+that back in memory and then took a few
+minutes ago i thought is it really good is it
+really the climate state of the art like you
+know and i was claiming so i So I said, how
+about you do me a formal mathematical proof
+of the entire thing? Everything needs to
+be there based with extensive research that
+I know I'm interested. So basically saying,
+show me the map. And what the slow system
+was able to put my work in two weeks for
+that rust paper, and then it was able to
+prove this in a morning. What's fun about all
+of this is I actually did not read too
+much into it, however I had a process
+that keep on finding logical defaults
+from the previous one, and then up to
+a little iteration, I guess I will start
+to dig into it once I want to make
+architectural changes because ASK was
+validating the thing. It's become to play
+a lot of faults on my previous architecture
+decisions which I actually need to go
+in because it is a kind of like a personal
+text in 100 watts. All right, so let's go back and take a look. We have to put some
+comments in the topology design for the
+heterosubestification method. Set the cyber phenomenon, DLT, block the
+data structure, application, pull. And then here's
+the training system with
+security analysis. I'm not sure if I'd
+be able to mute. It might be
+overfitting due to the existing data I
+already had in there. That's why I keep
+on mentioning about Baceton-Bosmores. All right, yeah, this is, yeah, the weird is that
+testing. Yeah, so that is
+basically the entire development
+cycle of agentic engineering at the
+very PowerPoint. There are so much more tools to be explored. I'm very unhappy
+that I wasn't able to share
+this one today. I just wrote
+it last minute. What is enabling is
+something in automated intelligence according
+to your own wish that... So, for example,
+the entire foundation of that was the fast
+-growing network high -found package, and
+then Reuven took that, put it into PLUSD,
+and I stepped in, and then I added the GPU
+training functionality to it. The crazy
+thing is, I do not know how to keep it
+works other than I have some very big
+ideas about it, nor do I know what a shader
+is, or what a WGS SL file works. But
+I was able to get a whole thing done in
+a day, and it works. Then you need to go back
+to that mathematical improvement
+methodology to actually prove that what is
+working is actually logically sound. So it
+is really crazy to even show all of this
+web GPU stuff that I literally could not
+really think of. But now, I actually have a pretty
+decent understanding of what is blood,
+also with debug, and yeah, so that's
+about it. I'm super happy to see all of you guys
+here, and this fast -moor network is
+already functional. It supports CPU and CPU
+training, and we are going to integrate this into
+this blog such that the neural net training
+We have time to optimize topology can actually
+be very helpful. And we're very excited
+to see what that should mean for the next
+phase of each of these. Thank you guys so much. Thank you, thank
+you. Give it up one more
+time for Ocean. Right. So next in line, following the same
+sort of financial stock trading
+thing, we have Anie. She has a demo here for something that she does. If you want to see
+the screen, then HDMI. or she can share
+the url with you oh great yeah we see we're on it go back oh no worries that's fine we'll just do it with you Hey, well hello everyone.
+My name is Kanye. I am at VATS.ai
+and today I want to show you the AI
+agent that I built. So, how many of you guys
+have asked to do it? So, we built a
+framework called entity agents. Basically, in the framework
+that allows agents So I'll tell you a
+letter about how it works first and then
+I will walk you to the... So basically
+what it does is that it helps my boyfriend
+make better financial decisions by
+knowing 35 stops in quick search, 35 stops,
+multiple IDs, etc. So it has
+multiple agents. And then, yeah, so the first part
+is data submission. So it has two main
+agents. The data, it shows the
+first agent for my data, the second
+agent is for that, so the data is at a perfect high
+level of law, and then you
+have the analyst, the analyst has a
+financial analyst point to view, so it analyzes
+the data, and then you have the data
+to be recorded as well. data and then
+provide a really nice work. And we're using
+different, we're using different workflows
+based on a project, so like the
+orchestrator, like how agents, how the
+orchestrator have access to agents and allow
+agents to make calls to communicate but
+also have access to So, in this
+specific example, the agents have
+access to Facebook, Google search tool, and then 5%
+provide the report. So I went ahead and
+wrote a Streamlit. I'm going to
+share it here. Streamlit. Okay. Let's see. Okay, so this is
+the Streamlit. So basically it's my
+portfolio, I have the following stocks and
+then here I search any other stocks, so
+if you didn't want to search no other
+financial or like stock. So now I'm with AAPL,
+then you're on that. So basically you're going to start finding it. Then I'm working for what I'm starting with
+it. I'm going to do something
+that I contribute a lot, but it's
+going to be a slide of like how it's
+going to do a call. So it's accessing
+different tools like fetch and it's like
+starting to look for data about apple and like
+beta is a financial view of that apple it
+is for its earnings and quite so um and
+you should be different uh mcp server so so
+these are the dots basically this is the main goal So how it works is
+that you have to, it's very hollow and
+it's very simple. So basically we
+have an agent. So this agent
+is going to be based on the
+founder agent. And they have exactly
+what they want the agent to put a paper
+together at this board. And now the better
+the content here it is, the better
+the engine is. So that is that. And
+then here you also give it apples to
+school. So here I give it apples to the prior
+person so that I can actually stay through
+reports in my files. So the first phase
+is the quality of the whole component of it,
+so it's like a gather data and then check
+to figure out the data for the quality and
+then we just now will tie it to against reverse
+reporting so that's the value that I
+corporate have been in and the core of the
+workforce and the next thing about the agent
+is the core framework. So yeah, and if you can give it about the data, different agents
+and then different instructions So this
+is the evaluator agent. Again, the evaluator agent
+says what is good, what is excellent, what is
+fair for this form. And then on that, the
+agent tries to look for it to stop and
+then go to the end. So yeah, let's see if our
+report is done yet. So, for example, this is one of the most recent run the other ones
+i ran it at 627. so start price is
+$16 so it's changed it's not in fact because How I can improve it
+is that it has a big gap for national data
+from Apple Advantage. The nice thing about
+it is also that should you hold
+on to it or should you accept? So if
+you go to Apple one, it tells you about Apple, the Apple YouTube, and gives you access
+to the slides. For example,
+here, it tells you if you
+should buy more. What is the accuracy
+level for each stock analysis on holding
+or selling them? So you should
+never trust AI. um but basically
+this is not about the video i was just
+trying to show you the possibilities of like
+what you can build uh with these like
+frameworks that are really composable
+and you can work with it's basically like
+a block change change depending together
+and box you can make it as accurate.
+Again, you can add APIs to it, you can
+add an mcp server, like a web server
+that will be automated and understand how
+people are talking about different
+stocks or companies, because a lot of
+times, like, public opinion about how a
+company is really, and that affects
+the stocks. So there's a lot of
+different moments you can access and maybe
+a macro response. Okay, so that's where
+the that you're not planning to
+really understand if this is the quality
+that you want it or not, and you set the
+quality. So if you say what are the
+mistakes, what are the areas where you're going
+on, or let the handle run and then what
+are the things to do for and what are the
+criteria for the data so it keeps going
+into a loop until it gets to learn
+about their kids now I think we are
+a good person. We are a good person. Every single person
+can be a good person. Yeah, I think I can. I think I can
+start up so far. I think I can
+start up so far. I think I can do it. I think I can do it. Yeah, I think. Me. yeah so mcp agent
+so mcp is for It's like a new
+one to make a tool call. It's
+kind of like an API that gives
+access to points. We haven't served a day rise for a couple days. What we're doing is
+that when Anthropy came out, they
+also came out with a different work
+frame, stuff like how this new call
+should be made. And then what we did
+is that we actually took that. like this is
+actually happening with the way the age of
+communication as well so for example there's
+different workflows that the orchestrator
+works well the activator works well like you
+have bunch of uh work in parallel workflow
+where you have a bunch of agents with something
+in parallel and then you add them and
+kind of have this all so that's what we're
+doing what we're doing If you want to learn more, you can do it here. Tanya. NCP agent, that
+library is sick, hey? I just built
+something with that NCP agent
+in Slackbot. We built that thing
+on the conference, it works better
+than any grad. right so great we
+have one more demo for you guys here I don't
+know what this one is about surprise But the
+guy is really good. Oh, right. . Yeah, so you need to . You only remember, your CPH was
+great because it has a little NCT file. It's inside your
+Python script. All right, so you put
+that in the Python script, and then you can
+make anything in NCT. Right, so any Python
+script you write can now be an NCT
+file. You don't have to only block
+code for all of the computers, for all
+of the computers. Right, everybody
+give it up for... Wait, wait y'all,
+give it up there. Wait, okay, wait, now...
+Give it up there! I made this app at a hackathon. Me and Isaac are
+actually very private. I made it in like
+one day. I just had it done like
+four months ago. And so then you
+put the, like, buying code, like,
+for the course of the end of the
+school. Let's go. Woo! And that's not localhost? No, it's not
+localhost. Shhh. Okay, so welcome
+everybody to Lease Daddy.
+We're rents. Yeah. Alright, cool,
+hashtag New York. So when you rent an
+apartment, you often get a lease from a
+landlord, and you have a short amount
+of time to figure out whether it's good
+or not, and a short window where you can
+do anything about it, regardless of exactly
+the same thing. And so I'm just going
+to quickly make a lease. I didn't know
+how it was going to demo today, so I'm going
+to just make a lease. That's cool, just go over my chat so you
+can see it. No, you can take
+it, I'm taking it, really,
+you can go on. We want to support
+our business in New York and maybe a new
+conference at PDF. And maybe we want
+a couple of red flags or like two
+problematic expenses. Yeah. A couple of hidden
+really unfair terms. So we're going
+to do that. We're going to create a
+PDF for ourselves. When we doubled this
+at the hackathon, we had a friend who
+was in Seattle, and he wouldn't think
+they had a terrible lease that had like
+this horrible security deposit thing, and
+he got *******. So we actually
+used a lease. Okay, so we're
+generating a PDF here. This turns into a PDF,
+but we can get it. It's not worth
+generating that. This isn't the cool
+part of the demo. Let's see if it worked. Did it give you a PDF? Oh, it did. I
+see big lease. Good job. Big job AI. Checking the user was a good job. Yeah, like, yeah. This is the hardest
+part of the demo. Okay. Okay. I'm just
+going to analyze our lease. So if you take
+a second to profit, what's happening is it's
+an API called Anthropic, and it's not super
+eugentic, but there's like a couple of
+rounds of communication that are happening
+in order to make some different outcomes that
+will come up shortly. So I think the first
+thing that you kind of need to know as a
+renter are like, is this good or bad, and
+what the red flag, what should I ask about
+this? But the second thing is like what
+can you do about it? So we kind of took
+the approach to the very healthy community
+Like if you if you've rented the board
+multiple times You kind of know that
+like there's kind of certain things that you
+should and shouldn't say and that you
+should and shouldn't do So I think that's
+kind of the focus is to help
+enable users to So I haven't even
+looked at the lease yet. So here we see And when there is a
+relatively variable, it does say it's a
+fairly... But here there's a heavily
+skewed at the landlord. Okay. One more time we'll
+see what ChatGPT did and see
+whether Anthropik could determine
+what ChatGPT did. So we have a crazy
+event increase. I'm kind of
+curious to look at the actual lease. um um i'm using this for sure um does anybody
+see an actual red flag so we
+can check yeah yeah Yeah, yeah, so
+here we have our 14 days
+notice right there Yeah, so we found this Issues and then the
+next question is what can you do about it?
+So at some point you have to go and tell
+the landlord about this So here we have the
+draft email, and so here we have a pre
+-drafted email that uses information from
+this and provides a draft that you
+can send directly. And then sometimes
+you're arguing for better terms, but
+sometimes you don't have to communicate in a
+way so that you can draft with ones that
+are more about getting a discount for
+different terms. terms this one's very like
+strongly worded like your lawyer friend
+might might have the gumption to provide
+um you get action acquired kind of thing
+um we decided to just kind of keep keep
+going with it um get very generative we
+have one called rampage No, but there's a, we
+should have like an MCP to go like extremely
+on it, so if anybody So the other thing
+we built is there's an AI coach where you
+can actually use a chat bot to go
+practice simulated conversations and this
+is designed to be like dismissive and kind of not
+really interested in this as a
+regular landlord But it will actually
+give in at some point if you are being really
+convincing. So if you just go into
+something like, you know Generic, you might not
+get a good result as the landlord has a lot
+they can do on what he hates at it. So
+we'll see how it goes. Okay, so yeah. Section 14
+needs to be 10% different. I
+think we'll get a little more
+specific. I am out. So we'll try to get a little more
+specific to see. Were you able to
+bring in the actual context from WIse terms
+into the supposition? Yeah, they are
+directly used in here. So we have a, and
+there's also a rank -based implementation
+where we can get WIse terms from other
+WIse, like, whole corpus of WIse.
+Other whole corpus. So you hooked up
+to like a WIse API. Yeah. So yeah, that's WeSteady. There's also
+a phone agent, but it's not
+running right now. You can actually
+call and do the same thing on
+phone call. Nice. So yeah, that's WeSteady. It's only so identical,
+but I'm proud of us being able to
+go in really fast, with a lot of
+coding knowledge. And if you're interested
+in checking it out, But this isn't
+something more like pursuing super deeply,
+but it does work and you can go try
+it if you want to. Yeah, that's
+LeafDaddy. And who are you?
+What do you do? Oh, so I'm Dan. I'm building
+a product for energy investors. Please. Ok, well, it's p0-meet
+-daddy-addy-daddy -daddy-addy-addy
+-addy-addy-addy-addy -addy. I'll put it
+in your classroom. QR, I'm gonna take my YG. Okay. Guys, and then, we just have one more person. Thanks, give it up for
+Dan, I get it back. We have one more person,
+wanted to share a little bit about their
+non-profit options. Hi, I'm Anatole,
+and I'm nervous, nice to see all of you. Public speaking
+voice is fun, right? Wasn't prepared
+to talk, so I put some notes
+on my phone. But yeah, I'm Anatole,
+technology manager for Rewriting the
+Code, just joined a few months ago, a really
+great organization uh we support a community
+of 36 000 women uh specifically early career
+and in college with uh sorry still learning
+uh access to mentorship resources in-person
+events virtual events and currently
+we're preparing our ai curriculum uh
+for me i've always been fascinated with
+with automation, AI, I mean,
+stuff's amazing. So I've come from that
+background and we're figuring out what does
+our community want? What are people really
+looking to learn to be prepared for what's
+coming in this year? And at least from
+my perspective, it's created this really
+interesting situation, yeah, reading
+through my notes, where a lot
+of what people are learning in college is dating,
+right? Because so much of this has
+come out now. So with a lot of
+early careers, they're either not
+hiring or they're looking for people
+who already have experience with a lot
+of these AI tools. So there's this
+big gap that's being realized now
+and I think will soon be realized
+even greater. And I'm sure we can
+agree that the value of a college education,
+a college degree in particular, is always
+a little questionable. It's really
+been about what you're doing with
+it. What have you done with
+your experience? So with this, how do you prepare? How do
+you get ready? And I guess as it relates
+to my organization, how can we better
+prepare our community to be ready for
+what's coming? Online, I've spoken
+with a lot of teachers, a lot of teams, and
+they've asked, how do we teach our students to
+use an AI, or they're not just using AI to
+answer the questions, but to be a tool, a co-pilot, something
+that they know how to work with, so that
+they can go into the job force ready to use
+these tools you know a tool is an asset
+something to work with it would be better
+and not just not have a job so I know about
+one thing has said many times he said
+I'm not doing this to replace people with work
+sorry replace people with AI I'm doing
+this give one person the power of 200 so that
+they can do anything themselves and be
+empowered And I think that's aligned with
+that concept, really empowering students
+coming into the space to do anything,
+to really come prepared for
+what's coming. So I know in my
+opinion, I feel a lot of that
+curriculum should really be focused
+on exactly that. Teaching people how to use AI in their field. There's so much
+that you can learn in AI. Honestly,
+we'd love to hear any of your opinions
+on what people need to be prepared
+for the future. And to close, I mean,
+I'll just say again, in the coming year or
+two, I really think it's going to be an
+interesting period. I mean, students have
+been going to college for four years, learning
+all of this stuff that technically
+cannot be applicable with a lot of the jobs
+that are hiring, and it'll take time for
+that to get there, but I think we'll really
+start seeing that. And that's the question
+that I'm trying to answer and figure
+out, how do we best prepare our community
+for what's coming um with the tools what do
+they need to know and uh yeah if you'd like
+to talk about this if you have any
+suggestions we'd love to guys that's all i
+got for presenters thank you all
+for coming and before i let you
+guys go Okay, this is the first
+New York City Agentics Foundation
+to meet up, okay? I don't know how
+many people actually know about the
+Agentics Foundation before you came
+here, right? So I'm going to, in
+the blast that I send you guys after this,
+hook you up with like a couple of
+URLs where you can go and get plugged in,
+right? Where you can get like in this
+community be where we are like pushing the
+boundaries what people are doing, they
+act. All of these naysayers that people
+are like, oh, we can't do this, oh, we're
+being very careful. Just go all in and
+trust everybody that's telling
+you. Because like, just . Guys, that's really
+it, like network hangout, I think
+we have to be kicked out of here
+like 7:15 or 7:30. but a big shout
+out to zohar

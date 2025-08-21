@@ -1,0 +1,1618 @@
+right going live hey it's the 24th of
+july time flies today i'm i don't have a
+huge i don't have a solid plan but i do
+have a bit of a plan i'm going to dig around
+a little bit in the open code cli maybe
+i'll show you guys a little of this web
+dashboard that i've been working on for the uh
+cloud cloud flow and separate the system
+from the use of Claude as much as I can.
+But to be honest, I haven't been able to
+find any CLIs that really come close to the
+ability to sort of run things in a kind of
+concurrent fashion. Supposedly, the open
+code system does that. So I was going to try
+to investigate that a little bit. But in
+the little that I've investigated, I've
+struggled a little to get uh it looks like
+it defaults to like the github use uh
+github i don't know what it is basically the
+github's llm integration which makes it a
+little tricky to use so let me let me
+start by showing a little bit what
+i'm working on here but and uh well and
+welcome everyone and thanks for showing
+up to another one of our live vibe coding
+sessions all right so for those who are
+new that basically all i do is show you
+what i'm building and and in real time
+so this is this is one of the things i'm
+building right now this is a uh something
+i it's it's super retro let's just so this
+is basically a ui for the front end of claude
+uh claude flow and i did it as retro as
+i possibly could but basically what what
+you're going to see here uh so what i'm building
+this is a let's just go back out so
+it's a see i don't know what you want to call
+it a dashboard i guess so i'm using a
+combination of components here i'm using web
+sockets to connect to the the back end mcp oops
+it looks like a jump it opened that up it's
+super retro interface and uh in in this case
+we we can see here that i've got a number
+of tools here's a web socket i've got
+my sync manager i'm looking here's the
+information i'm getting so this allows me to sort
+of get a feel for how it's going to run how
+it's going to operate you'll see that all
+the services started that looks good so now
+i'm going to go back and we're going to
+take a look so there's a few different elements
+here you see that there's this sort
+of initial dashboard components i don't know
+why i've got two scroll bars that's a little
+weird i got to fix that but anyway um now
+we can go here we can see the swarm i can
+uh i can add i can add my various swarm
+elements so i can choose and we can spawn a
+swarm i can i can choose different options like
+an architect or or tester coordinator code
+or whatever so then i can spawn it so i'm
+going to spawn that we can zoom out i can
+add let's see if i can add another one a lot
+of researcher spawn that and i can move
+those around oh maybe i don't move it around.
+I'm not sure. I'm still building it just as
+an FYI. I guess my dragging component
+doesn't quite work right. I can add tasks,
+test, submit that. And that will show up here in the task flow. And we got my various
+memory components. This is basically
+just showing it how it's storing
+the various memories for what's
+interacting with it. Lots of information here. This is raw. I
+probably got to do a better job of
+cleaning it up, but I'll start raw.
+The other part I have here is the
+MPX integration. So in this case,
+I can do different initializations. So
+if I want to execute a tool, I go here
+and execute that. And we can see the tool
+being integrated. You can see all the
+various options here. So if I choose like
+GitHub integration, we'll see GitHub
+components or system and utilities. I
+got those as well. This is early. I haven't,
+there is a branch that if you guys are
+interested in taking a look, uh, that I
+had, it's, it's still very, very alpha. I'm
+still working, working on it, but, uh, you
+get, you'll get the general idea. Basically
+I'm creating a UI for all the sort of
+system variables and data points. Uh, here's,
+this will be memory. So in this case, I'm
+going to look at the memory for, you know,
+different entries. So this is just, what
+I'm trying to do is just give it a better
+introspection, just kind of figure out how
+it thinks and how it works. So here would
+be the high bind components. So this
+would give me different options to see the various
+components. And then in this case, we've
+got a terminal. So the terminal here
+allows me to just access the terminal through
+a web-based interface. Seems a little
+redundant, but why not? So you can see here.
+So now I can, let's add a command here. Here,
+let's add this one. oh no that's not what
+I wanted uh oh you know I need I need
+ability to clear this oh I guess I can
+select all all right let's choose the right
+one uh here's this is a command this is
+a useful command by the way for clod code
+that allows you to stream the output so
+it skips their user interface so in this
+case i'm going to say you know test a
+con current uh agent swarm so the dash p
+prints out the output the output format is
+defined as the the json stream and then you need
+verbose this is going to be the basis of
+how i'm going to add a new feature here in a
+moment. So, I'm going to go here and I'm just
+going to type that. So, now we can see it giving me the output
+each step along the way. So, now
+I need to actually render that in a
+way that's useful. So, that's the next
+feature I think I'm going to try to add
+here. I'm going to add a cloud flow
+section to the UI and then rather than
+invoking the interface using the default
+cloud code system which doesn't work
+particularly well in in a web browser i'm going
+to uh attempt to build an a web-based
+interface for it what this is doing
+is just showing me the sort of
+thinking process this is what happens
+essentially under the covers when you're
+using cloud code so you can see the
+the assistant this is basically you know uh
+the request we can scroll to the right here
+we'll see more details the id now i could
+probably store all that information to a db
+as well which i'll do in a later stage roof
+yeah did you did you define like in those
+logs right there like did you define that
+that type assistant or is that actually what
+what's being returned from clod and that's
+being that's being returned from a clod
+you can see the all this there is the assistant
+basically okay yeah so this is what you
+see if you want to call the system directly
+this is how you do it. So lots, lots
+of thinking. Claude doesn't
+permission to bash. You haven't granted it.
+All right. So what I'm noticing is I don't,
+I'm not giving it permission. So I'm
+going to, I'm going to switch for a moment.
+So let me see, I hit control C. Now
+what I'm going to do, I'm just going to
+go back here for a moment and I'm going
+to just test. So what I'm trying to do
+figure out exactly how this stuff all works
+under the covers. So in this case I'm gonna paste this in again. This one. This time, oh, actually before
+I do that I'm going to go and do help
+and I'm gonna add the dangerously
+skipped permissions. This is way over here. And then I'll put
+format, rebose, yeah looks good
+actually i'm going to use the
+one i just did and i'm going to add
+the dangerously skip permissions option
+this time what i'm going to do is i'm
+going to you know to to do research to
+a simple world in, hello. All right, so I'm
+just gonna grab that quick so I
+have that handy. So once I have that, so this is the
+initial output. I know not the most
+exciting thing to look at, but this
+gives me this direct integration with
+their system so I can bypass having to use
+the cloud code CLI. All right, and what I'm going to do once
+I have that, let's see, is I'm going to
+copy and paste this. So this is how it uses
+the parent tool use. This last thing,
+it basically reverse engineer
+their UI. We can see here that it's using my MPX tools. I saw it a
+second ago here. Yeah, I was going
+to say to Alexander that the minus P
+switch basically tells Claude to
+reveal everything that it's doing
+under the covers. Yeah, it's exactly
+what it's doing. All right. So while
+I does this thing, I'm going to jump
+back here for a sec, and I'm going
+to use Cloud Code Standard, and I'm
+going to say update. I got to type it
+right. Update the, where did we
+run that again? I'm going to stop
+that for a sec. I'm going to give it
+the exact address. So here. I don't need this
+one. This looks like a one update to
+include a new clod flow page on left and a
+nav that uses the following command to
+interact, I guess, interact and display
+the resources. Ruben, you're
+just using the standard cloud
+right now, right? No, I'm using cloud flow. This is flow, okay.
+Yeah, so just as an FYI, you don't have
+to use the Claude-flow CLI or the CLI. All
+you need to do to use Claude-flow is type
+Cloud and then use the dangerously skipped
+permission option here. And then what you
+have here when you do that is
+when you see slash, you get
+all my commands, right? So you get
+all the various commands. So if I type
+GitHub, you get my GitHub commands.
+If I type Spark, you get my Spark
+commands, right? So I don't need to
+invoke it using the Claude-flow CLI. I
+just use it this way. And if I don't do anything,
+it's automatically getting my clod.md
+file, right? So it already knows how to
+use my system because I've already put it
+in the clod.md file. This is telling it
+how it needs to work. So the Claude-flow
+at alpha but is mostly for cloud
+code to know how to interact with
+it using the MPX. All right. So
+let's jump back here. We're
+back. This one. All right. So it's
+just consuming tokens out of the
+system prompt. Yes, it is. And I think it's the
+first time it runs. So back to the,
+you know, let's just check this
+for a moment. This is still going. Every time you open
+up a new terminal, are you having, are you
+having to re like initiate the cloud flow in
+that terminal or is it already no no it's all
+i occasionally update it well this you're
+looking at actually the environment that i have
+to do my cloud flow development but assuming
+this was not that environment i would i
+would need to probably reinstantiate it
+if i know there's a new update but you
+automatically get that because i'm
+using the mpx which will give you the
+most recent alpha version if you use
+the at alpha tag gotcha so go ahead
+the npx the uh so the way i do is claw dangerous
+escape permissions first so they're
+Claude um the normal you know typing window
+comes in and then i generally run the npx
+command with force function to create all
+the folder structures on the terminal so
+you are saying that uh you know that that's
+what creates all of the files right all
+the folder structures exactly so once you do
+it you know once you do it once you probably
+don't have to do it again unless there's
+an error but there's uh sometimes there's
+a uh like they changed for example last
+week they changed the structure for how the
+um the settings.json worked so i had to
+basically reinstantiate that which made
+that error go away i don't know why they
+they changed it and you know two weeks after
+launching it but anyway that's what they did
+so i had to go and fix that and
+reinstantiated for all the things I had previously
+run the in it on so now I'm what I'm
+doing is I'm giving an example so I'm gonna go
+here and I go back and I think it's which
+one is it I don't even know now to go back
+let's scroll back up oh it's still still
+building but you can see here I'm this output
+is working in exactly the same way so i'm
+gonna i'm gonna go back here and i'm gonna
+say make sure to parse parse the uh sorry
+guys i'm getting a bit of uh there we go
+so i'm just telling them to parse the
+json correctly in the web ui and then
+i've got to go and i've got to figure
+out which one of my things I just made
+actually does that. So I'm just going to create a new file quick. New file. All right. Pop
+that in here. Oops. Was it this one? Yeah. This one will give
+it a good example. Get rid of that. Here's an example. What? And now, you
+know, you can also change the mode,
+but I think it's control.
+What's the control? No, I always forget.
+There's a control mode that lets you
+go to planning mode. You guys remember
+what the control for changing between
+planning mode is? Command, tab, tab. Okay. Yeah, I'm not
+going to do it right now because I don't want
+to get stuck in that mode. But I could do
+planning mode here. not going to bother all
+right pasted that in i'm in the agentic
+flow that's good so now what i'm
+gonna so well just to recap what i'm doing
+so while that bakes what i'm attempting
+to do here is create a new section along
+the side here which will be like a clod
+flow which basically will will make this
+more pretty and show it in the ui similar what
+i'm doing in these with these you you
+know user interfaces i don't think this is
+actually running at the moment no i
+think i turned it off yeah i turned it off
+let me run that again run start so this is
+all using web so at the very least what i'm
+doing here which is useful for you guys is
+i'm actually i've created a mechanism that
+allows me to interact with um cloud code through
+web, web, web hooks, web, web sockets. So
+if you want to use that as part of some
+secondary application, you want to have
+additional sort of swarm capabilities or whatever
+it is you want to do. This is, this
+is meant to just show how to do it.
+So I did it in a crazy sort of a
+1980s, you know, hacker style, but you
+can basically use my, my web hooks to integrate
+this to whatever application you want
+and this is just a nice quick example
+of how to do that and you're saying that
+you're saying that this is swarm as a service
+basically but yeah so that's exactly what
+it's warm as a service you can see that i've
+exposed them using in this case local
+local you know urls but you this could be
+whatever.com i don't have any security on it
+currently so you know secure it so this
+this is on this isn't running publicly this
+is on a local host So if you do want to
+run this as a service somewhere else, then
+you're going to want to add auth to it. I
+haven't gotten there yet. But you can see here's how it's interacting. Here's
+initialization. I've got Mastra integration. Studio. This isn't a major
+error. This means that it already started
+the server, and it's getting an error so it
+doesn't need to start it again. I might
+give it more elegant server already started message rather
+than an error. Let's go back here. All right, so now
+I'm going to create a new Claude-flow
+component, update the navigation
+and modify that. All right, while
+we do that, I am going to try
+something else. Let's go to the end here. Hold on. Do I have open code in this one? Yeah, I do. So this is something
+else I've been looking at.
+OpenCode, is anyone on the call familiar
+with OpenCode? Well, OpenCode is
+basically a sort of open source version.
+You can call it the version of CloudCode,
+similar in structure. I've been looking
+at OpenCode, Reuven, and it's
+pretty unstable and raw at the
+moment, man. Yeah, that's
+my specialty. yeah i like it
+yeah you're a good you're a good
+match for uh for open code at the
+moment for sure yeah yeah but i i i
+100 agree i i tried it earlier um it's i
+i wasn't see how it defaults to github
+copilot 4.1 which is the free which is cool
+because it's free but i i can't for the
+life of me get it to switch to you know use
+my uh my sonic account all right so now
+it's initializing and And that's actually
+weird because that's one of the fundamental
+design principles of OpenCode is to
+have as many back-end models configurable
+as you possibly can. Well, I can't
+figure it out. But the most useful
+part of OpenCode is – so I'm just initializing
+it right now. It's cool that it's free.
+I love the fact that it's free. So if there
+was ever a fallback, it's a good one. um so
+now it's it's looking at the environment
+it's creating the uh cloud code all right
+so update the what do they call that file and
+how do you scroll up there's no obvious
+way to scroll either i don't i don't know
+it's it's broken in many ways this thing but
+it has potential one sorry for interrupting
+um you are using the the wrong um open code
+there are two versions ah that's true there
+are two and and and you must use the sst open
+code um there are also the owner of opencode
+.ai um and this is really a beautiful tool
+all right let's let's let's use the right
+one the other one is bought from a company um
+the developer and there was some issues i
+don't know actually i'm gonna before i do i'm
+just gonna remove yeah i'm gonna remove that
+so i'm gonna flood dangerously skip i'm
+gonna call out and remove open code you're right
+that's exactly what i did i'm like this looked
+different last week that explains it all
+right i think it's this is t1 right yeah
+open code mpm and all files all right let's
+let's go use the right let's go use the right
+one open code there's two like results here
+and i think i gotta do it i think i gotta do
+a uh this sst yeah what what a what a terrible
+name like call it yeah there's some
+issues about the the the trademarks and things
+like that but um in the end a better developer
+behind open code is this one okay that
+explains i'm like this i swear this looked different
+last week yeah i i uh i installed the other
+one that if this is also an npm mind you
+just uses a different looks like they're
+they're using dash ai oh just
+just to make it uh just to
+make it confusing all right let's
+go back let's split two for
+cloud code i guess someone took the
+original anthropic all right so i'm
+gonna clean that up let's take a look
+what's going on here all right so this
+is working so or let's see how bad
+i broke it let's go back i'm doing
+i'm doing multiple things at the same
+time here oops where did i put
+that over here no that's not it maybe i closed it that's okay i'll
+restart it I've got it so it auto
+I've got too many windows open open
+browser all right now we've got a cloud
+flow section all right test the concurrent
+let's see see how quickly I was able to do that
+well it's probably gonna break but we'll
+see it is once you've got a template in
+place it's pretty it's pretty fast all right
+look that looks good um climate moment is
+it is it gonna work now i get i get
+unknown message heartbeat it doesn't
+look like it's working for some reason
+terminal connected um not getting i'm not getting a response okay one second i'm
+now we're gonna go back here i'm I'm
+doing two things at once here, but
+that's the fun part. All right. Did it
+get rid of the open code? Okay. So now
+I'm going to go back. And this time I'm
+going to get it to open code SST. Is that what
+it was? Yeah. This one is the SST
+version. So it actually confuses everybody
+about. Well, the worst part is I actually was
+using the other version last week. and today
+i'm like oh they must have updated their
+ui no it's just the wrong **** version
+yeah and i actually think there's some
+issue with it kind of being hacked or
+something as well and and dangerous or something
+so you kind of got to be careful there's
+something going on between these two
+competing orgs long story short there are um where
+two main developers um that are reaching
+the pro of the first project um and the
+the guy who was inventing the the repo
+at the first time, was hired from another
+company for big money. And now the two
+guys who are made a lot of code for
+the alpha versions, they have the
+domain open code.ai and also the repo.
+And there are the better developers,
+as I have seen. And so they have a
+little bit struggle about naming and
+things and contracts and things like
+that. But in the end, SST open code,
+easy to remind. Okay. So I'm going to go
+here and I'm going to tell to install
+the right one. All right. Let's go
+ahead and do that. And now while that
+does that, I'm going to jump back here and see
+what this is doing. I didn't see an output,
+which indicates it just wasn't returning
+the output correctly. But the UI looked good. So that's good news. So basically what I'm
+doing is I'm attempting to create a, using
+the streaming output from claude
+code i want to output that into the ui then
+i want to sort of take that output and
+clean it up and make it pretty and show the
+various integrations so i want to bypass
+the traditional ui make my own so it
+doesn't do all that flickering and all
+that other crazy stuff so i want to i
+want to be able to parse the tasks and
+the to-dos and and the responses and
+then segment those, basically recreate
+the sort of general flow and vibe of
+Claude code, but do it in this kind
+of retro style UI. That's my idea.
+How come you have the HTML inspect
+window open? This tells me
+what's happening. Yeah, I know what
+it is. I'm just wondering what you're
+doing with it. So when I start, so a lot
+of what, especially when you're doing a
+front-end website, and I'm using
+WebSockets here, you're going to see
+a few things. And so let me refresh the
+page for a moment. So you see here, I
+initialize it. And then we see here,
+there's the initial socket. That's always
+gonna fail because it takes a second for
+the server to start. I probably need to
+do that differently. Then what I'm doing
+is I'm connecting to my real-time
+synchronization, which you see here as use
+real-time sync. And then I'm using an
+auto-connect every three seconds, I
+guess, or 30 seconds. And then I'm connecting
+to the router. so this is giving me
+the general idea of what's happening right
+so as I do things I can always see exactly how
+it works here now the so the other thing
+I'm doing is I'm going to copy if I'm running
+into an error I'm just going to copy and
+paste the stuff that cloud code can't see
+in the in the UI now I could probably use
+something like what's the tool the playwright to
+do this as well if I wanted to I'm lazy right
+now I didn't bother installing playwright
+but playwright would essentially automate
+this a bit for me but I'd actually when it
+comes to UI I don't mind actually doing it so
+right so when I go to mcb tools you can see
+here it's it's always show I'm getting an
+error here what's what's this one okay this
+is this is a good example so it looks like
+I'm getting a web socket error but this that
+might because it's currently working so I'm
+just going to go back and see what it's
+actually doing it looks like it might have
+broke the web socket it. So I'm going to
+go back here. And I'm going to stop it. I generally don't have
+to restart it. But sometimes if it
+changes the WebSocket server, I'm going to
+have to restart it. So again, I'm showing a
+verbose output here as well. I'm always
+curious what the heck it's doing and how
+and how it's doing it. And we're going to go
+back here. I'm going to refresh it those
+logs automatically get saved somewhere in your
+memory or like no no they don't um i do
+well yes sort of well yeah you mean the inspect
+window logs console logs alexander the
+console i know but no they don't i've got
+logs that i'm storing in in in here as well i
+think it'd be super interesting to like take
+this community's like logs like do some data
+analysis on it parse it and like kind of
+get a sense of like what the what a successful
+projects like cadence would be in terms
+of like how we're prompting it to get to
+like a completed outcome well ui stuff is always
+the trickiest because it requires kind of
+iteration back and forth see how i'm i'm
+pasting the that it broke the uh the web's
+socket so now i gotta tell it how it broken
+it will it if you know the middleware is
+easier because it's more kind of iterative back
+and forth this is you know it doesn't see
+the things it doesn't see uh what's the file
+with that one I mean a screenshot of a UI
+we can upload that and send it where this
+prompt but is it possible I'm not sure I
+understand your question I mean you know this one
+is not exactly seeing the UI so maybe we
+can have a screenshot and send it through
+via prompt but if it is possible the the issue
+isn't isn't visually the screen look it
+looks fine right i it's loading correctly the
+issue here is is uh you know kind of
+hidden from from view that's why i
+have the console open it's basically
+not connect dev tools back into
+a log file that's accessible from cloud
+code so you can at least yeah i could
+totally do that i could save it to a
+sqlite or something and then just tell it
+to review that or i could send it directly
+back to uh right here right and show
+it and show it on in this area i
+could i suppose you know i'm
+just i'm kind of winging it a
+little bit today but that's what that's
+what this is doing that's your style
+man yeah i'm i'm vibing it what can i
+say it's this doesn't look like a major
+issue but it looks like and now they're
+ready a simple test it so it's going to
+write a little test script to figure out
+what the issue is all right update
+the components let it create a
+mock clod script for testing purposes oh i don't like mock
+but we'll see so it's simula oh it's doing two different things here okay i see the
+i see the issue let's go back
+here for a second um i noticed that every
+time i use cloud i don't know if it's
+cloud or if there's the swarm but it's always
+trying to make mock uh or simulations to try
+to fake results i don't know why i keep first
+i keep pushing back i keep pushing back
+like you are you gotta mock it before you
+create it that's my spark methodology if if
+you're trying to build before you know what
+you're building it's going to fail and go down
+a rabbit hole of just constant errors so
+when you use spark the first step is to create
+a pseudo code outline and mocks of of the
+structure using a test driven development
+approach that means it's working correctly the
+part that that you need to watch out for
+is after all your mocks are are complete you
+need to make sure that the system has gone
+from a mock version of it to a functional
+version but if you're trying to skip the
+testing phase then you're gonna have a lot of
+problems i will say that it's pretty good the
+mocks that it does are pretty good at faking
+you out i get caught all the time like oh
+it's working but then i realized oh it's just
+the box yes yeah but sometimes sometimes
+doesn't catch uh all of them so it keeps it fix
+most of them but then they have a couple of
+things going around in mark or in the
+simulations so it's hard to get it yeah oh i
+agree um come on cli it is installed on the
+on this point about uh basically test-driven
+development right in when we went in group
+code world i used to like in my prompt specifically
+say follow the ddd method london
+school and write tests before you write a code
+in cloud flow generally and i could see all
+the test cases created first before it built
+but in the cloud flow bed i don't see the
+test cases created is that because do we have
+to specifically mention that in the cloud.md
+or or do you do yes unless you're vibing
+you don't care you need to tell it what it
+needs to do it's not gonna it's not gonna
+magically know what you want to build so in
+your you know out of the box cloud.md basically
+it's not there is what i'm presuming
+uh i'm not sure i understand your question
+He's referring to the Spark methodology,
+Reuven, which has the TDD built into it and the
+pseudocode mode phase of it. He's just
+wondering, is that Spark methodology integrated
+into Flow or not? It is integrated
+into Flow. I'm just not sure
+if I understand exactly what
+you're asking. so so basically in
+when we were doing in drew code i would in
+my prom specifically say that use for
+example test driven development approach
+london school write test before you develop
+anything you know follow that methodology so
+you don't have it would write all the
+test cases first feature by feature and then
+build now when i use for example swarm or
+hive mind I generally have a PRD and I
+ask it, here is the PRD, here are all the
+specs, now build it. So it does build
+it, it mocks things up and it works,
+but I don't see it writing the
+test cases per se. I'm wondering,
+that's because maybe I need to
+explicitly ask even when I am
+writing the PRD, that write test
+cases before you develop and
+follow Spark. Yeah, it depends
+on which command you're using,
+but it sounds like you're on
+the right track. If you don't define
+your test, your unit tests or testing
+strategy in your PRD, there's a high likelihood
+it will either skip it or use a rudimentary
+implementation. Now, I've got that in the slash spark command. So there's a, well,
+I had to restart my code space.
+I crashed here, but I'll show you
+that in a moment. So I attempted
+to paste too much and then crash
+the terminal. So we're going to
+go back here for a moment and hopefully
+this restarts here. But you've got in
+this folder here, and you see the commands? You've got a folder,
+you've got all the commands, you just
+got to use them. You have to invoke
+the Spark commands. So for example,
+you've got TDD here. So this would be
+the test-driven development
+command, right? This tells it how it
+needs to use it. These are your various
+commands. These are your
+viewers, your MCP integrations. So you
+can invoke all those. Now, why isn't my
+terminal loading? so is is hive calling
+spark tdd no you are you're still doing
+all this manually well it could it
+could if you update your cloud.md file
+so the first thing i do is i update
+this cloud md file this one here uh
+to be specific to the project in
+which i'm working on so in your case you
+know so this the one you get by default is
+is is generic right it's it's saying
+here's here's how the swarm needs to work
+but it's not really doing anything uh you
+know specific like if you want spark you
+might you probably need to add that as
+as more directions so you can customize
+this a bit now i have no idea when my terminal
+is not working do you manually edit your
+CloudMD or do you just copy in a template
+that you you woo that you're you I depending
+what depending what I'm doing I'll I'll manage
+it I'm not sure why my terminal stopped
+working yeah man your icons are not refreshing
+in the little shell so idea yeah that you
+got some problems there yeah I'm not sure
+what's going on here uh close remote connection
+i might reload the developer uh window
+with the command palette the command palette
+isn't loading oh really i guess it's time to
+just turn it off and turn it on i i already
+did that uh reese yeah reload window
+maybe yes i tried that usually that that's
+enough to code restart to update code container
+compose restart um which one is it
+there's a there's a a lot or code space i don't want to
+rebuild the container that seems a little
+dramatic connect to code space i gotta tell you
+i i hate reloading rebuilding the
+container in code spaces because if it fails
+your your code space boots into like a
+recovery mode and then you gotta fix it yeah
+well i've got all the data it's not it's
+not that big a deal i've been but it's
+persistent yeah it's just it's just uh
+i'm gonna try i'm gonna try one more
+close remote connection it's weird i i don't
+i don't know why it i haven't seen this before
+of course it's it's only going to happen
+on a live broadcast. But here, we're going to see what we can do here. So before I go, I'm going to attempt to restart it. So you guys get to
+watch that for a moment. So we're going to go
+to GitHub Codespaces. Oops. Bit of a delay there. and I'm gonna see if
+I can just restart the machine itself
+where's my cloud flow right here and
+stop code space to which what was the name
+of that one I might had more
+than one running. Refactored carnival? Refactored carnival. All right, let's
+give that a go. Otherwise, I might need a more drastic approach or I might need, you know, what I might
+need, actually, you know what I might
+need to do? If it doesn't work, it's
+probably not the code space. It's probably
+via, I probably need to kill VS code. I probably
+over, I'd probably that some sort of
+overflow when i try to copy and paste all
+that uh json we'll give that one more try
+yeah you guys get to watch me debug i guess
+if that's exciting i was waiting i have a
+question that worked all right so so yeah
+go ahead one thing note when you when
+you're when you're recovering you can
+always do dash c looks like i looks like
+the restart worked so what was sorry what
+was your question um i was curious
+about the sequence of commands that
+you explicitly um basically ask at the
+beginning like during the flow so the previous
+question was about explicitly calling
+tdt as spark tdt um so i'm curious what's your
+standard sequence of comments like spark
+researcher and then spark studio code or then
+spark tdd what's the sequence that you usually
+recommend to follow so it it depends what
+i'm doing and i'm not sure why this is
+taking so long to start but i'll show you here
+in a sec uh let's see here let's see another
+plot and you see what's going on there that's
+that's working oops wants to do that
+roof i think this is a great question
+um the way i i'm still getting used
+to the whole swarm and i've been using
+it for a few things but emmanuel like
+the way i do is prd first then i say
+to plot of plot flow basically um you know
+this is the prd what do you recommend what
+what what structure of agents number of agents
+you recommend provide me full commands how
+I proceed so then it tells me this is
+how it is I initializes the swarm right and
+then once it does that then I say okay go and
+build it I think what I have not been doing
+is as roof pointed out is because I would
+prefer to do it through a TDD approach so I
+should actually go into the cloud that
+MD file and say follow maybe I need to put a
+line in there to say follow tdd approach
+spark but i guess your questions about
+researcher and all of this stuff uh yeah i would
+love you know prove your your inputs will be
+welcome like how you know i think i guess
+so you've got you've got different you've got
+different modes right and those and those
+modes can be invoked either through
+programmatic means or often just you doing it so
+in this case when you do slash and we do spark
+you'll see that i've got different spark
+modes i could ask you know i get integration
+i got optimizer devops reviewer re you
+know my here's my super base admin coders so
+this is using sort of my my preferred approach
+right so i've got so tdd obviously
+would be td and i just did that up here so
+in this case i told i basically said to
+add the tdd components to my claw.md file
+so now when i when i reinstantiate it's
+going to have the tdd components included
+automatically so here we go so now we
+see here it's it's decided you know
+i'll go here and i'll find it tdd so this
+is how it's going to orchestrate the tdd
+components and get it gives it more guidance
+how to refactor how to do you know tdd
+swarm roles for that so i've just given
+i i've given it more guidance on how the
+agents need to interact with when doing tdd based
+components so i know there's a lot and i'm
+what i'm trying to do here is not give
+you everything because if i gave you everything
+then it would just do nothing particularly
+well so i'm i'm invoking certain things
+at certain points when i need them and now
+as part of the initial sort of guidance what
+i might do is i might go with a research mode,
+like Swarm Research or something, and I
+might say, include a TDD-driven approach
+using Spark or something, and it'll know to
+include that as well. So I'm guiding it.
+I'm the engineer here. Today I'm vibing a
+little bit, but generally speaking, as an
+engineer, your job is to provide guidance in
+terms of architecture, in terms of
+procedures and process and data
+and whatever. Without that,
+you're just vibing. I had an observation,
+I've been noticing a lot of creativity,
+you know, from yourself and from others
+coming through and in the sort of these
+techniques and workflows and updates people are
+making and customising their Claude.md
+to get sort of the workflow that you
+that you desire. And I wonder if there's an
+opportunity to maybe kind of optimize the
+updates to Claude.md and maybe some kind
+of management layer for how to better work
+with the Claude.md. You mean like to
+have a repo where everybody can dump
+their Claude.md versions in there somehow?
+Well, potentially this, yeah, like a
+kind of a best practice library for cloud
+.md customizations, but then also an
+injection method for how to actually
+update it dynamically. And prompt cloud code. Yeah, for sure. sure
+but he was just like yeah but like leveraging
+all this best practice and doing it in a
+programmatic way that and that can be done
+you know i want that one now or now i'm switching
+to that one kind of thing or it could
+also be something like md actually it could
+just pull from a github repo right we could
+all just dump our mds into a github repo and
+then and then you It could just say, find
+the best Claude.md for this problem that I'm
+looking for right now, and it will go out to
+that Claude.md repo and the Agentex repo
+and find it, scan it, find it, and then say,
+here, I found it. Do you want me to push it
+right now to your M&D? Yeah. yeah or another idea
+is like if we point it to the code modules
+folder Claude basically and say you know i'm
+going to solve this problem and i want to
+do this kind of approach as some kind of user
+prompt can you kind of look at those modules
+and update the cloud on md file suitably
+before i initiate this swarm right yeah exactly
+that's that's exactly what i was thinking
+more of a modular way like i like that
+chunk not not to replace the whole thing but
+just just pieces but in that case we can
+create like a gpt so it would be expert on
+creating cloud mds and then you just describe exactly
+what's the project and they would create
+it perfectly yeah but you but you want
+you want the benefit you want to benefit from
+everybody's Claude md file to find the
+best one not not just scanning your code you're
+also constrained by the context window so
+you need to be yeah you need to optimize
+what elements or what features you want to
+curate into your cloud md could we use the
+switches maybe for this would that be useful
+the slash commands yeah yeah the slash
+commands are generally geared towards human
+interaction yeah where where the clod the
+doc clod file is kind of the default guidance
+so the suggestion to have different
+clod mds is actually a really good one
+because that's really what this is the most
+important file this tells it how everything
+else needs to work yeah i think it only
+reads it i think it reads it when it
+boots when it boots up right i don't
+know if you can refresh the clod md it
+can refresh the clod md but more what
+i've been doing is launching Claude code
+from within different folders so that they
+reference different Claude MD files and then
+have them effectively work on separate
+areas of the code. I think... Opinionated
+best practices. Yeah, I discovered that it
+does that by accident. I think that happens
+automatically now, Jed, if I'm not mistaken. So when it goes into a directory to do work, it's going to
+check and see what the closest
+ClaudeMD file is. So ClaudeMD files
+actually stack with increasing specificity
+depending on how deep into the
+code base you are. Actually, I think
+you're right, Rob. But I think
+that... Sorry? So if I have a ClaudeMD
+in a subfolder, does ClaudeCode
+only pay attention to that ClaudeMD
+file? No, it stacks. It stacks. yeah
+it's in the documentation actually
+yeah it stacks so the idea of like
+toggling between planning mode testing
+mode development mode in in a series of
+cloud md files is is an interesting one i
+don't know how you'd accomplish it but but
+yeah they stack and then that way you can
+have a cloud md file specific to a subfolder
+but i don't think that's a new feature
+rob i think that's been around for a while
+because i remember reading that way back uh like
+a couple months ago yeah yeah see there's
+another way to think about these are all
+really good suggestions by the way the other
+option you guys can think about and
+this is something i've been looking at um is
+the settings.json file so these are really
+interesting because you they are hooks
+that execute you know before after and during
+the execution of various tools right so you
+can see that i'm using it here as part of
+the you know i'm using basically bash it
+was and i can use my mpx and then i'm using
+that and then i'm inserting dynamic
+information as part of that into my my mpx commands
+and now i didn't bother with with with
+the mcp because oops did i just break it
+there we go because um I know this works and
+I'm working in this case I'm working in the
+environment that I'm actually building Claude
+Flow in so I can't recursively work on the
+tool that I'm building because it will break
+frequently so to get around that I'm
+using the mpx as a remote instantiation so I'm
+essentially using the last version that
+worked and then and I'm calling that mpx in
+this you know in this case you know pre-tool
+use whenever write edit multi-edit is called
+then you're gonna you're going to do this
+command. Now I can do that for lots of things.
+For example, let's say every time I do a
+certain command like post tool, I might want
+to update my GitHub and do a stash. And
+then what that would allow me to do is roll
+back at any point as the system executes. So
+I'm basically creating checkpoints at every
+point along the way. I'm not doing that
+here because it's a bit much, but
+I could do that. You can see here I've
+got different matchers for write, edit,
+and multi-edit now i could take this further
+and i could i could add it to like the
+to-dos and and tasks and stuff like that
+and then when it ends it does this last
+session basically closes the session itself
+and this is all being stored to the swarm
+environment and and then i'm enabling my mcp
+servers as well the roof flow and and roof
+swarm components but there's a lot of opportunity
+in in this particular file and i'm giving
+you a generic sort of initial one but you
+could you could fool around with that
+let's see what else we got here what's i'm
+still trying to get the the stream the output
+i'm not sure what it's doing here i hate this
+flickering thing i wish they would fix
+this it's so annoying and it gets worse as
+long the further you go I don't think it's
+done. I think it's still looks like
+it's working. I don't think this has been
+implemented yet. The debug adds.
+So when I click the debug button,
+you see here, I've got different
+debug information, sending ping, so
+I'm just iteratively sort of doing
+it step by step. but it looks
+like everything's other than oh this
+one's still giving me an error i'll
+fix that later let's see if this
+actually how bad how bad that it how
+bad i broke that no not bad it's
+a minor error so this is basically
+in this case i just executed that particular
+feature which are all the other
+features i showed you i'm just giving you
+i'm basically giving you guys a way to
+interact with the swarm through a website
+that's really all that's really all i
+was trying to show you guys how to do here
+once you give up give up on the open
+code uh demo or eval uh well i crashed
+when i was and i got sidetracked uh let's go
+let's go back here uh install i'm going to
+tell it to install the right one this
+time if i can find it this this one there we go yeah so note
+to self two different open code projects that
+basically do exactly the same thing in
+completely different ways which is a little
+annoying all right i've successfully updated
+the You'll be properly handled with Jason's
+streaming events. All right, let's
+go back there and see what
+that looks like. No, it's doing
+the wrong command. Quick question for you,
+Reuben. How's things coming with Mesh?
+Is Mesh done, or are you still hacking on
+it? Well, I've been on a little bit of vacation,
+and my wife told me I wasn't allowed to
+turn on my computer. I'm not pressuring
+you, man. I just wondered. I know that one. yeah
+she was not keen on me uh you know sitting
+in front of my computer at the cottage so uh
+yeah i i i haven't been as productive i've
+been pretty productive just not as productive
+as i usually am no pressure man i'm
+just i'm just wondering david you seem like
+identification now what's that nursing
+uh the dave gratton i think you seem like
+navigation with your hawaii t-shirt a hawaii
+shirt and everything briefly came on the
+camera yeah i should i should have wore my
+hawaii shirt yeah i'm at the cottage so um
+i am indeed outside next to the lake so yes
+it's oh yeah oh there we go yeah he said
+that's is that is that hawaiian or canadian
+tropics uh this is dominican republic
+but um no i'm i'm just by i'm just up in the
+muskocas so which is which i like to call
+the canadian tropics oh well it feels pretty
+tropical right now i can tell you that
+much yeah i don't know if that's a thing um
+i i might have just invented that as a thing
+at some point there was certainly tropics
+right yes 250 million years ago there was
+a tropical sea in this general area of
+canada but uh that was a lot where are you
+typically martin where are you um i'm um port
+seven that kind of area if you know i'll
+see if i can give you a um i'm from Panatang
+originally, just around the corner.
+Yeah, just around the corner. Do you imagine
+it's a six-mile lake? There you go. Nice. Down there. How
+big is the lake? I'm going to
+say six miles. It's not about the size of the lake, Reuven. What's that in Canadian? That's got to be like
+about 10 kilometers. Have you got your
+cycle? Are you going to go biking again? You're
+enjoying your bike rides? Oh, yeah. I've
+just gotten into this whole cycle cycling
+craziness i'm i'm going on a um big cycle group
+with uh the toronto biking network it's
+going to be like four days of any length of
+journey you want so i did myself nuts the
+other day i um i usually i indoor bike that's
+my thing if i would do about 50 kilometers
+in the morning i watch youtube and all the
+rest of it and i post all my stuff to strava
+my my friend he goes ah you're missing it
+you're missing it all like indoor cycling
+that's a three outdoor cycling that's a 10
+you got to do it so he he made me cycle 110
+kilometers once i was halfway there i was
+committed i couldn't just get off and there
+was a big meal at the end of it so um yeah
+and now i'm doing this this thing over in
+peterborough so prove it's it's an option
+you don't just have to indoor cycle my my
+exercise bike broke this morning so now i i
+might have to go outside right yeah come to
+peterborough that might be much sure um Reuven
+i've got a bit of an update on synaptic mesh
+if you want sure yeah good to see chris um
+you'll have to apologize um for the robe um
+it is five o'clock in the morning here in
+new zealand and cool uh i'm trying to
+share the host is not allowing sharing can
+the host please sharing yeah that that was thanks
+to our our our last uh yep quick on the
+buttons yeah how do i make just one person
+be able to share let's see here allow you
+can't just make i okay i'm gonna i'm gonna
+allow share okay you requested there you
+go i was worried that there might be some like
+craziness as of last week my apologies on
+that too by the way yeah i've been looking
+into settings i'll update you later i
+figured i figured out i turned it off well
+that's one way but you can also stop you don't
+have to let everybody share at the same
+time you basically say that if someone's
+sharing no one else can share and also you can
+turn off the um the scribble thing which
+was the first instant. So here we are. I
+don't know if you if you remember and
+some of you might not have been on the
+call but a couple of weeks back I
+shared this mock -up of a what a swarm
+might look like and none of it's real
+and on the call Reuven said oh well you've
+done the front end I've got the backing for
+you and so that's where he introduced me to
+synaptic mesh um i don't really know what this
+does Reuven um do you but synaptic mesh well
+it's my attempt to share compute capacity
+based on several other projects i've created
+but it's it's very generally the your idea
+around uh yeah sharing cloud exactly so so
+then um what i did was um very crudely um
+attempted to brute force the inclusion
+of synaptic mesh into the search
+for the artificial super intelligence
+mock-up and it proceeded
+proceeded to i let it cook
+overnight and i returned to 120
+000 lines of code um it got very very
+busy it did a lot of stuff um none of it
+really worked a lot of it i don't know um so
+basically i then tried to recover from that
+by um giving it a bit of structure and so
+i invented this um customizations i called
+the yolo protocols and essentially what that's
+doing is it's just giving instructions to
+call.md to how to do the the work chunking
+and the GitHub issues. So, you know, create
+the epic, create the feature, create the
+the stories, so to speak, and make sure
+they're all linked. Make sure that you
+only deliver based on those things and then
+close them as you go. And it was it was very
+effective and, you know, structuring
+the work. so you know essentially did a
+review of of of the code base and then
+said right based on um where we need
+to go now let's plan forward and
+and so that's where all these
+issues started up um and then you
+know it's again been very busy
+it's it's we've got 45 closed
+issues in here uh i'm showing you all
+of the the admin um you should you see
+it yeah that's it you do okay one sec sorry
+um cool um so so i'm showing you all the all
+the busy work um did it do anything well
+what it did do is it created a new component
+for roof fan called neural bridge i don't
+know what the **** it is um i don't know
+what it is but i love it it's a high
+performance wasm neural network library with
+samd acceleration and real-time monitoring um
+anyway i've i've i've linked that to an issue
+on the on the roof fan um github repo
+um so you can take a look and see if that's
+worth including and again not really sure
+what it's doing it thought it needed to
+optimize something in the process what's so can
+you run it uh i don't i don't know if
+you can just run it straight off the bat or
+if it needs some other stuff again um not
+not really too sure um have you talked to
+claude code about it have you like have you
+like at least like put it in the like try to
+run it or like kind of ask like what what
+exactly are you doing i i tried that i
+couldn't understand it it's it's explain to
+me like like i'm a like a 15 year old or
+something is what i so this is reaching that
+that edge here where ai we just are not
+going to understand everything that's going
+on this is like kind of like starting to
+emerge so it's it's kind of the the ADHD brain
+just moved me to other other tasks so
+I got going with other things but anyway did
+some pretty cool things in the meantime I
+was trying to get the authentication working
+so sorry I'm jumping around a little bit
+the first feature I asked it to do was
+well actually let's get the Claude max authentication
+working because on the front page
+hopefully this works on the front page the
+idea is that you come in here and you
+connect your Claude Max account and then if
+everyone comes in and connects their Claude
+Max accounts then we can kind of contribute
+to the mega swarm and then we can all kind of
+work on sorry if we're repeating because we
+did this the other week but you know you'd
+have your projects in here and I could
+add my github repo you could add yours and we
+could kind of vote on which tasks we wanted
+to to get done together and as part of that
+that mega swarm activity and some features
+that it added since the other week was
+that it added mcp tools so it's got the Claude
+flow mcp server and some of those tools
+are there and then you can come in and come
+in and push buttons and do stuff it's probably
+just a mock i don't really know what it's
+doing but yeah it was it was a wild it was
+a wild west cowboy attempt at trying to
+do some kind of a merge and it was a fun learning
+exercise um that's that's how i would
+put it nice i like the ui i'm sure we could
+get it get it working well i think i
+think uh you've you've probably
+leapfrogged with with your with
+your fancy new CRT-inspired UI, Ruth?
+No, no, no. To be honest, the UI is more
+about the WebSockets and how you actually
+interact with it than it is the
+graphical components. Now that I've
+got WebSockets, you can basically
+just use my example and say
+make mine work. By the way, I've
+been able to get the other version
+of OpenCode working, so I'm going to
+attempt to log in. and anthropic I guess
+clod max and let's see what happens
+here explains why it worked last week and
+suddenly look totally different sweet guys
+wasn't my brain wasn't fully functioning
+earlier all right so I'm gonna log in to
+my clod and authorize that and I'm gonna
+copy my code go back many times someone
+else says when we go to this code
+thing right it defaults a local host
+callback function sometimes like I'm
+authenticating with a subscription from
+a code space it goes back to local
+host and do a few times it works it's
+just quite strange yeah that's that
+only happens when it uses the
+OAuth component how do you not use it sorry I'll
+look it up next Yeah, you can, there's
+an option when you log in that someone says
+Claude Max or Claude Max or something, and
+the other says API. Oh, okay. Thank you. The current
+research agents? I don't even know. And this is talking to Claude Flo as
+well right now? API bad root. No, open code. Are
+we in open code right now? Is this
+open code? Yeah. So OpenCode's main
+feature, Alex, is that they wanted a coding
+system that kind of is similar to
+ClaudeCode, but you have complete control on
+the back end of what models you want to use
+and how many models you want to use and
+how you switch between those models. It's
+a multi-model back end system, whereas
+ClaudeCode is one model, right? It took a
+couple of models, Opus and Sonnet, but it's
+tied to Anthropic. What's that? it's clod
+code meets open router like in the term in
+your cli basically yes it's it's basically
+open router behind clod code and you're not
+tied to anyone's subscription or a key or
+or anything but spawn but spawn is a is a clod
+flow you know kind of concept at this point
+i mean is open code also spawning up
+multiple agents you mean swarms no i mean you i
+mean i guess rube just used the word spawn I
+wasn't sure if that was a command that you
+were using Groove well Claude code has this um
+this concept of batch mode right you can
+batch batch the batch command allows you
+this the hidden command that they took out of
+the documentation that allows you to just spawn
+off as many parallel instances of Claude
+and that's native to to Claude that's we
+didn't know what nobody coded that into Claude
+that's just part of it but we discovered
+that they removed that from their documentation
+because they kind of, I guess they don't
+want people to do that. But they left it
+as a capability. The batch feature, you know, Ruben,
+earlier on, Ruben just mentioned
+that, you know, or maybe it was another
+meeting, that the previous systems
+like Rue code, for example, is very
+serialized. You can't, you can't, it does all
+its work serialized. But with the batch
+command with Claude, you can parallelize work
+by just spawning off agents one after the
+after the other and batch them off i'll let
+you you you got a much better explanation on
+that uh reuben you've done a lot of work
+on that i don't know i'm i i'm logging
+into logging into uh anthropic made the whole
+thing stop working oh yeah it's this thing
+is a little bit kludgy it's got a
+great concept but uh i don't know
+how well they're actually making it
+work yet see i'm getting now i'm
+getting this api this i don't know what
+this error is i logged in and it
+stopped working conceptually it's good yeah but it don't work
+i i don't know too many people that
+actually have it working anyone on the call
+to make it work as soon as i added as soon
+as i added anthropic it stopped working
+and now i logged out and if i remember
+correctly open code uses the open ai
+api library not the anthropic api library
+well i have that right here but it
+doesn't seem to want to use it now let's
+see if i can just go here and see what's
+going on nothing i'm sure someone can
+uh demo their working instance at
+tomorrow's uh well it worked for about two
+seconds but then i went and added anthropic
+and it stopped working now i might
+be able to log back in see maybe it's one
+of those login twice to give it let's
+try this one i think i'm already
+logged into that yeah but it
+doesn't have the oaf token in that session I think it's working
+on my machine, so I don't know. Maybe it doesn't work
+with Codespaces. I can't see why it works with Codespaces
+to GitHub. Let's just give
+it one more. Let's give it
+one more go. Yeah, I'm still getting the request of models. That's a different error. Yeah. Maybe I just have
+the model, but yes. I have models.
+I think it's just using the
+wrong model. Yeah, you can do slash models when it's running. And we'll choose that. I guess they added so
+much more recently. how do i choose the
+model model i think if you just do open
+code and then when you're in the interface
+you can do slash models i don't know
+if you uh how to do it yeah you can
+do slash models see it's only seeing like
+the copilot models but not the entropic so
+maybe that's the issue Yeah. I think it's worth it. All right. Uh, run to agents. I'm currently, I'll figure it out. I'm,
+I'm persistent. And it's able to do
+that because it's looking at your
+cloud.md file, right? I haven't gotten that
+far yet. I'm just using open code. I'm not
+sure what it's looking at, but it looks
+like it's running to look. so it does do two
+that's cool it's not flickering okay let's
+try another let's go here i'm gonna let
+that do its thing so you you've configured
+it to use um but it's not using your Claude
+mac subscription right it's using the api
+direct yeah i'm still getting the error
+here oh i just jinxed All right. Well, the concurrent
+works from here. I think I know the
+issue. I don't think it likes, I think it
+needs to be GPT-4.1. Okay. Let's go back here. And we'll go back
+here for a moment then we'll do slash
+models oh uh let's let's try i i think
+maybe the entropic subscription
+didn't go cool or something no i realized
+you only oh okay uh bottles all right
+then this time i'm gonna do slash m and
+i'm gonna choose the one i know works which
+is this one there we go i'm cooking
+all right that's what i wanted okay so what
+i wanted to do was be able to invoke
+open code through the command line similar
+what i was doing with the stream but i don't
+i use other models so now i'm gonna
+see i'm gonna see uh I'll figure it out. There we go.
+Invalid, oh, I'm getting the
+invalid thing. Descript you are
+first agent of two. Invalid tool input. Not sure what that means. are you sure that gpt
+4.1 is good and in two links and calling
+no i'm not that's maybe the problem let's
+try it how does it know to run npx cord
+flow alpha when you didn't you didn't tell
+it to do that i i told it to run this one
+where i did the dash m command yeah so what
+i'm going to try i'm gonna try i'm gonna
+try logging in again i think i know what
+the issue was actually now i think the auth
+did work i just didn't select the right
+model it wasn't the ui wasn't particularly
+obvious so i'm gonna log in this time i'm
+gonna do the anthropic one again i'm using
+i'm gonna use my max account now that i'm
+from now that i know that you can select
+different models i'm to be more explicit
+in the model I select. So then I'm
+going to go here and I'm going to
+copy copy that go back here
+all right paste that in and then
+I'm going to go list anthropic I got
+two credentials now just to make it
+more that seems like a bad idea I got
+this and this okay I don't know
+how I'm going to fix that but
+anyway open code I got it working so now that we get
+that I'm going to stop that And then I'm going to go back and try
+the run thing. And this time I'm
+going to choose just, I don't know which one
+I'm going to choose. Cheap one. I'll
+choose this. Yeah. Something cheap
+and reliable. All right. So then I'll
+go here and I'm going to go back to the
+one, but this time I'm going to not use, I'm
+going to use dash M. System error
+about model name. Okay. I swear that looks like the right name let's try without the well you chose opus 4 can you try opus 4 then maybe I'll just try something well
+why would it list the name and not
+make the name work yeah I could just do
+opus 4 or opus 3 let's see what
+happens there Oops, I forgot
+the M, dash M, nope, that doesn't work, I don't know, it's
+a little beta. Yeah. No, I don't want to
+interrupt the phone of trying to connect
+to these systems, but I'm trying
+to keep thinking out of the box and
+I think the biggest bottleneck that we
+have is this, relying on these resources to
+be able to program so I know that you have
+implemented something that I'm still
+scratching my head around is the the CUDA and
+the Kimi K2 wasn't so i was wondering
+if it's possible to run properly somehow
+these systems in cpus in a very powerful
+way so we can replace this cloud or gemini
+yeah to run it locally with those
+implications you could use on onyx i think
+it's called onyx uh Do you know what I
+mean, no? Yeah, I do. You're going
+to use these. But because this will be us flying far ahead because this is the
+biggest bottleneck we have now, right now.
+The timing that we have for resources to
+be able to continue. And we're going around
+trying to solve this issue and invent new
+stuff to connect it, but the bottleneck
+is still there. so is it possible that with
+this implementation that you have done we
+can run this beast in a cpu no no it's too
+big it's it's too big it's it's way too big
+so uh kimmy k2 is is a trillion parameter
+model yeah it's monstrous yeah so what i did
+if uh where did i put that uh i think i
+put that in yeah they hosted on grok right
+they host kimmy on grok no he's talking about
+a project i did a couple weeks ago
+and what i did on my implementation i didn't
+finish it i'm this is a proof of concept uh let's
+go here to my recent updates just just type
+kimmy i think it's the only one yeah so
+kimmy core fan this was the one i did so
+what i tried to do here is i what what i wanted
+to do is separate all the pieces of the
+Kimi K2 mixture of experts and rather
+than doing one trillion parameter model I
+came up with 365 micro models that I connect
+you know independently so that's what I was
+attempting to do here so it's you you you
+carved out of Kimi all of its micro models
+yes that's exactly what i did and then and
+then i built and then i packaged each of
+those as a kind of cpu friendly version so
+it's when you make a request a request
+it's actually sort of determining which of the
+experts it should do so rather than trying
+to you know load a trillion parameter model
+it's only loading the particular expert it
+needs to say what is machine learning now i
+was i was able to get the rudimentary version
+of this actually working um it's just i
+moved on this is this is called an moe router
+right that's that's the the router sits
+in front of an mo um yeah moe router sits
+in front of the models and figures out which
+model it should be routing this particular
+request to yes the weights still need to
+be loaded and unloaded there's uh there's
+it's not exactly a fast start no well the
+way each each of the each of the models
+is independent so i'm loading i'm loading a
+model for for whatever you know it needs to
+do so i'm separating it into many many
+smaller models and then and then i'm routing it
+to david's point yeah that's that's what
+actually happens in an mwe architecture is
+you have a single front model and you have
+a router and it has to do really fast
+routing well gateway yeah so but the problem is
+the you don't separate all the parts so
+what i've done is i separate i separate all
+the parts to be independent of one another and
+then i do an ultra fast routing using the
+the rust based routing system which can
+do the routing in milliseconds is there a
+is there a benefit to to kind of uh decomposing
+uh so to speak um a larger model like that
+as opposed to using a smaller model um such
+as queen 3 1.7 b um and and just kind of
+having those kind of single purpose micro
+yeah no you're i'm trying just to push to see
+what if i could do it but your approach
+probably is more is more logical um what what
+you could do is use on and i'm using onyx
+as well but onyx um yeah chris this is called
+um domain specific narrow narrow scoped
+use cases and uh small language models are
+the are the future like the problem with very
+large models is that they're just big and
+you don't ever need 100 100 david i'm what
+i'm saying is that that there are these micro
+models um that that you could adopt and
+and i think that rave's just they're right here
+with uh just seeing what's possible yeah
+so that's what these models are essentially
+doing um so what i what i would likely
+do is use that neuro architecture and then
+just optimize alongside of one of these lesser
+models and then get the performance increase
+by having particular neural networks that
+are specifically tailored to each part
+of the uh domain experts that are being called
+so then i'll take a ****** model make it
+great greater better all right i gotta jump
+i gotta jump to my next call guys um i'm
+not sure about open code yet i think maybe i
+might clone the repo and see if i can improve
+it but uh um i think the takeaway from
+this call is basically a lot of the a lot of
+the challenge you guys are having seems to
+be claude code or sorry clod.md if you
+start messing with the clod.md file and start
+messing with the hooks there's a lot more
+you could probably do i mean many of us are
+already connected on linkedin we're trying
+to make an effort to like get everyone like
+ramped up on this so if you want to message
+me either in discord or i guess whatsapp or
+linkedin i can try to centralize all this
+feedback about where people have like some
+sticky spots and maybe we can kind of like
+create more of a direct um kind of approach to
+this like yeah or our discord which martin
+is graciously managing for us um i do think
+actually if you have knowledge articles
+you're better off putting them into a wiki but um
+if someone's interested in that then reach
+out otherwise i'm gonna assume that that's
+not the approach you want to take there is
+yeah it's a great idea and alexander but what
+you really want is to be able to point
+your claude code flow instance at that knowledge
+base that's that's what you want and all
+of us can contribute to it and all of us can
+leverage it so having it in discord is not
+the best like you know can we can we use
+this because with the check this out there's
+a wiki section here and the you can use cloud
+flow to manage the wiki i don't want to
+be full of ai slop or anything but we could
+go in here and basically point cloud flow and
+say organize the wiki for us nice and also
+we also have the community.agentix.org
+so if anyone wants to contribute in terms of
+knowledge like there are features where you
+can create a course as well so there there are
+mechanics i'll share a brief video on how to
+use that if that helps so if anyone is coming
+up with learnings we can basically document
+that yeah and i'd have a suggestion to
+put out like i don't know a blog entry like
+it's not not hard you know like you have a
+team blog and you just have people posting
+like this is what i'm looking at a little video
+a little demo and it would create seeds of
+conversation that you can take forward and
+communicate with roof can you open up that
+wiki section for us to contribute to it doesn't
+seem to be open i just i i just opened it
+just now uh roof don't don't forget if you're
+going to share your implementation of the
+web hook to be able to the one that you
+show in the beginning oh uh that is the web hooks
+are already integrated with cloud flow and
+if you were if you're curious about my web
+sockets that's in a that's in a agentic flow branch and I publish it I still can't edit the wiki yeah the wiki's there
+but we can't edit it oh do I need a new
+page or something yeah okay one other
+branch okay yeah I think it's
+called agentic flow Lewis I might have
+to I might have to like I might have
+to give like access in my settings
+or something yeah Yeah. Thanks, Reuven.
+You better jump to your call, mate. Yeah, I'm late. I'm late. All right. Thanks, guys. Thank you. Okay. Thanks, Reuven. See you tomorrow. Bye. Bye.

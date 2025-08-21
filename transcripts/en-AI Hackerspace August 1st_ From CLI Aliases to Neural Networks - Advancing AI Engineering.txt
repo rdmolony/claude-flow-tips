@@ -1,0 +1,2407 @@
+going to resume. All right. August
+1st, we're eight months in and August
+is my birthday month. At some
+point in this month, there will
+be a birthday mine. So, you know, that's
+exciting. July was pretty exciting. Lots of
+activity. We went from, you know, unlimited
+use to a lot less use for Cloud Code, but
+they're moving quickly. Lots of bugs I've noticed
+in the last couple releases of cloud code
+as well i don't know if anyone's seeing all
+those yellow screens of errors that that
+randomly pop up now but they're they're
+it makes you know what all the errors i see
+in cloud code make me feel better about the
+errors and bugs that i put in in my various
+tools if if a 170 billion dollar company apparently
+is up with what they're worth can are
+putting out bugs and makes me feel better
+about me and my uh random office here in in
+toronto doing the same thing um but yeah
+it's been it's been a bit of a bit of a wild
+ride they they came out that that letter or
+that email earlier in the week and basically
+without saying so called us out for using
+parallel concurrent systems saying one user
+in particular used uh you know hundreds of
+thousands of dollars in credits i don't know
+who that user is but it's probably someone
+in our crew i would guess you know there
+we you know 20 million lines of code just by
+me in the last six weeks i think that there's
+something crazy close to 20 million um is
+any indication now remember i was bragging
+earlier about the uh being able to 500 000
+lines of code an hour cannot get anywhere
+near that we're about 50 to 75 000 if for a
+benchmark that that's where the quota currently
+lies but um here we are we i'm not going
+to spend too much time today doing the demos
+because we have a ton of people and i'm not
+even supposed to be here so um rob who do
+we get lined up uh for our present you know
+presenters today yeah we've got it we got a
+full slate um so alex dubold one of the og
+members he's been working on uh he's in the
+optometry optometry and glasses and lens
+manufacturing servicing that industry so he's
+got a pretty neat setup he's going to show
+us uh and then ocean on some optimizations
+some swarm optimize orchestration optimizations
+john petty uh from enabled and those guys
+are crushing it on use cases which is
+really fascinating uh and then i think dimple
+we've also got um uh ravi is that right do
+we have is dimple there no i don't think
+so but no all right we've got ravi uh
+shemioki from new zealand and uh uh and actually
+in new zealand so on new zealand
+hours so looking forward to seeing
+him bright and early which which i think
+is 4 a.m and and i i think we have like a
+single-handed new zealand uh recruiter in dave
+who's been recruiting all his uh what what's
+the nickname for someone from new zealand
+again it's there's got a there's got a
+kiwi right kiwi kiwis yeah and all if has
+anyone noticed the kiwis have all turned yellow
+recently like i i remember when i was
+a kid they were all green. Now, whenever I
+eat a kiwi, it's, it's yellow, but that golden
+maybe, but anyway. Um, so that, that,
+that's exciting. I want to just, I'm
+not gonna spend a lot of time today, but
+I want to show you guys a few, a little,
+a few tips and tricks, um, that, that
+I've been playing with in this, these are
+just little things that'll probably help
+you guys get, get going quickly. Um,
+again, Cloud Code, cause I, that's my
+current, uh, obsession. Um, so let, let me
+show you a few things. So I don't know if
+any of you guys have noticed. Let me get a
+second to get this going. I know it takes a
+second to share my screen. But when you're
+in cloud code, often you have to type out
+a long-winded sort of description. What I've
+been using are aliases. So I just want to
+show you guys quickly how that works. And
+for those that tuned in yesterday, it's a
+repeat, but whatever. So when I type in DSP, what's happening,
+so dangerously skip permissions, it jumps
+and does the entire command. And I can
+also do things, I don't know if I actually
+did this here, but I can also do things
+like dangerously skip permissions dash C. And
+these are bash aliases that allow me, and
+with the dash C, it allows me to continue
+where I left off. So to do that, so
+you can see that I'm working on my FAC
+implementation here. And you can see
+that it jumps to where it left
+off. And I might actually be working
+on a better resume capability as well
+for the hives. But that'll have to,
+I'll do that when I get back from my
+vacation. But if you are, if you want to use
+this, and this can be arbitrary, by the way,
+this DSP, all you need to do, so I'm going
+to use DSP to start it, but I'll show you
+how to actually do it. So, in clod, what you
+need to do is say, create an alias
+in bash rc for the following
+command. And for that,
+what we'll do is I'm just going to
+grab this quickly, and I'm going
+to just say clod And you can use
+this again for any command, but in this
+case, you're going to go and you're
+going to say something like dangerously
+skip permissions. So in this case, and
+you could use it for all kinds of things.
+Like if you want to stream the output, you
+can do that as well. But in this case,
+I'll show you this. So the command
+DSP, well actually, let's do a
+different command. Let's call it
+hackerspace. and whenever i
+type hackerspace i want to do
+this but i gotta go here and
+i'm going to do claude and i'm going
+to do i'm going to add a command that
+this says hackerspace and so this is it this
+is all this is all i could do in this case
+i i wouldn't suggest using the command
+you don't need this part here the part
+where i'm putting hackerspace all you need
+to do is actually just include the command
+i'm just doing it say i've already done
+it so i'm just going to create new command
+since that'll work. What this will do
+is basically add those quick commands.
+You can continue where you left
+off. You can have things you commonly
+do frequently. Look, I maxed out my Opus 4 limit. There you go. It's going to edit
+the RC. You see here that's adding the alias
+here, the hackerspace. A couple of things
+to note, when you do create a new alias for
+your bash, and this is obviously going
+to work on Unix style systems, so Mac,
+Linux, Windows, Linux subsystem. You can do
+similar things on Windows, but it doesn't use
+the Bash RC. It uses a different PowerShell,
+I think, approach. Now, when I go
+in here, fingers crossed, and I type
+in hackerspace, hackerspace, it's
+going to do two things. In this case, it's
+going to run the command that's also
+going to include the hackerspace command
+that I put in there. And you see here, in
+this case, it starts automatically. Now, one
+more thing I want to show you that's kind
+of cool. I'm going to stop this because I
+don't know what that's actually going to do.
+It's going to hack my bot or something.
+Now, you can go a step further here and you
+can see here that you've got different commands
+for streaming. So, you've got output
+formats. So, let's just do a quick alias for
+that as well. So, in this case, what I can
+do is I can do a clod. In this case, I'm
+going to do a command that says run the fact
+agent because I'm in my fact area. Now, I'm
+going to do dash p. If you want
+to invoke clod programmatically
+from, let's say, an API or an action
+or a serverless function, this
+is how you do it. In this case, I'm
+going to use the output format and i'm gonna
+use verbose so i'm gonna i'm gonna start
+with verbose and i don't think the order
+matters too much but this is the way i do
+it so now i'm gonna go here and i'm also
+gonna do the output format and there's
+different output formats but the one that's
+most visually appealing and probably useful
+if you're streaming like if you want to
+let's say you want to create an agent in a
+website that that goes and researches and
+does whatever you're going to want to use
+the output format of the stream JSON, which
+is this one here. But you can also
+do a blob like just JSON or text. But I
+like the stream JSON because it's sort
+of real time. So, in this case, I'm
+creating the structure. So, I'm going to
+go here and do another one. So, I'm
+going to grab this, Claude. Then I'm going
+to jump back here. And then I'm going
+going to create another alias called, we'll
+call it agent, just why not, all right, and I'm
+going to, right here, and we're going to get
+to that, now, so it's just a lot easier than
+having to type all that stuff, now, rather
+than typing it all, all I need to do is
+call agent, and it'll basically do that.
+It'll run the fact agent in this case as a
+streaming-based output. And so I'm going to let that do its thing here. All right. And it
+looks like that worked. So I'm going
+to go one more, and I'm going to
+just call that, and I'm going to
+just type agent. All right. Agent. Now, this is
+streaming. So this is bypassing the user,
+the sort of interactive user components. So
+it's kind of cool. So I'm just typing that.
+Give it a sec to initialize. And it can
+also interact with all my agents. So, I have a
+fact agent in there, in here somewhere called
+FAC CLI. Now, it's not pretty, but you
+can format all this using, you know, your
+favorite sort of Node .js, Python, whatever,
+you know, and this is just JSON output,
+right? So, if you want to use Ocean's line
+AGI and you want to integrate the output,
+this is exactly how you do it which i'm i
+might be still in the ocean's thunder here
+because i think he's about to give a similar
+presentation on how he's doing the sorts of
+things but the so this allows you to integrate
+any of these agents into any sort of
+application using programmatic means so
+you can see as as it's making the request it's
+essentially outputting it in in a raw format
+so when i show you my dashboards and
+things this is how i'm actually doing it it's
+kind of cool um last i'm stop this because
+I'm actually not sure what it's actually
+doing. But the last thing that's really interesting
+is the new agent system that actually
+came out last week. When you're building
+these agents, one of the things to keep in
+mind is you can invoke agents by basically
+saying, as I did a moment ago, I said basically
+run the fact agent. But you can also create
+secondary commands. So, what I've been
+doing is creating a sort of two approach or a
+bilateral approach. I don't know a command.
+The command will be like an automation
+command, which you see here, and then this
+command will then correlate to an agent that's
+in the agent folder. You can just create an
+agent by itself, but creating a command gives
+you the slash option. You can invoke the
+agent. Let's say if I want to go back into
+here, and I want to invoke my ... I can do ...
+You can see all my different ... I think I
+have a fact agent here. You can see I have
+different fact agents that created so this
+particular repo is is using my fast augmented
+uh contact system so i'm using it to do
+benchmarking and other tools so rather than
+have to remember all the commands and all the
+things i just create these commands and agents
+that do the the work that i need so if i
+want to benchmark all i need to do is that
+and it'll go and do my benchmarking for me or
+if i want to you know make a neural network
+or i want to send an email or research or
+whatever I've got a I've got one client that's
+actually using this to basically create
+sort of personas for all their employees and
+then when they hire someone new they they
+can invoke these sorts of things and they're
+using like a dashboard like a web-based
+dashboard to do that so in this case it's asking
+me some questions so when you create an
+agent you can have it interactive like so it
+guides you through you know questions and answers
+so um just you know I'm just showing hey
+hey Riven, are you in standard Claude or
+Claude Flow doing this? Well, Claude Flow has
+been initialized. So all my Claude capabilities
+are now instantiated through a combination
+of agents and commands and the actual
+Claude.md file. So you don't really have
+to use Claude Flow after you've installed
+it. You can just use Claude normally, and
+it just magically knows all the commands because
+I've given it all the commands. So you
+don't have to worry about that. I I've
+actually made Claude flow, not for humans so
+much, but for agents. So essentially it
+just magically works. So in here, I'm
+just saying, just, just show
+what's possible. Are you saying that
+some of, some of these agents you,
+you are configuring, you, you built all
+these commands, the slash commands and
+slash agents. And some of them will
+actually know how to launch and leverage
+Claude flow. Yeah. Standard Claude. Yeah. Cool. Yeah. Just trying to
+help clarify for the rest of the
+audience. Yeah, that's good.
+Good question. So now the issue with
+the one I'm doing right now is it's
+looking for clarification because I told
+it that it should always ask, you know,
+the user how and what they need.
+And so depending on what you're doing,
+it'll it'll it'll guide it'll guide you
+through the process. Now, in this case, it
+looks like it's running the command. You can
+see my little fact little icon that shows
+up here, and it's doing whatever it's doing.
+But the moral of the story is a lot of the
+flows that I'm doing for development, I'm
+customizing all of this stuff. So when
+you instantiate the Claude-flow system, it's
+meant to be a sort of running start, but it's
+not meant to be static. the first thing you
+should do is basically get Claude to customize
+both the agents, remove anything you
+don't need. There's a lot of stuff here. Or
+add things that are specific to what you're
+trying to achieve. Different types of
+flows, data optimization, development processes, requirements. And
+then you put those all in the either agents
+or commands and have those two folders
+essentially relate to one another one in ones
+that one invokes the other kind of does
+so slash do something will then invoke a
+series of other agents that does the thing
+you want it to do research whatever
+scrape if i if i clarify then you're saying that
+the initial startup processes that you
+instantiate called flow and it will build out
+all the structure the the directory structure
+and in your code repo of all the agency
+commands then once that's done you go and actually
+use standard Claude and then and it will
+then know how to leverage all the Claude Claude
+instantiation the flow instantiation. Yes
+exactly so and and a lot it's a cascading
+series of components but the most important
+of which is this Claude MD file and I can
+again you you should customize this this this
+is meant to be sort of a rough guide to how
+the system works but it should be you know I
+generally customize this to the particulars
+of the environment that I'm working in. So in
+this particular one is telling you exactly
+how the tasks and agents are meant to
+operate. And here's like the MPX commands, but you
+can take it a step further and just basically
+say, cloud, customize the cloud.md file for
+the, in this case, my FAC environment.
+And it'll change it up. And it makes it
+look even better. Also redefine the
+agents and the commands in the folders. Will
+it do automatically? Yes, it will. And so, but keep in
+mind, you have to restart a cloud every
+time you do that. So right now it's,
+it's trying to figure itself out. I didn't
+give it particularly good guidance, but once, once
+it's sort of figured itself out, what I
+might do is, is, you know, tell it to update.
+See now that it's figured out how my, my
+system's working, right. It's looking at the,
+help file which i can invoke also by just
+typing in help i oops i love i love clis
+as you know and and i either move between
+clis or mcps but in this case i'm using a cli
+and you can see here are all the different
+commands i have and and the different tools so
+it's learning how the system works and then
+and then once it's learned how it works
+and this is a this is a work in progress but
+see if this even works. And I'm running
+in the wrong folder, but you
+get the idea. But so I'm basically
+creating secondary. And that's when you look
+at things like my GitHub integration, I'm
+using secondary systems. So for example, in
+the helper folder, you'll see here, I've
+got the GitHub, you know, checkpoint system. So
+this is allowing the system to basically do
+automated checkpoints and rollbacks. So if
+I mess something up, every step, every
+element, everything that's done within Cloud
+Code is automatically put into a GitHub
+commit. So I can easily roll back to where
+something broke. And I just point Cloud at and say,
+well, if this worked two hours ago, go figure
+out why it doesn't work. And it works
+amazingly well at figuring itself out.
+So you can essentially point it at these helper
+files if you want. And these these helper
+files directly relate to the settings. So
+these settings are essentially the hooks,
+right? So I can define pre -compact that it might
+do a commit or it might remind it what it
+needs to do or here's when it stops, it might
+do something else. So you can see here
+that I'm running the bash command from the
+helper file. Every time that the user
+submits a prompt, I'm essentially going and
+doing a checkpoint. And you can customize
+all this stuff. This is really meant
+for you to sort of understand how to use
+this and change it up and customize it to your
+needs. But the benefit to that is now if
+I go into my Git graph, you can see
+that every single thing that I've done over
+the last couple days since I've implemented
+it is now checkpointed. So I can manually
+jump back to, you know, when I cleaned
+up the root MD files in Wiki with MCP details
+if I want to. but it also shows me exactly
+what happened. So it's if you've used
+the checkpoint option incline or Roo, I
+basically create a recreate that, but for,
+but for a cloud code. All right, I'm done. Now it's everyone
+else's turn to show what
+they're doing. It's useful. Not the
+most technical thing in the world, but
+hugely useful. Like I don't know about you
+guys, but half the time I go and have dinner,
+come back and it's broken everything that
+I've just spent two hours working on, it
+solves that problem. All right. Who's up
+first today, Rob? Let's dive in with
+Alex. Alex has got quite a nice
+speed setup. I'm looking forward to
+seeing it. Alex, how are you? I'm going to change
+my glasses for Alex here. These are my
+Alton John glasses. Hi, guys. I think a while
+ago, I just defined the version of
+it that works. Everything that you
+showed is very helpful. Reuven, I'm obviously
+not as advanced as you are. So the
+gist of it is I'm, Veri stands for vision or
+vertical AR and AI or like authentic retail. So if you think of
+like pulling on a thread, I'm going
+to share my screen. I was building a
+platform to first like connect to basically
+help people buy stuff online better,
+right? So I actually, in the process of
+actually finishing the commerce studio
+hopefully this loads where um i can connect
+through shopify and all these different
+platforms um i wear for online sales but as
+i was pulling on this thread i realized oh
+my goodness it's so freaking hard that
+these opticians can't even get their data
+to the website so i'm dealing with multiple
+retailers in europe and they're like oh my
+data is **** like oh that's not helpful uh
+you don't have pictures you don't have
+descriptions you don't have dimensions like
+you're missing a whole bunch of information
+i'm going okay like it can't be that bad.
+And apparently it is. So I started using,
+I've been using Roov's platforms like from
+the get go. And I just actually pointed it to
+the web and said, Hey, go find me all the
+practice management platforms that actually
+have an API endpoint. Here's 55 different
+platforms that have API endpoints like, Oh,
+this is a good start. Well, you know, my
+just took my son to the optometrist. They
+didn't actually tell me anything useful in
+terms of like, Hey, like, when's the next
+deployment? When are you coming in? So this
+is all coded by me. I basically looked at the opticians and basically
+said, okay, I never get a notice. They're
+all about like, you know, practice
+management, like how do you do a better job
+with your business? So I basically be
+building a dashboard to basically replace
+or sit on top of the existing systems to say,
+hey, like my optician has three people
+sitting in the front and they send me an email
+two days before. But really your practice
+is about optimization it's like look how
+many people are coming in how many did you
+get most doctors or dentists are not business
+people so where can ai play a role in
+helping them manage their business right
+and i came up with this idea of well look if
+the data is there and i'm already doing all
+this stuff online it probably exists offline
+so like i can if i can extract the
+information then i can understand what the
+patient overview is and i can start telling
+them look here's the revenue that you're
+making based on different groups and people and
+if you have enough training data right
+you can start coaching them to say oh look
+you've got windows like you actually don't
+have people showing up they're never going to
+build this right it's like going into quickbooks
+as a small business owner like it's a
+giant pain in the butt so ai has a huge opportunity
+to kind of do the work for them and spit
+it out right so the so this took me a couple
+of months like i'm probably past 200
+commits now on just this one piece but the idea
+is that like there are also people who
+have multiple locations so like i can start
+doing also analysis by location to help them
+understand what's going on um a key aspect of
+all of this is like i just kept on going
+because it was so easy with rue right before
+the other piece came out so i said look like
+you need to build a marketing campaign like
+if you have the data and you know there's a
+hole in your business then it's like so what
+well let's build the so what so how can we
+take this and create actionable insights
+around your specific brand because like building
+an email came to an email campaign isn't
+hard connecting to an api endpoint to
+mailchimp or mailgun or whatever it's not that
+hard right to be able to do the whole process
+and i also put in a link to sms for like
+appointment notifications but you know you just
+you could just keep on going and going
+and going and going um and i also built a
+loyalty program into the back so that you
+could actually have a rewards catalog and
+change the catalog. So all this is fun,
+right? These are components built
+on the front end. But the other thing
+that would have taken forever to
+do is compliance. So I actually went
+in and with my PM head on and
+actually went through and wrote
+a whole separate stories and Claude
+around security, right mfa um end-to
+-end tests um everything um was built into the
+whole back end right because you know i
+did one pilot project for rekhip and kaiser
+global where they sent me an excel
+spreadsheet with 200 lines of questions i'm like
+never again if you have questions like
+here like go generate a security port go
+through the training the other thing is because
+it's eyewear it has to be hipaa compliant
+so i went and looked at the standards
+like what is hipaa compliance right so
+obviously i have to reconnect this um but
+this is working in the past so you could like
+schedule an audit look at the policy i
+actually have a staff training component so how
+each of the individual people in the stores
+work because like one of the companies
+that i'm talking to is in europe and
+they're buying opticians they're private equity
+backed um so this is like a really simple
+demo for people to under kind of understand
+what's going on but the thing that i love
+the most and what i love what ru just
+showed is iris so i was thinking about tony
+stark and jarvis and i thought hey like wouldn't
+it be nice if you woke up in the morning
+and you're a small business owner and your
+phone told you what your day was going to
+be like like really like how much harder is it
+because you have all the data like 90 of
+the battle is getting the data organizing
+the data extracting you know kpis from that
+data but why don't we make it easier for
+somebody to have a conversation so uh this
+is using um actually i put it all over here
+just pulled it up as rube was doing it because
+he normally asks me how i build stuff and
+half of it i forget so i'm using um in the
+back end iris is using basically a bunch of
+ml processes on the back for patient
+segmentation no sure rate appointment optimization
+so these back end services are running
+all of the time right um and i think i'm using
+dialogue flow from google um to kind of handle
+some of the stuff. Theoretically, you
+could probably run it through an MCP. I'm just
+not that talented yet. But then you can ask
+a question, like, help me with my
+appointments, right? And the flip side is,
+if I have finished this properly,
+this connects to my commerce studio.
+And theoretically, any of us will be talking
+to Iris's consumer facing side to say,
+hey, I need to move my appointment great let
+me find the appointment for you so that's
+iris that's um i call this the the re the
+cover sorry i call this the practice studio um
+for the opticians to basically come in like
+a co-pilot and help them run their business
+of connecting all the data um making sure
+that all the data is seamlessly going
+automating all of the stuff that's usually done
+manually because the customer experience is
+usually pretty bad um but then actually just
+giving them the workflows so that like the
+agent can do it for them that's the demo
+this is this is great you're you alex represent
+what i like to call like kind of agentic
+entrepreneur you you have been given the
+power to build the things that you envision and
+without having to go and hire an outsource
+team well maybe you do i don't know but you
+know but what i love about what i what i
+see you and i've known i've known you for
+what 20 years i've seen your sort of evolution
+right and especially your evolution over the
+last year and a half as you've sort of embraced
+uh this technology i think you started
+and you're like i'm not technical and all
+of a sudden you're like i can i can literally
+build anything i imagine and you're doing
+it and you're doing amazing at it it's very
+rewarding to see to see how you have evolved
+over the last you know year or so yeah so i
+didn't show you guys the last the last
+part that's missing is because like ultimately
+at the end of the day the last thing that i
+want to do because you have to gain people
+people's trust over time is i do actually want
+to connect um to ml models around helping
+with diagnosis so this exists in the background
+it's this is not for public consumption
+yet but the intent is that if there are
+models out there that have been tested and
+we have enough retail locations using the
+platform then we can help on front end but we
+can also help with the diagnosis with those
+models in the future so this is all new i've
+got a couple other projects um if people are
+interested in learning more or want to help
+me build some of these models happy to happy
+chat hey alex yeah one thing about
+this 200 uh question questionnaires they all
+come from uh existing regulations like so if
+you look for nist or sock or iso like you can
+actually extract the questions and make yourself
+like how to compliant and there is software
+like doing that that costs like tens
+of thousands of dollars yeah the the interesting
+thing here though is that like one of
+the brands that we're working with in europe
+one of the retailers like they have like very
+basic problems i have a separate application
+called skew genie on my other screen that's
+scraping the internet and cleaning data
+because they have bad digital like this is
+just the optometry side of things the retail
+like the glasses that you're wearing they
+they can't even maintain their database of
+like eyewear that they collect so it depends
+on who you're talking to some of the chains
+are like really advanced like they're not
+racket in terms of like um 200 lines of questions
+but you have this huge disparity the
+only consistent thing is that the people in
+the store are using outdated software and
+it doesn't know what they're doing so you
+have you better make it like **** simple for
+them to be able to get onboarded with the
+wizard and then and then do everything for them
+between hey this is a sorry yeah this this
+is a great opportunity to um take on some of
+your like um digital project management
+like drm and and stuff like that or project
+man project um god it's noon and i haven't
+meeting yet so i can't think of the term
+but those different things like uh salsify
+and and things like that that that keep all
+of that that digital information but
+they're much bigger and have to be managed by
+a much larger staff like this is thinking
+dam and pams that's that's what i'm looking
+for um yeah so so it it does that for a
+smaller business it's that's a it's an
+awesome It's an awesome concept that makes it
+a lot more automated. Thanks. Nice. All right. Do
+we have Ocean? Mr. Hayang Lee? Yeah. Can I
+actually go last? Well, if there is still time or space for me. Sure. Let me
+just check on. I'm not seeing Ravi yet. It is 4 a.m. in fairness. It is 4 a.m. the ambition might have gotten the better of him and John isn't on I know he's juggling with a corporate
+board meeting so someone else have
+something they want to present and then we'll
+get back to Ocean wait jump head
+is actually here oh is he John I
+am there you are I'm pretty good good
+um yeah so i will give uh i'll go quick so so
+we were talking about like uh development
+outcomes and stuff and we'll find you
+guys might find this interesting so i actually
+am running um my version i've been working on
+a version of legion that i've been building
+different iterations on and um with the
+latest like pushes that Reuven has made and
+some of the changes there really like my
+approach has been more cognitive more thought
+oriented and creating different thought
+structures reasoning structures and then
+last night for ***** and giggles I kind of
+just pushed it to like continual persistence
+where it's not allowed to really exit until it
+finishes its task but there's so many layers
+of validation quality control and all sorts
+of different stuff that kind of go into
+play here. So you'll see that I actually
+have Claude and Claude Flow here, but down
+here we actually have the final build for
+Legion. And what's interesting about this is
+I can actually initiate Claude Code and Claude
+Code will initiate Legion inside of the
+terminal after it's already started cloud
+code and you can watch um legion spin up he's
+actually working on some stuff right now
+this is actually uh cloud flow but can you
+make it a little bigger uh how do i do that
+actually you can control control yeah control
+plus all right yeah here it goes oh you
+guys just made my day i do a lot of
+presentations i do a lot of presentations and
+everyone's always i can't see your screen yeah
+i have a giant screen so i've always had an
+issue with this so um the main thing is when
+we go into like uh legion there's sort
+of a three-layer system so if you
+think about ephemeral processes um the three
+-layer system has like a core and it can't
+be touched that core has the protocol and
+the main mechanism to do self-healing it
+understands what the layers should look
+like. Those layers are indexed and essentially
+biblical in the sense of how the code
+can self-recover. Layer two becomes
+somewhat ephemeral in the sense of it
+can make changes, it can edit certain
+components, it can add additions and add
+agents and prompts. And layer three
+is the most, where most of the action
+actually happens. Each one of those
+layers progressively has different sort
+of like controls, orchestrators, actions
+that are all working together. But there's
+three main components at the core, an
+orchestrator, a brain, and a spinal cord. The spinal
+cord is essentially a self-prompting
+engine. It understands quality control and
+have we actually achieved the execution
+and making sure that whatever AI is
+working and the brain is working and the
+orchestrator is working, that if there is not
+good quality output, the output hasn't
+reached a final point of either maturation
+or user alignment. And that can be defined
+by the user. The way I have it kind
+of built is it's meant to go past a
+little bit what you would ask. So in this
+example last night, it took about four hours
+to write a book. And in writing a
+book, it actually made its own website and
+made a hero page for it and started to build
+like a lot of things that you would see
+subsequently if someone was writing a book
+and thinking about marketing and it it
+it uses the same tools same mcps but you
+know just for writing the book it did about
+3 000 perplexity searches um in order
+to do research uh and pull different information
+in so quick question here john quick
+question for you so and and say if we
+think about the the web page that wrote did
+you specify that in your in your prd spec
+that it needed to do that no i just told
+it to write a book i can even show you the
+prompt the prompt is somewhere in here it's
+pretty big essentially i told it it needs
+to write a book this is the topic which is
+uh ai uh did ai is a digital divinity um
+and then a uh it needs to you know pretty much
+deliver 15 chapters so yeah because you
+know the the that's awesome the the people
+in the foundation you know one of the things
+that i i'm a product management lifetime
+career pm guy right a lot the big problem that
+a lot of people have and you you've already
+figured this out it's the first mile is
+that you you have to really specify a great
+parity spec that and give that to your agentic
+coding system that you've detailed out
+what it is you want it to do and that's the
+first mile problem so a lot of people would
+appreciate seeing your initial you know your
+initial kickoff first mile spec problem
+Reuven i have to hand it to Reuven his cognitive
+diversity i think is what you called it
+yeah like it gave me this it gave me this
+idea to essentially use scoring and a mathematical
+way to actually push innovative thought
+into the LLM. So if you think about like
+your weightings, your temperature, all of
+those kind of things, and then you think
+about creating, it has the ability to do its
+own A-B testing. So it will create simultaneous
+multi-agent thoughts across, let's say
+it spawns six agents for this problem. And
+then it will take those six agents and duplicate
+them. And it will then tokenize, create
+a SHA hash for both of those executions,
+so it can track both of those. And then it
+will look and view the output, and it will
+measure, essentially, is it headed the
+direction it wants? It chooses the one that's
+winning. And then it goes, did we achieve what
+we wanted to achieve? No. Great. Spawn
+another group, and it battles again. And
+it will continue that battle of progression,
+innovation, and thought, literally brainstorming
+is the module, until it reaches a
+point of, yes, we're writing the way, we're
+using the right prose, we're using the right
+lexicon, we're not coming across as AI,
+we're doing a level of research that we need
+to do, and we're going as deep and as wide.
+And that's the key is like, it's part
+thought, but it's also part measurement on
+like depth and breadth. Yeah, what's interesting
+is what I'm doing, and if you want to
+take away all the sort of, you know,
+buzzwords around neural networks and whatnot,
+is I'm creating a feedback loop that
+both is recursive in the sense that it
+understands what it needs and then adapts and
+changes and updates based on what works.
+So the more you use this system, the better
+it becomes. So the first time you use
+it, it's like, you know, it's kind of
+stupid. And the second, third, tenth, a hundredth
+time, it actually will improve itself.
+And so, for example, when I'm using my
+Claude-flow development environment, which is
+the oldest environment, obviously, because I
+built the Claude-flow system with it and
+then started using it, it actually performs
+better than any of my other systems. So
+what I ended up doing was taking the memory
+files from those and then using it in other
+projects because it's already been trained
+to know what I like. Yeah. So there's a, you actually
+hit on a important topic. So there's,
+I can't find it off the top of my head,
+but there is a area in here that you can
+see I have plenty of versions going and I'm
+testing them against each other. but there's
+a version that I'm not demoing that I
+really wanted to. I hope to have it. It
+essentially uses Dockers as self-scaling compute.
+So it will containerize itself for execution
+on a swarm and on an agentic structure.
+And then it will run that as an ephemeral
+process on the PC. And in that way, when
+it only pulls out what it wants to pull out
+and if it decides to use nothing, the Docker
+goes away, there's no data. And then it will
+do that in multiple iterations over a
+period of time. At one point, you know, the
+reason I'm not demoing is it will spawn so many,
+it will crash the PC. It will just like kill
+my processor and my RAM because it's
+generating so much data so fast. And also a lot
+of the models and API calls, but essentially it
+will just exponentially move itself laterally
+across a problem. I need to contain
+that a little bit. But the interesting
+side about that is like, when it
+starts to do that, the learning aspect
+that you're talking about, Reuven, I
+went and built a similar aspect using,
+where is it? I'll have to find it. But
+it actually will not just move information
+into memory. It will learn positive, negative,
+neutral self-scoring through not just the
+A-B testing and user feedback, but it will
+look at research as a learning experience
+that it can positively or negatively influence.
+And then it will use that new information
+as a way to change or adapt in the
+future of how it makes decisions. So the actual
+decision engine or the real persistent mechanism
+is actually just one file that's about,
+I think, 1,700 lines. That one file,
+though, is a massive orchestration engine
+that runs pretty much all of the
+recursive looping. And the spinal cord
+is really the only thing that has the
+exit button. And until that exit button is
+hit, the AI just runs and it keeps running,
+essentially challenging itself, learning
+itself and adapting on anything that has
+been tasked to do until at such time
+the exit button's hit. That's cool. And was, sorry,
+was that more along the fan repo lines
+or more along the neural divergent
+repo lines? um i would say i
+started originally with sort of just swarm and
+then from swarm went into the neural divergent
+that's what kind of clicked for me because
+you know i like the more creative side
+of things and one of the gaps that i typically
+see especially around like if you ask ai to
+write a book there's there's continuity is
+missing and and one of the cool things
+about this is it created its own book outline
+and as it's going through here it's laying
+out this strategy and it rewrote this
+probably five six times um how it was going to
+actually build the book what themes how it
+wanted to do the part that really surprised
+me is it built essentially its own
+lexicon for the book so it started to equate like
+religion and religious terms let me see if it's
+up here two different parts of the chapter
+consistency this is where it is so clergy
+or developers temples or data centers
+prayer is clearing ai systems and high priests
+prophets scribes it created this really cool
+sort of like parallel like way to talk
+about topics that is pulled through the entirety
+of all 15 chapters. And then to ensure
+that it has continuity, it was actually going
+through and creating the concepts and how
+it's going to tie these chapters and
+thematic evolution of the book all the way through
+the last chapter. That's amazing. What is this being
+used for in practice, John? And is this, have
+you open sourced this? I literally am still
+working on it i haven't done uh i started it
+like yesterday so this is the whole project
+itself what you've just described like the
+whole brain spinal cord all that no the legion
+i would say most of the legion parts have
+been a project i've been working on for probably
+over a year um and it has different
+versions like one uses a computer um and i was
+using components of that decision matrix in
+this but yeah the the actual what you're seeing
+right now i started yesterday just specifically
+on the book but the main focus was to
+get to if i give you a command i don't care
+how long it takes you to do it you need to
+figure out how to execute and it has to be
+executed at a level of quality that i wanted
+at and if you can't do that you're not allowed
+to stop until you do and keep it right keep
+in mind guys just just um in terms of the
+what underpins things like clod flow is and
+is the roof fan system which i've uh compiled
+as a wasm and then i'm essentially using
+the roof swarm system so when you uh install
+clod flow and you do slash mcp in clod you'll
+see that there's two there's two mcps and
+if you want to follow the rabbit hole you
+actually should take look at the capabilities
+in those mcps because i've exposed all the
+capabilities of the the neural network components
+of the fast neural network system and the
+neurodivergent system which is essentially
+a uh forecasting and modeling system so
+when if you're looking to sort of do prediction
+or learning you're kind of doing this
+interplay between the the the custom neural nets
+that are being built on the fly, but also a
+kind of various types of forecasting and
+modeling that use both. And those are two, those
+are kind of playing off each other. And
+what John's showing is like the optimal
+use of it. And I love what you're doing because
+you're like following, it's following that
+rabbit hole. It's fun that you said that
+because it's actually a little bit, it's almost
+like in some cases, the opposite use
+because you're using it to predict and I'm
+actually using it to on purpose push different
+thought like like instead of predicting it's
+it is using the prediction especially
+around user intent it's absolutely like what
+did the user really mean and and the analysis
+and like how to get to that but the the other
+um thing that i i i really purposed the
+math around was you okay if we establish this
+as your normal answer where's crazy and
+where is that limit and how hard can I push
+you to be different and then what is different
+enough that is considered artistic or
+like innovative versus crazy oh so you're
+actually trying to create neurodivergent thinking
+like like someone that might have you
+know ADHD versus someone who's autistic and and
+then using that kind of mind construct to
+that's that's amazing that's amazing yeah
+i'm on i'm on purpose creating agents with
+diversity mathematically and then measuring
+their output to see how far it can be
+pushed and then when it reaches oh no this isn't
+quality stop it knows this is my limit in
+this topic or this thing and then it will
+take those agents right wherever the competition
+or the ab testing ended and go hey
+here's my chapter three off like swarm and an
+agent group and then that writes chapter
+three and then that goes into like the storage
+for memory of like hey here's a a group
+that does really well with this thing yeah
+you know on a side note oh you know all my
+life people are always like you know you're
+you're you're weird you're crazy you're
+different and over the last like 10 years
+or so this idea of neurodiversity has really
+come up and it and it turned out that the way
+that that you know me or others like us you
+know think is isn't isn't necessarily bad
+it's actually i think the the it's our
+superpower it's our and what playing with ai
+does it is makes you look at sort of how you
+how you think or how you think others people
+you know other people sort of you know
+think and and that the the inspiration for
+why i even called it neurodivergent was a
+kind of homage to that. When I saw it,
+I was like, oh, this is fascinating. And my head went
+sort of the direction I went. I saw how
+you were using it and I still use that
+component, right? Especially within
+Claude for that. But the other thing
+that I found that's really powerful is
+intelligence analysis. So we're about ready
+to go through another raise. And I really
+wanted to just see what's on the internet for
+enable. So I said, hey, go out and research
+enable. And I didn't tell it to make a
+website. I didn't tell it to use whatever design.
+But it's fascinating that I have color
+changes and customizers in here that i can
+you know customize the website but the
+detail that it got into and where i i don't
+i'd have to go through the logs to find
+out where it got the information but it it it
+did really well and even did competitive
+analysis there's a whole bunch of detail this
+is just the overview behind it and and even
+called out like areas that i didn't give
+it instruction to and that was sort of like
+the self it it has to solve not just the
+planning problem but like what do i do and
+what do i do next and that recursiveness
+creates this really interesting thing where
+you don't have to ask it to build you a cool
+html website to report on what it found it
+just does and it'll come up with all sorts of
+interesting solutions quick question for
+you then i'm sure that the audience would
+like to know right is this is the basic
+tool that you most predominantly interacting
+with Claude Flow Swarm. How does your tool
+stack actually look and work? The tool stack is its own
+thing, Legion. So I've been using
+Claude Flow and Claude to build this
+component, but it runs on its own
+and it uses it very similar to how Claude
+Flow would work. It uses the same hook,
+same NCP, same tools like architecture
+and it just uses a very different engine
+and a very different way of using the
+models and how it does sort of like its way
+of thinking um sorry guys one sec i there's
+one thing i want to show uh john quickly
+before before i forget and this is
+something i've been it's like a secret project
+i've been working on over the last uh
+couple days um and this is right up john's
+alley it's it's using something called
+semantic Carton matrix. So I define what's
+called an orthogonal enforcement of the
+actual internal matrix of the
+neural network. This is just bonkers,
+by the way. It's basically a theoretical
+physics concept. And essentially, I'm
+rewriting the structure of the matrix within
+the neural network to be self-optimized.
+But for what you're working on, this is
+something you might want to take a look
+at. I haven't pushed it to the main branch
+yet, but if you want to take a look, it's
+issue 175 on Rufan. It's so bonkers. I'm
+not even quite sure how to exactly describe
+what it is that I'm making, but in the early
+tests that I've done, it allows for the AI to
+sort of self-optimize in a way that's
+really, really fast and really, really really
+good so i'm rewriting the attention mechanism
+which speaks back to all the things john's
+just been describing i loved it john if
+you've got a second later on to take a look
+at this i'd love to get your uh your
+thoughts on this um there there is a branch i
+think i named something obvious like uh the
+what would the the semantic carton mark
+matrix again i'm not going to try to go explain
+it it's like breaking you know it's it's
+cutting edge stuff according to ai it's no
+no one's ever tried it but whatever so uh i
+have i'm gonna i'll push something um maybe
+to that branch or to the clod flow but it's
+called an rl tuner and it's out it's
+essentially outcome driven like policy optimizer
+so policies being like ways or rules that
+it creates to process information or think
+but that is broken into engine mapping
+epsilon alpha gamma uh mini eslon decay and
+read and it creates a dashboard that you
+can actually watch the decay but as it's
+learning and adapting you can provide it positive
+neutral and negative feedback and if you do
+you can watch the ai live adapt which
+influences how the llm's taking action and
+using the engine and it allows you to sort of
+like steer live feed of what it's doing
+positively or negatively So your system has a
+whole bunch of models that you're connecting
+to in the back end? Yes. Do you adjust the
+temperature on the fly? You can. Yeah, there's
+both self-tuning components within like
+your Bayesian's and like your typical ones. But
+there's more of, and those are controlled
+by the AI itself. And then there's sort of
+like drop-in or more deterministic protocols
+that come in in different, I would say,
+different mechanisms by the engine. But the
+main one that you're allowed to live tune is
+more on the RL tuner. So these are self-hosted models or publicly? If you turn the
+temperature up to two, it's going to be
+most creative, right? I'm sorry? You can adjust
+the temperature to be more creative. So you can, like,
+adjust that if it's getting too
+out of whack. It goes from zero to
+two, right? Yeah. I think that, like,
+I don't do that. I, the model, the
+AI itself does that. So, like, think about it this way.
+There's an autonomous maintenance loop that
+is called the goal scheduler. And that
+loop uses the engine, a set timer, a
+priority, and is running through intervals sort
+of as its own quality control analysts watching
+everything happen. That's a machine
+learning flow where you're adjusting
+the hyperparameters in a standard Epoch run. Yeah. And then it
+knows that like, I know I have this many tasks
+to do and the user has provided me negative
+feedback. Say the RL tuner, I'm like, nope,
+I don't like this. That negative feedback
+is going to go into a whole bunch of
+other models that are going to essentially
+distribute that feedback to different parts
+of the engine so that it starts essentially,
+for lack of a better term, you have drift
+on purpose, like purposeful drift that
+we're going to create. And then when that
+mechanism occurs, it's ******* off an AB run.
+And that AB run says essentially like, I
+know I need to change, but before I change,
+I need to know where I'm at and what
+I'm competing against. and then you guys i
+i i hate to break up this conversation but
+i i want to get ocean on here before we run
+out of time because i know he's working
+on some really cool stuff um we we do have
+a bit of an after show week so we come back
+and we can dig into some of this uh deep
+neural net components but uh ocean are you
+are you still and john thank you as always
+your stuff's amazing oh yeah uh thank you i let me share my screen great so today
+i want to uh talk a little bit about
+how to write uh more deterministic workflows
+with cloud code and line agi um so first
+of all this script that i wrote here uh that
+uh it so the only uh customization you need
+to do for this flow to do different thing
+is the prompt and then uh so that's about I
+changed the prompt from analyzing my own memory
+NCP usages from Python to Rust for the
+analysis part to a vulnerability detector
+for establishing packages. So let's run it,
+and then I'll show a diagram of what
+it's supposed to do. So this is the first
+planting phase, and it just telling me that
+it started that it's about to run that so
+we are at here at a so we just kind of
+entered this security vulnerability and then
+we started doing the plan part so this plan part
+will generate three dynamic plans depending
+on depending on the context so first
+plan will trigger um parallel parallel analysis
+and then depending on the result of those
+and then we'll do a complexity assessment on
+uh which route of path it continues to move
+on if it's uh score certain thing was we'll
+trigger four agents and if it goes further
+we'll trigger seven agents and then every
+single agent here is a separate cloud code
+session or if you it can be replaced with any
+agentic processes so can theoretically uh
+switch to Gemini CLI and then after the third
+after this run gets finished all of those
+results get synthesized back to the original
+orchestrator which then you can simply do a
+cloud dendrocy dash c and then the same come
+uh the same orchestration session gets continued
+within the cloud code that is uh
+basically the whole flow here so what i mainly
+want to show is how this plans gets created and
+then how these plans can be modified very
+easily via the agent. So here I have this
+three plan. One is discovery phase. One
+is standard analysis. One is the comprehensive
+analysis for more complex cases. Here
+is quite simple. It's just a simple
+complexity thing but how do you extend such
+a system i basically allowed it to be you
+copy paste this into complexity plan two
+which we will do if it's above seven uh
+we'll do nine agents and then uh okay so
+right now it finished the first round it's
+going to do the uh parallel uh discovery
+analysis period and then so when you do
+this and then you just and this will be
+automatically become part of the result once
+you run that so what you can do is you you
+can just go back here if the you know the
+complex situation is more complex and
+there's a feedback loop that says it should
+iterate just iterate and let me show you some
+of the more complex flows that i I did or
+worked on this one. Hey, Ocean, when
+you call Cloud Code, are you using
+that stream JSON approach where you
+call it, or how are you interacting
+with Cloud Code? Yes, this is just via
+streaming the JSON from the CI and
+then I parse it, and then I parse it and
+then be able to trigger all the hooks within
+and then I extract a structured output
+from the cloud code just kind of when
+it's still running and then I use those
+structured output to dynamically produce
+the next steps. So the question
+is Lions pulling from cloud code
+or is cloud code sort of interacting
+with line AGI? This is line AGI
+orchestrating cloud code. And could you do it
+inversely? Could you create an agent
+in cloud code and basically say you're
+the line agent and then have that call line
+from cloud code? That doesn't quite
+make sense because LineAGI is a SDK. It
+doesn't really have an agent. Like every
+cloud code session here, it is already
+using LineAGI constructs. It is being processed
+exactly the same way if I have an
+open AI model there. Gotcha. Okay, cool. Yeah, so what ended up
+with this is you can build very complex flow
+very easily and then you can resume it.
+So this can be a, how do you do a quality
+gates? The best part is every single execution
+here, it can be switched with any model, with
+any configuration, kind of even runtime
+dynamic if you want, if you trust LM to
+produce those parameters. And then every
+single, it can also be pre-configured as
+the ones you like. So it really just
+becomes very fun that you get to experiment
+how some of those structures you like
+that can be produced. Yeah, that's
+about it. Thanks. And so what's a practical application? So I
+want to use this, what would I
+use this for? So for example, this
+is the vulnerability analysis I was doing.
+And then right now, it is working on the
+vulnerability, I hope. I wonder where the
+output is. I'll find the output
+later, but you kind of customize this to
+any flow you like. And then those flows
+are repeatable. Those are, so when I
+mean reusable pattern in this way, I mean
+the behavior of those flows, they go exactly
+as how you designed. And then you can
+tweak every part of it, of what goes in
+and out. I typically use pydentic model
+with validators such that a lot
+of conditions just get auto-triggered.
+If a quality gate doesn't meet, what
+should happen next? If certain fields,
+they're just corrupted or dangerous, what
+should do next? I think the use
+case of this kind of system is
+very fine-grained control over the
+overall processes. Is it just for
+coding, though, or can it be applied to
+different domains? It's anything. It's
+just the only thing that you need to
+change was the prompt. Like change the
+prompt to, I don't know, customer
+relationship analysis, change it to stock
+analysis, and they will go through the same
+flow as I showed you before. I just keep on
+going back and forth. So the difficult
+part about this is actually the
+flow design itself. It's a lot of trial
+and error, I have to say. But since
+I keep every single data possibly
+exists from the CLI, so you can just load
+this into a data frame later and then
+do some analysis and then score them
+to kind of see what kind of flow makes
+more sense to you. So theoretically,
+you can experiment 10, 20 of this kind
+of flow structure, provided you have
+that much compute, you run them
+concurrently and then evaluate what kind of
+flow structure suits best for your
+particular use case. We've got a question
+from Toblow. Yeah, you know, Ocean, I think where this is
+really powerful and it reminds me of
+like some of the work I was doing at Oracle
+before I left, but it's like legacy code
+bases or knowledge transfer on, you
+know, replatforming, stuff like that, this
+would be huge. And, I mean, then my next
+thought was, like, you know, analyzing, like, a set of service repos
+in parallel, like a service mesh.
+But, yeah, really cool. I just
+wanted to add that context and maybe
+your thought when you, instead of analyzing
+one repo, but you're analyzing,
+you know, maybe five. microservices that
+that's all related yes uh yeah i'm sorry go ahead
+ocean oh i was just gonna say the the fun
+part about this is the uh the orchestrator
+like i'm not trying to uh target a particular
+flow to a particular problem rather it's kind
+of serve a particular domain functionality
+on how you organize your work, like kind
+of part of your work. I'm not sure if
+that makes sense. I think what's
+interesting watching both what you and John have
+been working on and your approaches, although
+application-wise are different, but structurally
+are interesting, is we're starting to
+see the integration of these CLI and agent
+structures like Cloud Code as part of sort
+of a kind of library or interface into these
+systems. So rather than going and saying,
+I'm going to directly integrate with Open
+Router or some LLM API provider, we're
+using these kind of intelligent CLIs as an
+abstraction, right? So it's cheaper, obviously,
+but it's kind of cool to see what you're
+dreaming up with these. One other thing that
+would be interesting to see in terms of what
+you're building is leveraging the MCP
+components within things like CloudCode. And for
+example, you could start looking at the neural
+network and the neurodivergent components
+and train your system with those and seeing
+what you could potentially do for optimization
+of these patterns. Yeah, so that is
+another thing I'm experimenting,
+which is intelligent tooling for this
+kind of system. So basically, agents right
+now are pre-configured or agentic
+processes, let's say. So what I'm doing
+right now is, so when you see the agent
+choosing part, I actually have a very complex
+agent composition kind of planner system.
+It will, depending on the problem, it will
+tell you how many agents, what their
+domain and roles should be, and then what
+is the order that it should be executed in.
+So like the first one can be three batch and
+then five batch, ten batch, ten per batch,
+et cetera. The best part about this is
+you can start to accumulate your own
+domain library. So how I define agent in this
+particular use case is agent is made up
+of a row and a domain. And then a row can be
+something like a critic, can be an implementer
+or a tester. And then a domain can be
+something like asynchronous programming or a
+RAS specialist, etc. What I do is I give
+each domain and the row their own unique
+set of capabilities. And then the next
+part I will do here is I will
+stop the access of cloud code to most
+of the tools. I will only let it to run
+through command line that is pre-configured
+in my system. So I can basically
+just have a lot more control
+that way. I still feel kind of a little
+fuzziness about using cloud code
+tools directly, especially with
+NCP. I don't know why. I just feel
+weird about it. I think it's the
+level of abstraction you can get. Yeah,
+sorry. Yeah, I think I know what you're
+saying. It's like, and this is part of
+the introspection work that I've been
+doing a lot of. It's like, what's
+actually happening? And when you look
+at the GitHub components I came out
+with the other day, really what I was trying
+to do is basically get a view of what
+each of those threads, agents, whatever
+you want to call it, is actually doing
+when it's blinking and flickering and
+doing all this magic, I have a hard time
+visualizing what it's actually doing.
+Is it searching and doing things that
+are inappropriate? And how do I find
+and figure that out? So when you showed
+your logs... There are quite a few components
+to this. One is the work part. One is the
+work level. One is the observability
+level. So on the task level, all they need
+is artifacts handover. It's like the protocols
+on the artifacts handover and then what
+should happen next. And then, but in terms
+of observability, like I think
+hooks are good enough, or I add a
+handler since I use language. I like
+on every single event, I just kind
+of send it there. And then you can put
+it into your WebSocket server if you like.
+But what I mainly want to say is the
+organization of your artifacts, it actually
+matters a lot and a lot and then for especially
+easy handoff among processes, among agents
+and among different phases if you want to
+all chain together. So a flow like this
+can be chained, I don't know, a hundred
+times and run overnights and then I don't
+know, scan all the vulnerabilities to fix
+or to attack up to you. I hope to fix. yeah that's about it
+and then 1.6 dollars it'll go it will just
+i really wonder how long our uh feast
+on a cloud code will be because that thing
+go wrong with like ten dollars or something
+which is not durable not quite doable
+with such expensive models as a model
+models are you taking in consideration the
+cash because that that drops the cost by
+like 50 to 75 percent oh yes this is this is
+direct data from the from the log like i'm
+not calculating the i'm not calculating
+this yeah just as an fyi when they do when they
+give you that it the number is completely
+wrong you get you gotta you gotta take into
+consideration of the um the caching which is
+not doesn't cost really anything right i i
+went through the same i went through the
+same realization that they're are you querying
+the uh the clod uh uh total cost no total
+you yeah where are you getting that total
+cost from the cost is directly from the cli
+data so if that is wrong i don't know it's it's
+wrong it's 100 wrong so yeah this is the
+this is the number i get it from total cost
+usd i can tell already that's wrong so what
+what what it's not taking is in consideration
+is Claude's caching, right? The prompt
+caching reduces that cost by
+at least 50%, maybe more.
+Does Claude code automatically
+cache prompts? No, yes, it does.
+But it doesn't, if you're getting
+that, the value it tells you
+doesn't include it. Just, I think they
+do it to sort of make it look like it's
+more valuable than it is. So if you
+want a true value, you have to take that
+in consideration. So how you
+calculate costs by actually getting
+these numbers and calculate by the
+price yourself? Yeah, you have to. It's not the default
+number they give you is like without
+caching. And most of the stuff you're
+doing is going to have some level of
+caching, at least 50%, which is going to drop the cost dramatically. But I don't think you
+can control the cache, right? I don't think
+you have a lot of control over how to
+get code from cache. So the other day when
+I came, I came to a sort of collective
+value of the work that people who have
+downloaded Claude Flow have produced over the
+last six weeks. And I came to like an
+$890 million US value. I actually reduced
+the cost by something like 65% based on
+the stated value and reduction and prompt
+caching for Anthropic. Now, if I hadn't done
+that, the value would have been like closer
+to like $1.7 billion. So I took a more
+conservative sort of estimate of both
+caching and usage. Now, if I had not
+gone conservative, it would have been like $3
+billion, which seemed crazy. So I assumed
+a decent dose of caching. And when I
+looked at things like my previous work with
+– when I was using Rue code, when I had
+more access to the cache, I was doing
+around 55% to 60% cache. So I just assumed
+the same numbers. But I couldn't get true numbers. I had
+to estimate it. Yeah, that was kind
+of my point, is they're not exposing a
+lot of visibility and control on the cache.
+So it's all just soft, sort of fuzzy
+math and estimates. Yes, that's exactly
+what it is. Yeah. But just to some degree. Now, I could get
+exact numbers, but the reason I'm not doing
+that in my MPX is I don't want to be the man
+in the middle. So I'm not getting the
+telemetry, which I hypothetically could,
+given that I'm running an MPX. But the interesting
+thing about running as an MPX is every
+time I do an update, I'm essentially forcing
+anybody who's using Claude-flow to do
+an automatic update and download. So if
+you look at my numbers and I see this week
+I've done, what, 15 ,000, 16,000 downloads,
+that basically is telling me that I've
+got around 15,000 active users of the Claude-flow
+system, which is amazing given it's
+only like a month old. I probably account for eight of those, Reuven. Yeah, yeah, you've
+got to be careful there, Reuven,
+because I've been down this path with many
+open source projects, and downloads is
+not a mathematical, empirical way to
+claim users. I'm not – well, it's 100%.
+I get 16,000 – here, can I show my screen
+for a sec, guys? Yeah, yeah, sure, sure. I was just – This,
+it's actually, I caused a big stink when I
+claimed a billion dollars. And then the Reddit
+guys, you know, basically said I was a ****.
+But what else is new? So let me just show
+you. So I can't get a lot of detail. That's
+my problem. Like, I could get more details.
+But right now, what I'm seeing is 16,000,
+oops, where'd it go? 16,744 downloads this
+week, right? Right. And so the benefit to
+an MPX, unlike an MPM style download, is
+it every time I do an update, it essentially
+forces anyone that's using it to do a new
+download. Right. So now the challenge to Dave's
+point is I've done like five or six updates
+more probably this week into it. So if let's
+say I've got 5,000 users and I did five
+updates, then that's potentially every user
+doing five updates, which would skew the numbers.
+So what I'm not claiming here is the
+fact that I've got 16,000 unique users. I'm
+saying that I got 16,000 downloads in essence
+here. But it's hard to get a real judge of
+true, unique usage unless I do direct telemetry
+on it, which I don't want to do. This is
+the point is like we just have to be as a
+nonprofit agentic foundation. We just got to be
+careful that we don't imply that what we're
+saying is 16,744 users when there's eight
+of them and they're doing five updates for
+every app that you push, you create at times
+eight for Jed. Same for me. Right. So we've
+got to be careful, because the only way to
+make that real claim is you have to have
+telemetry in the product. Yeah. Well, I could do telemetry, but
+there's, you know, at the end of the day, it's a pretty nice curve. I'm not disputing this,
+Ruben. I've just been here with a very
+large, successful open source project that's
+owned by Linux Foundation. exactly this problem
+right stars is a great is a great indicator
+but if you go and look at now a lot of
+the organizations are not using stars as as a
+metric anymore um even though it's it's a
+good indicator right and then and they don't
+claim downloads you just well it would just
+be nice if we didn't get ourselves into a
+little bit of trouble where people are
+calling us jerks because they're making all these
+claims you know well yeah i've already
+gotten that trouble but the uh so there's a couple
+other things i could do hypothetically
+like i could have a a server side um ping of
+some sort that basically just reports location
+or something or or but i i just don't
+want to be i just want to collect that information
+like so actually it's okay people do
+it projects do it all the time like you know
+there's a hundred odd projects in the in the
+cncf kubernetes on by Linux Foundation, and
+they all do telemetry. They all ping up when
+the install runs. They do a ping to say
+first-time install. Then they do, you know,
+how many times the system's up and down and
+running, how many minutes does it run for. They
+collect some data on what type of system
+they're running on, whether it's Linux or
+WSL or Windows or Mac. But they make
+the data public. I can get all that
+data. Like the MPX makes it super easy because
+every single time you're running a hook
+you're running in the mpx so whenever
+that whenever that mpx is hit i technically
+could get the telemetry so i'll i can know
+exactly how long people are using it how
+many tokens are being used you know i could
+get everything if i wanted to i'm just
+not sure what we should do maybe that's a
+and this will be important for the for
+the agentix foundation right because this
+is an asset a really important asset to be
+able to claim you know a hundred thousand
+users Because that's a very enabling asset
+and brand for the foundation. And we
+probably should be able to – if we're going to
+make the claims, then we should be able to
+stand behind them. You've got to be able to credibly stand
+behind them. Yeah. And right now, in
+fairness, there's a little bit of fuzzy
+math involved in those. I'm glad you admitted
+it. I didn't want to have to call
+you out, but I'm super glad you admitted
+it because I have been down this road
+multiple times. So it's very
+good to be having this conversation.
+So it's healthy to have this
+out in the open. Can I share my
+screen again? Just on this topic,
+right? One thing I was thinking here is, I mean,
+Amazon says customer centricity. We say
+user centricity, right? I mean, at the
+end of the day, as a foundation, we are here
+to help the members. But if we can
+even capture the member data,
+like who are the GitHub users who
+are downloading, we can get telemetry
+of the maturity of the users. Like, I mean,
+for example, novice, intermediate, or
+whatnot, and so forth. And that actually
+allows us to tell a more credible story
+about how we are making an impact on you. Yeah,
+Mandvi, so that's, so the Linux
+Foundation, for example, you know, they're
+really good. They're the most profitable open
+source foundation on the planet right now. They
+write a, they give Linus Torvalds a $700
+,000 grant every year. That's how much money
+they make, right? um and but that's one thing
+you're asking about is knowing more about
+who who your user base is in your foundation
+you have to be very very careful about
+collecting that information and then and then what
+you do with it because everybody will want
+that information so so that's very very
+dangerous it's kind of good but you get once
+you do it you have to be very careful about
+how you manage that corpus of user information
+so maybe when i get back from my vacation
+Dave and whoever else wants to help with the
+open source stuff we have something very
+valuable pretty clearly it's growing like mad
+I can't keep up with the amount of interest
+we do, it's an asset in roughly 7 days
+we've had 30,000 unique viewers on GitHub alone
+so obviously there's a valuable asset we have
+here that we could probably if you look at
+like the early evolution of GPT engineer and
+what became lovable Basically, what
+they did is they launched a relatively
+rudimentary, you know, CLI tool to do,
+you know, and coding. And then they were
+able to sort of parlay that into
+this high growth, lovable sort of
+platform as a service. We're actually growing
+at substantially higher rate than GPT
+Engineer ever did. So the question, and
+this is not one I have an answer to,
+is what do we do with it? Like I can keep
+mucking around with it and getting some
+consulting work, or maybe we can use it
+as some kind of launch pad for something
+bigger and more valuable. But I'm just
+not sure how to go from where we are to
+where we want to be. That is also the
+question on my mind, Riven, is I've been
+through these very large growth
+organizations, and we don't want to let this
+run away from us, right? We're the
+curators of this, and we should be trying to
+curate and do the right thing and
+actually leverage it. for both the foundation
+and the members and ourselves as
+much as we can do the right thing. And it's
+a huge asset. I think it's a very, very
+critically important asset. So let's chat
+about it. Is Flood Flo owned by the
+foundation? No, I think we don't want to get
+too far ahead of it. Reuven publishes
+on Ruvnet. Reuven is, you know,
+Reuven does his Reuven thing. We can't
+make any assumptions necessarily.
+Well, I did a post the other day,
+basically, should I do a startup or should
+I contribute it? One, you guys know
+I hate venture capitalists. So I'm
+not eager to go in that row because my
+loathe for them. If anything, if I could
+put venture capitalists out of business,
+that would be my number one goal in
+life. But that aside, my preference would
+be to make this free and available to
+everybody. But that said, I think that if we can
+figure out a way to leverage this as a way
+that generates income or revenue for our
+foundation to support all the crazy things
+that we want to do, and maybe even help
+support me so I don't have to do all this
+crazy consulting work, all the better. I
+just don't know how to get there. I agree,
+man. I agree, Reuben. And I think as us early
+founding members of this foundation and
+anybody else who joins, I think that's a great
+ethical goal that we should be looking
+at. Either you create a product company or
+you create a way for the foundation
+members to financially benefit and nurture the
+growth of this thing. I think it's an awesome
+way to think about this. What if we
+could create something sustainable, like
+what open AI should be, using some of
+these tools? Because we've got everything
+we need. We just need to figure out a way
+to leverage them appropriately and
+responsibly. And if we can start funding ourselves
+and our organization with it, that would
+be amazing. If I didn't have to
+work 70 hours a week because I'm doing this
+and random enterprise consulting, that
+would be great for me. Well, let me give
+you an example, right? So the Linux
+Foundation, they own the brand for
+Kubernetes and the Kubernetes is
+super profitable. But you pay for,
+like the Agentic Foundation, right?
+You pay a membership. What a lot of people
+don't realize is that the top membership
+for the Linux Foundation, for
+the CNCF, which is the organization
+that owns Kubernetes, the top membership
+is $300,000. So IBM, NVIDIA, Microsoft,
+they all pay that. And so they have like… So they're FOSM members. Yes. And so they have
+a huge influx of money. There's like 25,
+30, 50 members are paying $300,000 to the
+CNCF Linux Foundation. And that's a big funding
+resource. Plus the members pay at
+different levels as well with different companies.
+So there's a lot of ways that we can
+leverage. Plus, we have the hundred-odd thousand
+-plus social media assets that you've
+nurtured up, Reuven. That's another
+very lucrative marketing,
+branding mechanism. So we've got to be
+really smart about how we manage all of these
+assets. Like you say, they're taking off
+faster than lovable. We should be smart
+about this. Can we set up a steering committee
+where we can maybe talk about the sort
+of commercialization aspects? Yeah, my
+background is a lot more strategy than it is
+tech. I'm more of a strategist and consultant
+than I am a tech guy. And I'm happy to help
+out with this. We can drive this in a
+much more organized and structured way
+to identify these areas for sure. You
+know, and we do have guys like Reuven
+and Brad and a bunch of other guys have
+been trying to, you know, hustle and make
+this work as much as we can. But the
+growth is getting ahead of 16,000
+downloads, 100,000 users. It's more than
+like three guys and a dog can
+handle it now. There's a decision. Chris Barlow really
+wants to see the mesh thing come together,
+the synaptic mesh. Yeah, we have unfinished
+projects, right? We have hundreds of
+unfinished projects, and the latest crazy
+thing I showed you guys earlier. So we
+have no shortage of stuff, and we've got
+arguably our first hit. So now what do we do
+with our first hit? Yes, we need to – it's
+an asset, and we need to make sure that the
+Argentic Foundation manages it in the
+right way. the repos of the github is maintained
+and managed and we there's so much we
+need to do but by first hit ruben do you mean
+the potential sponsor i think you haven't
+formally announced it is that what you mean no
+i'm talking that aside i'm talking about like
+uh of all the random things i've built
+something that that is blowing up really quickly
+yeah it's a it's a growth explosion right
+spark was uh like uh consistent and it laid
+down it really has become sort of
+foundational but the cloud flow is uh yeah it's
+just absolutely taken off and just for context
+um david gratton the chair of the board um
+as uh has spoken to a number of times about
+uh the foundation sort of rallying around
+what would become a central product and i
+know there's a lot of people here with a lot
+of experience. So there's certainly a great
+time and opportunity to have that conversation
+at a higher level. There's probably about
+14 people that come to the management
+meetings every week. They are open for
+everybody to attend. And those volunteers have
+been working very hard in very different
+pockets and areas. But this is now, Ruben,
+as you get closer to sort of making a
+decision of how you want to handle the
+innovations that you bring to the world in
+terms of in the space that you do it as
+Ruvnet, you know, that we all celebrate and
+the foundation, the foundation's mission
+as, you know, as an entity, as we get
+closer to that, it'd be wonderful to have a lot
+of people participating in what that
+conversation looks like. Hey guys, this
+is Robert. Sorry, I'm kind of new face for this part of the
+conversation. As an outsider, I'm a little bit
+curious your stance on building everything
+around Claude. I mean, I absolutely love the
+utility. I'm a huge fan. I'm showing this off
+to everyone. But, you know, is there any danger
+in tying this whole logic to something
+that we're dependent on another company to not
+change the rules of the game with their max
+slice? Great question. Very great open question.
+Just to be clear, Claude-flow has little
+to do with Cloud, other than the fact
+that I instantiate the Cloud code system. But
+when you look at the actual architecture of
+Claude-flow, it's an independent series of
+components that you could relatively easily
+integrate with anything, right? It's a memory
+system. It's a neural network. It's a
+training system. It's an orchestrator. But the
+reason why there's a dash dash clod for a
+lot of the things is because my intention
+actually is to have it instantiate open code
+or Jules or whatever. So I built it
+independently of clod code. You don't need to use it. From the point of
+view of a nonprofit organization, right,
+the Agentex Foundation, that's awesome because,
+yeah, we don't want to be tied to a
+specific corporation -owned product as our
+engine. And like Rob said, Spark, the concept
+of Spark that you invented actually
+underpins all of that. That's a principle
+with TDD, amazing, and that actually underpins
+a cornerstone of what we're doing here.
+And that is independent of any technology
+as well. And if you look underneath the
+covers, it's Rube Swarm. And that's the work
+that Ocean and Braun and Jed and others
+have contributed to. So the Claude stuff
+was the marketing hook that got people
+excited. They're not searching for swarms.
+They're searching for ways to sort of leverage
+Claude code. So that gave me the ability
+to sort of piggyback on the excitement
+and momentum of that project. But everything
+that underpins it is independent of it.
+So we just need to be clear. So the most obvious
+next step, at least for me, is to basically
+abstract it with something like OpenCode,
+the SST version of OpenCode, and then
+we can use anything. Yes, and any model,
+right? We also need to be model
+independents as well. So there's a lot
+of thinking and we got a lot of high
+performance into a capacity here that
+we need to apply. And the other thing
+to keep in mind with models is I think we're
+moving away from LLMs altogether for coding.
+If you look at the work that we were
+looking at earlier from John and others, a
+lot of those neural networks, at least the
+ones that I'm devising, work just as well
+and don't require any kind of transformer
+style or attention-based modeling. We can
+actually create much more effective targeted
+coding systems without ever having to worry
+about language itself, but focusing on the
+semantics of math, calculus, abstract algebra as
+the basis for how we create the code. And
+right now everyone on everyone's thinking,
+you know, well, we just need to ask the
+right questions to an LLM where where I think
+we should be saying is we should be
+training models that are that are explicitly
+code orientated, not like English English
+English language orientated. I totally agree,
+Ruben. And what you're actually, if you
+up level this, right, that's a core principle
+that the foundation should adopt as its
+very core. Are we, we're an AI, we're the
+Agentex Foundation. Are we tied to models
+or are we tied to actually an intelligence
+type outcome mode? I agree. I've got a quick
+clarification and I'm just trying to relate my
+question to what John you showed earlier on.
+John Petty is still there, right? I can't
+see you, but you know, your book example,
+like what I have been trying to do, I'm just
+putting something on the chat here is, so
+Roof, I kind of try and go into your GitHub
+repost and I'm trying to throw a swarm into
+it and ask you to create a course out of it
+for different levels. So one iteration of
+it is the link that I have put on the chat,
+which basically is Roof swarm but it tries to
+create quizzes and kind of modules based on
+what you have said in your course obviously
+i am i'm learning so it has taken me a while
+but i'm just wondering what john you showed
+your book creation could we not throw that
+into all the code bases and effectively try
+to create similar learning material and
+you know basically accreditation processes
+and other stuff through it done yeah you're
+assuming that it's open source and like oh okay
+well i i i'm gonna put something i'm gonna
+definitely put part of it into what you guys
+have built because i need to add more of my
+contributing stuff into it that's just something
+i owe the group as a whole but um
+the the stuff that is proprietary in my mind
+is the stuff that i just have to get permission
+from my board on and like I that that
+shouldn't I'll start that process now but the the
+the main part I don't think like the stuff
+that you would need in order to do what you're
+saying is not the stuff that I am not I
+wouldn't be allowed to release as of right
+now without permission so um let me look
+what I can do but like essentially you're you're
+spot on the recursive nature and the processing
+through the code, the way that it looks
+to drive outcomes and essentially measures
+when it gets to a conclusion, it is the
+process in which you would need in order to do
+sort of the learning or book writing. I chose
+book because it's a stupid amount of content,
+right? I think this one's 400 pages that
+it wrote. And, you know, in that, I always
+have found playing with LLMs, even like trying
+to build some basic agentic systems that
+it just doesn't have good continuity at some
+point it breaks down there's some sort of
+just dumb stuff that ends up in the book it just
+i don't know i i've never really got it to
+work the way i wanted it to we have a a
+process within our app that does book sort of
+like book level writing that'll do like 150
+page book in a single prompt and that's the
+happiest i've been with it um and this
+this blows it out of the water by far is so the
+way that i have played around with it so far
+is like intelligence like go find me information
+and tell me what i need to know right
+uh write me a book and then uh i've had it
+do like sort of app development in the sense
+of like i want you to build me an end-to
+-end enterprise app but in the sense of the
+back end has to be real there has to be real
+data so it's building synthetic data it's
+building databases and actually filling them
+with data so it uses real api calls and does
+all of that all in one shot um and it built a
+pretty good third-party risk um website for
+one of my buddies who is super interested in
+it so it i think you i haven't tried it on
+a educational thing but i will point it at
+one of the repos and try it guys this is a
+really good example where you know the foundation
+you know your your goals are amicable you
+know good great you know but the foundation
+is a non-profit open source foundation and
+we can only accept truly open source code
+that adheres to the the principles of the
+foundation right and so that's like the linux
+foundation you you can't just donate you
+know push push code into any kubernetes or
+linux linux foundation project it has to be
+kind of vetted and approved to meet the And
+so no proprietoriness, it's got to adhere to
+the right licenses, all of that stuff.
+And the foundation has to have kind of
+principles along that. So I understand what
+you want, but we're a foundation, we're
+a nonprofit open source organization.
+You've got to be careful. You can't
+just take anything in. yeah well and actually
+that's another problem i've been having with
+the clod flow prs there's a someone did
+a 5,000 5,500 file pr the other day and then
+and like i don't i like it was so much stuff
+it crashed my browser then there was another
+there was several people who did prs
+that had backdoors and spyware and other ****
+in it so it reached a point where it's like
+i just don't think i'm in a position to
+do that level of review this is not my full
+-time job so yeah i so i'm just so david
+there's there's actually isn't a we have a repo
+for the foundation yet but we haven't got the
+team around it or the concepts or the
+conversations about what that will look like or
+what's going to be in it so you're putting
+your finger right on it there's there's
+decisions to be made there's uh discussed uh
+policies and then support and what's the content
+going to be and where's cloud flow going
+to live or the version of it so like we're
+away next week but we should probably
+david if you guys and everybody else who's
+interested we should probably talk about having
+a getting together specifically on this
+topic let's just you just let's use the tools we
+have let's let's just use discord or whatsapp
+or or or whatever we we don't have we
+can we can use these calls to have the in
+-person conversation about what what's our you
+know res on debt but But the rest can just
+happen online organically, and everybody wants
+to get involved. It doesn't have to – it
+can be asynchronous, for sure. I can give you
+guys the history of Linux Foundation
+and CNCF, how they went through this
+problem. What tools do we use?
+How do we set it up? Why do we use them?
+What works? What doesn't work? I've
+been doing this with the Linux Foundation
+for many years now, and so I have a lot
+of learning that I would like to be
+able to share. and in part to the Agentex
+Foundation here. Awesome. One thing that I might be able to understand why this is
+important now. Sorry. One thing that
+I can contribute perhaps is a
+legal background. So I'd be interested
+in participating. Sure. Yeah, it's important
+for us to do this now because I think we are
+kind of probably at that point where we
+have formed like i think i think some of the
+discussions i think it's it could be really
+useful to kind of get some kind of setup behind
+that i mean personally that's what i think
+if that's what you're asking from my perspective
+it appears like we're putting the cart
+before the horse we're trying to set up a
+um what's it called a accreditation program
+without demand for accredited agentic
+engineers oh there's demand oh there's a there's
+a huge demand there's huge demand for agent
+yeah like i i get i i get hundreds of people
+reaching out you know saying can you who who
+can i use for agentic engineering and i'm
+not even sure where to point them you know
+because we don't have a directory i you know
+i i ad hoc suggest people but yeah there's
+huge demand i have four phone calls during this
+meeting alone that's people wanting wanting
+me wanting me for my resume to to go for
+agentic ai jobs yeah just in this meeting
+alone yeah i could i'm sure channel who would
+love to accept those leads yeah but there's
+no way to know who in that channel are
+capable of doing them like anyone can be a vibe
+coder and slap some stuff together and but
+it's it's more than just you know randomly
+asking a few questions and seeing what pops
+out the other side we need we need the
+mechanism to validate that they can go from vibe
+to something much more elaborate and that's
+partially what we're doing on these calls
+when i see the work that you know ocean and
+john and others are showcasing you know i'm
+getting on and others yeah i i get a good
+feel for it you know but i still we still need
+some way to validate it beyond you know five
+minutes on a friday call i i would love
+to what my goal was to feed some of these
+recruiters that are looking for ai agetic engineers
+into our group but i don't want to you
+know that needs to be in a controlled way
+where they actually they actually have to respect
+the way that we want them to come in and
+then they can present their their opportunities
+to our team and then you know that guy
+the other day yesterday was asking for he wants
+work so and there's work i know that could
+could be presented to our to our organization
+and by the way a top tier agentic
+engineer right now at a major you know fang companies
+is getting somewhere in the realm of
+three to five million package that's right now
+so and those are just the ones i know about
+the other part jed is just take a look
+at what happened with cloud code naming the sub
+agents where ru already spearheaded the naming
+and the invention of the structure of
+the directory and then it's kind of getting
+away in terms of how it's being created and
+now it's looking like cloud code invented it
+when that's not true. So we give. If
+it's open source, right? If it's open
+source and they take it, then it
+doesn't matter. We have to be
+happy with that. Yeah, that
+doesn't bother me. Attribution is one of
+those things that I've always sort of struggled
+with over the years. But the realities for
+Anthropic, it would have been nice if they
+had just reached out, right? and i i would
+have i would have happily collaborated
+with them but they're they're a kind of silicon
+valley i don't know cult of some sort so
+unless you're in their little circle you're
+you're excluded yes they are man someone mentioned
+something about a sponsorship like i
+know you can only share what you can share but
+like do we have any strategic alignment
+with a potential sponsor that you know gives
+us some support but we need so yes there's lots
+of companies that are reaching out that are
+looking to potentially sponsor we uh we're
+working on one in particular that looks
+like it might might a smaller one not not the
+larger one that looks like they're willing
+to sort of give us some capital to get get going
+um the larger entities are are sniffing
+around but we don't really have a good
+particular story on what we need or why we need it
+so that that is back to all the other things
+we were discussing earlier like what why
+do we exist what's the structure what are
+they getting for it you know and and do they
+align with with our you know criteria for why
+we exist right we're i'm not saying we're
+anti you know corporate america but a lot of
+ways we we are the antithesis of of all
+those giant companies and we act as a hedge
+against them so going and getting a sponsor a
+giant sponsor from the companies we're trying
+to sort of hedge against can if not done right
+could ruin the culture of the organization
+before whatever it starts you know you
+know ruben this is the lesson about the linux
+foundation is secretly that you get all these
+large corporations that are paying three
+hundred thousand dollars for 18-month
+memberships and there's like 50 of them and
+that run run the linux foundation and it
+just it just happens and just just to give
+some um feedback we we have a whatsapp
+group that's looking into the accreditation
+uh we have a bunch of people trying to
+get some university to provide some some
+credibility to it we have others that um trying
+to get things done but i think i think one
+way that we might want to do is just iterate
+and just have something so we can have a
+list of people that pass a certain exam and
+then iterate from there to try and get uh the
+more formal process so we can we can go
+out but i'm going to post a link if anyone
+wants to help out with that part but i think
+it's a more involved discussion are we are
+we not in the best position to define what
+accreditation looks like and like just to go
+to a university unless they're like a stanford
+or something like that there's a whole
+process to it nolan it's it's way more
+complicated than you would think it is um but um
+yeah but just saying like you know handing
+in handing out the requirements over to
+someone who maybe isn't at the forefront of
+agentic engineering itself is potentially is
+is risky i think there's a there's enough
+concepts that are being defined in in you know
+throughout this group which are maybe you
+know somewhere over here on the highly highly
+technical side some are just sort of basic
+you know what what comes after vibe
+coding well you know specification writing
+context engineering like all this other stuff
+so we're at i believe we're in the best
+position to sort of define what that looks like
+yeah that's sorry go ahead sandy i was just
+gonna say i mean and we had a gentleman a
+couple calls ago that the whole reason he was
+excited about joining was because he was
+tired of the red tape within the bureaucratic
+university system you know like it you know
+part of what's changing is how we learn and
+we have these old systems and stuff um
+i've been really just swamped with owasp stuff
+But, Rob, I'm going to really commit to
+really supporting the agenda, you know, what
+we're trying to do. So I'll start joining the
+meetings this week. But, yeah, you
+know, obviously I have thoughts, too. I think you're right,
+Nolan. I've said this numerous times. This
+organization, this crew here that Ruben
+referred to earlier, we're at the cutting
+edge of thinking and of executing and
+doing in the agentic industry. Yes, if
+you go look inside of OpenAI and of Google
+and of Anthropic, they have like PhD propeller
+heads that are probably – that are
+even more advanced than us. But out in the
+real world, we're the cutting edge here.
+This is the bleeding edge. I disagree
+with that. i'll fundamentally disagree
+that they are really good at building models
+they are absolutely prompting and building
+systems yes like i have seen and witnessed
+this firsthand and like they are you know
+they are they're building some of the best
+models out there but that is their focus
+you go look at their prompts you can go look
+i mean claude's 24 000 like token system prompt
+is one of the worst prompts i've ever
+seen but that's also more efficient and more
+powerful but like that is not their focus
+like prompt engineering just by itself is
+like a huge component of where they are like
+that entire industry is failing to leverage
+their own models for the power that they
+have but they're also still stuck in this is
+model was designed to do this thing like
+yeah silicon valley is obsessed about models
+i live in silicon valley i live in the
+center of the world of ai and literally all of
+my friends all they want to do is talk
+about model this model release that model
+release just it's model model model that's all
+they all they care about this is essentially
+context like context engineering you know
+everything around it's it's it is context but
+it's you know we we are playing it in
+the space in between context and neural neural
+network engineering the the key difference
+is we're gpu poor so we've been forced to
+work in this space that says we have to use
+the mo the minimal viable access where
+these guys in the valley are like i got it i
+got a i got a thousand h100s i can i can point
+at and and they're they're they're rich
+and comfortable where i'm saying let's let's
+use a cpu and distribute many tiny little
+neural networks and hyper-optimized, nobody's
+doing that because those other guys don't
+have to. They've got abundance. They're
+fat, happy, and slumpy. Yeah, fat,
+happy. Exactly. But is that kind of
+like in the startup world where the
+company I'm at, Advanced Creative
+Labs, we're part of the Next Canada AI
+cohort for 2025, and I was sitting across from a woman yesterday, or two days ago rather, who was sort of vetting
+her, her, her ask. And she only put that
+she wanted $50,000 for marketing. And the
+advice from the advisor at, at, at, at Next
+Canada was like, you know, they're,
+they're not, they're going to look at that and
+think that this is a joke. You have to ask
+for more, more money. You have to ask for
+$5 million for your, for your marketing
+budget. So while I completely appreciate
+and align to your perspective, Reuven,
+around the notion of being GPU poor and doing
+this on a CPU basis, does that potentially,
+is it the same sort of parallel of
+asking for $50,000 for saying, you know,
+we want $5 million? Maybe. It's a
+strategic partner that could give us the GPUs
+to get us into that level of classification,
+if you will. Yeah, and that partner
+we're having discussions with, and we just
+need to figure out what it is we want to
+be. It's hard to ask for something when we're
+not sure exactly what we are or why we exist.
+It seems to me that knowing who we serve
+is the first thing. Are we getting this
+technology into the hands of ordinary
+people so that ordinary people can realize
+their vision lacking technical skills that
+would have been required earlier? Or are we
+trying to hustle and become big boys and
+make a lot of money? And I think Ruth
+started off in the first one. So there's a
+critical distinction to be made on the
+mission that leads to what the organizational
+structure will be, and then that
+will lead naturally to the path forward.
+But I think those three questions have
+to be answered first. Otherwise, we're just
+going to balance all. Should we get big
+CPUs and GPUs, or are we going to keep it
+small with little CPUs? Roof started with
+smaller CPUs because he didn't have the money
+to get bigger ones. Well, most of
+the people in the world are in
+that situation. So that's where I
+think the power of the organization
+began and should go forward. We need to
+find our path and build momentum going
+forward on that path. Yeah. 100% agree, man. Well said. i think i
+think the key here like like let's be totally
+honest if i wanted to go make a lot of money
+i'd go work in meta or something i get a
+job there but i would hate my life i would be
+unhappy and at my point in life i you know i
+might be altruistic or whatever just crazy
+i just i want to build stuff that's interesting
+exciting to me and and i also think that
+the the nature of of um in that i might
+sound like a socialist saying it but the
+nature and the nature of capitalism is going to
+change as this technology takes over and there's
+there's a we really do need a hedge against
+the sort of consolidation of intelligence
+you know to a small group of you know large
+very large tech companies and governments and
+the only way you you you act as a hedge
+against that is to have something like what
+we're trying to build to be that hedge and that's
+not you know that's not the linux foundation
+which is just a you know a proxy for a
+bunch of companies it's something new and
+different that hopefully empowers average people
+to do amazing things yeah i i good core
+principles of the for the foundation rUv i love
+it that's that's an hour our mission statement
+right all right guys i i've got it i gotta
+prep i gotta go to the airport i'm i'm
+taking off to uh nova scotia um actually one
+last thing i had a question somebody reached to
+me i reached over here a couple weeks ago
+about events in boston i didn't get who it
+was oh that that that was yes there's a group
+that i'm working out uh out of boston they're
+a consulting company a bunch of x ey guys
+that uh started an ai company and they're
+they're interested they got they got some space
+they're interested in sponsoring um yeah i
+can set that up and and i think folks at mit
+as well want to do something yeah i know
+folks at MIT they actually meet at um like the
+there is microsoft office right next to
+it called nerd yeah and yeah okay so i know
+these guys yeah so if you need any help there
+or something so when you come when you're
+coming back are you uh but i'll be back on
+the week of the 10th of august yeah let's
+just talk then like once you okay great
+next next week uh we should keep these going
+but someone else will have to drive so um
+we had uh we thought jed could could step
+up and and play the room role how does
+that work but how but whose zoom account are
+we using or do i need to get out yeah we'll
+give us i can i can set yep i can just or
+i can just uh organize a zoom account and
+make you the host or something all right
+sounds good so We'll call next week office
+hours for everybody. Yeah. And the benefit
+of mine is we can fit up to 250
+people on these. I bought the slightly
+upgraded version. We'll have an
+amazing trip. All right.
+Thanks, everyone. This was a really
+useful conversation today. And as
+always, I really appreciate all
+the work all you guys are doing. And
+until next time. Thank you, everyone. All right. Okay. Talk to you soon. Thank
+you. Safe travels. Thanks. Thank you.

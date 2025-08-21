@@ -1,0 +1,1817 @@
+There we are. July 25th. We're another episode
+underway here. And before we start, though,
+I want to just quickly apologize for last
+week. That wasn't really a hack so much as I
+needed to do a better job of using the host
+tools. So this week, we're a little bit more
+locked down. So if you want to share your
+screen, I'm going to have to manually allow you
+to share your screen um there's no white
+boarding or anything like that enabled hopefully
+and uh hopefully that doesn't happen again
+but again thanks for everyone that presented
+last week and i apologize it just because
+it's a little bit uh a little bit yeah a
+little wasn't wasn't a good way to end the week
+but stuff happens i'm to be honest i'm
+surprised it took as long as it did for for that
+to be a problem for us um but onward and
+upward the the who do we have today uh rob we
+got uh so we got uh braun field walker and
+chris barlow this is uh this is the week of
+dashboards abstraction layers over swarm
+orchestration so lots of really cool variations
+and ideas about about how to accomplish that
+and what the visual priorities are so uh
+really looking forward to that i was on with
+the nvidia guys this morning about about the
+production support too roof so there should
+uh there should be some some good stuff coming
+from that and um uh yes and just a note uh
+we had indianapolis last week cornelius and
+brad um were there and uh good turnout great
+great bunch of folks denver is up for august
+13th and then uh august 12th uh the next
+toronto event so lots of stuff going on there
+and i know someone said they ordered a ton
+of t-shirts make sure you use the right font
+guys this this is not the right font for
+agentics every time i put on my shirt i'm like
+ah i'm a font guy what can i say just let's
+let's just make sure uh let's let's make sure
+we we stay on brand for that i'm probably
+the only person in the world that cares about
+fonts but the only fonts i i dislike are
+comic sans and that one from avatar whatever
+that that font's called but otherwise we're
+good to go um all right so yeah lots going
+this week have you guys noticed that the cloud
+code has been uh down a lot with the 529
+errors i'm getting that almost uh now actually
+most of the morning and what was interesting.
+I was doing a call with some folks out of
+the Netherlands earlier and watching their
+screen, they didn't have any issue at all, yet
+I was getting 529. So I think it has something
+to do with like the geography of where
+the API is making the request. So one of the
+things I noticed quickly is if I switch to a
+different geo, like I spin up another code
+space or I spin up a fly .io or whatever in a
+different part of the world, it actually
+sometimes resolves it. It's a pain because then
+I got to sync the GitHub or whatever. But if
+it's a long-term outage or you're giving a
+demo or something, that might be a quick, easy
+way to resolve it. So a few things to
+cover. I want to go quickly because I know
+we got a lot of folks that want to present
+today. And by the way, if you do want
+to present, we do like the idea of folks being
+able to jump in and show what they're
+working on. I've locked down the screen a
+little bit, as you can tell, just ask and
+raise your hand or whatever, and we'll try
+to make that happen. um some new features
+as well that came out this week in cloud
+code which was cool the the agent feature came
+out yesterday which i want to explore a
+little bit and maybe later if we get time
+we'll i'll jump in and take a look at github's
+spark good good naming convention they use
+a k though so i'm no homage to sun microsystems
+like like mine all right so let's
+let's jump in i want to show you guys so i'm
+going to start with my dashboard i'll show
+you how i built it but i'm really curious
+really how how everyone else is building their
+dashboards i know ocean's done really cool
+sort of uh dashboard you should share the
+link to your uh your latest dashboard which
+looks amazing um mine is is a little bit
+more retro okay a lot more retro this is
+like if you see the do you see the game war
+games back in like the 80s i think it's it's
+it's similar to that so let's let's take
+a look here i'm gonna i'm gonna
+hopefully i'm gonna refresh my page here
+You realize that that computer was
+called Whopper. Oh, nice. Whopper. What? W-O-P-R,
+man. The Whopper. Okay, like Burger King. I don't know,
+but it's a name. It's a thing. All right. So as you
+can tell, I might do another version of this
+that's a little less Wargames Whopper
+-like. But for now, the important part of
+this user interface is probably the web services
+that underpins it. So what I've done is I've
+essentially connected all the various
+Claude-flow-related capabilities and Cloudcode
+-related capabilities through WebSockets.
+So you get a little dashboard. You can see
+what's happening here. There's a swarm
+capability. This is a work in progress. And for
+anyone that's actually interested in trying
+it, you can go to the Claude-flow GitHub and
+take a look for the agentic flow branch.
+And you get what you currently see here. it's
+it's it's totally alpha so i haven't published
+it beyond the fact that that i do do all
+my development in in sort of a live environment
+so now i can i can choose different tasks
+to submit we can we can submit them you can
+see details here i i can spawn additional
+uh components i'm going to add more i'm still
+early i can add it i can add that now i
+can close this and you can see different
+different components here um but the the part
+that's probably most interesting is how I'm
+handling the Claude-flow integration. One of
+the things that really drives me nuts when
+doing a lot of these swarms is the flicker
+you get. And I have no idea, I've got no real
+introspection of how the system's working.
+So what I wanted to do is one, be able to create
+multiple swarms and have them run
+concurrently. So there's a little plus button here.
+I can add swarm one, swarm two, and I might
+add the ability to rename it here later
+this afternoon. We can choose the different
+commands and I might add the agent, some more
+agent capabilities and so on later. But this
+is, the first step was just getting this to
+work. So in this case, I can select this
+particular option. I can see the actual prompt
+that makes it work here. So I, and I can
+potentially edit that. Some of the other various
+options, I can clap that. So now I can go
+further, I can actually start it up. Let's
+fingers crossed that Cloud Code is actually
+functioning now. So now you see here that
+the initial system is initializing. We can see
+which tools it's using. so it's using the
+glob and the task and all these various other
+things i can actually search through those
+so if i want to go here and i want to see
+different options i can see the system or the
+assistant so if i click assistant we can see
+here that the different messages so i can see
+my token uses i can see details of it i
+can copy and paste the json if i want to so i
+can click the copy button and and then i can do
+like a sort of dump if i want to do that
+i can automatically show all the jasons as
+well by clicking that so you can see all the
+jason outputs now i can also search as well
+so i can go here and let's say i'm just looking
+for a certain thing so let's scroll down
+and see what's actually happening here so
+we've got different assistants so again
+we're not we're i'm not concerned about the tab
+i'm going to scroll back up and just turn off
+the assistant to show everything so i'm going
+to scroll down to the bottom here you can see
+that there's different tool results task
+ids so this allows me to keep track of what's
+happening so if i want to go back or i want
+to do a rollback i'm going to add a button
+that basically allows you to roll back to a
+certain point where it might have broke so
+this gives me a lot more visibility right so i
+can i can see what's happening in in real
+time the other thing that i'm doing is i'm
+using the json or the stream JSON output from
+Cloud Code, which is really a really cool
+feature. So under the covers, I'm not actually
+invoking directly the interactive UI. I'm
+actually streaming the output from the system
+itself, which allows me to pause and sort
+of redirect the output. So if I wanted to go
+to the bottom here and say, stop and then do
+something else, I could actually click the
+pause button and then redirect it to do something,
+fix something alter something in real time
+so again i'm getting a real-time view of
+what's happening here so and now i for it
+looks like i might have broke the auto scroll
+option i'll fix that later but it's kind of
+cool so now i'm going to go back to the top
+of the page here i'm just going to stop that
+for a moment now i can i can i'm in uh swarm
+two so now if i go back to swarm one oh i
+guess i'm swarm i gotta do a better job of
+showing what's what's happening here so now
+can spawn up a different swarm in swarm one or
+i can i can create a couple more swarms
+here and have them all working together now we
+can see a little icon indicating that this
+one's running that this this one isn't early
+days now you can i also have mcp tools the mcp
+tools allows for all the various uh tools
+in the system i think there's like 87 of them
+and you can you can interact with it so
+if i go here and just choose the in it as an
+example i can execute the tool now you can see the
+success so everything that exists within
+the structure of the system that is generally
+automated can also be invoked manually or
+through apis so if i want to go to like my
+github integration i can see all my github
+options or my dynamic agent allocation
+workflows all that sort of stuff so i click that
+we can we can set that up uh two steps we can
+say i don't know task execute tool and then
+we execute that we can we can view the
+memory so this shows all the things happening
+within so this one's got a hundred and i
+guess 12 i guess that's 12 715 tasks so i
+can go in here i can search through that i
+can i can type in task i guess there's
+something for that one um hope maybe and then we
+click on that we can see what what's
+happening at each step i can visualize all these
+components we'll go for those who like
+terminals i stuck a terminal in here just to show
+you how to interact with the terminal
+programmatically mostly so if you go in here
+you can do that you know i can go to cd
+oop i gotta test like that right so i could
+whatever i need i want to do and here are
+the api docs so if you want to interact with
+the system you can see that as well so so
+this is if for anyone building dashboards
+that wants to interact with either cloud
+flow or cloud code all you need to do is use
+my my web services so you can see my examples
+here's some some endpoints so if I want
+to check the system health which is the
+most simple one I can click here and then I
+can execute and this is running you can see
+the headers raw the raw information I can
+see the web sockets I still do some work
+on this one I think I think I need to change
+this to my my actual IP address but we'll
+see what happens here Oh, yeah, it's trying
+to connect to a local host. I'm actually
+on an IP address, so that's probably
+not going to work in the moment. But
+you get the idea. So I'm just going to stop that for a moment. And I'm going to add
+an authentication system. So lots of
+cool features here. Yeah, so that's
+my dashboard. Thank you for putting
+this together. I feel like it helps me
+personally appreciate the depth and scale
+of like the tool that you've created and
+seeing it visually is so helpful. It's
+like, wow, there's all these nooks and
+crannies. And so just thank you for putting
+this together. It was awesome. Oh yeah.
+There's, there's a ton of stuff happening
+here. And actually I skipped some of the,
+some of the features here and I need to,
+I need to add sort of another option to
+keep it persistent. I haven't done that
+yet, but check this out. I've got another, I
+get a visual system here so we can go, we
+can see the hierarchy. We can change
+the hierarchy as new instances
+are added. It adjusts, you
+know, you can, you can connect one
+to another kind of thing. Oops. Where,
+where's that? This is, I think I, yeah, that isn't, is that,
+that's not working at the moment for
+whatever reason, but. Hey Roof, I got a
+question about trimming different tasks out
+of, out of the context. Are you able to do
+that with this? Yes, exactly. Yeah, exactly. So that is that's I'm
+sorry, I'm not sure who asked that, but
+that is a really interesting. So what I'm
+able to do, I'm using the stream output. So
+now I am able to in real time monitor the
+stream of the output from cloud code and
+then adjust, adapt, and change what it needs
+to do in real time. Before, I had no
+ability to see what was happening, right? So it
+was kind of a mystery when I went, I didn't
+know when a tool was done or what was
+happening. Now I can see exactly what's happening.
+I can see the full JSON response or
+whatever I need to see from it. And then I can
+have sort of a secondary agent sort of
+monitoring. What I'm not showing you in the
+system is I've actually integrated the Mastra
+AI agent system. So I can have secondary
+agents that are actually manipulating the stream
+to improve, to train, to alter, to spin
+secondary components. And this is
+basically a real -time view of the stream. It's kind of cool. And
+you can also better see when there's an
+error, if there is one. Why did you choose
+Mastra Agents? Light and I like Mastra
+because it's TypeScript. It's light. It works
+in a serverless environment. It has
+native MCP integration input and output.
+And LankChain *****. Sorry, LankChain. LankChain JS is
+actually okay, but the Python one.
+And, you know, I don't get why people
+build in Python. I know people
+like it, but it's just not my thing. And as you
+guys know, I've built a lot in Python. It's just, this
+is all TypeScript. And I, yeah, here's
+an issue I see. Tool result. So this is a
+perfect example of something
+I need to fix. It's spawning,
+it's using the wrong tool. Now
+I can actually see when there's
+a problem. so now i could go to
+the tool id later on and i'll i can do a
+review and fix whatever whatever it was trying
+to do here so it looks like it was trying to do
+a command notification so error i need to
+fix so now at least i can a lot of these
+errors were hidden in the context of the clod
+flow system when it's flickering and doing
+all kinds of crazy stuff and i had a really
+hard time to see when there was a problem
+like this now all i need to do is is do a
+filter for you know you know whenever the word
+unknown shows up i can try to find and
+i'll fix that as a a new ticket so in this case
+i could spawn here i can go here i'll choose
+i need to do a filter i need to do a better
+filter here i'll do i'll add that later
+but there's a github option so i i could do
+i could choose uh one of these options p you
+know a pr manager or maybe an issue release
+manager whatever needs whatever makes the
+most sense and then i i would say you know
+create a new issue or something relating to
+that so here i might do issue tracker and
+this one i might say uh review and fix
+you know and i'll paste that in there and then i spawn it
+so this this would be in a different
+swarm and that's it oh another another
+thing to note for those who are who are might
+be interested in helping me with
+development i'm outputting everything in the
+console so not only can you see and actually
+a whole lot more here so let's go here for
+a moment and i'm going to i'm just going
+to refresh the whole entire interface this
+is a work in progress you're seeing bugs
+but you see here i've got my my console so
+this this will tell you all the various checks
+right now the the the uh issue you're
+seeing websockets is it's trying to connect
+a local host i need to have a fallback to
+127.0.01 or something but that's a relatively
+minor problem yeah so that's that's
+it that's my dashboard hi quick question on
+the architecture of this so this front
+end um is calling the api as well as getting
+data directly from the memory files and
+getting from the cloud cloud control logs are
+these three okay so i'm doing yeah i'm
+doing it from several so in the most simple
+sense in the most simple sense i'm i've
+created a ppt why i think they call it that
+allows me to interact directly with the
+console of the server using WebSockets and
+or API endpoints. And once I've got
+that, I can then query the Claude
+code, Claude flow, or just straight
+up the SQLite or whatever else I want
+from the terminal itself in a structured
+and streaming fashion. So it
+streams the output using WebSockets to
+the web interface. Perfect, thank you. that's probably the
+best way to to to do this sort of thing and
+i think i think ocean you mentioned you
+were doing a similar approach with with web
+sockets if i i think you mentioned before the
+call started anyway i'm excited to see how
+what other people are doing with dashboards
+we can compare notes quick question so uh
+you're running the dashboard on local host
+but you're connecting to github workspaces
+that's running cloud flow in order to
+make sure that's in a containerized environment
+is that correct not exactly so i am using
+i'm using uh the various types of containers
+and i like github because it's it's easy
+but you you could you could hypothetically
+run this anywhere and the drawback to uh
+using uh github code spaces is it doesn't
+use local host it uses the ip address and it's
+just the way they've got it set up and
+most things expect localhost but so what
+i what i'm doing is i'm using a 127.0.01 fallback
+so if if localhost fails then i just
+basically say okay go try the same thing
+using the ip address but you said that Claude-flow
+shouldn't be run locally because it can
+wreak havoc and cause kernel panics so how
+are you able to get around that issue well
+i use docker i use ubuntu docker and
+generally i don't bother. It takes up too much
+space in my hard drive to have all these
+Docker images running. So I just, you know,
+I usually either use GitHub code
+spaces or some cheap provider like
+Railway or, you know, I like Fly.io. There's
+a bunch of them, right? They all kind
+of work the same way. They're all
+basically Docker instances running in
+the cloud somewhere. Okay. So you're
+running the Claude-flow in a Fly.io,
+Dockerized environment, and you're
+connecting that with local host IDE in
+order to connect to your back end, which
+is on the floor. No IDE. I'm not
+using an IDE. So there is no
+IDE. It's a command line or Node.js
+application to the command line, but
+there's no IDE. Is there at least
+authentication between the
+public IP address and that
+WebSocket client? Sorry, I missed the
+first part of your question. Is there at
+least authentication between the public
+IP address of the FlyIO instance and
+your WebSocket client? There could be. Currently, no. This is a work
+in progress. So if you're
+volunteering to do that, it probably wouldn't
+take a lot of time. I haven't gotten
+there yet. I was more focused on the
+core functionality. Once I've got the
+core functionality working, then
+I secure it. If you're going to
+run my super alpha version of this,
+just make sure you don't make it
+publicly available. It should be fine. It's the same
+question, Jed, with Codespaces. With
+Codespaces, you open a port, and once
+it's open to your Codespace, anyone
+can get to it if they know that you are
+our IP address. Yes. It's not
+exclusive to your... It's not over SSH or
+something like that? it could be it should
+be but it isn't by default they
+just forward it just forwards a port you
+can set it up in code spaces and you forward
+a port and then that port is open
+for your code space which is a docker
+container running in github's uh compute
+environment yeah it's the same that that
+goes for any like the aws would be the same
+thing if if you open a port you don't
+put any security on it then it's not
+going to be secured so same idea now what
+i'll probably end up doing is I'll probably
+add like a JWT token and like to the API
+and something similar for the web socket
+and I'll secure it. And so there's two forms
+of security I would likely add. If I was
+actually going to do this in production,
+like let's say I wanted to deploy this on a
+serverless function somewhere, I'd probably
+use an anonymous key, like some kind of
+cores policy that locks it to a particular
+domain. And then I would use some other secondary
+form of user auth, JWT or something.
+And getting past all three levels
+would be pretty difficult at that
+point. You could fake the cores, I suppose,
+but faking the other two would
+be very difficult. Do you think you can
+do something similar to Supabase, where they
+have both anonymous and API keys? So you
+have the anonymous key, and then you have the
+API key on the server. Dead on. That's
+exactly what I'm doing. That model is what
+I was describing. So the anonymous
+key is what you can see essentially
+in your browser if you were sniffing
+the network. And something somewhere
+needs to communicate, right? So the
+anonymous key is a good way to do that. And
+then the second part is the cores. Is it
+coming from a trusted domain, whatever.com? Now, again,
+hypothetically, depending on how your domain's
+set up, that could be faked. But if
+you're using the latest CloudFlare
+setup, that's going to be really difficult
+or impossible. And then lastly, once
+you've got past those two, I'm using the
+OAuth components from Supabase or whatever
+my OAuth provider is as a user authentication.
+So you basically are having three levels
+of security, the least of the security being
+the anonymous token. And I have just one
+more question. So you mentioned that there's
+GitHub code spaces for containerized environments
+with Docker, but there's also Fly for
+Dockers. Now, if you look at some of the
+Fly promotional YouTube videos, they say that
+the Fly Docker is different than an actual
+Docker. But I'm having difficulty understanding
+that because when you define how the
+FlyVM is constructed, you basically use
+commands similar to Docker Compose. So I was just
+wondering, in your experience, how is the
+Fly Docker different than normal Docker?
+It isn't different. If it works in my local
+Docker, it will work in Fly or Railway or
+Vercel or whatever. They all work the same.
+I never noticed any difference. I do a local
+Docker test just to ensure it builds correctly
+and do a quick run. And once I know it
+runs locally, and when I say locally,
+I'm probably running in like a GitHub
+code space. But once I know it works
+there, then I just deploy it. And
+generally, it just works. And I just want to add, Fly.io used to have
+their own system for Dockers. They don't
+use the standards. but they i think a
+couple of months ago they had to open a little
+bit and implement the standard dockers so
+maybe you're looking on the wrong videos or all
+videos old it sounds like old ones till
+the old so yeah they they've resolved it was
+i think they resolved that like in january
+so last year it was the biggest issue with
+fly.io was they had like these weird build
+system and you had to and and then you had
+to try to use the they had a local option to
+do the build on your machine and then you'd
+have to do the same build remotely but they
+get they went away from that and then now
+they're more traditional there's still a few
+quirks but they all like if you use like um
+any any of these ones that uses docker as a
+deployment model they all have sort of little
+quirks you have to try to work around like
+versell is the same way they've got a few
+interesting things they've chosen hey thank
+you yeah um so who so who wants to show their
+dashboard next we've got braun mr field
+walker hey og hey how's it going good man how
+are you yeah good um yeah when i was working
+on swarm i was trying to figure out what
+exactly these things are doing so here uh oh
+host disabled i can't share i can't share
+pornographic images i think i think you have
+to request uh let's see it just says
+disabled i don't know how to request uh let's see
+i think you should be able to grant him
+access through if you select on him yeah
+let's see here sorry i i locked it down yeah now
+when you click share it just says host
+disabled there's nothing there at all like it
+should say send request now it says okay is all
+i got all right if i see **** and and you
+know really offensive things i'm gonna i'm
+gonna have to flip out but i'm gonna turn it
+back on here one sec guys allow turn it on
+turn it off yeah join later that's yeah
+yeah okay keep keep uh keep all inappropriate
+things to yourself today all right you should
+you should be good all right let's see you
+should see a sparkly screen great nice okay
+so yeah as everyone knows swarm and all this
+gets kind of confusing so i first started
+just trying to say okay what the **** are
+swarms there what are they doing so i i i got
+this uh sort of drag and drop you can move
+them around if you hover over them you can
+see what's inside how many agents are there
+what their agents are doing i didn't spend
+too much time it's like the first thing i got
+up just to sort of figure out because if
+you ask ai what it'll do is he'll start
+drawing all these lines between everything but
+they don't exist so it took me a while to
+sort of decompose okay what is this warm how
+are the agents connected uh are there any hard
+rules or are they only rules inside cloud
+code sort of virtual brain but i'm seeing
+that the screen sharing has been paused does
+anyone else see that no i don't know you
+can't see anything yeah you still see the i
+can still see it no i don't see it at the
+moment screen sharing has been paused. Did I do
+that? You know, I, I, It looks frozen. Stop share, re
+-share. Yeah. Braun has paused
+screen sharing. Uh, paused. I don't, okay. Uh, resume? Maybe? I can
+check on. Yeah, there we go.
+Now it's moving. Can you back up?
+I don't know. I didn't touch it,
+but it went off. Anyways, okay. So, um yeah this is 3d js
+i think so um again like what i want to do is
+figure out relationships and if i'm going to
+build relationships later i want to see
+i want to see how and if agents are connected
+or do they talk so if you when i first
+did it if you just ask ai it'll draw lines
+all over the place but when you actually dig
+down they don't exist like none of the swarms
+are connected at the moment they're all
+independent and these i i'd have to update the
+actual agents but the whole like mesh ring
+star this is a let's call it a mental map for
+cloud code it's there are no hard rules that
+it cannot break out of so whether cloud
+code adheres to these is up to cloud code
+but anyways this was just the start then i
+thought okay you know this at least tells me
+i can figure out you know which one is which
+one's up which one's working and you know
+what the agents in it. This was for the
+server you're on or container. I'm on
+localhost, but I wanted to know, okay, if I'm
+running a whole bunch of cloud codes, you
+know, how much CPU am I using, how much
+RAM, actual disk space and everything, because
+sometimes you're, I have quite a bit of
+resource on this, but you know, I can see
+my RAM is almost tapped out. So just in
+case I need to scale something or change
+it i needed actual stats for this and then
+i got to the swarms most of the swarm are
+fire up destroy fire up destroy fire up
+destroy so um it's kind of hard to benchmark
+and figure out what are the best swarms
+what kind of hierarchies work well what what
+about your agent so i keep the swarms and i
+record them and these are like this is what's
+up right now so you know this swarm's got
+eight agents these are the names of you
+know the title again all of this stuff is
+cloud code mental map so these are sort of
+made up but you know that's the whole thing
+about prompting prompting things like cloud
+md everything it's the cloud code tries to
+follow it but you get quite a bit of
+different configs if you just run a bunch of
+swarms you'll see you're getting all sorts of
+different configs um so you know i can clean
+these up i can delete them i can clean all
+of them i can keep them so if i like a
+swarm i can keep it i modified route swarm to
+I can reinstate swarm so if I use this
+ID I can say reload swarm that and that'll
+boot up this with all the agents inside then
+I got this agent panel so I was gonna make
+it haven't quite got there but I'm gonna
+add let's call it building swarm so I've
+run 94 agents here I don't really need to make
+thousands more. So I can start to go, okay,
+I like these ones, I can drag them
+and drop them into a swarm or modify
+the swarm. So then what I can eventually
+get is, okay, I only need, you know,
+maybe four or five swarms for my workflows,
+I don't need to keep building them
+and destroying them, I just going to be like,
+run swarm one, which will be like, coding
+swarm. And these agents, I'll just keep
+customizing them until I have exactly the
+best combo of, let's say, capabilities.
+And again, I haven't had time to totally bench
+all these topologies, but what's better
+is the star ring, or which of these
+topologies is the best. Then I'm getting
+into these tasks. For my, I don't know, for my Linux system, if I run the slash P, I got
+to pay with API. So I haven't been running
+this, but I do keep track of the major tasks
+I'm doing. And then as you know, the
+flickering is a totally annoying. So I got the
+events on the right here and I can filter
+it. I haven't done any in a while, but
+last night I did some. And right now I'm
+also trying to figure out what I
+want to see because I don't really
+care about file reads and all that
+kind of stuff. You get a lot
+of sort of junk. So, I'm trying to
+filter out the junk, you know, the
+different types, how long it took,
+whether I've seen it. I can nuke these. These
+are not very interesting anyway. So, I can
+just blast all the events. This is whether
+I want to, you know, I could turn off the
+refresh, turn it on. And then I did a
+Claude history. So if you want to
+get the full history, they are in your root
+folder under JSON. So I port them
+over and then I can grab one
+here. So if I grab like this one
+and hit load, oops, this one loaded up. I can pick the
+conversation and then I get my full. history so if you
+want to go back a week and go hey what
+did i do and what prompts did i use
+what did i ask you can get like the
+full history and you can search through
+it because sometimes you know your cloud
+code crashes and you don't have the you don't
+hit continue you can just go back and find
+out what was going on um and then i got so
+that's this is all going back to the ha
+pools like when you when i first ran it a lot
+of the tasks were finishing in milliseconds
+so on the front end it's kind of pointless
+to be i'm like why i got a live stream but
+i can't see anything that's because i'm
+polling at let's say one second and this stuff is
+finishing in milliseconds so i was like forget
+it uh right now i just dump everything
+to the database space and then it's it's
+live like these forms will appear in half a
+second it's good enough for me so then i i
+got this other thing here which is let's call
+it the swarm showcase so i a quick quick
+quick question are you using the uh the roof
+swarm or clod uh flow just all swarm yeah
+just pure swarm there's nice this is yeah
+because i found because everything is right
+now since we're using cloud code everything
+is going into cloud ram let's call it right
+it you know we compile as many orchestration
+layers as we want on top but so far i've
+found swarm is more than enough i can you
+know because i can if you've got the hierarchy
+you you know you've got the agent and the
+and the hierarchy and the prompt i don't really
+need more layers on top of that right it's
+good enough for me anyways um and then
+yeah so then i gave um this this what i'm trying
+to get is i'm trying to add the neural
+net and then add the ability to connect some
+of these right i mostly as i've been buried
+in the architecture of the events and also
+for the agents um you see how these are all
+there, there's eight agents, but they're
+not active. It's the agents are only active
+for very short amounts of time. So it's
+pretty tricky to track which actual agent is
+doing it because again, cloud code executes
+the agent is another framework for cloud code,
+but it isn't, it isn't like an agent with
+an LLM in it. It's, it's cloud code goes,
+Hey, I'm going to be the fact checker for a
+little bit, But then Cloud Code does the
+work. So if I look at the logs, it's like the
+agent has one prompt and then Cloud Code
+has six. The agent has one, Cloud Code has six.
+So it gets tricky to go, who finished it?
+You know, who did it? Anyway, so I asked, I
+took, well, first one of the things I did
+with this swarm is I said, okay, give me a
+front end for this repo. That's it. It's a one
+-shot prompt. and this was the what the swarm
+made for itself i again i didn't give it
+three prompts i gave it a ****** one line make
+me a website so this crazy thing was all
+by itself this is like an interactive swarm
+builder and i think this one actually looks
+better than mine but um i haven't figured out
+how to get spinning uh animations into the
+3dgs yet but um this is a full like you know
+this would be i don't know a 5 grand 10 grand
+website if you had to make it and this
+thing just cranked this out the whole thing
+uh i got features core features i've got mcp
+tools these are all the tools i've got this
+is nuts the topologies look at this thing
+so this is made all a graphic for each topology
+hierarchy star you know ring um and then
+it's got performance even look at this crazy
+performance metric thing so like i don't think
+i could have made this myself it would
+taken me like i don't know a day or two days
+you know like to think about it make it um
+and this thing's just cranked this out one
+you just pointed it you just pointed it uh it at
+the repo i did nothing i i have the repo
+i said make use you make me a website about
+the repo that's that's the prompt nothing else
+zero that's that is that is amazingly cool
+like look out this has got a little bar here
+right for the different mcp tools and it so
+it's it's done like a pretty awesome job
+of building this out and it's not you know
+it doesn't have ****** fonts and you know like
+it doesn't look like if you would not believe
+that ai made it by itself with no help
+right just organization of content interactive
+features like especially these uh the
+showcase things right like these these like i i
+it's pretty crazy that it could make this ah
+itself right it read through the code base
+it goes huh what would a mesh look like and
+it makes it right it's what's cool is that
+it actually figured out that there are these
+four topologies which are core to the product
+and that it needed to accentuate those
+and then like this is better than mine like
+i can build you want to build swarms sure
+here's a swarm builder right like it doesn't
+it's it looks way cooler than my one which i
+probably spent a week on it's like huh so
+we're getting pretty this is where i was like
+okay we're hitting a new level of ai builder
+right when when you can build this with one
+prompt and it's sort of scary because i've
+been web dev for 20 30 years like if someone
+said make this this you know probably take
+a week in the old days so to do that in 10
+or 15 minutes with one prompt i'm like this is
+pretty amazing showcase man oh what's possible
+yeah yeah so that's it that's fantastic
+long story short is i'm i'm still on swarm
+and that's i'm just trying to try to get
+basically like agent garden and permanent swarm
+and then add the what's called the neural
+net and then sort of connect them up so so
+on this topology though bron um but the when
+you imagine the neural net where are the
+connections the connections from the center of
+the nodes to each node or from the from the
+agents to the to the agents that's a kind of
+a complicated yeah well that's the thing
+figuring out what should connect should you
+connect a whole swarm should yeah and then
+should you connect agents from your swarm to other
+agents or but that's where you kind of need
+like the other layer right this is sort
+of the playground but and like you're saying
+right the Claude engine itself is actually
+gets delegated and actually does the work
+so you you there's a there's a mini to one
+mapping yeah well that's the thing cloud code
+is really cloud code is doing everything
+you got to understand right that these are
+one sub millisecond one kilobyte frameworks
+for it they're not this is not a whole bunch
+of heavy duty code this is like a prompt that
+says you're literally it's like saying you're
+a ring and that's it right so it's it's
+not what's nuts is that cloud code can follow
+it you know like if you gave this to most
+llms you think they just forget and you know
+it does occasionally cloud code will do too
+much let's say it'll it'll do half of it
+in swarm and then and then when it gets to a
+bunch of tasks it'll go yeah i've had enough
+of swarm i'm doing it myself and you know
+it's it'll just because it's doing it anyways
+so it and yeah you know cloud code isn't
+dumb like you can do what's called batch tool
+so batch tool would be like no mesh no agents
+version of swarm it'll do right five things
+at once but when you give it it's like you
+know in the end we're all going back to
+prompt engineering you know what what was
+what is the difference what is the system prompt
+for anthropic right it's all it's all
+prompt it's so this this is like prompt builder
+for batch tool and the best way to build a
+prompt builder is to use mathematical systems
+and swarm topologies and so i i think this
+is great man because this this really helps
+people understand what what claude swarm
+and claude flow and claude are you know this
+is Mentally, getting your head around it
+takes a while. And as I, let's say, as I prove
+it's more than one-to -one, I'll connect it.
+But I don't want to start with, like, if
+I, when I first did it, like I say, this had
+roadmaps all over. And then when I actually
+grill it, it's like, yeah, no, these are
+just made-up rules. So I need to see, okay, yes,
+if you stick to the rules consistently,
+you know, on a regular basis, I'll give you a
+connection. but until i could prove that
+it's more than you know giant these one-to-ones
+then um i can't just randomly appear this
+is what it's like yeah a bunch of yeah this
+is you had a hundred swarms but they're all
+just hanging out doing nothing right yeah so
+braun was this created with one prompt what
+we're seeing here visually was this what
+the the output no this this is the one prompt
+see this swarm showcase website this this was
+the one shot right is it like it actually
+would work right now or is it just the ui
+no no okay this one is uh live real time
+interactive what is your swarm doing how many
+swarms you got how many agents you have are
+what are what's inside them you know what what
+tasks are they doing this is this warm like
+what did it do this is the i nuked them but
+you know events that are happening so like
+when you like rube said with everyone
+okay when you use cloud code your screen goes
+ballistic you can't even read it so if you you
+know i don't really need to do more than
+see what the **** was my swarm doing you know
+literally and i can't yeah And, Ron, are
+you using that output format stream JSON
+verbose to get the output? Or are you just, like,
+what are you querying exactly? No, I use
+hooks to push a whole bunch of the stuff.
+And then all of my, not even hooks, but, like,
+the NCP server itself and the other actual
+files that get run, I dump into the SQLite
+database. because SQLite is a pooled instant
+local database pool. So because you can only
+log, most swarms are going so fast, you
+can't, even if you stream that, you're just
+going to get a mess, right? It's a lot
+easier to just dump. I realized with some
+millisecond process, I just dumped to the database
+because I don't care if I'm getting, my
+brain isn't going that fast. I one second is
+fast enough for me I just need to see it in
+a clean organized you know easy to digest
+format and right now what I'm trying to do
+like when I ran this I have a thousand events
+in like five minutes so I'm like okay I
+don't want to see I don't want to I don't
+want to see all the events so right now it's
+more okay I can get it all but it's like a
+tidal wave so I gotta I'm like did you have
+to yeah spin up I was going to say do you
+spend a bunch of time actually developing
+code to to filter the events that you're
+actually most interested in yeah the big headache
+is that when you get the cloud code hook
+it's empty right it's like give you a hook
+okay it's a post hook tool and it's on a
+keyword uh you know file write or whatever but
+that that's kind of it like you you have
+to build every single hook you want an event
+you want you have to make a custom output
+for it right so you then it's like well
+i got and then i have like 80 custom hooks
+but but then i realized i i don't really want
+to bother wasting the time resource or energy
+on file read do i really care about file
+read maybe not maybe i just want file
+right only and so yeah that you know it's all
+about figuring out what do you want to see
+does it help you at all you know is it is it
+that mean you can you can get it all it's
+just what do you yeah how does it help what
+is it good good is it and then yeah yeah if
+you want to control um you know i haven't
+got to more control because i have no
+problem sort of launching stuff and again my my
+account gets disconnected for some reason but
+mostly i'm interested in the connections like
+this area here like how in order in order
+to go from we already got swarms right let's
+say we can make eight or ten that's done
+right so the next is how do i get you know this
+how does this whole swarm work on something
+the whole thing not this one or this one
+but you know how do we get to let's say mass
+or yeah because the the the single swarm is
+great but if the next level is i can say
+yeah use every swarm here you know this whole
+swarm goes nuts so um really really that's
+sort of the and then and then we need the
+we need the um we need the the neural net right
+we gotta have Yeah, my Swarm connected
+to your Swarm. And then who knows? Yeah, this is awesome
+work, by the way, Brian. I'm really
+impressed. Are you going to open source this?
+Can we integrate this with the Swarm project?
+Yeah, I mean, my stuff is a mask. That's
+like my repo would. You need a filter for
+my repo. So once I finish it to like, you
+know, I'm kind of one of those it's never
+done guys. But once I get it to 100% works,
+the filters are clean and everything else,
+then I release stuff. Yeah, so keep in
+mind, there's a couple things that you might
+want to consider adding that would give this
+really cool feed function. We've got the DAG
+capability, which would allow for a sort
+of federated approach to the swarms. So that
+means that collectively we could all connect
+to your swarm securely and collaborate,
+which gives you a sort of multidimensional
+structure for tracking all that information.
+So rather than using SQLite, you use SQLite
+as a local sort of cache. But if you write
+it to the QDAG, then you've got, you know,
+you can create a share button essentially and
+say, you know, hey, Jed, you can contribute
+to the capacity or the project or
+whatever. and the and the other part that would
+be interesting here would be using a kind
+of hive mind structure which allows it to uh
+stay on point for more complex applications
+where you notice after like 10 minutes it
+sometimes forgets that it needs to be in a
+swarm it would solve that problem yeah i
+mean as ocean said how long are we going to
+stay with cloud code because all of us know
+we're working around cloud code due to the
+financial benefits but not long i i've been
+working on open code all week to be honest
+uh to get away from cloud code but it's
+cheap and easy for now yeah exactly so long
+forward to that nvidia three thousand dollar
+uh well tensor computer well it's a little too
+soon to say but our nvidia is is offered
+us uh some serious horsepower to test our
+swarms on you know it's not three thousand
+it's probably three million but the um their
+infrastructure they're going to let us borrow
+looks substantial and then we can point
+the swarm at it so if anyone from nvidia
+is on the call let's let's hope they uh they
+come through on that um braun this is this
+is amazing really good work i love
+what you're doing and if you need help
+and or contributors i'm happy to jump
+in and work on a branch thanks yep
+yeah this is awesome has anyone awesome
+work bra man it's super
+fantastic i love it has brown have you
+thought about open telemetry or any of those
+kind of hooks or existing observability tool
+tool chains i haven't got past any of this
+like between all the other stuff i'm doing
+um you know i just debated i was debating
+how much time should i spend but i'm trying
+to the main goal is um getting let's call
+the next level of say swarm which is actual
+swarm like you know like we you want to
+get to 100 or 200 or a million or whatever
+because when i first loaded up swarm i
+could instance 20 000 agents on you know it
+was like maybe 10 megs of ram and it took a
+minute but then i'm like okay i can i can
+initiate 20 000 agents but what could i get
+them to do and who's gonna manage how you're
+gonna get you know who's gonna manage
+those that's you just So we're almost there, but
+you know, like right now we're constrained
+by the LLM cloud code has a definite
+max at around eight is about its max efficiency.
+So again, but once the cloud code is down
+and we have unlimited API resource, then
+it's just the framework and the system. and
+then you get into there's an you know
+there's definitely another level of swarm
+orchestration when you get into it's it's like
+a flock of a thousand birds or whatever you
+get in that kind of thing right there's
+other you know i don't think mesh or whatever
+is the right one for thousands or millions
+right you're getting into uh i haven't even
+researched like what's the best way to control
+a it's like ants right and probably
+that's the best animal i can relate it back to
+but when you have a million ants you know
+what are they all doing and how do they work
+together to achieve their goal so uh we got a
+little tiny high but you know again once we
+hook up if we can hook up to if we can hook
+up the whole agentex .org everyone brings
+their 20 30 even even if we each have a cloud
+code but we hook up 80 cloud codes you know
+so there are we there's a lot of configurations
+and um but it's cool that we kind of
+broke open the box let's say right now we're
+all thinking about it and you know we maybe
+will be the first million first million agents
+form you know who knows but uh i think
+uh we have the toolbox um and i also took the
+because it's called rube fan right so i i
+actually got the fan working right now i
+can build my own fast artificial neural networks
+on the fly with cpu or gpu and they can
+um you know that's an actual neural network
+so i'm going to try to integrate these with
+the neural net and then the mass mass agent so
+because you know the anyways there's there's
+a lot of layers but it's just round one
+i don't talk to me in two weeks or something
+when i've had more time i think i think
+i think we got to move on to the next uh
+demo here i uh i think someone else has a
+dashboard they want to show as well we have
+a few today we had we had chris barlow but
+he's in new zealand and i think i think he's
+falling off the call so um we had a open
+session there was a comment in there i saw
+john petty had mentioned that he's uh that
+he has the agents compete with each other
+so he'll have a swarm compete with another
+swarm and then and i just wanted to hear
+that's that's just fyi that there's a consensus
+component within the hive mind capability
+within cloud flow that that does that
+wasn't that does that so and you can monitor
+how the consensus within the agents and
+how they collaborate with each other and it
+basically stores that information in the
+hive mind db yeah but i'm curious to hear
+what others are doing Yeah, so I took
+essentially that function and spawn five different
+examples of how they would solve that
+problem, have them look at the problem
+and propose solutions, as well as the models
+will create what they're doing from a
+score and prediction standpoint, and then
+Claude evaluates them. And then the one
+that ends up on top, pretty much the top
+two come out as the win. And then it sort
+of will go through, depending on what
+setting I have it on, three iterations of
+that. So it'll be like two win, those
+two stay, three more come in, they
+all compete again. And then that'll
+happen where like three will stay and
+then all the way until there's, you know,
+five that are all scoring relatively
+high, but in different areas with
+different approaches. And then that
+swarm will go after solving
+the problem. I've found pretty good
+success with that. We're all learning
+as we go here, by the way. And we created
+this system that allows for a kind of
+collaborative approach to these sort of
+ephemeral processes. And I don't think any
+of us fully understands exactly how they
+work, why they work, or what the real power
+of them is just yet. I think we have made
+the conclusion that using these kind of
+temporary ephemeral processes makes these
+systems work a lot better at solving really
+complicated things. And in Bron sort of
+set and forget sort of example that he was
+showing, he pointed out a repo and create
+me a web page, is a perfect example of
+this, right? If we had tried doing that a few
+months ago using Roo, it probably would have
+failed. It would have taken a whole lot of
+sort of finagling of prompts and guidance
+and back and forth. And maybe eventually the
+boomerangs might have worked, but it would
+have taken 30 hours. Now what took 30 hours
+is now happening in a matter of a couple
+hours or less. Yeah. Hey, Rube, I'm actually
+working on – it's theoretical right
+now. I don't have anything to show as
+everything is theoretical. uh is a communication
+protocol that for those different
+agents to somewhat trim and evolve uh so
+more of a long-term agentic uh so so say
+you have persistent agents that are that
+are doing different automations and things
+like that actually communicating back and
+forth with an orchestrator and if they are less
+um i want to say this less um efficient
+than another one or or full of errors or
+something like that then the orchestrator can
+cut that out of the out of the system or
+combine or combine two agents into one system
+um into another agent so it's it's sort of
+an evolutionary um process so it's not
+exactly in that same vein but but it it still
+has that how do we how do we select which ones
+are actually working how do we you know
+track that and how do we you know have them
+challenge each other i think it's just a
+different perspective a different angle for
+that amazing that's that's so i love this
+this is so i think i like the way Watching
+you and the rest of the crew building these
+things, I think it just inspires me to
+take it further. It's really cool to see you
+guys doing this stuff. Here's a thought that
+I would throw out, Reuven, and the team,
+right, is that currently what we're building
+here is all about building apps, building
+code, code development, software coding
+assist. but when we start connecting swarms
+together you're it feels like we're
+actually building it becomes a really modern
+framework for building applications and
+that actually you can build an app and they
+just it's just running you know it's like a
+really it's the ultimate crew right or or
+lang chain it's the ultimate application
+framework rather just a decoding development
+app yeah so I use a similar backbone to
+have it do marketing. So research marketing,
+go out, grab information, bring it
+in, run that across intelligence, look for
+viral content, all that kind of stuff. And then
+it creates a 90-day roadmap of content. And
+it's really powerful for how much content
+it can create. So like, and it will live
+update your roadmap. So 90 days of content,
+about 1,552 pieces of social media content
+across all channels and even builds your
+dialogue for your videos and shorts and
+TikToks and everything. And each day it goes
+in and looks at content based off of what's
+happening in the environment and what
+viral content is out there and rebaselines and
+moves that content. There's so many
+applications from a, like this is
+a foundational framework and you can
+apply it, you know, probably to, I
+think, anything. So how does that
+work in a, how does the feedback loop
+for that work? Are you tracking
+the metrics for what amounts to the
+earned media? Yeah. Because putting out
+a lot of content is great. Yeah. Google,
+Google ads, like all the normal things that you
+would be like ******* in from a metrics
+perspective, go into a dashboard and well,
+this is speed traffic. Yeah. I mean, it's
+a whole website and has, I can
+probably demo it for folks next week or
+something, But yeah, it's like a whole
+website has like multiple dashboards,
+has a whole admin center. Admins can
+steer, reprompt, you know, push, make,
+create, or remove content. There's a
+budget section, how much money you're putting
+in, what are you getting out, your CAC,
+LTV, like all the, you know, fun marketing
+terms that I'm not a market person.
+So I just, you know, listen to people
+and see what I can make. This may
+be a worthwhile expansion of
+actual demonstrable use cases of
+agentic engineering. Yes. So breaking out
+from app building and breaking into
+creative spaces. That was my point,
+Jed, is that we're potentially going
+beyond building apps to a framework where
+your applications are just running all
+the time in this. And one of the things
+you guys might want to take a look at is
+the neurodivergent component we created
+a few weeks ago. that is made for time
+series data. So the reason I created that
+was initially for some of the work I was
+doing with the neural trading systems where
+I was getting the real-time stock data,
+but that can be applied to anything that has
+time series data, whether real-time
+or historical. And then you can train
+the neural network based on that information
+to make decisions. So rather than the
+decision being sent to, let's say the hive
+queen and then being interpreted by the
+LLM, you're basically saying, make the
+determination and then send that to the LLM to
+execute upon. And that's going to be
+faster and more targeted. And then the only other
+thing Claude's doing is basically being
+told what to do, not how to understand why
+it needs to do it. Sorry, I got a
+question for John. And how you managed
+to do the competition between the answers?
+did you actually hard code it somewhere yeah
+there's I have a couple different versions of
+this like uh I forgot who was speaking
+earlier but the current code base is a mess
+because I've been doing so many different
+things in it just to explore it more and more
+and then like strapping a lot of our code
+into it too um just to see like you know what
+can you apply but uh I have one version
+where it's directly ML. It's just ML models
+that are trained based off of like specific
+outcome that I want to see. And that's like a
+more benchmark direct approach. And then
+there's an LLM evaluation, the sort of like
+using an O3 call and an anthropic call using
+those two judges and then having those
+judges evaluate outcome. And then the other
+one I've been playing around with is like
+the just straight neural nets in
+combination with the LLMs using a similar
+orchestration as the app itself is doing. So
+sort of like as you have topical or changes
+in subject matter, the machine learning
+is scoring and applying that. That
+goes into an index. That index is feeding
+input into the LLMs. And then the LLMs
+are reacting based off of essentially
+like engineered prompts but you're not
+training the model in real time right
+um i so i have an experiment for that
+that's actually in the background right now
+running on my 50 90 on hierarchical neural
+nets and i used so i haven't been able to
+use the whole framework yet i'm kind of like
+still just starting to piece this together
+but i i created a similar tool to what
+Reuven created in this that we that I called
+nano agents and it was actually for our
+product um so I took sort of like the nano
+agents and combined it with what Reuven did
+and with the ML models and ran that as
+essentially like semantic scoring on the front
+end and that semantic scoring um helps
+steer the hierarchical neural net at its chunking
+layer at the first input and then uh
+i'm sorry at the tokenization level level
+essentially like at the but well because
+hierarchical neural nets work off of uh bytes um
+so smaller than tokens sure yes yes yeah
+so it actually makes it easier and also it
+also makes it inherently multimodal because it
+works at that level so yes um but mainly
+my experiment was to see can i in real
+time influence a model as input is coming
+in it added about 0.5 seconds of delay with
+the model scoring but i was able to see anywhere
+between 15 to 23 percent depending on the
+topic improvement i'm sure with like some
+tuning so actually i have a 249 million wait is
+that the right size yeah um model that's
+fine tuning it in the background right now
+and it's kind of fine tuning itself based off
+of hella swag so it's just recursively running
+through a thousand questions from hella
+swag and benchmarking itself that using the
+ml to score it the ml then re-steers it and
+then it informs the essentially the the
+models that are instantly fine tuning like at the
+top layer okay got it that's a really good
+architecture and and what you're doing is
+you're you can by using a kind of secondary
+i'm calling a microscopic neural neck
+attached to low cost local models maybe low
+performance models like um you know any smaller
+model you can get substantially better
+performance from them because you're you're
+not limiting yourself to whatever that
+small model needs to do right so that that's
+essentially I think what you've articulated
+is a kind of implementation of that
+strategy yeah it it I'll I'll try to have it
+in the place where I can present it right
+now it's like very raw code but I actually
+have a dashboard that I watch while it's
+doing fine tuning so I can keep track of
+it and see if it's going off the first
+couple batches actually ended up with negative
+results where the model degraded but
+I'm starting to see it actually be able to
+improve and re-steer. And what's fascinating
+is sort of topically, the way I've built
+it, or I've actually gone backwards. The
+first time I was doing it was just
+with one medium-sized model. Then I started
+moving into three MOE, and then I moved
+into a 20-layer MOE. That MOE, even on my
+5090, was outputting similar benchmarks
+to like GPT 3.5, all running locally, only
+using 30% of my 5090. Quick question,
+though. You're not doing
+distillation, right? Currently, no. I am not doing
+distillation. Okay, yes. I'm looking
+forward to seeing this demo next
+week, John. I'm sorry. We need to see a demo.
+We need to see a demo next week. yeah i'll
+try to have i'll try to have something
+demoable by next week for you i think jade was
+uh jade jade was uh uh putting you in line
+for the demo nick for next week yeah and and
+just fyi you guys are more obviously more
+welcome to continue i'm going on vacation
+starting next friday and uh if if i if i attempt
+to tell my wife that i'm gonna do this
+while doing a road trip i'll be in trouble
+trouble so uh i i will i will be away the next
+few weeks are the kids age that well they've
+got what they call the g1 license my 16 year
+old which means he probably can't go on a
+highway but uh right um next year then next
+next year for sure but yeah so i i won't be
+back until i think the uh whatever the week
+of the 12th is so like the 15th so two weeks
+of demos demos demos demos you guys are
+more than welcome to do whatever just just watch
+out for for uh weirdos and crazies to take
+over this thing yeah well i have that production
+so we can probably hold office hours rob
+on thursday then or thursday following right
+that's a great idea very cool no but it's
+been it's been a wild month though this well
+actually month and a half i guess you know
+the the swarm stuff only came out june 15th
+right so we we've been just five weeks crazy
+yeah it's been crazy anyone else have
+anything they want to show
+present discuss this is this is
+your chance to this is the
+open mic portion sure I just put
+a little summary of the webinars
+we had I posted it let me can I
+share my screen Confluence yeah you know um
+only because i couldn't do it
+elsewhere but that's how i knew
+how to do it so uh can you see
+my screen i think you can yeah
+um so all i did was pull in um
+some recordings it pulls together um has has the recording itself it summarizes it
+takes a summary and then pushes that up
+into top level table so you can see
+week by week what was discussed nice
+that's awesome it'd be it'd be good
+if we can put it on a url so that
+it's easier to find and what yeah all
+those recordings that's all yeah we want them
+to live in the member site right the
+community uh agenics.org yeah so yeah i'm in
+there great fantastic is it yeah it's not a
+problem and um you know loom will actually
+compress them so yeah yeah it it will shorten
+a given recording um taking out the ums and
+ahs and all the rest of that as well okay
+Then on the member site, we can convert
+this into either a course or a tutorial based
+on whatever information you have. This is
+awesome. Thank you. Yeah, actually,
+Loom, which is an Alassian tool, as you
+know, actually does have a whole bunch of
+ways of manipulating video. So if you
+go to up here, Loom itself, and then you can
+edit by transcript. How do we do that? Edit. And as we're a nonprofit, users for this
+cost them about $6. So it is
+practically nothing. This is taking a
+little while to upload. But as you can imagine,
+you can do things like remove silences,
+all that kind of stuff. It's pretty
+standard nowadays. um but it is useful
+and we can um if anyone's working on
+building our content we can give them
+um a license to um six bucks a seat
+that's really good okay um yeah um
+that's it we have so much content over
+the last year yeah and uh no thank martin
+thanks for putting that together that's
+awesome i'm sure we'll figure out a
+way to use it even if it's just a link
+to that it's very uh we very useful
+one of the other things people have
+been asking about is like our like
+accreditation uh do we how are we looking on
+on that front, Brad? What's that
+process look like? Yeah, so, yeah, we're
+just getting started. There's two
+accreditations. We're looking
+for a sponsor to help with our
+not-for-profit. So if there's any
+sponsors out there, a couple of bucks would
+help to be able to go be essentially a
+learning institution. So that will give us the
+ability to get grants. And then we're just
+starting the accreditation process for the
+different levels. So I think we're going to
+be forming a group and actually let's get
+it done as quickly as possible. And I'll
+probably be talking to the people that would probably
+be passing the level four or whatever we
+call it, the top level that we're helping
+out with the RUFAN as kind
+of the leaders, including RUF and Jed
+and Braun and Ocean and some of the other
+top elite people to make sure that we have
+the accreditation. Is that about a three
+-month process or so? So two different
+things. If we want the
+accreditation, before we get too
+much further, it does cost some
+money. It's by course I've gone through
+to make sure that we qualify, need like
+100 hours of actual real content and
+all that kind of, essentially the same
+as what a college would be at a high level.
+There's different programs in the U.S. and
+there's one in Canada that that we would like
+to go ahead with. So we do need some some
+sponsors for that. And then that's that's
+on the one side that opens up a whole lot,
+a lot of money for us for government grants.
+And then for the accreditation process,
+we're just starting that. So but I know we need
+to get it going. We just started a
+WhatsApp, restarted it, I think, yesterday for
+the masterclass one. uh one so uh initial
+steps hopefully by the time Reuven comes
+back from vacation uh we'll we'll have
+a fair bit done so if uh anyone wants
+to get involved reach out to me and uh we'll
+get we'll get the actual coursework done
+well i'm gonna design that i won't i will
+not be able to at this point be able
+to pass the the final accreditation i'll
+need some training so yeah we can also be
+yes we'll all do the course and then we'll
+credit ourselves and then we'll and and
+once we're accredited agentic engineers we'll
+uh spread the uh you know the the curriculum
+far and wide or something but i i
+think i think our best bet is to get get a crew
+of us that are doing this like what we
+saw today and all review each other's
+work and and let that be the first step yeah uh
+scott you you've got your hand up how you
+doing hey um i wanted to do a presentation
+if we had a few minutes yeah scott that's
+right yeah cool cool i'll share um so i
+wanted to kind of cover um the new stuff
+in like the vllm space um the lms are pretty
+good at uh looking at pictures now and
+analyzing them and I kind of wanted to step
+through that and show we can do now let me
+share my screen so to give a quick example
+can you guys see yep cool so if you
+throw like a picture into something like
+oh three it'll start digesting this image
+agentically you can see I say inspect this
+photo deeply and tell me the details about
+the buildings start thinking do a little
+description and then it'll start zooming
+in on the image which is actually pretty
+cool and as it cuts the image down it'll
+start doing its image description and then
+reasoning about this so in the foreground
+you can see a tree you've got the mountains
+in the background it's describing the
+yellow buildings etc get a little faster start
+looking at the sky start looking at this
+building on the hill and it actually does
+a pretty good job at describing the scene
+and telling you a little bit about the location
+and i asked it to figure out the location
+at some point and it was able to guess
+somewhere in northern italy um in the mountains
+and it was completely right so that's pretty
+cool um so around that we can start
+building some software um in response to
+the palisade fires i wanted to build
+like an automated ***** inspector
+which is like the area around
+your house that comes up to the
+wildlife areas So I built an inspector, prompt engineered
+it, and this is for, like, an
+urban environment. Let's see. See a minimal risk. It will tell you a little bit of recommendations. There's not much
+for the urban environment.
+There's no hazards. if we look at a more
+rural environment with like a wooden
+house amongst trees so it's
+processing this is a little
+broken right here but it finds
+hazards gives you a description
+of those hazards sees the grass it
+sees the trees gives some recommendations
+and will tell you quite a lot
+about actually your wildfire hazard
+risk um this is a job i kind of used
+to do in the past and i thought i'd
+automate it and it does a pretty good job with
+off-the-shelf parts so i thought that
+was really cool that we can get
+to that point with these
+foundational models and kind of want to
+open up the floor to to you guys
+to ask about what ways we can
+kind of improve agentic vision kind
+of reasoning if you guys had any ideas what
+do you mean by improved accuracy of the
+context of the image yeah just anything
+that would make it more reliable keep in mind
+that most of these image models are
+actually just converting the image to text right
+when behind the scenes so when you send an
+image it's describing it so to get a better
+output you just need to add a better
+prompt that tells it to describe it better
+it's also nice that it's segmented and
+tag it the other um at least with open ai
+they accept images represented in base 64
+so let's assume they're tokenizing against base
+64 to represent the image and then run
+inference against that knowing that you
+need to remember that the image that's submitted
+to OpenAI is shrunk to the smallest of
+2000 by 768. So if your image is bigger
+than that resolution, it will be shrunk
+to that resolution one. And then if the
+subject that you're asking questions about
+does not materially fill out the viewport
+of the image, it will not describe
+that image well. And I assume other
+image-to-text models operate in a similar way.
+that's why like doing something like
+segmenting it and pulling the segments out
+and passing it for identification would be
+very helpful and also you could tag it so
+think about you know terminators type image
+of what you're seeing in real time the other
+side of this is also to use lower level models
+at a higher temperature to increase randomness
+and use a higher level model to summarize
+the lower level models outputs to
+coalesce where they agree yeah there's a whole
+category of vision language action models
+that are starting to appear in robotics
+that are really cool i just i just dropped a
+spatial lm in the in the chat and it's it's
+actually looking at 3d point data um on
+different different objects so it'll actually
+give you the dimensions of the object as
+terministic data. So models like this are
+coming out and might look at something
+similar to that that can structure it a
+little bit better so that you can identify just based off
+the point data. And that spatial LM, there's the one
+on hugging face. you can run it like
+on local real easy on like small hardware and
+it is real time like it is actually assessing
+in real time and if you stream what
+it's doing with like camera it can actually
+draw those lines over your output if you
+do it right it is it is mind-blowingly good
+But there's even a pocket LLM that runs
+on your phone that does that. You can send
+it your video feed, and it'll basically
+give you an annotation. And it can probably
+leverage the LiDAR point 3D stuff, too. Yeah,
+it'll take in LiDAR. Spatial will. Yep. Yeah. I was going to say,
+the other cool thing is if you take
+that and you record the Gaussian blur
+from it, and you can actually go back
+in 3D space and see what it assessed and
+how it assessed it with the boxes over
+it. It's awesome. Yeah. John, do you have a
+name of the model, the Hugging Face
+model you mentioned? Somebody dropped it in chat, but it's
+Spatial LM. They have demos and
+stuff, but I mean, I have to say I played
+with it and for the size it is I my mind
+is blown like it I think this is probably
+one of the most impactful like
+developments of the last six months from a what
+can like the power and the demos that
+I've seen of this like in apps is just
+it's it's incredible so what what's happening
+in like NVIDIA's edge devices like Thor
+and you know that's going to be the
+next gen or more and google is putting out
+they're taking a gemini model and they're
+reducing it to run on a robot to do real-time
+bla because you you can't afford the event
+loops have it step on the baby before it
+realizes there's a baby there right so it's
+really i signed up for it but they haven't
+you know they haven't gone public with it
+you can sign up to get access to that model
+but they're trying to pare down the model
+to do exactly what a robot would need to to
+be able to do in real time and that's a lot
+of that vision language action stuff so really
+cool stuff coming on right now yeah it's
+i it's really impressive the ability for the
+spatially reason within the llm itself
+that's kind of impressed me the most the fact
+that i can kind of determine this is like
+10 feet away and it gets it pretty right
+i'm there's a lot less hallucinations than i
+thought there would be um i'm curious where
+we'll be in like six months or so but so
+this is a fun topic i don't know if you saw
+the white paper by uh yale and mit specifically
+on physics and math uh and llm so if
+you take an llm and you leverage it to predict
+uh like an astral body where it'll be
+it will get very very close it will predict
+very very accurately and it's sort of this
+the nature of prediction right is kind of
+built into what an llm does and and language
+right the fabric of our reality is how we
+process information and we start to create
+predictions of where these things exist but
+if you tell it to or ask it to do the math
+it will do horrible math right it has to
+have tools or it has to use something but like
+if you just directly tell it like hey
+cool do the math for this like you're not
+you know if you're an astronaut stuck in space
+you're going to die so it it's it's
+fascinating it's a really good paper i highly
+recommend it i'll go look for it and try to drop
+it in the group um feed but like it it it
+gets back to this whole like um digital twin
+side of things the prediction like and
+creating these sort of synthetic spaces similar
+to what we're doing with the like swarms but
+if you take that and you think about um
+computer hardware like in software um what's
+interesting is i have one code base that i've
+been playing around with essentially like using
+an llm to simulate an entire operating
+system and it like generates the ui like in
+like as you're asking it or you know using commands
+now there's layers and a whole bunch of
+other stuff but it's fascinating that you
+can get almost like an operational computer
+just through prompts interesting crazy so
+that that's actually an interesting concept if
+we did a just-in-time os where we use some
+kind of uh you know real-time compilation
+as you make the requests and it creates like
+windows and things like that yeah so i give
+it you know i give it indexes and formats
+right so it's not jumping all over the place and
+doing crazy but But it's essentially able
+to, you know, you want an inbox and it
+creates an inbox and it looks at what the API,
+you know, that it's calling, whether it's
+Google or Outlook and reforms its, you know,
+input data to that API. And it works like,
+but, you know, it's not the fastest thing in
+the world, but to what Reuven was saying,
+like, you do something with like what he's
+built for that backbone and and give it better
+frameworks. And I bet you could probably
+come out with something that's pretty crazy
+below people's minds. Yeah. Well, we're almost out of time. I got to jump. Appreciate it. This
+week went a lot better than the
+last. So thanks for everyone who showed
+up. I'm going to be away over
+the next few weeks. So just to Martin's
+point earlier, someone other than me
+is going to have to create the zoom for
+the next few weeks uh and share it to uh who
+has the um the control do we have who has
+the the team has the control for that ruben
+i have control of the agent's accounts
+so it makes sense if i do it we're we're
+going to be uh having the production run
+through new nvidia next week let's let's let's
+maybe hold off until i'm back on that it
+makes no sense to start when i'm away yeah
+okay well we've got access to that we've
+got access to it when you when you do get
+back or what have you you know what we could do I'm leaving on Friday but what we could do
+maybe if I could fit in on Thursday is we
+could use our live you know vibe coding
+session as a test run of sorts using
+whatever it is that we're deciding to use
+riverside or whatever but yeah I think
+it just makes more sense to maybe start
+that when I'm back you've got two weeks I think the way
+it falls, it sort of unfortunately
+falls over. I won't be back until
+the 12th of August. So whatever that
+week is. So I think there's two weeks that
+I won't be around. But we will see
+you next Thursday. Thursday I should
+be able to do. Yeah. Awesome. So excited. And shout out to
+NVIDIA for helping sponsor and providing
+us some resources to make it happen
+is that a longer term a long-term
+thing guys we'll see or just a one
+-off sort of deal we're still we're still
+working through the details but they're
+they're currently happy to help and we're
+happy to accept that help that's right yes
+of course that's great and while we're while
+i'm saying it and if anyone else you
+know knows of you know corporations or people
+with money who are looking to uh support
+a non-profit you know we're happy to have
+that conversation and obviously because
+we're non-profit there are tax benefits
+apparently for folks who are looking to use that
+approach I guess if you've got a ton of
+really valuable AI stock we're happy to help
+you need to take a donation through a
+charity for them to get the tax benefit that's
+right so we're happy to explore that but
+otherwise you know we can just do a great
+uh financial uh engagement of some sort
+that helps keep the lights on that's probably
+a conversation for david and others to
+figure out exactly what that means but uh yeah
+so i decided to see where this all goes
+until next time super jack i think so all
+right peace everybody

@@ -1,0 +1,570 @@
+engineer. And when I
+first updated my profile on LinkedIn, mostly
+everyone said, you know, I was crazy. It
+was the stupidest thing they'd ever heard of,
+which I knew when I was on something.
+Whenever someone tells you it's crazy, it's
+never going to work, it's usually an indication
+that it's probably not crazy and it's
+going to work. So half the world thinks we're
+nuts. The other half of the world shows up
+for these things. We're doing these in dozens
+and dozens of cities around the globe.
+We've got a, I think it's an online event
+tomorrow out of London. London's actually one
+of our biggest growing cities, London, UK.
+I guess we're in Toronto, so we've got
+to be clear it's UK. We've got these
+happening all over the place. We've
+got them coming up in New New York
+City. We've probably got one of these
+events happening. We are sort of a member
+-driven organization. That means most of
+the funding that we get right now
+is just basically volunteers adding
+their time or doing a nominal sort of monthly
+subscription for not a lot in return
+other than to help support our mission to
+make the world a better place kind of thing
+through Agentex. So again, we're a
+kind of, you know, grassroots organization,
+if you will. All right, so now I
+want to get into the new positioning that
+I was telling you a little bit about. And
+this is something that we've discussed quite
+a bit, this idea of a guilt. and when you
+look historically in new emerging areas and
+you go back quite a ways you have stone
+basins and weavers and iron workers and as these
+new sort of industries took shape you'd see
+these guilds form where you were able
+to share your sort of your art and your
+science in a way that you know where you had
+a kind of master and apprentice or a structure
+that allowed you to share not only the
+means and methods in which you use to sort
+of build these things, but the ethos, the
+ethics, the morality, the sort of guardrails,
+the reasons and methods that drove
+these new industries. And what we really
+see, I think, the agentics organization
+and foundation is a way to sort
+of, well, one, we believe that the idea
+of an agentic engineer is going to be a
+new profession. It's a profession that
+will undeadily alter the way you look at
+work. And when you look at the work of an
+ejecting engineer, it's pretty clear that once
+you master this type of work, one person can
+do the work of many. And when I say many,
+I'm talking potentially thousands of people.
+So that is going to be disruptive, without
+question. The fact that I can show up and do
+work, and one of the projects I literally
+did work 15,000 people, and that took me
+literally four days of effort to replace 15
+,000 people in a company. And that kind of thing,
+I don't want to be the guy that steps in
+and just replaces 15,000 people without any
+ramifications. We need mechanisms to apply
+that in a way that's meaningful and not just
+in a way that's going to disrupt without any
+kind of consciousness, you know, some kind of
+meaningful structure. So this organization
+is meant to, one, empower people that can
+have great power, but that has to come with
+great responsibility. Thank you, Spider-Man. But I know it sounds
+cheesy a little bit, but that's what's
+driving a lot of us. And I think we realize
+that every large company, and probably
+every group within a large company,
+is likely going to have an agentic
+engineer who's helping shape that sort of
+transformation that we'll likely see over
+the next few years. So we want to be
+that guiding light. Not that I don't trust
+a bunch of billionaires in the Silicon Valley,
+but I don't trust them. So we want
+to be those guys of people, I should say,
+that help facilitate that transformation in a
+way that is conscious of the impacts that
+we're going to have. I know I sound like
+a happy weirdo when I say this stuff, but
+that's kind of what we're getting at. So we just
+carry that sort of spirit of not only
+the label of we are an agentic engineer, but
+what that actually means and how it's
+practically implemented. All right. So again, the guiding principle
+here, and this is important, I've made it
+bold just to make sure it was obvious, is it's
+not about replacing people. It's about
+empowering people. For us, it's about
+making sure that we're making the world, the
+work that we do, the companies we work with
+better, not worse. We don't want AI
+to be a crutch. We want AI to be a
+unit of empowerment. Now, maybe that's
+wishful thinking, but we still want
+that to be the driving effect and role that
+we place in how we sit in the fabric of an
+AI-centric society. So at the end of the
+day, our role, this is my last image
+that holds this as well, is to not just
+shape the tools, but the safety are
+the principles that guide the state use
+of this technology. Now, you might not
+believe that the technology or AI might
+be all hyped and might not be as revolutionary
+as some may say. And a lot of what
+we see, especially with GPT-5, is based
+on a lot of ********. It's like GPT-5 is the
+perfect example. We went from last year it
+being AGI to a ****** incremental update to
+GPT. right? So, you know, we have to
+balance, you know, the reality with the hype
+that we're seeing in space, but if you play
+into space enough, you realize that if you
+push away a lot of that BS, this stuff is
+pretty dangerous and pretty revolutionary in
+a lot of ways in terms of how we work and
+how we interact with information. We conjure
+just about anything by asking the right
+series of questions, which is just insane when
+you think about it. If If I had shown a
+swarm demo to you, you know, a year and a
+half ago, it would have been completely science
+fiction. Now I can build quantum computing
+systems in minutes, right? And these are fully,
+fully functional. And I built one yesterday
+just because I could, right? And that's the
+interesting part about this
+technology. You can build things
+just because. At almost no cost. Which I'm going
+to demo here after we do our little
+presentations. I'll give you guys
+a crash course on how I build
+stuff in moments. All right, so
+in terms of the four general
+structures, how are we doing for
+time here, Rob? Sure. Okay, so these are the
+sort of guiding principles that
+we look at when we're building our
+agenda systems. One, it's proactive.
+It's anticipating in the sort of needs before
+they are required. And when you look at
+some of the tools that we're building, these
+tools are obviously reactive to the things
+that I wanted to do, but they're also
+anticipating what needs to be done before I
+even realize what I need to create. So they're
+declaring. I declare what I need to do. I'm
+setting the sort of initial state and the
+end point. But everything in between A and Z
+are basically defined by the system itself,
+not by me. I'm giving it general
+guidance, but the system is proactive in how it
+applies that guidance. That is a level of
+autonomy. And when you think about agentics,
+the word agent or agency is critical.
+These systems are meant to operate with
+little to no human oversight, which is
+amazing, but also dangerous, if not guided in
+the appropriate way. So operating independently
+is important. Collaborative. When
+you look at these systems, they're not
+only collaborating with me, they're
+collaborating with each other. So when you
+see these supposed swarms operating in
+a kind of parallel or concurrent fashion,
+they're operating in very narrow focuses.
+Each item, each agent is operating in
+a very narrow scope. So rather than getting
+these systems to say, do everything
+all at once, they're doing particular things
+that they need to do and then working
+with other people or other processes in
+a very narrow focus. And that relates
+to being targeted. So if you're looking at
+building these agentic systems, the most
+important thing you're going to want to
+consider when building these systems is making
+sure that these systems are defined specifically
+at the things in which they need to
+do. What you don't want to do is give them
+open-ended. You know, that's by coding,
+right? I'm not sure what I need to do. Go
+figure it out, which is okay if you're doing
+well, doing any kind of ideation. But it's
+not particularly great if you're looking to
+solve real problems. That's where a
+targeted approach to these systems really
+makes a difference. So if you're
+looking to build an agent, the more
+targeted, the more narrow, the more
+collaborative, the better the result
+is going to be. At least that's
+the philosophy that we've been doing.
+If you look at some of the systems
+we're building, this is the sort of
+guiding principle of all those systems
+and how they kind of operate and the reason
+we can build the crazy things that we
+built. And I'll give you guys a little
+demo of that later. All right. So the foundation,
+as I said, is that it keeps making
+AI innovation. I think I covered
+this pretty well. You know, we focus,
+we're predominantly a sort of online,
+So we've got our Discord channel
+and our WhatsApp group. We have
+various committees. How many committees
+we have now? I would say eight. Eight's a great number. So with that, sounds like he's made that up. I always use a
+prime number. But okay, we'll
+go with seven. All right, open source. Everything we build
+is open. So our, and we use pervasive
+licenses, is meaning just because it's
+open doesn't mean you can't use it in
+proprietary fashion. So everything I
+build is using an MIT license,
+meaning you can take it, build a startup
+with it, let 1,000 startups
+grow out of there. We do a lot of live
+workshops. On Thursdays, people tune in and
+watch basically me code, which I thought
+that would be a thing, but apparently
+it is. And on Friday, we flip the script
+and other people show what they're building.
+It's very similar to this, it's online.
+And we've got people coming in from
+dozens and dozens of countries around the
+world at this point. We've got groups
+devoted to safety, education,
+and other areas. It's, again, kind
+of organic in how it has come to be. We
+collaborate with, you know, both governments
+and institutions. Lots and lots of
+stuff like that. This number is
+totally wrong now. Our Discord server
+is probably quite a bit bigger,
+actually. I think these numbers...
+It's somewhere 1,700. Okay. Whatever. We got
+lots of views. That's all that matters. These numbers
+are meaningless. All right. Last
+thing, because everyone always
+asks me about this. The difference
+between a Vibe coder and an
+agentic engineer, like almost
+every single day. When I describe a Vibe
+coder, I'm not using that as a kind of
+negative. I see Vibe coding as a kind of mechanism
+to discover things that you didn't know,
+right? And I VibeCode all the time because
+I'm just looking to learn or explore in
+ways that are sort of unstructured. So if you
+think of the spectrum between VibeCoding and
+agentic engineering, VibeCoding is a kind
+of learning and fluid structure for
+discovering the unknown. The human is the
+feedback loop. You're guiding it, but you're
+not sure what to ask. And on the other
+side of the spectrum, you've got agentic
+engineering, which is structure. It uses a
+process. It uses an architecture, it's
+defined, it uses planning. That's the part
+where we see the value. That means
+that we're guiding it in a way
+that's meaningful and insightful
+and guided by us. Now, it's not in
+the same way that a traditional sort of
+development process would work where you were
+a kind of technician. It's moving more
+towards this idea of a kind of, I don't
+know, almost like an orchestrator or a
+director. But at the end of the day, you are
+still the one guiding it and defining what
+needs to be built and how and which it
+needs to be built. So hopefully, one
+side is ideation, the other side
+is iteration. One is flow, the
+other is planning. Hopefully that's helpful. And again, nothing wrong with being a bi-coder. And there's
+nothing wrong with being an engineering
+engineer. There's different
+parts of the sort of flip
+sides of the same coin or something
+like that. Sure, you have a
+question? One question. Is it planning
+on the agent side or the human side? Is it planning on
+the agent side or the human side? Is it
+planning on the agent side or the human
+side? I guess both. One of the reasons
+I know a lot of tech companies love the
+infinity sign. I think I saw a new
+Relic shirt up there. But the key here is
+the feedback loop. So what makes
+all this work is a recursion
+in the system. One of the big
+breakthroughs we had about a year and a half
+ago is when we added for testing feedback
+loop that allowed the system to understand
+what works and what doesn't, and then
+react and respond based on that feedback loop.
+So when you look at any of these agentic
+flows, it almost always revolves around some
+form of recursion. Did it work? Did it
+not work? Is it working correctly? Can it be
+improved? And that loops back to the
+system. Once you add a recursion to the system,
+you get away from this idea that it
+built something but it doesn't work. Now it
+can create a convincing system that is not
+necessarily functional, but that's a whole
+other conversation. How are we doing
+for your time, Rob? We're here, we're
+here. All right. One more question. So just some more
+feedback on this presentation. So I
+believe the agentic guild concept is new for
+this presentation. So I like the idea, but I don't like the label. Because with
+agentic guild, a guild is
+also associated with gaming, for example. And with gaming, you
+have, say, guilds in MMORPGs. First of all,
+I don't know if you want to associate
+yourself with gaming or with things that happen
+inside guilds. So that's up to you.
+That's just my feedback. The infinity thing,
+so they can also run in the background
+endlessly, right? Like depending if you have,
+like they could always be on, right? Like
+an agent could be scanning something and
+if something happens they'll just continually
+always do whatever it is that it's doing,
+right? Flywheel. Yeah. It's kind of an infinite loop of the source. And that's what makes
+these, my opinion is if AGI is a thing,
+if that's even a meaningful thing, It'll
+likely be some form of infinite, infinite
+that makes it happen. It will likely not
+be based on language. And if you look at
+a lot of things that we're building, we're
+building it around the concepts of sort of
+mathematical structures versus linguistic
+structures. The problem with a lot of the
+current thinking around AI and AGI is the
+assumption that we can define reality based
+on the description of it through language,
+mostly English language. And if you look at
+the things that we're building that are
+most interesting, at least for me, it's based
+on the structures that aren't described by
+language, but described by mathematical
+processes like symbolic reasoning or calculus
+or abstract algebra. And I'm not convinced
+that API is the goal, to be honest, but
+if it is the goal, and we're looking at some
+kind of all-powerful capability, all-knowing
+capability of AI, it's not going to be
+described based on the English language,
+at least in language. It might be described
+based on a neural network pattern, but if
+you look at the neural network patterns, none
+of those neural network patterns are actually
+described based on the language itself,
+but I digress, sure. I think, so this came up
+last time to see you, do you think humans
+can interpret that language then? No,
+they can't. Even if you tell them to tell
+us, like, that maybe? That's the dichotomy
+that we face with this technology,
+because the language provides a kind of
+interface to complex systems beyond
+our comprehension. So there's a lot
+more to, you know, of reality and the
+constructs that we can't articulate, so we need
+some form of linguistics to articulate that
+complexity to us. So language models
+obviously serve a place as a kind
+of abstraction to those two complex things,
+but the complexity of those things
+don't need or shouldn't be defined
+by the language itself. It just
+should be interpreted, if that hopefully
+makes any sense. Yeah? We invented
+mathematics so we didn't have to use language
+in this class science. and that happened
+like several hundred years ago. Several
+thousand years ago. Well, it happened
+in the renaissance when it first
+started expressing science as
+mathematics. Calculus. Language is not a good
+vehicle to express really complex
+systems. Exactly. I just figured that
+out 10 years ago, so. Unfortunately, the
+LLM world hasn't clued into that, right? And
+when you look at all the problems of LLMs
+and hallucinations, all those hallucinations
+are a byproduct of an inappropriate way to
+describe things that probably shouldn't be
+described by language. Well, code is kind
+of an abstraction of the mathematics
+itself for the most part, with a
+linguistic spin on it, for the most part.
+But I think so. It depends on what
+level of the abstraction you're talking
+about. It depends on deep into the
+computational structure you get. Eventually,
+you're just talking about binary or
+something, but, you know, for me, if you're
+asking, like, what language I like, I'm
+all a little rust. Can we just make
+a new language? Yeah, but here's the
+problem. We could invent a new language
+that's hyper-optimized for neural networks
+or something, but then we won't be able
+to understand it. It's the same problem
+when you try to dig into the fabric of a
+neural network itself, right? It becomes
+more complex than we can understand,
+and we don't understand exactly
+how it works. So you're not sure about
+the AGI and whether language is obviously
+the best form of communication when it
+comes to creating systems, but do you believe,
+like, in ML, in machine learning, we have the
+concept of reinforcement learning, for example,
+right? That is, learning what people are
+doing and it's getting smarter and smarter
+by the feedback that is going in. So looking
+at GPT of GPT-3 to GPT -5, I know it has
+problems and stuff, but like it's getting better
+at learning from what people expect out of
+what they're writing. So the model is getting
+trained on what the feedback is. So if I'm
+writing to it today, the GPT-5 today, even
+though it has issues and so forth, it
+is a lot better at knowing what I
+exactly meant than two years ago. You know,
+some of the The feedback has been connected
+over like, hey, I didn't mean that.
+So when I say, hey, I didn't mean that,
+it's getting better because it is somehow
+behind the scenes. It's not as the
+feedback loop, right? It is reinforcing what people are feedback into. So do we think
+a sort of an AGI or an AFA cycle,
+for example, in key four
+years from now, would really be able
+to guess what we mean by something and
+relate it to something else that needs to
+require the process so that it can automate
+it. So language can become a thing.
+What is A-C-S-I? Is it like somebody
+that . So, can you show general intelligence?
+And A-C-S-I sort of show super? But you're
+saying that like. On its own thinking.
+You're saying that, yeah, can understand you
+better with A-C-S-I. Because it's, I
+don't, everything, I don't, every
+interaction we have in the
+system, right? It starts learning
+what we really need. So if I say, for instance.
+It's not general. That's just like
+something that . Remember, that's very
+. I think I understand what you're
+saying, and I don't necessarily disagree,
+but if you look at the difference between
+GPT-4 and GPT-5, the big aha was QSTAR,
+or reinforcement learning algorithm,
+that essentially allowed it to sort of
+have a more unsupervised learning process
+applied to it. You know, is GPT-4
+fundamentally different than GPT-5? No, we
+discovered test time. So it allows it
+to ponder the question longer
+and using an internal sort of
+gaining structure. But other than that,
+and maybe, I guess, if we want to recap
+the last year, we came up with a mixture of
+experts models so we could create an internal
+gaining that allows it to subjugate each
+of the different models based on some
+kind of internal expert ranging from eight
+to maybe 16 different models. Then we
+discovered that we could create a better, sort
+of longer thinking process using a kind
+of test time model that allows us to ponder
+for minutes or longer to solve a problem.
+But those are all just essentially levels of
+recursion that exist under the covers,
+right? So the model hasn't changed, just
+our ability to extend the time it thinks
+using a loop internally. That's it, that's
+the only difference. And ultimately,
+what the result was was more in
+-depth thought processes, way worse
+hallucinations. But is it
+fundamentally more capable than it
+was a year ago? No. Any of us working
+on the models from a year ago were
+able to get the same results because we
+were able to create these kind of
+recursions using GT4. So when it comes to
+solving an SWE bench, if you want 100% on
+an SWE bench, all you need to do is create
+a model that ponders the question and then
+has tools to go answer that when it experiences
+an error. And if you do it long
+enough, you get 100%. And we've been able to
+do that since GPT-4. Now, the problem
+is, we're fixated on this
+idea of these gaming, or gamed leaderboard stats
+and things that are completely meaningless.
+And if you look at what the the OpenAI
+guys and Microsoft and the Googles are doing,
+they're not dramatically improving their
+models, they're just gaining these models
+to better, to better rank in these model,
+these leaderboards. Like, the best model
+right now is still, you know, in my
+opinion, Claude, Opus 4.1, yet it ranks
+fifth for some reason. Not because it's
+a lesser model, it's because
+they don't get a **** and they're
+like, whatever. or that's my
+opinion, I think I'm around with my random
+random data, but. Yeah, one last question, what is the AGI team? I think it's
+********. Personally, is it worth the
+experience to build? That's not the
+goal, the goal is to create some kind of
+super intelligence. Isn't it built? If there was super
+intelligence, what would it do? so you're
+basically effectively trying to create God
+I guess and that's the goal by all
+means but what's the point of that I get your
+point but in my head I'm like can we either
+we guide it or on it's own does it think
+like on it's own it learns it's benchmarks
+from zero and it's just somehow we don't
+even know what it's benchmarking or we just
+always kind of like that yeah and a lot of
+things sort of if you're looking at the hallmarks
+of what we believe AGI to be as some sort
+of a general intelligence that's able to
+understand and operate with little to no
+human oversight. Well, we're pretty much able
+to do that right now. Now, is it 100%? No. But
+can I create a quantum computing system in
+an hour on a whim on a Saturday night, which
+I felt like? Yeah. That's pretty
+crazy in itself. We are guiding these
+right now. I wonder what it's
+going to be like. Yeah, I think
+if we achieve ATI, we may even know it. Or it might not
+even matter. It's just the
+worst things. Yeah, you know, we
+passed the Turing test like a year and a half
+ago and no one even blinked. It didn't
+even say the French page of the New York
+Times or the Trump Star. No one's like,
+well, yeah, whatever. You know, if that
+had happened ten years ago, it would
+have been, oh my god, we just passed
+the Turing test. Now it's just like,
+no one even cares. Alright, I'm done
+with my rant. Thank you.
