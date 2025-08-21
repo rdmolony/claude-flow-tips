@@ -1,8 +1,10 @@
 The `Claude Flow` community demonstrates usage & guides on best practices in a series of videos on https://video.agentics.org/ 
 
-I want to extract how-to, tips, gotchas, mental models (& more?) from these transcripts into an easy to access manner. By documenting these guidances I hope to open up `Claude Flow` and make it easier to use and understand.
+I want to extract how-to, tips, gotchas, mental models, questions (& more?) from these transcripts into an easy to access manner. By documenting these guidances I hope to open up `Claude Flow` and make it easier to use and understand.
 
-I want each reference to quote the relevant lines from the transcript, and reference the source transcript file name so I can check where each reference originates (and verify it isn't hallucinated).
+I want each reference to quote one (or more) relevant lines from the transcript, and reference the source transcript file name at those lines so I can check where each reference originates (and verify it isn't hallucinated).
+
+Let's do the initial version as a collection of linked Markdown files.
 
 Examples -
 
@@ -48,6 +50,16 @@ Examples -
 
   How To ...
   We can setup 2-way sync between the swarm and GitHub by ...
+  <collapsible>
+    <quote>
+    <link to source file>
+  <\collapsible>
+
+5. The team is asked a question
+
+  Question
+  What's the difference between ruv-swarm and claude-flow?
+  claude-flow came first, and allowed ruv-swarm to be built ...
   <collapsible>
     <quote>
     <link to source file>
