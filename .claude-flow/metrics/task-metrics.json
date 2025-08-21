@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmd-sparc-1755790487275",
-    "type": "sparc",
+    "id": "cmd-monitor-1755790694361",
+    "type": "monitor",
     "success": true,
-    "duration": 12.164297999999974,
-    "timestamp": 1755790487287,
+    "duration": 36.34817499999997,
+    "timestamp": 1755790694398,
     "metadata": {}
   }
 ]
