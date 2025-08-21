@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-08-21T15:33:31.994Z",
+  "duration": "2.5 seconds",
+  "files": {
+    "processed": 14,
+    "total": 14
+  },
+  "extraction": {
+    "segments": 2573,
+    "entries": 28,
+    "ratio": "0.01"
+  },
+  "categories": {
+    "howTo": 20,
+    "internals": 2,
+    "gotcha": 4,
+    "qa": 2
+  },
+  "quality": {
+    "verified": 21,
+    "invalid": 7,
+    "successRate": "75.0"
+  },
+  "topics": {
+    "debugging": 2,
+    "swarm": 9,
+    "claude-flow": 2,
+    "testing": 7,
+    "agents": 3,
+    "deployment": 1
+  },
+  "errors": []
+}

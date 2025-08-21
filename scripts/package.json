@@ -1,0 +1,27 @@
+{
+  "name": "claude-flow-tips-extractor",
+  "version": "1.0.0",
+  "description": "Extract actionable knowledge from Claude Flow community video transcripts",
+  "main": "extractor.js",
+  "scripts": {
+    "extract": "node extractor.js",
+    "extract:verbose": "node extractor.js --verbose",
+    "extract:debug": "node extractor.js --debug",
+    "test": "node test.js",
+    "clean": "rm -rf ../docs/* ../.verification/*"
+  },
+  "keywords": [
+    "claude-flow",
+    "documentation",
+    "extraction",
+    "nlp",
+    "markdown"
+  ],
+  "author": "Claude Flow Community",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

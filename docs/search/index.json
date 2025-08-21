@@ -1,0 +1,632 @@
+[
+  {
+    "id": "howTo-001",
+    "title": "able to get the same results because we [",
+    "category": "howTo",
+    "content": "-depth thought processes, way worse\nhallucinations. But is it\nfundamentally more capable than it\nwas a year ago? No. Any of us working\non the models from a year ago were\nable to get the same results because we\nwere able to create these kind of\nrecursions using GT4. So when it comes to\nsolving an SWE bench, if you want 100% on\nan SWE bench, all you need to do is create\na model that ponders the question and then\n\n[...]\n\nwere able to create these kind of\nrecursions using GT4. So when it comes to\nso",
+    "summary": "Any of us working\non the models from a year ago were\nable to get the same results because we\nwere able to create these kind of\nrecursions using GT4.",
+    "topics": [
+      "debugging"
+    ],
+    "keywords": [
+      "able",
+      "create",
+      "bench",
+      "these",
+      "when",
+      "year",
+      "kind",
+      "recursions",
+      "using",
+      "comes"
+    ],
+    "url": "how-to/howTo-001.html"
+  },
+  {
+    "id": "internals-001",
+    "title": "has anyone ever thought to create a",
+    "category": "internals",
+    "content": "$500 and you can last So what I wanted\nto do was create a mechanism to segment\nthe quantum computing system so I could\nrun multiple jobs at the same time\nand using the same resource. I'm like,\nhas anyone ever thought to create a\nvirtual machine for a quantum environment?\nApparently not. So I buy myself a\nquantum virtual machine. So anyone who says you\ncan't build complex stuff, just point\ninto this and you see all kinds of crazy\nstuff. You know, so the other project I did\nthe other day was a car",
+    "summary": "I'm like,\nhas anyone ever thought to create a\nvirtual machine for a quantum environment.",
+    "topics": [],
+    "keywords": [
+      "quantum",
+      "system",
+      "create",
+      "mechanism",
+      "same",
+      "anyone",
+      "virtual",
+      "machine",
+      "stuff",
+      "other"
+    ],
+    "url": "internals/internals-001.html"
+  },
+  {
+    "id": "howTo-002",
+    "title": "so in this case it's decided to reduce the",
+    "category": "howTo",
+    "content": "instantiate any way you like so in this case\nyou i i did it that way now this is running\nhere so now it's suggesting here that\ni've got uh and i wasn't fast enough so it's\ndecreasing it's so it's auto tuning itself\nso in this case it's decided to reduce the\nconcurrency of agents to nine so i'm going to\ngo ahead and just grab this and we're going\nto create yet another instance and then then\nwe're going to get the swarm to go do\nsomething so this again this is the hive this\nis the hive mind so cre",
+    "summary": "instantiate any way you like so in this case\nyou i i did it that way now this is running\nhere so now it's suggesting here that\ni've got uh and i wasn't fast enough so it's\ndecreasing it's so it's auto tuning itself\nso in this case it's decided to reduce the\nconcurrency of agents to nine so i'm going to\ngo ahead and just grab this and we're going\nto create yet another instance and then then\nwe're going to get the swarm to go do\nsomething so this again this is the hive this\nis the hive mind so create research oh what\nare we gonna research any ideas\nwhat what you guys want to create\nresearch and create the most amazing\nbreakthrough of all time and build it.",
+    "topics": [
+      "swarm"
+    ],
+    "keywords": [
+      "create",
+      "going",
+      "research",
+      "what",
+      "case",
+      "here",
+      "then",
+      "hive",
+      "instantiate",
+      "like"
+    ],
+    "url": "how-to/howTo-002.html"
+  },
+  {
+    "id": "gotcha-001",
+    "title": "have to prompt Claude Code to pull a",
+    "category": "gotcha",
+    "content": "that's super easy to do actually i think anyone\nwho's a member of the of the repo can\nactually create an issue and this is where you\nneed to be careful because all issues are now\ngoing to be picked up by Claude Flow and the\nswarm and potentially acted on. Well, that\npart isn't automatic. That's why we explicitly\nhave to prompt Claude Code to pull a\nvery specific issue. For that reason, we\ndon't automatically pull all issues\nfor development. So the human is still\ncurating the issue. And that's th",
+    "summary": "That's why we explicitly\nhave to prompt Claude Code to pull a\nvery specific issue.",
+    "topics": [
+      "swarm",
+      "claude-flow"
+    ],
+    "keywords": [
+      "issue",
+      "issues",
+      "actually",
+      "claude",
+      "pull",
+      "super",
+      "easy",
+      "think",
+      "anyone",
+      "member"
+    ],
+    "url": "gotchas/gotcha-001.html"
+  },
+  {
+    "id": "howTo-003",
+    "title": "i've got the issue so i'm going to [",
+    "category": "howTo",
+    "content": "step that Reuven shared on WhatsApp\nand on LinkedIn. That's the way they're going to get started. Now, during the\nprocess of work, you're going\nto get issues. So if I hear you\ncorrectly, what I can say, ah\ni've got the issue so i'm going to\nsay okay please explain why this\nissue has occurred if i'm sophisticated\nenough i will create a second court instance\nthat you have asked me to do and try to\ncreate a resolution and feed it back to the to\n\n[...]\n\nsay okay please explain why this\nissue has occ",
+    "summary": "So if I hear you\ncorrectly, what I can say, ah\ni've got the issue so i'm going to\nsay okay please explain why this\nissue has occurred if i'm sophisticated\nenough i will create a second court instance\nthat you have asked me to do and try to\ncreate a resolution and feed it back to the to\n\n[.",
+    "topics": [],
+    "keywords": [
+      "issue",
+      "create",
+      "going",
+      "okay",
+      "sophisticated",
+      "step",
+      "please",
+      "explain",
+      "occurred",
+      "enough"
+    ],
+    "url": "how-to/howTo-003.html"
+  },
+  {
+    "id": "howTo-004",
+    "title": "other instance of Claude, like one",
+    "category": "howTo",
+    "content": "create an issue, have Claude create an issue\nfor you. That issue will go and get created\nagainst a repo in the master GitHub repo,\nright? One of the repos. And then, you know,\nthen it will get worked on by some\nother instance of Claude, like one\nof Ocean or Jed or somebody else or\nReuven working on it. And so if you have\na problem, that's how we're managing\nto fix problems. Ted was saying you've\ngot to create your issue so that we understand\nit's reproducible. The cloud system can\nreproduce it, ",
+    "summary": "And then, you know,\nthen it will get worked on by some\nother instance of Claude, like one\nof Ocean or Jed or somebody else or\nReuven working on it.",
+    "topics": [
+      "debugging"
+    ],
+    "keywords": [
+      "issue",
+      "create",
+      "will",
+      "then",
+      "have",
+      "claude",
+      "repo",
+      "right",
+      "ocean",
+      "created"
+    ],
+    "url": "how-to/howTo-004.html"
+  },
+  {
+    "id": "gotcha-002",
+    "title": "write a little test script to figure out [",
+    "category": "gotcha",
+    "content": "just i'm kind of winging it a\nlittle bit today but that's what that's\nwhat this is doing that's your style\nman yeah i'm i'm vibing it what can i\nsay it's this doesn't look like a major\nissue but it looks like and now they're\nready a simple test it so it's going to\nwrite a little test script to figure out\nwhat the issue is all right update\nthe components let it create a\nmock clod script for testing purposes oh i don't like mock\nbut we'll see so it's simula oh it's doing two different things here ",
+    "summary": "just i'm kind of winging it a\nlittle bit today but that's what that's\nwhat this is doing that's your style\nman yeah i'm i'm vibing it what can i\nsay it's this doesn't look like a major\nissue but it looks like and now they're\nready a simple test it so it's going to\nwrite a little test script to figure out\nwhat the issue is all right update\nthe components let it create a\nmock clod script for testing purposes oh i don't like mock\nbut we'll see so it's simula oh it's doing two different things here okay i see the\ni see the issue let's go back\n\n[.",
+    "topics": [
+      "swarm",
+      "testing"
+    ],
+    "keywords": [
+      "what",
+      "issue",
+      "mock",
+      "like",
+      "test",
+      "script",
+      "back",
+      "little",
+      "doing",
+      "here"
+    ],
+    "url": "gotchas/gotcha-002.html"
+  },
+  {
+    "id": "howTo-005",
+    "title": "you're trying to build before you know what",
+    "category": "howTo",
+    "content": "trying to make mock uh or simulations to try\nto fake results i don't know why i keep first\ni keep pushing back i keep pushing back\nlike you are you gotta mock it before you\ncreate it that's my spark methodology if if\nyou're trying to build before you know what\nyou're building it's going to fail and go down\na rabbit hole of just constant errors so\nwhen you use spark the first step is to create\na pseudo code outline and mocks of of the\nstructure using a test driven development\napproach that means ",
+    "summary": "trying to make mock uh or simulations to try\nto fake results i don't know why i keep first\ni keep pushing back i keep pushing back\nlike you are you gotta mock it before you\ncreate it that's my spark methodology if if\nyou're trying to build before you know what\nyou're building it's going to fail and go down\na rabbit hole of just constant errors so\nwhen you use spark the first step is to create\na pseudo code outline and mocks of of the\nstructure using a test driven development\napproach that means it's working correctly the\npart that that you need to watch out for\nis after all your mocks are are complete you\nneed to make sure that the system has gone\nfrom a mock version of it to a functional.",
+    "topics": [
+      "testing"
+    ],
+    "keywords": [
+      "mock",
+      "keep",
+      "trying",
+      "make",
+      "know",
+      "first",
+      "pushing",
+      "back",
+      "before",
+      "create"
+    ],
+    "url": "how-to/howTo-005.html"
+  },
+  {
+    "id": "howTo-006",
+    "title": "you don't have it would write all the",
+    "category": "howTo",
+    "content": "if I understand exactly what\nyou're asking. so so basically in\nwhen we were doing in drew code i would in\nmy prom specifically say that use for\nexample test driven development approach\nlondon school write test before you develop\nanything you know follow that methodology so\nyou don't have it would write all the\ntest cases first feature by feature and then\nbuild now when i use for example swarm or\nhive mind I generally have a PRD and I\nask it, here is the PRD, here are all the\nspecs, now build it.",
+    "summary": "so so basically in\nwhen we were doing in drew code i would in\nmy prom specifically say that use for\nexample test driven development approach\nlondon school write test before you develop\nanything you know follow that methodology so\nyou don't have it would write all the\ntest cases first feature by feature and then\nbuild now when i use for example swarm or\nhive mind I generally have a PRD and I\nask it, here is the PRD, here are all the\nspecs, now build it.",
+    "topics": [
+      "swarm",
+      "testing"
+    ],
+    "keywords": [
+      "test",
+      "build",
+      "when",
+      "would",
+      "example",
+      "write",
+      "have",
+      "feature",
+      "here",
+      "understand"
+    ],
+    "url": "how-to/howTo-006.html"
+  },
+  {
+    "id": "howTo-007",
+    "title": "but I don't see it writing the [",
+    "category": "howTo",
+    "content": "you don't have it would write all the\ntest cases first feature by feature and then\nbuild now when i use for example swarm or\nhive mind I generally have a PRD and I\nask it, here is the PRD, here are all the\nspecs, now build it. So it does build\nit, it mocks things up and it works,\nbut I don't see it writing the\ntest cases per se. I'm wondering,\nthat's because maybe I need to\nexplicitly ask even when I am\nwriting the PRD, that write test\ncases before you develop and\n\n[...]\n\nit, it mocks things up ",
+    "summary": "So it does build\nit, it mocks things up and it works,\nbut I don't see it writing the\ntest cases per se.",
+    "topics": [
+      "swarm",
+      "testing"
+    ],
+    "keywords": [
+      "test",
+      "cases",
+      "writing",
+      "write",
+      "build",
+      "when",
+      "your",
+      "have",
+      "feature",
+      "here"
+    ],
+    "url": "how-to/howTo-007.html"
+  },
+  {
+    "id": "howTo-008",
+    "title": "HowTo #11",
+    "category": "howTo",
+    "content": "basically i then tried to recover from that\nby um giving it a bit of structure and so\ni invented this um customizations i called\nthe yolo protocols and essentially what that's\ndoing is it's just giving instructions to\ncall.md to how to do the the work chunking\nand the GitHub issues. So, you know, create\nthe epic, create the feature, create the\nthe stories, so to speak, and make sure\nthey're all linked. Make sure that you\nonly deliver based on those things and then\nclose them as you go. And it wa",
+    "summary": "basically i then tried to recover from that\nby um giving it a bit of structure and so\ni invented this um customizations i called\nthe yolo protocols and essentially what that's\ndoing is it's just giving instructions to\ncall.",
+    "topics": [],
+    "keywords": [
+      "then",
+      "know",
+      "create",
+      "giving",
+      "essentially",
+      "work",
+      "make",
+      "sure",
+      "based",
+      "basically"
+    ],
+    "url": "how-to/howTo-008.html"
+  },
+  {
+    "id": "howTo-009",
+    "title": "doing is creating a sort of two approach or a",
+    "category": "howTo",
+    "content": "these agents, one of the things to keep in\nmind is you can invoke agents by basically\nsaying, as I did a moment ago, I said basically\nrun the fact agent. But you can also create\nsecondary commands. So, what I've been\ndoing is creating a sort of two approach or a\nbilateral approach. I don't know a command.\nThe command will be like an automation\ncommand, which you see here, and then this\ncommand will then correlate to an agent that's\nin the agent folder. You can just create an",
+    "summary": "So, what I've been\ndoing is creating a sort of two approach or a\nbilateral approach.",
+    "topics": [
+      "agents"
+    ],
+    "keywords": [
+      "command",
+      "agent",
+      "agents",
+      "basically",
+      "create",
+      "approach",
+      "will",
+      "then",
+      "these",
+      "things"
+    ],
+    "url": "how-to/howTo-009.html"
+  },
+  {
+    "id": "howTo-010",
+    "title": "And that AB run says essentially like, I",
+    "category": "howTo",
+    "content": "of the engine so that it starts essentially,\nfor lack of a better term, you have drift\non purpose, like purposeful drift that\nwe're going to create. And then when that\nmechanism occurs, it's ******* off an AB run.\nAnd that AB run says essentially like, I\nknow I need to change, but before I change,\nI need to know where I'm at and what\nI'm competing against. and then you guys i\ni i hate to break up this conversation but\ni i want to get ocean on here before we run\nout of time because i know he's wo",
+    "summary": "And that AB run says essentially like, I\nknow I need to change, but before I change,\nI need to know where I'm at and what\nI'm competing against.",
+    "topics": [],
+    "keywords": [
+      "know",
+      "essentially",
+      "have",
+      "drift",
+      "like",
+      "then",
+      "need",
+      "change",
+      "before",
+      "ocean"
+    ],
+    "url": "how-to/howTo-010.html"
+  },
+  {
+    "id": "qa-001",
+    "title": "because yesterday I ran a benchmark, which [",
+    "category": "qa",
+    "content": "learning. Now, I haven't pushed the neural\nnetwork components as a default option,\nalthough the swarm has a tendency to self-discover\nit and use it. But what I might do in an\nupcoming release is make that as a default option\nbecause yesterday I ran a benchmark, which\nI want to show you guys quickly before I\ngo back to my GitHub stuff i'm jumping around\na little bit here but if you're curious i\neverything i try and test i'm actually posting\nhere to the system itself so where do we\n\n[...]\n\nI want ",
+    "summary": "But what I might do in an\nupcoming release is make that as a default option\nbecause yesterday I ran a benchmark, which\nI want to show you guys quickly before I\ngo back to my GitHub stuff i'm jumping around\na little bit here but if you're curious i\neverything i try and test i'm actually posting\nhere to the system itself so where do we\n\n[.",
+    "topics": [
+      "swarm",
+      "testing"
+    ],
+    "keywords": [
+      "here",
+      "default",
+      "test",
+      "sort",
+      "neural",
+      "option",
+      "swarm",
+      "what",
+      "want",
+      "show"
+    ],
+    "url": "qa/qa-001.html"
+  },
+  {
+    "id": "howTo-011",
+    "title": "basic branch",
+    "category": "howTo",
+    "content": "irreversible decision. And then from\nthere, if I want to create a\nnew workspace, I'll add, what was\nit called, agentists quick start as an\nexample, and then choose the workspace\nbasic branch. This is just an\nopinionated environment that I use to spawn a\ndevelopment workspace that It includes all\nof the languages I generally work in,\nthe extensions that I need, and other\nimportant configurations. That's pre-built. In this case, it's\nnot pre-built. So it will build the container\nas it's being... W",
+    "summary": "irreversible decision.",
+    "topics": [],
+    "keywords": [
+      "workspace",
+      "then",
+      "pre-built",
+      "will",
+      "build",
+      "container",
+      "irreversible",
+      "decision",
+      "there",
+      "want"
+    ],
+    "url": "how-to/howTo-011.html"
+  },
+  {
+    "id": "howTo-012",
+    "title": "type something and then i said okay prd",
+    "category": "howTo",
+    "content": "you the actual thing uh the bits that it\nactually came up were these things so a\ntechnical architecture your prd did you\nhandcraft that prd or did you have some\nan ai created i basically vibe so i i\ntype something and then i said okay prd\nbased on this like a paragraph of typing\nwhatever I was thinking, and just\ncreate it. I mean, I was literally playing\nas well, literally. So he created, for\nexample, this one. I'll open these first and\nI'll show you the output and then we'll\ngo to the platform.",
+    "summary": "you the actual thing uh the bits that it\nactually came up were these things so a\ntechnical architecture your prd did you\nhandcraft that prd or did you have some\nan ai created i basically vibe so i i\ntype something and then i said okay prd\nbased on this like a paragraph of typing\nwhatever I was thinking, and just\ncreate it.",
+    "topics": [],
+    "keywords": [
+      "said",
+      "create",
+      "these",
+      "created",
+      "then",
+      "literally",
+      "actual",
+      "thing",
+      "bits",
+      "actually"
+    ],
+    "url": "how-to/howTo-012.html"
+  },
+  {
+    "id": "howTo-013",
+    "title": "like what happened in 2023, what",
+    "category": "howTo",
+    "content": "go to the platform. This and the MCP\nserver setup because I think, Reuven,\nyou said create an MCP for everything\nyou create, right? So I said, why don't\nwe create an MCP? So it created\nlike what happened in 2023, what\nhappened in 24, kind of gave us a\nview. So this is content creation\neffectively, right? Then bits of about, I\nmean, it's quite small here, but if I zoom\nit, it kind of has details around it. So",
+    "summary": "So it created\nlike what happened in 2023, what\nhappened in 24, kind of gave us a\nview.",
+    "topics": [],
+    "keywords": [
+      "create",
+      "said",
+      "right",
+      "what",
+      "happened",
+      "kind",
+      "2023",
+      "platform",
+      "server",
+      "setup"
+    ],
+    "url": "how-to/howTo-013.html"
+  },
+  {
+    "id": "howTo-014",
+    "title": "HowTo #18",
+    "category": "howTo",
+    "content": "maybe you're looking on the wrong videos or all\nvideos old it sounds like old ones till\nthe old so yeah they they've resolved it was\ni think they resolved that like in january\nso last year it was the biggest issue with\nfly.io was they had like these weird build\nsystem and you had to and and then you had\nto try to use the they had a local option to\ndo the build on your machine and then you'd\nhave to do the same build remotely but they\nget they went away from that and then now\nthey're more traditi",
+    "summary": "maybe you're looking on the wrong videos or all\nvideos old it sounds like old ones till\nthe old so yeah they they've resolved it was\ni think they resolved that like in january\nso last year it was the biggest issue with\nfly.",
+    "topics": [
+      "deployment"
+    ],
+    "keywords": [
+      "they",
+      "like",
+      "build",
+      "then",
+      "have",
+      "videos",
+      "ones",
+      "resolved",
+      "these",
+      "quirks"
+    ],
+    "url": "how-to/howTo-014.html"
+  },
+  {
+    "id": "howTo-015",
+    "title": "project that I'm into",
+    "category": "howTo",
+    "content": "and how fast we could do it. And they said,\nwell, I said, well, what are you building? And\nthey're building an interplanetary\ncommunication system between the Earth and Mars,\nwhich is like, OK, this is this is the kind of\nproject that I'm into. So the first thing I\ndid is I went in and we spun up a swarm to\nbuild that. and you know while i'm talking\nto the university researchers you know\nfirst thing i did is i i created some some a\ndefinition so when building these things you never\nwant to start",
+    "summary": "and how fast we could do it.",
+    "topics": [
+      "swarm"
+    ],
+    "keywords": [
+      "building",
+      "want",
+      "build",
+      "they",
+      "said",
+      "well",
+      "system",
+      "first",
+      "thing",
+      "know"
+    ],
+    "url": "how-to/howTo-015.html"
+  },
+  {
+    "id": "gotcha-003",
+    "title": "ask but don't ask me how and he's honest",
+    "category": "gotcha",
+    "content": "the black box problem so i've built this\ncrazy quantum system that can communicate\nacross you know billions of miles or whatever\nyou know you know but why and how\nright and and i don't necessarily even have\nanswers to this stuff back to um back to jed's\nit's like i built it and it works but don't\nask but don't ask me how and he's honest\nand that's that's the problem but i think\nyou could do that though you could have\na log of here's here's what the agents went\nthrough and like show it visually t",
+    "summary": "the black box problem so i've built this\ncrazy quantum system that can communicate\nacross you know billions of miles or whatever\nyou know you know but why and how\nright and and i don't necessarily even have\nanswers to this stuff back to um back to jed's\nit's like i built it and it works but don't\nask but don't ask me how and he's honest\nand that's that's the problem but i think\nyou could do that though you could have\na log of here's here's what the agents went\nthrough and like show it visually the problem\nis it's doing so much work so fast that.",
+    "topics": [],
+    "keywords": [
+      "problem",
+      "know",
+      "built",
+      "have",
+      "back",
+      "like",
+      "could",
+      "here",
+      "black",
+      "crazy"
+    ],
+    "url": "gotchas/gotcha-003.html"
+  },
+  {
+    "id": "howTo-016",
+    "title": "to 60 or 50 minutes we go back and we're",
+    "category": "howTo",
+    "content": "to to you know speak clearly that um we're\ngonna start some agentic um app builds uh and\nwhile we are presenting um we we got you know\nthe swarm will build uh these these applications\nin the background and then the end up\nto 60 or 50 minutes we go back and we're\ngonna uh check what the swarms did for us\ncompletely automatic so feel free to um give\nus a nudge how what do you want to build\nwe have ideas uh what to build actually\nso we are prepared because if somebody has\nan idea what kind of appli",
+    "summary": "to to you know speak clearly that um we're\ngonna start some agentic um app builds uh and\nwhile we are presenting um we we got you know\nthe swarm will build uh these these applications\nin the background and then the end up\nto 60 or 50 minutes we go back and we're\ngonna uh check what the swarms did for us\ncompletely automatic so feel free to um give\nus a nudge how what do you want to build\nwe have ideas uh what to build actually\nso we are prepared because if somebody has\nan idea what kind of application to build\nuh please reach out i mean on a chat or voice\nplease tell us some ideas and And then\nwe've got two guests.",
+    "topics": [
+      "swarm"
+    ],
+    "keywords": [
+      "build",
+      "what",
+      "know",
+      "gonna",
+      "some",
+      "will",
+      "these",
+      "then",
+      "ideas",
+      "please"
+    ],
+    "url": "how-to/howTo-016.html"
+  },
+  {
+    "id": "howTo-017",
+    "title": "then I said okay now I'm working with Claude",
+    "category": "howTo",
+    "content": "years time and it was just really sort of\nbrilliant right in terms of how it kind of\nforecasts a journey for your own company so\nthen I said okay let's work on this and create\nyou know a multi-year plan we did that and\nthen I said okay now I'm working with Claude\nFlow let's create a board pack using a swarm\nof agents to do that right for me in order\nto create that board pack so i got actually\nchat gpt where am i here we go to create\nbasically my claude md file not necessarily\nroofs yet because i",
+    "summary": "years time and it was just really sort of\nbrilliant right in terms of how it kind of\nforecasts a journey for your own company so\nthen I said okay let's work on this and create\nyou know a multi-year plan we did that and\nthen I said okay now I'm working with Claude\nFlow let's create a board pack using a swarm\nof agents to do that right for me in order\nto create that board pack so i got actually\nchat gpt where am i here we go to create\nbasically my claude md file not necessarily\nroofs yet because i haven't got that far\nyet to use claude roofs claude flow and it took\nout everything that it knew about me and\nmy company based on previous previous chats\nand transcripts and it basically created.",
+    "topics": [
+      "swarm",
+      "claude-flow"
+    ],
+    "keywords": [
+      "create",
+      "claude",
+      "right",
+      "company",
+      "then",
+      "said",
+      "okay",
+      "flow",
+      "board",
+      "pack"
+    ],
+    "url": "how-to/howTo-017.html"
+  },
+  {
+    "id": "howTo-018",
+    "title": "created, right",
+    "category": "howTo",
+    "content": "here. I'm going to MK a init test, and then\nI'm going to go into that folder, init test,\nand then I'm going to run this in this\nfolder. And what that'll do is it'll give me just\nan idea of the files that are getting\ncreated, right? So in this case, we can see\nhere that it's created the cloud flow. It's\ncreated, this is the wrapper. So to Martin's\npoint earlier, if you want to use an alias,\nyou're going to point it at this wrapper.\nThis wrapper essentially allows me to execute\n\n[...]\n\nyou're goin",
+    "summary": "I'm going to MK a init test, and then\nI'm going to go into that folder, init test,\nand then I'm going to run this in this\nfolder.",
+    "topics": [
+      "testing"
+    ],
+    "keywords": [
+      "going",
+      "wrapper",
+      "essentially",
+      "folder",
+      "created",
+      "point",
+      "here",
+      "init",
+      "test",
+      "then"
+    ],
+    "url": "how-to/howTo-018.html"
+  },
+  {
+    "id": "qa-002",
+    "title": "Qa #24",
+    "category": "qa",
+    "content": "bit, which I'm exposing in my memory system,\nbut it's still not easy to quite see\nin real time. So how do you communicate\nwith them during Slack? I'm confused a little\nbit there. You're seeing the process,\nright? But you're able to talk back basically\nand say something? Exactly. So I'm able to\ninject the response directly back into\nthe system. Now, I can do that because\nI've created a ton of **** here.\nSo this is in the build you gave us,\n\n[...]\n\nand say something? Exactly. So I'm able to\ninject",
+    "summary": "bit, which I'm exposing in my memory system,\nbut it's still not easy to quite see\nin real time.",
+    "topics": [],
+    "keywords": [
+      "system",
+      "there",
+      "able",
+      "back",
+      "just",
+      "something",
+      "exactly",
+      "inject",
+      "response",
+      "directly"
+    ],
+    "url": "qa/qa-002.html"
+  },
+  {
+    "id": "howTo-019",
+    "title": "to some marketing person get approved",
+    "category": "howTo",
+    "content": "So you could do Slack or I use Notion\nintegration and Claude. I'd love to have a\nworkflow where I can just like talk to\nClaude, say, go create personas for these 20\ndifferent target audiences, then have those go\nto some marketing person get approved\nby marketing and then once those are approved\ncome back to Claude and then UI starts\nto get generated and the UI goes back\nfor approval you can definitely do that with\nNotion it would create a Notion page that's\nshared with a bunch of team members an",
+    "summary": "I'd love to have a\nworkflow where I can just like talk to\nClaude, say, go create personas for these 20\ndifferent target audiences, then have those go\nto some marketing person get approved\nby marketing and then once those are approved\ncome back to Claude and then UI starts\nto get generated and the UI goes back\nfor approval you can definitely do that with\nNotion it would create a Notion page that's\nshared with a bunch of team members and\nit would create a whole bunch however\nyou want it and then anyone who contributed\noutside of Claude in that process, Claude\nwould see that update okay The way I've been.",
+    "topics": [
+      "testing"
+    ],
+    "keywords": [
+      "claude",
+      "then",
+      "notion",
+      "create",
+      "would",
+      "have",
+      "those",
+      "marketing",
+      "approved",
+      "back"
+    ],
+    "url": "how-to/howTo-019.html"
+  },
+  {
+    "id": "howTo-020",
+    "title": "sort of deep research you did on google or",
+    "category": "howTo",
+    "content": "client comes to me and they're and like i do\nthese hour coaching sessions and people\nbasically show up and like what can you build for\nme an hour and the the key to that is basically\nbefore you even show up have a detailed\nsort of deep research you did on google or\nwhatever that basically outlines exactly what\nyou want to build how and what tools you\nwant to do and then i'll give it a quick look\nover and i'll realize it's missing something\nor other and i'll and i'll point the\nagent to just click",
+    "summary": "client comes to me and they're and like i do\nthese hour coaching sessions and people\nbasically show up and like what can you build for\nme an hour and the the key to that is basically\nbefore you even show up have a detailed\nsort of deep research you did on google or\nwhatever that basically outlines exactly what\nyou want to build how and what tools you\nwant to do and then i'll give it a quick look\nover and i'll realize it's missing something\nor other and i'll and i'll point the\nagent to just click news just to do a more you\nknow clean appropriate version of it and\nthen i literally got it run for an hour\nbut do you have a good process to create a good\nprd that you do use or this is the entire the.",
+    "topics": [
+      "agents"
+    ],
+    "keywords": [
+      "hour",
+      "basically",
+      "what",
+      "like",
+      "show",
+      "build",
+      "have",
+      "want",
+      "then",
+      "just"
+    ],
+    "url": "how-to/howTo-020.html"
+  },
+  {
+    "id": "gotcha-004",
+    "title": "entire problem here is having a really",
+    "category": "gotcha",
+    "content": "agent to just click news just to do a more you\nknow clean appropriate version of it and\nthen i literally got it run for an hour\nbut do you have a good process to create a good\nprd that you do use or this is the entire the\nentire problem here is having a really\ngood prd is it's what i call the it's what i\ncall the first mile problem you know everybody\nwanted to talk about the last mile problem\nand like networking the prd is the first\nmile problem you you you got to be like a\nyou got to know all o",
+    "summary": "agent to just click news just to do a more you\nknow clean appropriate version of it and\nthen i literally got it run for an hour\nbut do you have a good process to create a good\nprd that you do use or this is the entire the\nentire problem here is having a really\ngood prd is it's what i call the it's what i\ncall the first mile problem you know everybody\nwanted to talk about the last mile problem\nand like networking the prd is the first\nmile problem you you you got to be like a\nyou got to know all of the different parameters\nyou don't know the tech stack you got to\nknow the market you don't know that the\nthe product in and out that's what but but in\nfairness that's what this is doing so in.",
+    "topics": [
+      "agents"
+    ],
+    "keywords": [
+      "know",
+      "problem",
+      "what",
+      "good",
+      "mile",
+      "just",
+      "entire",
+      "call",
+      "first",
+      "like"
+    ],
+    "url": "gotchas/gotcha-004.html"
+  },
+  {
+    "id": "internals-002",
+    "title": "to create a virtual machine for a",
+    "category": "internals",
+    "content": "that really fast. So what I wanted to do\nwas create a mechanism to segment the quantum\ncomputing system so I can run multiple\njobs at the same time using the same\nresource. I'm like, has anyone ever thought\nto create a virtual machine for a\nquantum environment? Apparently not. So I buy myself a\nquantum virtual machine. So anyone that says\nyou can't build complex stuff, just\npoint them to this, and you can see all\nkinds of crazy stuff. So the other project\nI did the other day It was a Karten\nmatr",
+    "summary": "I'm like, has anyone ever thought\nto create a virtual machine for a\nquantum environment.",
+    "topics": [],
+    "keywords": [
+      "quantum",
+      "system",
+      "create",
+      "mechanism",
+      "same",
+      "anyone",
+      "virtual",
+      "machine",
+      "stuff",
+      "other"
+    ],
+    "url": "internals/internals-002.html"
+  }
+]

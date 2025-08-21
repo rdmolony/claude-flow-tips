@@ -1,0 +1,1854 @@
+[
+  {
+    "id": "tip-1",
+    "type": "tip",
+    "sourceFile": "en-20250812_202211.txt",
+    "lineStart": 290,
+    "lineEnd": 295,
+    "isActionable": true,
+    "title": "running these tools, and let's jump into the",
+    "content": "running these tools, and let's jump into the plot for a moment, you know, there's a combination you can see that, I guess you can see all the commands, these are the things I'm doing most",
+    "context": "secondary systems. So a lot of, and what I'm not showing you guys, is like all the MCPs. So when I'm in here running these tools, and let's jump into the plot for a moment, you know, there's a combination here of agents. The agents run, so one, you can see that, I guess you can see all the commands, these are the things I'm doing most frequently. And you can see my MCPs, so in this case I've got my Claude-flow MCP and Bruce Swarm. So I'm basically",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.378Z",
+      "confidence": 0.7,
+      "tools": [
+        "claude-flow",
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "these",
+        "tools,",
+        "let's",
+        "moment,",
+        "know,",
+        "there's",
+        "combination",
+        "that,",
+        "guess",
+        "commands,"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 150,
+    "lineEnd": 155,
+    "isActionable": true,
+    "title": "types of environments is they were prohibitivel...",
+    "content": "types of environments is they were prohibitively expensive. So now with the rise of you can get the sort of unlimited use, it's not unlimited, but for all intents and purposes it is unlimited i",
+    "context": "for a while, actually. It's sort of autonomous agents that can collaborate with each other. And the biggest issue we've had with these types of environments is they were prohibitively expensive. So now with the rise of Claude Max, where you can get the sort of unlimited use, it's not unlimited, but for all intents and purposes it is unlimited i i do max out when i start going into like crazy land of you know spawning hundreds of agents at a time but to be honest most of the",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.388Z",
+      "confidence": 0.6,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "unlimited",
+        "environments",
+        "agents",
+        "prohibitively",
+        "expensive.",
+        "unlimited,",
+        "intents",
+        "purposes",
+        "autonomous",
+        "{\"type\":\"tip\",\"title\":\"types"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 194,
+    "lineEnd": 199,
+    "isActionable": true,
+    "title": "I took all that stuff, we put it",
+    "content": "I took all that stuff, we put it together to create this and we packaged it as an MPX or you can install and run using TypeScript. So really, really fast, really light and really powerful. So what I'm going to",
+    "context": "all built in Rust and compiled to a WASM. And then we've got the neural network components and the neural forecasting components. I took all that stuff, we put it together to create this and we packaged it as an MPX or MPM that you can install and run using TypeScript. So really, really fast, really light and really powerful. So what I'm going to show you today is how to get all this stuff working. So we're going to go through the process step-by-step. Hopefully if you have",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.389Z",
+      "confidence": 0.6,
+      "tools": [
+        "swarm",
+        "typescript",
+        "github"
+      ],
+      "keywords": [
+        "really",
+        "stuff,",
+        "going",
+        "together",
+        "create",
+        "packaged",
+        "install",
+        "using",
+        "typescript.",
+        "really,"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-1",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 451,
+    "lineEnd": 459,
+    "isActionable": true,
+    "title": "Don't know, Seraphina. All right. And then we ",
+    "warning": "the objective of the swarm needs to be something like a really don't know, Seraphina. All right. And then we have different options for the queen coordinator. I know it's straight",
+    "impact": "queen coordinator. I know it's straight up sci-fi. So it's a hive mind structure. So you can, and I'm going to add more sort of structures later but these were the ones that seemed obvious to me so i went with",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.389Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "know,",
+        "seraphina.",
+        "right.",
+        "needs",
+        "coordinator.",
+        "objective",
+        "something",
+        "really",
+        "don't"
+      ]
+    }
+  },
+  {
+    "id": "howTo-1",
+    "type": "howTo",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 462,
+    "lineEnd": 467,
+    "isActionable": true,
+    "title": "How to then there's a swarm approach and the...",
+    "objective": "then there's a swarm approach and the key",
+    "steps": [
+      "to notice that there's two different approaches there's the hive mind approach and there's a swarm approach and the key differences i'm still trying to figure out exactly you know what and how this all this stuff"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.389Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "there's",
+        "swarm",
+        "approach",
+        "different",
+        "notice",
+        "approaches",
+        "going",
+        "{\"type\":\"howto\",\"title\":\"how",
+        "the...\",\"objective\":\"then",
+        "key\",\"steps\":[\"to"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-1",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 740,
+    "lineEnd": 748,
+    "isActionable": true,
+    "title": "Don't have an objective so it's telling me i n",
+    "warning": "that does its thing i'm going to go and i'm going to look at the swarm settings so i'm don't have an objective so it's telling me i need an objective so this to be honest most of the",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.390Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "going",
+        "objective",
+        "swarm",
+        "telling",
+        "thing",
+        "don't",
+        "settings",
+        "honest",
+        "build",
+        "doing"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-1",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 963,
+    "lineEnd": 971,
+    "isActionable": true,
+    "title": "Don't know it was a swarm or flow whatever doi",
+    "warning": "up and running right you had a monolithic traditional Claude you had a Claude um don't know it was a swarm or flow whatever doing the doing the animation system and you were about to spin up a third one",
+    "impact": "",
+    "solution": "right so just now i'm gonna i'm actually gonna switch to um vs code i'm not i don't i don't know what caused that epic failure probably zoom it's not probably not the the best for high-resolution",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.390Z",
+      "confidence": 0.8,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "swarm",
+        "claude",
+        "don't",
+        "doing",
+        "whatever",
+        "running",
+        "right",
+        "about",
+        "gonna",
+        "monolithic"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-1",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 1078,
+    "lineEnd": 1086,
+    "isActionable": true,
+    "title": "where it left off. Oh, I",
+    "warning": "where it left off. Oh, I see. So basically when you recover, you see, obviously you dangerously skip permissions. But could I have just said, once I start Claude, could I have",
+    "impact": "",
+    "solution": "just said, now look at the memory in the file system and resume using the Hive Swarm approach, continue? Because I tried that it didn't. Okay, all right. That's exactly what you could do. And it depends if you're",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.390Z",
+      "confidence": 0.8999999999999999,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "could",
+        "said,",
+        "resume",
+        "swarm",
+        "basically",
+        "recover,",
+        "obviously",
+        "dangerously",
+        "permissions.",
+        "start"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 1261,
+    "lineEnd": 1266,
+    "isActionable": true,
+    "title": "have running for where do i have that",
+    "content": "have running for where do i have that my cloud float instance so i'm gonna so this is you can see here it's it's injected the memory patterns and it's analyzing i basically said fix my problem",
+    "context": "test in the swarm but now what i what i would do actually what i'll likely do is i would spin up my actual environment that i have running for where do i have that my cloud float instance so i'm gonna so this is spinning up a swarm so you can see here it's it's injected the memory patterns and it's analyzing i basically said fix my problem it's it's not you know it doesn't know what my problem is i'm just messing around with it but in this case i did notice that there",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.391Z",
+      "confidence": 0.6,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "running",
+        "where",
+        "swarm",
+        "cloud",
+        "float",
+        "instance",
+        "gonna",
+        "injected",
+        "memory",
+        "patterns"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 1277,
+    "lineEnd": 1282,
+    "isActionable": true,
+    "title": "You can also do that as well if",
+    "content": "You can also do that as well if you want to use the wrapper. And what I'm going to",
+    "context": "going to i'm going to close this for a sec and i'm just going to confirm that there's a bug so you notice that i'm running this uh this is the environment that i'm running to do with the development of cloud code it's or cloudflow itself. You can also do that as well if you want to use the wrapper. And what I'm going to test quickly is the dot cloudflow slash I guess spell it right. Low GitHub. and it looks like the issue was causing me a problem so I'm",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.391Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "going",
+        "cloudflow",
+        "wrapper.",
+        "running",
+        "{\"type\":\"tip\",\"title\":\"you",
+        "if\",\"content\":\"you",
+        "to\",\"context\":\"going",
+        "close",
+        "confirm",
+        "there's"
+      ]
+    }
+  },
+  {
+    "id": "command-1",
+    "type": "command",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 1380,
+    "lineEnd": 1388,
+    "isActionable": true,
+    "title": "Claude Flow Command: claude flow",
+    "command": "claude flow",
+    "explanation": "system for him. Can you share the YouTube channel? I haven't been able to find it. Just look up Reuven, I think that's what it's called. If that's not it, it'll show up in the WhatsApp group later,",
+    "setup": "he was using it's not just that he's also streaming to two other locations yeah he's got a lot and youtube so like that's a lot of",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.391Z",
+      "confidence": 0.8,
+      "tools": [
+        "claude-flow",
+        "swarm"
+      ],
+      "keywords": [
+        "that's",
+        "share",
+        "youtube",
+        "channel?",
+        "haven't",
+        "think",
+        "called.",
+        "whatsapp",
+        "group",
+        "{\"type\":\"command\",\"command\":\"claude"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 1564,
+    "lineEnd": 1569,
+    "isActionable": true,
+    "title": "start command. This is not part of the",
+    "content": "start command. This is not part of the Roof Swarm nor the Cloudflow, but you can use Swarm in another way because the Roof Swarm itself is a SDK, so to speak. It's a topology with neural",
+    "context": "test mcp server please So you created a branch and then you pulled your branch down? No, this is a session start command. This is not part of the Roof Swarm nor the Cloudflow, but it is how you can use Swarm in another way because the Roof Swarm itself is a SDK, so to speak. It's a topology with neural net optimizer. so it is can be theoretically used with anything and here I have a my own orchestration system I guess similar",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.391Z",
+      "confidence": 0.7,
+      "tools": [
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "command.",
+        "cloudflow,",
+        "another",
+        "because",
+        "itself",
+        "speak.",
+        "topology",
+        "branch",
+        "{\"type\":\"tip\",\"title\":\"start"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 2025,
+    "lineEnd": 2030,
+    "isActionable": true,
+    "title": "Roof Swarm enabled because previously when you do",
+    "content": "Roof Swarm enabled because previously when you do this kind of five-task you can directly via Cloud Code, yes, but this five-task agent, they might conflict each other's work",
+    "context": "work, rather than to blindly just take their words at face value. This is another type of interesting pattern that the Roof Swarm enabled because previously when you do this kind of five-task agent together, you can directly via Cloud Code, yes, but this five-task agent, they might conflict each other's work quite a lot unless you get a very good coordination going on. Sometimes two agents might add the same file and then while",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.392Z",
+      "confidence": 0.7,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "five-task",
+        "enabled",
+        "because",
+        "previously",
+        "might",
+        "directly",
+        "cloud",
+        "code,",
+        "agent,"
+      ]
+    }
+  },
+  {
+    "id": "howTo-1",
+    "type": "howTo",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 2031,
+    "lineEnd": 2036,
+    "isActionable": true,
+    "title": "How to then they",
+    "objective": "then they",
+    "steps": [
+      "need some kind of coordination system therefore they do not conflict and then and this five six task agent are doing one thing so that the orchestrators is very clear and they just keep on going"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.393Z",
+      "confidence": 0.7,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "agent",
+        "coordination",
+        "conflict",
+        "doing",
+        "another",
+        "swarm",
+        "five-task",
+        "might",
+        "agents",
+        "{\"type\":\"howto\",\"title\":\"how"
+      ]
+    }
+  },
+  {
+    "id": "howTo-1",
+    "type": "howTo",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 2038,
+    "lineEnd": 2043,
+    "isActionable": true,
+    "title": "How to then this five six task agent are doing",
+    "objective": "then this five six task agent are doing",
+    "steps": [
+      "need some kind of coordination system therefore they do not conflict and then and this five six task agent are doing one thing so that the orchestrators is very clear and they just keep on going"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.393Z",
+      "confidence": 0.7,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "agent",
+        "coordination",
+        "doing",
+        "system",
+        "therefore",
+        "conflict",
+        "thing",
+        "orchestrators",
+        "clear",
+        "agents"
+      ]
+    }
+  },
+  {
+    "id": "tip-2",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 2085,
+    "lineEnd": 2090,
+    "isActionable": true,
+    "title": "terminals and in each terminal you have like",
+    "content": "terminals and in each terminal you have like a specific type of orchestrator worker you can use Claude for the orchestrator the opus one and then you just open the sonet for the other ones that",
+    "context": "curation yes yes yes but then jet uh if i'm not wrong the example that you mentioned that you run a couple of different terminals and in each terminal you have like a specific type of orchestrator worker and if you can use Claude for the orchestrator the opus one and then you just open the sonet for the other ones that will work or not? Maybe I haven't tried it personally but that it sounds plausible well there's a command line switch within",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.394Z",
+      "confidence": 0.6,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "orchestrator",
+        "terminal",
+        "specific",
+        "worker",
+        "claude",
+        "sonet",
+        "other",
+        "{\"type\":\"tip\",\"title\":\"terminals",
+        "like\",\"content\":\"terminals",
+        "that\",\"context\":\"curation"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-1",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hacker League July 10_ Mastering Autonomous Agents with CloudFlow and Swarm Technology.txt",
+    "lineStart": 2137,
+    "lineEnd": 2145,
+    "isActionable": true,
+    "title": "Don't believe Swarm and Flow are configured to",
+    "warning": "Swarm to be a runner in the background, and it could automatically do what Ocean is don't believe Swarm and Flow are configured to use the workflow and the runner system yet. Not yet, but I think",
+    "impact": "",
+    "solution": "Flow are configured to use the workflow and the runner system yet. Not yet, but I think you are able to figure out somehow because",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.394Z",
+      "confidence": 0.8,
+      "tools": [
+        "mcp",
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "swarm",
+        "runner",
+        "configured",
+        "believe",
+        "could",
+        "workflow",
+        "system",
+        "background,",
+        "automatically",
+        "ocean"
+      ]
+    }
+  },
+  {
+    "id": "tip-9",
+    "type": "tip",
+    "sourceFile": "en-AI Hacker League July 24th_ Exploring Cloud Flow and Open Code CLI Integration.txt",
+    "lineStart": 206,
+    "lineEnd": 211,
+    "isActionable": true,
+    "title": "Yeah, so just as an FYI, you don't",
+    "content": "Yeah, so just as an FYI, you don't have to use the Claude-flow CLI or the CLI. All you need to do to use Claude-flow is type Cloud and then use the dangerously skipped permission option here. And then what you",
+    "context": "the resources. Ruben, you're just using the standard cloud right now, right? No, I'm using cloud flow. This is flow, okay. Yeah, so just as an FYI, you don't have to use the Claude-flow CLI or the CLI. All you need to do to use Claude-flow is type Cloud and then use the dangerously skipped permission option here. And then what you have here when you do that is when you see slash, you get all my commands, right? So you get",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.410Z",
+      "confidence": 0.4,
+      "tools": [
+        "claude-flow"
+      ],
+      "keywords": [
+        "cloud",
+        "claude-flow",
+        "don't",
+        "dangerously",
+        "skipped",
+        "permission",
+        "option",
+        "here.",
+        "using",
+        "right?"
+      ]
+    }
+  },
+  {
+    "id": "tip-11",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace August 1st_ From CLI Aliases to Neural Networks - Advancing AI Engineering.txt",
+    "lineStart": 275,
+    "lineEnd": 280,
+    "isActionable": true,
+    "title": "dashboard to do that so in this case",
+    "content": "dashboard to do that so in this case it's asking me some questions so when you create an you can have it interactive like so it guides you through you know questions and answers so um just you know I'm just showing hey",
+    "context": "then when they hire someone new they they can invoke these sorts of things and they're using like a dashboard like a web-based dashboard to do that so in this case it's asking me some questions so when you create an agent you can have it interactive like so it guides you through you know questions and answers so um just you know I'm just showing hey hey Riven, are you in standard Claude or Claude Flow doing this? Well, Claude Flow has been initialized. So all my Claude capabilities",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.422Z",
+      "confidence": 0.5,
+      "tools": [
+        "claude-flow",
+        "github"
+      ],
+      "keywords": [
+        "questions",
+        "claude",
+        "asking",
+        "create",
+        "interactive",
+        "guides",
+        "through",
+        "answers",
+        "showing",
+        "dashboard"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-11",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace August 1st_ From CLI Aliases to Neural Networks - Advancing AI Engineering.txt",
+    "lineStart": 282,
+    "lineEnd": 290,
+    "isActionable": true,
+    "title": "Don't really have to use Claude Flow after you",
+    "warning": "are now instantiated through a combination of agents and commands and the actual don't really have to use Claude Flow after you've installed it. You can just use Claude normally, and",
+    "impact": "Claude.md file. So you don't really have to use Claude Flow after you've installed it. You can just use Claude normally, and it just magically knows all the commands because I've given it all the commands. So you",
+    "solution": "of agents and commands and the actual Claude.md file. So you don't really have to use Claude Flow after you've installed it. You can just use Claude normally, and it just magically knows all the commands because",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.422Z",
+      "confidence": 0.7,
+      "tools": [
+        "claude-flow",
+        "github"
+      ],
+      "keywords": [
+        "claude",
+        "commands",
+        "really",
+        "after",
+        "don't",
+        "you've",
+        "installed",
+        "normally,",
+        "through",
+        "agents"
+      ]
+    }
+  },
+  {
+    "id": "howTo-5",
+    "type": "howTo",
+    "sourceFile": "en-AI Hackerspace August 1st_ From CLI Aliases to Neural Networks - Advancing AI Engineering.txt",
+    "lineStart": 325,
+    "lineEnd": 331,
+    "isActionable": true,
+    "title": "How to then you put those all in the either",
+    "objective": "then you put those all in the either agents",
+    "steps": [
+      "trying to achieve. Different types of flows, data optimization, development processes, requirements. And you put those all in the either agents or commands and have those two folders essentially relate to one another one in ones",
+      "commands then once that's done you go and actually use standard Claude and then and it will know how to leverage all the Claude Claude instantiation the flow instantiation. Yes exactly so and and a lot it's a cascading"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.422Z",
+      "confidence": 0.5,
+      "tools": [
+        "claude-flow"
+      ],
+      "keywords": [
+        "those",
+        "claude",
+        "either",
+        "achieve.",
+        "different",
+        "types",
+        "flows,",
+        "optimization,",
+        "development",
+        "processes,"
+      ]
+    }
+  },
+  {
+    "id": "howTo-5",
+    "type": "howTo",
+    "sourceFile": "en-AI Hackerspace August 1st_ From CLI Aliases to Neural Networks - Advancing AI Engineering.txt",
+    "lineStart": 908,
+    "lineEnd": 913,
+    "isActionable": true,
+    "title": "How to then from swarm went into the neural ...",
+    "objective": "then from swarm went into the neural divergent",
+    "steps": [
+      "repo lines? um i would say i started originally with sort of just swarm and from swarm went into the neural divergent that's what kind of clicked for me because you know i like the more creative side"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.422Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "neural",
+        "divergent",
+        "that's",
+        "lines?",
+        "would",
+        "started",
+        "originally",
+        "clicked",
+        "because"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-12",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace July 18_ Optimizing Swarms, Visualizing Agents, and Democratizing AI Learning.txt",
+    "lineStart": 541,
+    "lineEnd": 549,
+    "isActionable": true,
+    "title": "Don't know but whatever um and then you know s",
+    "warning": "sort of pick its own governing methodology why the **** it decided waterfall was a good don't know but whatever um and then you know some kind of some kind of other settings so i know this looks a",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.433Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "whatever",
+        "methodology",
+        "governing",
+        "decided",
+        "waterfall",
+        "don't",
+        "other",
+        "settings",
+        "looks",
+        "could"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-12",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace July 18_ Optimizing Swarms, Visualizing Agents, and Democratizing AI Learning.txt",
+    "lineStart": 592,
+    "lineEnd": 600,
+    "isActionable": true,
+    "title": "Don't know what the actual library is choosing",
+    "warning": "feature or something. And what UI system is this built in? So this is just a don't know what the actual library is choosing to use this because I didn't really dive",
+    "impact": "",
+    "solution": "little TypeScript app. I don't know what the actual library is choosing to use this because I didn't really dive too deeply into it. Declarative. But I sort of said to it, look, I really want something that",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.433Z",
+      "confidence": 0.7,
+      "tools": [
+        "swarm",
+        "typescript"
+      ],
+      "keywords": [
+        "really",
+        "actual",
+        "library",
+        "don't",
+        "choosing",
+        "because",
+        "didn't",
+        "something.",
+        "system",
+        "built"
+      ]
+    }
+  },
+  {
+    "id": "tip-15",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace July 18_ Optimizing Swarms, Visualizing Agents, and Democratizing AI Learning.txt",
+    "lineStart": 1230,
+    "lineEnd": 1235,
+    "isActionable": true,
+    "title": "-even costs. I happen to have a grandfathered",
+    "content": "-even costs. I happen to have a grandfathered cluster, so my actual bid is 0.3 you can no longer bid 0.3 cents. I think the floor is 1 .5. Still cheap, but not as cheap as I'm",
+    "context": "if you could call it that, was to change the UI so that the floor is now much higher. I assume their actual unit break -even costs. I happen to have a grandfathered cluster, so my actual bid is 0.3 cents. But for that same node, you can no longer bid 0.3 cents. I think the floor is 1 .5. Still cheap, but not as cheap as I'm currently exploiting. Pretty much cost recovery for them, though, right? I mean, the servers are sitting there idle, so it's",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.433Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "costs.",
+        "happen",
+        "actual",
+        "cents.",
+        "floor",
+        "grandfathered",
+        "cluster,",
+        "longer",
+        "think",
+        "still"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-12",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace July 18_ Optimizing Swarms, Visualizing Agents, and Democratizing AI Learning.txt",
+    "lineStart": 1301,
+    "lineEnd": 1309,
+    "isActionable": true,
+    "title": "Don't I throw that into a swarm and read that ",
+    "warning": "look at your GitHub code basis like Spark, Spark 2, Create Spark, basically the NPM and don't I throw that into a swarm and read that and kind of create me? And there was a prompt I used.",
+    "impact": "I think there was a PRD here, which I will show you. So all I said in the PRD was that it's somewhere here. I must read it",
+    "solution": "Claude-flow stuff? Why don't I throw that into a swarm and read that and kind of create me? And there was a prompt I used. I think there was a PRD here, which I will show you. So all I said in the PRD was",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.433Z",
+      "confidence": 0.8999999999999999,
+      "tools": [
+        "claude-flow",
+        "swarm",
+        "npm",
+        "github"
+      ],
+      "keywords": [
+        "there",
+        "create",
+        "throw",
+        "swarm",
+        "spark,",
+        "think",
+        "which",
+        "github",
+        "spark",
+        "don't"
+      ]
+    }
+  },
+  {
+    "id": "tip-16",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 112,
+    "lineEnd": 117,
+    "isActionable": true,
+    "title": "capability. This is a work in progress. And",
+    "content": "capability. This is a work in progress. And for anyone that's actually interested in trying you can go to the Claude-flow GitHub and take a look for the agentic flow branch.",
+    "context": "-related capabilities through WebSockets. So you get a little dashboard. You can see what's happening here. There's a swarm capability. This is a work in progress. And for anyone that's actually interested in trying it, you can go to the Claude-flow GitHub and take a look for the agentic flow branch. And you get what you currently see here. it's it's it's totally alpha so i haven't published it beyond the fact that that i do do all my development in in sort of a live environment",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.438Z",
+      "confidence": 0.6,
+      "tools": [
+        "claude-flow",
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "progress.",
+        "anyone",
+        "that's",
+        "actually",
+        "interested",
+        "trying",
+        "claude-flow",
+        "github",
+        "agentic",
+        "here."
+      ]
+    }
+  },
+  {
+    "id": "tip-16",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 206,
+    "lineEnd": 211,
+    "isActionable": true,
+    "title": "can see a little icon indicating that this",
+    "content": "can see a little icon indicating that this one's running that this this one isn't early you can i also have mcp tools the mcp tools allows for all the various uh tools in the system i think there's like 87 of them",
+    "context": "can spawn up a different swarm in swarm one or i can i can create a couple more swarms here and have them all working together now we can see a little icon indicating that this one's running that this this one isn't early days now you can i also have mcp tools the mcp tools allows for all the various uh tools in the system i think there's like 87 of them and you can you can interact with it so if i go here and just choose the in it as an example i can execute the tool now you can see the",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.439Z",
+      "confidence": 0.5,
+      "tools": [
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "tools",
+        "little",
+        "indicating",
+        "one's",
+        "running",
+        "isn't",
+        "early",
+        "allows",
+        "various",
+        "system"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-15",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 219,
+    "lineEnd": 227,
+    "isActionable": true,
+    "title": "Don't know task execute tool and then we execu",
+    "warning": "workflows all that sort of stuff so i click that we can we can set that up uh two steps we can don't know task execute tool and then we execute that we can we can view the memory so this shows all the things happening",
+    "impact": "we can we can set that up uh two steps we can say i don't know task execute tool and then we execute that we can we can view the memory so this shows all the things happening within so this one's got a hundred and i",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.439Z",
+      "confidence": 0.7,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "execute",
+        "steps",
+        "don't",
+        "memory",
+        "shows",
+        "things",
+        "stuff",
+        "click",
+        "happening",
+        "within"
+      ]
+    }
+  },
+  {
+    "id": "tip-16",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 241,
+    "lineEnd": 246,
+    "isActionable": true,
+    "title": "this is if for anyone building dashboards that",
+    "content": "this is if for anyone building dashboards that wants to interact with either cloud you need to do is use my my web services so you can see my examples here's some some endpoints so if I want",
+    "context": "whatever i need i want to do and here are the api docs so if you want to interact with the system you can see that as well so so this is if for anyone building dashboards that wants to interact with either cloud flow or cloud code all you need to do is use my my web services so you can see my examples here's some some endpoints so if I want to check the system health which is the most simple one I can click here and then I can execute and this is running you can see",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.439Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "anyone",
+        "building",
+        "dashboards",
+        "interact",
+        "cloud",
+        "wants",
+        "either",
+        "services",
+        "examples",
+        "here's"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-15",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 613,
+    "lineEnd": 621,
+    "isActionable": true,
+    "title": "Don't exist like none of the swarms are connec",
+    "warning": "did it if you just ask ai it'll draw lines all over the place but when you actually dig don't exist like none of the swarms are connected at the moment they're all independent and these i i'd have to update the",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.439Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarms",
+        "exist",
+        "connected",
+        "it'll",
+        "lines",
+        "place",
+        "actually",
+        "don't",
+        "moment",
+        "they're"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-15",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 663,
+    "lineEnd": 671,
+    "isActionable": true,
+    "title": "Don't really need to make thousands more. So I",
+    "warning": "it haven't quite got there but I'm gonna add let's call it building swarm so I've don't really need to make thousands more. So I can start to go, okay, I like these ones, I can drag them",
+    "impact": "add let's call it building swarm so I've run 94 agents here I don't really need to make thousands more. So I can start to go, okay, I like these ones, I can drag them and drop them into a swarm or modify",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.439Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "really",
+        "thousands",
+        "more.",
+        "gonna",
+        "let's",
+        "building",
+        "don't",
+        "start",
+        "okay,"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-15",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 680,
+    "lineEnd": 688,
+    "isActionable": true,
+    "title": "Don't know, for my Linux system, if I run the ",
+    "warning": "is the star ring, or which of these topologies is the best. Then I'm getting don't know, for my Linux system, if I run the slash P, I got to pay with API. So I haven't been running this, but I do keep track of the major tasks",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.439Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "these",
+        "know,",
+        "linux",
+        "system,",
+        "haven't",
+        "ring,",
+        "which",
+        "topologies",
+        "best.",
+        "getting"
+      ]
+    }
+  },
+  {
+    "id": "tip-16",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 753,
+    "lineEnd": 758,
+    "isActionable": true,
+    "title": "not active. It's the agents are only active",
+    "content": "not active. It's the agents are only active for very short amounts of time. So it's tricky to track which actual agent is doing it because again, cloud code executes the agent is another framework for cloud code,",
+    "context": "in the architecture of the events and also for the agents um you see how these are all there, there's eight agents, but they're not active. It's the agents are only active for very short amounts of time. So it's pretty tricky to track which actual agent is doing it because again, cloud code executes the agent is another framework for cloud code, but it isn't, it isn't like an agent with an LLM in it. It's, it's cloud code goes, Hey, I'm going to be the fact checker for a",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.440Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "agent",
+        "cloud",
+        "agents",
+        "active.",
+        "active",
+        "short",
+        "amounts",
+        "time.",
+        "tricky",
+        "track"
+      ]
+    }
+  },
+  {
+    "id": "tip-16",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 866,
+    "lineEnd": 871,
+    "isActionable": true,
+    "title": "it's it'll just because it's doing it anyways",
+    "content": "it's it'll just because it's doing it anyways so it and yeah you know cloud code isn't you can do what's called batch tool so batch tool would be like no mesh no agents version of swarm it'll do right five things",
+    "context": "in swarm and then and then when it gets to a bunch of tasks it'll go yeah i've had enough of swarm i'm doing it myself and you know it's it'll just because it's doing it anyways so it and yeah you know cloud code isn't dumb like you can do what's called batch tool so batch tool would be like no mesh no agents version of swarm it'll do right five things at once but when you give it it's like you know in the end we're all going back to prompt engineering you know what what was",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.440Z",
+      "confidence": 0.6,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "it'll",
+        "doing",
+        "batch",
+        "swarm",
+        "because",
+        "anyways",
+        "cloud",
+        "isn't",
+        "what's",
+        "called"
+      ]
+    }
+  },
+  {
+    "id": "howTo-11",
+    "type": "howTo",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 983,
+    "lineEnd": 988,
+    "isActionable": true,
+    "title": "How to then who knows? Yeah, this is awesome",
+    "objective": "then who knows? Yeah, this is awesome",
+    "steps": [
+      "I release stuff. Yeah, so keep in mind, there's a couple things that you might want to consider adding that would give this"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.441Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "yeah,",
+        "swarm",
+        "knows?",
+        "whole",
+        "really",
+        "{\"type\":\"howto\",\"title\":\"how",
+        "awesome\",\"objective\":\"then",
+        "awesome\",\"steps\":[\"i",
+        "release",
+        "stuff."
+      ]
+    }
+  },
+  {
+    "id": "howTo-11",
+    "type": "howTo",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 1128,
+    "lineEnd": 1133,
+    "isActionable": true,
+    "title": "How to then the one",
+    "objective": "then the one",
+    "steps": [
+      "all compete again. And then that'll happen where like three will stay and all the way until there's, you know, five that are all scoring relatively high, but in different areas with"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.441Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "different",
+        "doing",
+        "{\"type\":\"howto\",\"title\":\"how",
+        "one\",\"objective\":\"then",
+        "one\",\"steps\":[\"all",
+        "compete",
+        "again.",
+        "that'll",
+        "happen",
+        "where"
+      ]
+    }
+  },
+  {
+    "id": "tip-16",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - July 25_ Visualizing AI Swarms and Pushing the Boundaries of Agent Collaboration.txt",
+    "lineStart": 1546,
+    "lineEnd": 1551,
+    "isActionable": true,
+    "title": "throw like a picture into something like oh",
+    "content": "throw like a picture into something like oh three it'll start digesting this image you can see I say inspect this photo deeply and tell me the details about the buildings start thinking do a little",
+    "context": "through that and show we can do now let me share my screen so to give a quick example can you guys see yep cool so if you throw like a picture into something like oh three it'll start digesting this image agentically you can see I say inspect this photo deeply and tell me the details about the buildings start thinking do a little description and then it'll start zooming in on the image which is actually pretty cool and as it cuts the image down it'll",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.441Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "start",
+        "image",
+        "picture",
+        "something",
+        "it'll",
+        "three",
+        "digesting",
+        "inspect",
+        "photo",
+        "deeply"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-19",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 297,
+    "lineEnd": 305,
+    "isActionable": true,
+    "title": "Don't do this right off the start, so Claude d",
+    "warning": "sure i'm putting in the freaking tag here but anyway it It asks you again, and if you don't do this right off the start, so Claude dangerously allow. And the other thing you want to do, if you ever are running a",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.450Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "dangerously",
+        "right",
+        "start,",
+        "claude",
+        "putting",
+        "freaking",
+        "anyway",
+        "again,",
+        "don't",
+        "allow."
+      ]
+    }
+  },
+  {
+    "id": "gotcha-19",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 424,
+    "lineEnd": 432,
+    "isActionable": true,
+    "title": "Don't go clod clod flow start yeah okay got it",
+    "warning": "the the system invokes the orchestrator itself as part so the so clod code invokes the don't go clod clod flow start yeah okay got it yeah exactly exactly and i guess i i apologize",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.452Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "invokes",
+        "orchestrator",
+        "exactly",
+        "start",
+        "system",
+        "running",
+        "itself",
+        "don't",
+        "guess",
+        "right"
+      ]
+    }
+  },
+  {
+    "id": "tip-22",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 493,
+    "lineEnd": 498,
+    "isActionable": true,
+    "title": "a recursive system. All right, so now we're",
+    "content": "a recursive system. All right, so now we're here. Now when you have you can go here and you can do MCP, and then you can see you have a Cloudflow. I haven't published",
+    "context": "not i'm not running with dangerous at the moment but i'm just going to show you what that looks like. It's kind of like a recursive system. All right, so now we're here. Now when you have MCPs, you can go here and you can do MCP, and then you can see you have a Cloudflow. I haven't published this yet, so you'll have to use my dev version, but in this case, I'm going here. Then I can view tools. I can see all my different",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.453Z",
+      "confidence": 0.5,
+      "tools": [
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "recursive",
+        "system.",
+        "right,",
+        "here.",
+        "we're",
+        "cloudflow.",
+        "haven't",
+        "going",
+        "{\"type\":\"tip\",\"title\":\"a",
+        "we're\",\"content\":\"a"
+      ]
+    }
+  },
+  {
+    "id": "tip-22",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 501,
+    "lineEnd": 506,
+    "isActionable": true,
+    "title": "modes, and each of these modes can then",
+    "content": "modes, and each of these modes can then be invoked directly within the sort of swarm you can do swarm it's like i don't know what i call it like subtasks within the swarm it's kind of and so the so the",
+    "context": "this yet, so you'll have to use my dev version, but in this case, I'm going here. Then I can view tools. I can see all my different modes, and each of these modes can then be invoked directly within the sort of swarm itself so you can do swarm it's like i don't know what i call it like subtasks within the swarm it's kind of and so the so the additional the addition of mcps within the swarm really kicks up the the capabilities and and back to my original comment about you know",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.453Z",
+      "confidence": 0.5,
+      "tools": [
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "within",
+        "these",
+        "modes",
+        "invoked",
+        "directly",
+        "don't",
+        "subtasks",
+        "{\"type\":\"tip\",\"title\":\"modes,",
+        "then\",\"content\":\"modes,"
+      ]
+    }
+  },
+  {
+    "id": "tip-22",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 573,
+    "lineEnd": 578,
+    "isActionable": true,
+    "title": "multiple instances, probably a VS Code Swarm. r...",
+    "content": "multiple instances, probably a VS Code Swarm. remember that VS Code Swarm system I built a couple months ago and then i'd have multiple vs code instances or multiple",
+    "context": "do 5,000. I would have to have multiple $200, you know, Claude Max accounts. And then what I would do is use Tmux, whatever, how do you pronounce that? And then I'd create multiple instances, probably a VS Code Swarm. If you guys remember that VS Code Swarm system I built a couple months ago and then i'd have multiple vs code instances or multiple terminals or multiple containers running and then i'd orchestrate all of them i totally want to do like the guinness book of",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.453Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "multiple",
+        "instances,",
+        "probably",
+        "swarm.",
+        "swarm",
+        "remember",
+        "system",
+        "built",
+        "couple",
+        "months"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-19",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 578,
+    "lineEnd": 586,
+    "isActionable": true,
+    "title": "Don't want to i don't want to i don't want to ",
+    "warning": "then i'd orchestrate all of them i totally want to do like the guinness book of don't want to i don't want to i don't want to spend like two hundred dollars times five or",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.453Z",
+      "confidence": 0.30000000000000004,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "don't",
+        "totally",
+        "hundred",
+        "times",
+        "multiple",
+        "orchestrate",
+        "guinness",
+        "spend",
+        "dollars",
+        "swarm"
+      ]
+    }
+  },
+  {
+    "id": "howTo-13",
+    "type": "howTo",
+    "sourceFile": "en-AI Hackerspace Live - June 20_ Swarm Development, AI Security, and Finland's AGI Preparation.txt",
+    "lineStart": 611,
+    "lineEnd": 617,
+    "isActionable": true,
+    "title": "How to then i then i used the swarm against",
+    "objective": "then i then i used the swarm against that",
+    "steps": [
+      "tool that allows you to measure the performance of the software engineering agents and i then i used the swarm against that agent and i by the way i got 100 on that swe bench i didn't fail once so it's and and then",
+      "up a notch you know and i started doing 50 or whatever and then i tried to do like 5 and it's funny you know alex's point i do seem to like fives but um yeah and the other interesting thing 100 100 completion"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.454Z",
+      "confidence": 0.4,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "against",
+        "measure",
+        "allows",
+        "performance",
+        "software",
+        "engineering",
+        "agents",
+        "agent",
+        "bench"
+      ]
+    }
+  },
+  {
+    "id": "tip-25",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live July 11_ The Rise of Swarm Intelligence and Autonomous Agents.txt",
+    "lineStart": 443,
+    "lineEnd": 448,
+    "isActionable": true,
+    "title": "is interoperable with whatever we were going to",
+    "content": "is interoperable with whatever we were going to build in the future through a kind of you can think of these systems as a combination of SDK, sort of a software development environment that allows you to",
+    "context": "it after myself, but whatever, this is an SDK. So every one of these components are connected via MCP. So everything I'm building is interoperable with whatever we were going to build in the future through a kind of unified MCP interface. So you can think of these systems as a combination of SDK, sort of a software development environment that allows you to plug in and build other things. And at the very least, the Claude Float is a kind of representation of what you can do with",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.470Z",
+      "confidence": 0.6,
+      "tools": [
+        "mcp",
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "interoperable",
+        "whatever",
+        "going",
+        "build",
+        "these",
+        "future",
+        "through",
+        "think",
+        "systems",
+        "combination"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-22",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live July 11_ The Rise of Swarm Intelligence and Autonomous Agents.txt",
+    "lineStart": 1331,
+    "lineEnd": 1339,
+    "isActionable": true,
+    "title": "Don't know TypeScript. I don't know Wasms. I d",
+    "warning": "instruction on what type of code to write in, or did you let it decide? No, I let it don't know TypeScript. I don't know Wasms. I don't really know how the source code works. I did, however, make",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.471Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm",
+        "typescript"
+      ],
+      "keywords": [
+        "don't",
+        "typescript.",
+        "wasms.",
+        "write",
+        "decide?",
+        "really",
+        "source",
+        "works.",
+        "however,",
+        "{\"type\":\"gotcha\",\"title\":\"don't"
+      ]
+    }
+  },
+  {
+    "id": "tip-25",
+    "type": "tip",
+    "sourceFile": "en-AI Hackerspace Live July 11_ The Rise of Swarm Intelligence and Autonomous Agents.txt",
+    "lineStart": 1601,
+    "lineEnd": 1606,
+    "isActionable": true,
+    "title": "of cool stuff i thought would be cool",
+    "content": "of cool stuff i thought would be cool and i'm building it out but you basically got a you can just start up all your agents super easily you got a little nlp thing to talk to them and control them and um yeah",
+    "context": "built like recently here I'll share real quick so i took your repo and then re-devised it and added in a bunch of cool stuff i thought would be cool and i'm building it out but you basically got a dashboard you can just start up all your agents super easily you got a little nlp thing to talk to them and control them and um yeah i'm basically taking your clod flow and adding my little spin to it and uh just working on something similar yeah contribute it back",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.471Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "stuff",
+        "thought",
+        "would",
+        "basically",
+        "little",
+        "building",
+        "start",
+        "agents",
+        "super",
+        "easily"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-22",
+    "type": "gotcha",
+    "sourceFile": "en-AI Hackerspace Live July 11_ The Rise of Swarm Intelligence and Autonomous Agents.txt",
+    "lineStart": 1896,
+    "lineEnd": 1904,
+    "isActionable": true,
+    "title": "Don't know. But the foundation should have a f",
+    "warning": "want to have, you know, nod rails. Does that even make sense for a swarm-type, you don't know. But the foundation should have a focus on asking those questions and what",
+    "impact": "",
+    "solution": "",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.471Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "foundation",
+        "we're",
+        "know.",
+        "should",
+        "know,",
+        "focus",
+        "have,",
+        "rails.",
+        "sense",
+        "swarm-type,"
+      ]
+    }
+  },
+  {
+    "id": "howTo-14",
+    "type": "howTo",
+    "sourceFile": "en-Agentics Foundation (London Chapter) Meetup 13 Aug 25 - Edited.txt",
+    "lineStart": 399,
+    "lineEnd": 405,
+    "isActionable": true,
+    "title": "How to then when you look at mcp world what",
+    "objective": "then when you look at mcp world what happens",
+    "steps": [
+      "so a more accurate view is this so everything right here is potential injection right and when you look at mcp world what happens is the host goes to the servers and going hey dude what you got we got a list of stuff",
+      "tools so basically if you look at this loop this is just the mcp host booting up and get a nice list of the tools and then which is basically they can handle these flows and then this is what happens right you get"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.476Z",
+      "confidence": 0.5,
+      "tools": [
+        "mcp"
+      ],
+      "keywords": [
+        "right",
+        "world",
+        "happens",
+        "strings",
+        "accurate",
+        "everything",
+        "potential",
+        "injection",
+        "basically",
+        "which"
+      ]
+    }
+  },
+  {
+    "id": "tip-27",
+    "type": "tip",
+    "sourceFile": "en-Agentics Foundation (London Chapter) Meetup 13 Aug 25 - Edited.txt",
+    "lineStart": 574,
+    "lineEnd": 579,
+    "isActionable": true,
+    "title": "on your local laptop but there is something",
+    "content": "on your local laptop but there is something called cloud flow which especially if you should not use on your local laptop it's not recommended you can but it's not recommended because we as i think",
+    "context": "I'm asking, cloud code from entropic to be installed in my code spaces one thing to call out it is preferable you can use cloud code on your local laptop but there is something called cloud flow which especially if you're using swarms you should not use on your local laptop it's not recommended you can but it's not recommended because we as i think denis was saying we still don't fully understand how some of this works and they are they can go against your instructions so it could",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.476Z",
+      "confidence": 0.5,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "local",
+        "laptop",
+        "cloud",
+        "recommended",
+        "there",
+        "something",
+        "called",
+        "which",
+        "especially",
+        "should"
+      ]
+    }
+  },
+  {
+    "id": "howTo-14",
+    "type": "howTo",
+    "sourceFile": "en-Agentics Foundation (London Chapter) Meetup 13 Aug 25 - Edited.txt",
+    "lineStart": 961,
+    "lineEnd": 966,
+    "isActionable": true,
+    "title": "How to then I said okay now I'm working with",
+    "objective": "then I said okay now I'm working with Claude",
+    "steps": [
+      "I said okay now I'm working with Claude Flow let's create a board pack using a swarm of agents to do that right for me in order"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.477Z",
+      "confidence": 0.6,
+      "tools": [
+        "claude-flow",
+        "swarm",
+        "github"
+      ],
+      "keywords": [
+        "working",
+        "let's",
+        "claude",
+        "create",
+        "right",
+        "company",
+        "{\"type\":\"howto\",\"title\":\"how",
+        "with\",\"objective\":\"then",
+        "claude\",\"steps\":[\"i",
+        "board"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-24",
+    "type": "gotcha",
+    "sourceFile": "en-Agentics Live Vibe Coding - June 19, 2025.txt",
+    "lineStart": 277,
+    "lineEnd": 285,
+    "isActionable": true,
+    "title": "Don't run the system with Claude Flow, it woul",
+    "warning": "like. But that's okay. I caught it early. So now we see it spawning each don't run the system with Claude Flow, it would have done what it was going to originally try to",
+    "impact": "",
+    "solution": "of these agents. So when you don't run the system with Claude Flow, it would have done what it was going to originally try to do. It would have just done each of these one at a time sequentially. But what I actually",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.488Z",
+      "confidence": 0.7,
+      "tools": [
+        "claude-flow"
+      ],
+      "keywords": [
+        "would",
+        "system",
+        "claude",
+        "flow,",
+        "don't",
+        "these",
+        "going",
+        "originally",
+        "that's",
+        "okay."
+      ]
+    }
+  },
+  {
+    "id": "howTo-17",
+    "type": "howTo",
+    "sourceFile": "en-Agentics Live Vibe Coding - June 19, 2025.txt",
+    "lineStart": 371,
+    "lineEnd": 376,
+    "isActionable": true,
+    "title": "How to then i've got the final agent bring all",
+    "objective": "then i've got the final agent bring all the",
+    "steps": [
+      "that a few times work where each of the different agents has his own work tree and then i've got the final agent bring all the brings all the work trees together there's depending what you're doing there's lots of"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.488Z",
+      "confidence": 0.5,
+      "tools": [
+        "mcp",
+        "github"
+      ],
+      "keywords": [
+        "final",
+        "agent",
+        "bring",
+        "where",
+        "commit",
+        "times",
+        "different",
+        "agents",
+        "brings",
+        "trees"
+      ]
+    }
+  },
+  {
+    "id": "tip-28",
+    "type": "tip",
+    "sourceFile": "en-Agentics Live Vibe Coding - June 19, 2025.txt",
+    "lineStart": 1131,
+    "lineEnd": 1136,
+    "isActionable": true,
+    "title": "like is the Mastra approach to their MCPs.",
+    "content": "like is the Mastra approach to their MCPs. So for Mastra, which is basically another sort you can actually call any MCP as part of the flow itself, right? So this is how you call a secondary MCP directly.",
+    "context": "do they call it? A2 something or other? AG2, which is Autogen. Yeah, Autogen. It's Python-based, but it's a really good option. What I really like is the Mastra approach to their MCPs. So for Mastra, which is basically another sort of agent framework, you can actually call any MCP as part of the flow itself, right? So this is how you call a secondary MCP directly. So I can orchestrate my swarms using Mastra or inversely. So this is probably the mechanism. When I do eventually publish",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.489Z",
+      "confidence": 0.6,
+      "tools": [
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "mastra",
+        "approach",
+        "their",
+        "which",
+        "mcps.",
+        "mastra,",
+        "basically",
+        "another",
+        "actually",
+        "itself,"
+      ]
+    }
+  },
+  {
+    "id": "tip-30",
+    "type": "tip",
+    "sourceFile": "en-NYC Agentics Meetup July 10_ Kickoff, Demos and Tips - Building with AI.txt",
+    "lineStart": 501,
+    "lineEnd": 506,
+    "isActionable": true,
+    "title": "beta is a financial view of that apple",
+    "content": "beta is a financial view of that apple it is for its earnings and quite so um and you should be different uh mcp server so so these are the dots basically this is the main goal So how it works is that you have to, it's very hollow and",
+    "context": "going to do a call. So it's accessing different tools like fetch and it's like starting to look for data about apple and like beta is a financial view of that apple it is for its earnings and quite so um and you should be different uh mcp server so so these are the dots basically this is the main goal So how it works is that you have to, it's very hollow and it's very simple. So basically we have an agent. So this agent is going to be based on the",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.496Z",
+      "confidence": 0.4,
+      "tools": [
+        "mcp"
+      ],
+      "keywords": [
+        "financial",
+        "apple",
+        "different",
+        "basically",
+        "earnings",
+        "quite",
+        "should",
+        "server",
+        "these",
+        "works"
+      ]
+    }
+  },
+  {
+    "id": "gotcha-29",
+    "type": "gotcha",
+    "sourceFile": "en-Toronto Chapter 2025-08-12_18-49-45 .txt",
+    "lineStart": 2057,
+    "lineEnd": 2065,
+    "isActionable": true,
+    "title": "Don't know you guys want to see some swarm cap",
+    "warning": "more minutes before we sort of break up I know that there's an update don't know you guys want to see some swarm capabilities and stuff? Yeah, I just build",
+    "impact": "you guys want to see some swarm capabilities and stuff? Yeah, I just build stuff because I can. That's totally a vibing. All right. No, this will be a crash. Do you want it? Well, the quantum flow",
+    "solution": "you guys want to see some swarm capabilities and stuff? Yeah, I just build stuff because I can. That's totally a vibing. All right. No, this will be a crash. Do you want it? Well, the quantum flow",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.507Z",
+      "confidence": 0.6,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "don't",
+        "capabilities",
+        "stuff?",
+        "yeah,",
+        "before",
+        "build",
+        "stuff",
+        "because",
+        "that's"
+      ]
+    }
+  },
+  {
+    "id": "tip-31",
+    "type": "tip",
+    "sourceFile": "en-Toronto Chapter 2025-08-12_18-49-45 .txt",
+    "lineStart": 2353,
+    "lineEnd": 2358,
+    "isActionable": true,
+    "title": "running these tools, let's jump into Cloud for",
+    "content": "running these tools, let's jump into Cloud for a moment. There's a combination you can see all my commands. These are the things I'm doing most frequently. And you can see my",
+    "context": "secondary systems. So a lot of what I'm not showing you guys is like all the MCPs. So when I'm in here running these tools, let's jump into Cloud for a moment. There's a combination here of agents. The agents run enabled. So one, you can see all my commands. These are the things I'm doing most frequently. And you can see my MCPs. So in this case, I've got my Podflow MCP and Root Swarm. So I'm basically abstracting various tools, these are secondary",
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.508Z",
+      "confidence": 0.6,
+      "tools": [
+        "mcp",
+        "swarm"
+      ],
+      "keywords": [
+        "these",
+        "tools,",
+        "let's",
+        "cloud",
+        "moment.",
+        "there's",
+        "combination",
+        "commands.",
+        "things",
+        "doing"
+      ]
+    }
+  },
+  {
+    "id": "howTo-23",
+    "type": "howTo",
+    "sourceFile": "en-Toronto Chapter 2025-08-12_18-49-45 .txt",
+    "lineStart": 2503,
+    "lineEnd": 2508,
+    "isActionable": true,
+    "title": "How to then then finally you'll see the roof...",
+    "objective": "then then finally you'll see the roof swarm",
+    "steps": [
+      "which I think is a compliment and and that led to you know the time series analysis then finally you'll see the roof swarm the roof swarm is that is the is the swarm wasm component and I'm talking probably"
+    ],
+    "metadata": {
+      "extracted": "2025-08-21T15:39:24.508Z",
+      "confidence": 0.30000000000000004,
+      "tools": [
+        "swarm"
+      ],
+      "keywords": [
+        "swarm",
+        "finally",
+        "you'll",
+        "think",
+        "layer",
+        "compliment",
+        "series",
+        "analysis",
+        "system",
+        "neurodivergent"
+      ]
+    }
+  }
+]
