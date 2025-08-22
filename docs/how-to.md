@@ -113,4 +113,4 @@ Source: `spec.md:16`
 
 *More how-to guides will be populated as transcript analysis completes...*
 
-[← Back to Index](index.md) | [View Q&A →](qa.md)
+[← Back to Index](README.md) | [View Q&A →](qa.md)

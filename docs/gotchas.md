@@ -75,4 +75,4 @@ Source: `[pending_analysis]`
 
 *More gotchas will be populated as transcript analysis completes...*
 
-[← Back to Index](index.md) | [View How-To Guides →](how-to.md)
+[← Back to Index](README.md) | [View How-To Guides →](how-to.md)

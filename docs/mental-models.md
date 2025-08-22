@@ -134,4 +134,4 @@ Source: `[pending_analysis]`
 
 *More mental models will be populated as transcript analysis completes...*
 
-[← Back to Index](index.md) | [View Best Practices →](best-practices.md)
+[← Back to Index](README.md) | [View Best Practices →](best-practices.md)
