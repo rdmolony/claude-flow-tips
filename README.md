@@ -2,6 +2,9 @@
 
 > Extracting community wisdom from Claude Flow video transcripts using semantic understanding
 
+> [!CAUTION]
+> This prototype works poorly at best - most of the insights from https://video.agentics.org/ have been missed
+
 ## 🎯 Overview
 
 This project transforms video transcripts from [video.agentics.org](https://video.agentics.org/) into structured, searchable documentation. We extract tips, gotchas, best practices, and mental models shared by the Claude Flow community.
