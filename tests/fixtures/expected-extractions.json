@@ -1,0 +1,71 @@
+{
+  "tips": [
+    {
+      "content": "Use aliases for common commands to save time during development",
+      "quote": "What I've been using are aliases. So when I type in DSP, dangerously skip permissions, it jumps and does the entire command. This saves so much time during development.",
+      "source": "sample-transcript.txt",
+      "lineNumber": 4,
+      "speaker": "Reuven",
+      "category": "productivity"
+    }
+  ],
+  "gotchas": [
+    {
+      "content": "Never run claude --dangerously-skip-permissions locally outside of a sandbox",
+      "quote": "don't run claude --dangerously-skip-permissions locally outside of a sandbox like Docker. Claude will likely be able to access any credentials you have locally and may even brick your machine by editing your drivers.",
+      "source": "sample-transcript.txt", 
+      "lineNumber": 12,
+      "speaker": "Reuven",
+      "severity": "critical",
+      "tags": ["security", "permissions", "docker"]
+    }
+  ],
+  "howtos": [
+    {
+      "title": "Setting up a swarm system",
+      "steps": [
+        "Initialize with npx claude-flow swarm init --topology hierarchical",
+        "Spawn agents with specific types",
+        "Use concurrent execution for real power"
+      ],
+      "quote": "Let me show you step by step. First, you need to initialize with npx claude-flow swarm init --topology hierarchical. Then you spawn agents with specific types. The key is to use concurrent execution - that's where the real power comes from.",
+      "source": "sample-transcript.txt",
+      "lineNumber": 9,
+      "speaker": "Reuven"
+    }
+  ],
+  "mentalModels": [
+    {
+      "title": "Four Pillars of Agentics",
+      "description": "Fundamental principles for agent-based systems",
+      "pillars": ["proactive", "autonomous", "collaborative", "targeted"],
+      "quote": "The mental model here is that you have four pillars of agentics: proactive, autonomous, collaborative, and targeted. Claude-flow enables all of these through its swarm coordination system.",
+      "source": "sample-transcript.txt",
+      "lineNumber": 18,
+      "speaker": "Reuven"
+    }
+  ],
+  "qa": [
+    {
+      "question": "What's the difference between ruv-swarm and claude-flow?",
+      "answer": "Claude-flow came first and provides the foundation layer with orchestration and coordination primitives. Ruv-swarm is the specialized implementation that focuses on agent coordination patterns.",
+      "questionSource": "sample-transcript.txt",
+      "questionLine": 14,
+      "answerSource": "sample-transcript.txt", 
+      "answerLine": 16,
+      "questioner": "Community Member",
+      "responder": "Reuven"
+    },
+    {
+      "question": "I'm having issues with permissions when trying to integrate with GitHub.",
+      "answer": "The issue is usually with authentication tokens. Make sure you're using the GitHub CLI properly authenticated, and check that your MCP configuration has the right permissions scope.",
+      "questionSource": "sample-transcript.txt",
+      "questionLine": 20,
+      "answerSource": "sample-transcript.txt",
+      "answerLine": 22,
+      "questioner": "Guest", 
+      "responder": "Reuven",
+      "tags": ["github", "permissions", "authentication"]
+    }
+  ]
+}

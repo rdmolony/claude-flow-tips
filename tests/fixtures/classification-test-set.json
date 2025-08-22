@@ -1,0 +1,77 @@
+[
+  {
+    "text": "Here's a tip for everyone using Claude Flow - use aliases for common commands",
+    "expectedCategory": "tips",
+    "confidence": 0.95
+  },
+  {
+    "text": "Don't run claude --dangerously-skip-permissions outside a sandbox",
+    "expectedCategory": "gotchas", 
+    "confidence": 0.98
+  },
+  {
+    "text": "Let me show you step by step how to set up authentication",
+    "expectedCategory": "howtos",
+    "confidence": 0.92
+  },
+  {
+    "text": "The mental model here is that agents work like orchestra members",
+    "expectedCategory": "mentalModels",
+    "confidence": 0.90
+  },
+  {
+    "text": "What's the difference between ruv-swarm and claude-flow?",
+    "expectedCategory": "qa",
+    "confidence": 0.88
+  },
+  {
+    "text": "I recommend using hierarchical topology for most use cases",
+    "expectedCategory": "tips",
+    "confidence": 0.85
+  },
+  {
+    "text": "Warning: This will brick your machine if run locally",
+    "expectedCategory": "gotchas",
+    "confidence": 0.96
+  },
+  {
+    "text": "First install the CLI, then run gh auth login",
+    "expectedCategory": "howtos", 
+    "confidence": 0.89
+  },
+  {
+    "text": "Think of coordination as the conductor layer for your agents",
+    "expectedCategory": "mentalModels",
+    "confidence": 0.87
+  },
+  {
+    "text": "Can you clarify the token requirements?",
+    "expectedCategory": "qa",
+    "confidence": 0.92
+  },
+  {
+    "text": "Pro tip: Always use batching for production workloads",
+    "expectedCategory": "tips",
+    "confidence": 0.93
+  },
+  {
+    "text": "Gotcha: Make sure your tokens have the right scope",
+    "expectedCategory": "gotchas",
+    "confidence": 0.94
+  },
+  {
+    "text": "Tutorial: Setting up GitHub integration with MCP",
+    "expectedCategory": "howtos",
+    "confidence": 0.91
+  },
+  {
+    "text": "The framework involves four pillars of autonomous coordination",
+    "expectedCategory": "mentalModels",
+    "confidence": 0.86
+  },
+  {
+    "text": "How do we handle agent failure scenarios?",
+    "expectedCategory": "qa",
+    "confidence": 0.90
+  }
+]

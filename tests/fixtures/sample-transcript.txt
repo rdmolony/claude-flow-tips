@@ -1,0 +1,26 @@
+AI Hackerspace Live - Test Sample 2025-08-22
+
+Speaker: Reuven
+So here's a tip for everyone using Claude Flow. What I've been using are aliases. So when I type in DSP, dangerously skip permissions, it jumps and does the entire command. This saves so much time during development.
+
+Speaker: Community Member
+Can you show us how to set up a swarm system?
+
+Speaker: Reuven  
+Let me show you step by step. First, you need to initialize with npx claude-flow swarm init --topology hierarchical. Then you spawn agents with specific types. The key is to use concurrent execution - that's where the real power comes from.
+
+But here's a gotcha - don't run claude --dangerously-skip-permissions locally outside of a sandbox like Docker. Claude will likely be able to access any credentials you have locally and may even brick your machine by editing your drivers.
+
+Speaker: Community Member
+What's the difference between ruv-swarm and claude-flow?
+
+Speaker: Reuven
+Great question! Claude-flow came first, and allowed ruv-swarm to be built on top of it. Think of claude-flow as the foundation layer - it provides the orchestration and coordination primitives. Ruv-swarm is the specialized implementation that focuses on agent coordination patterns.
+
+The mental model here is that you have four pillars of agentics: proactive, autonomous, collaborative, and targeted. Claude-flow enables all of these through its swarm coordination system.
+
+Speaker: Guest
+I'm having issues with permissions when trying to integrate with GitHub.
+
+Speaker: Reuven
+This is a common problem. The issue is usually with authentication tokens. Make sure you're using the GitHub CLI properly authenticated, and check that your MCP configuration has the right permissions scope.
