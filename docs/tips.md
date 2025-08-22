@@ -74,4 +74,4 @@ Source: `spec.md:40`
 
 *More tips will be populated as transcript analysis completes...*
 
-[← Back to Index](index.md) | [View Gotchas →](gotchas.md)
+[← Back to Index](README.md) | [View Gotchas →](gotchas.md)

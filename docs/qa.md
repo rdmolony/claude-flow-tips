@@ -114,4 +114,4 @@ Source: `[pending_analysis]`
 
 *More Q&A content will be populated as transcript analysis completes...*
 
-[← Back to Index](index.md) | [View Mental Models →](mental-models.md)
+[← Back to Index](README.md) | [View Mental Models →](mental-models.md)
